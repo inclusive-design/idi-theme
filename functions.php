@@ -25,13 +25,15 @@ if ( function_exists('register_sidebar') ) {
 	register_sidebar( array(
 		'name' => __( 'Footer Area One', 'idi_theme' ),
 		'id' => 'sidebar-3',
-		'description' => __( 'An optional widget area for your site footer', 'idi_theme' )
+		'description' => __( 'An optional widget area for your site footer', 'idi_theme' ),
+		'before_widget' => "",
+ 		'after_widget' => ""			
 	) );
 
 	register_sidebar( array(
 		'name' => __( 'Footer Area Two', 'idi_theme' ),
 		'id' => 'sidebar-4',
-		'description' => __( 'An optional widget area for your site footer', 'idi_theme' )
+		'description' => __( 'An optional widget area for your site footer', 'idi_theme' )	
 	) );    
 }
 ?>

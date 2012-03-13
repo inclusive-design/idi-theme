@@ -32,11 +32,11 @@ get_header();
  	
  	<div id="list-wiki" class="fl-col-flex2">
  		<div class="fl-col">
- 			<h2>Join the <acronym title="Inclusive Design Institute">IDI</acronym> mailing list</h2>
+ 			<h2>Join the <abbr title="Inclusive Design Institute">IDI</abbr> mailing list</h2>
  			<div id="listForm">
 				<form id="myForm" method="post" action="<?php bloginfo('template_url'); ?>/mailinglist.php" onsubmit="return submitForm()">
 					<input type="email" name="listEmail" id="listEmail" value="Your email address" /> 
-					<input type="submit" value="Submit" />
+					<input type="submit" value="submit" />
 				</form>			
  			</div>
  		</div>
@@ -54,16 +54,15 @@ get_header();
 				<a href="research#design">Design and Development</a>
 			</li>
 			<li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31">
-				<a href="http://dev.inclusivedesign.ca/wordpress/implementation-and-information-practices/">Implementation and Information Practices</a>
+				<a href="research#implementation">Implementation and Information Practices</a>
 			</li>
 			<li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32">
-				<a href="http://dev.inclusivedesign.ca/wordpress/business-case-policies-standards-and-legislation/">Business Case, Policies, Standards and Legislation</a>
+				<a href="research#business">Business Case, Policies, Standards and Legislation</a>
 			</li>
 			<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30">
-				<a href="http://dev.inclusivedesign.ca/wordpress/mobile-and-pervasive-computing/">Mobile and Pervasive Computing</a>
+				<a href="research#mobile">Mobile and Pervasive Computing</a>
 			</li>
 		</ul>				
-			<?php /*wp_nav_menu( array( 'sort_column' => 'menu_order', 'menu_class' => 'nav', 'theme_location' => 'research-menu' ) ); */ ?>
 		</nav>
  	</div>
  	
@@ -71,20 +70,24 @@ get_header();
 		<?php 
 
 		$the_query = new WP_Query( array('posts_per_page'=>2) ); 
+		
 		while ($the_query->have_posts()): 
 			$the_query->the_post(); 		
 			global $more; 
 			$more = 0; 
+			
+			
 		?>
  		<div class="fl-col post"> 						
 			<?php		
-			echo '<h2 class="fl-font-size-130">';
-			the_title();
-			echo '</h2>';			
 			echo '<div class="date">';
 			the_time('F jS, Y');
-			echo '</div>';
-			the_content("<div class='fl-site-read-more'>More</div>");
+			echo '</div>';			
+			echo '<h2 class="fl-font-size-130">';
+			the_title();
+			echo '</h2>';	
+			remove_filter (�the_content�, �wpautop�); 
+			the_content("<span class='fl-site-read-more'>read more</span>");
 			?>
  		</div>
  		<?php endwhile; ?>

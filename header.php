@@ -77,7 +77,7 @@
 	<header class="fl-site-header">
 		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"><h1 class="fl-site-logo fl-force-left"><span class="fl-hidden-accessible"><?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?></span></h1></a>
 
-		<nav role="navigation" class="fl-site-nav-main fl-force-right fl-font-size-110">
+		<nav role="navigation" class="fl-site-nav-main fl-force-right fl-font-size-120">
 			<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'theme_location' => 'primary-menu' ) ); ?>
 		</nav>
     </header>  

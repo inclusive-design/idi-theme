@@ -13,7 +13,6 @@ Version: 1.0
 .fl-site-nav-main .current-menu-item a, 
 .fl-site-nav-main .current-page-ancestor a  {
 	color: #008cbb;
-	border-bottom: 3px solid #008cbb;
 	padding-bottom: 9px;	
 }
 
@@ -35,20 +34,14 @@ Version: 1.0
 	/* fallback */ 
 	background-image: url("images/idi_logo_bg.png");
 	background-repeat: no-repeat;
-	background-position: 100% 0%;
+	background-position: 100% 60%;
+	background-color: #fff;
 	
-	/* Safari 4-5, Chrome 1-9 */ 
-	background-image: url("images/idi_logo_bg.png"), -webkit-gradient(linear, left top, right top, from(#ffffff), to(#4c4648)); 
-	/* Safari 5.1, Chrome 10+ */ 
-	background-image: url("images/idi_logo_bg.png"), -webkit-linear-gradient(left, #ffffff, #4c4648); 
-	/* Firefox 3.6+ */ 
-	background-image: url("images/idi_logo_bg.png"), -moz-linear-gradient(left, #ffffff, #4c4648); 
-	/* IE 10 */ 
-	background-image: url("images/idi_logo_bg.png"), -ms-linear-gradient(left, #ffffff, #4c4648); 
-	/* Opera 11.10+ */ 
-	background-image: url("images/idi_logo_bg.png"), -o-linear-gradient(left, #ffffff, #4c4648);
+	-moz-box-shadow:inset 0 0 20px #ccc;
+	-webkit-box-shadow:inset 0 0 20px #ccc;
+	box-shadow:inset 0 0 20px #ccc;
 
-	height: 13.9em;
+	height: 15em;
 	padding: 0 20px;
 	border-radius: 10px;
 	margin-bottom: 10px;	
@@ -73,14 +66,8 @@ Version: 1.0
 }
 
 #carousel a.check-out {
-	color: #fff;
-	background-color: #008cbb;
-	border-radius: 5px;
-	-webkit-box-shadow:0 0 5px rgba(0, 0, 0, 0.4);
-	-moz-box-shadow:0 0 5px rgba(0, 0, 0, 0.4);
-	box-shadow:0 0 5px rgba(0, 0, 0, 0.4);		
 	padding: 10px 25px 10px 10px;
-	background-image: url("images/arrow_sm_white_right.png");
+	background-image: url("images/arrow_sm_blue_right.png");
 	background-repeat: no-repeat;
 	background-position: 96% 50%;	
 	text-decoration: none;
@@ -88,31 +75,19 @@ Version: 1.0
 
 /* Mailing List / Wiki section */
 #list-wiki {
-	/* fallback */ 
-	background-color: #11a2c6;
-
-	/* Safari 4-5, Chrome 1-9 */ 
-	background: -webkit-gradient(linear, left top, right top, from(#11a2c6), to(#0c7e9a)); 
-	/* Safari 5.1, Chrome 10+ */ 
-	background: -webkit-linear-gradient(left, #11a2c6, #0c7e9a); 
-	/* Firefox 3.6+ */ 
-	background: -moz-linear-gradient(left, #11a2c6, #0c7e9a); 
-	/* IE 10 */ 
-	background: -ms-linear-gradient(left, #11a2c6, #0c7e9a); 
-	/* Opera 11.10+ */ 
-	background: -o-linear-gradient(left, #11a2c6, #0c7e9a);		
-
 	padding: 0px 20px;
 	border-radius: 10px;
 	margin-bottom: 10px;
+	background-image: url("images/tilebg.jpg");
+	background-repeat: repeat;	
 }
-#list-wiki p, #list-wiki h2, #list-wiki a {
-	color: #fff;
+#list-wiki p, #list-wiki h2 {
+	color: #231F20;
 	font-weight:normal;	
 }
 
 #list-wiki p a {
-	background-image: url("images/arrow_sm_white_right.png");
+	background-image: url("images/arrow_sm_blue_right.png");
 	background-repeat: no-repeat;
 	background-position: 96% 50%;	
 	padding-right: 25px;
@@ -120,26 +95,14 @@ Version: 1.0
 
 /* Research menu */
 #research-clusters {
-	/* fallback */ 
-	background-color: #5e5f61;
-
-	/* Safari 4-5, Chrome 1-9 */ 
-	background: -webkit-gradient(linear, left top, right top, from(#58595b), to(#939598)); 
-	/* Safari 5.1, Chrome 10+ */ 
-	background: -webkit-linear-gradient(left, #58595b, #939598); 
-	/* Firefox 3.6+ */ 
-	background: -moz-linear-gradient(left, #58595b, #939598); 
-	/* IE 10 */ 
-	background: -ms-linear-gradient(left, #58595b, #939598); 
-	/* Opera 11.10+ */ 
-	background: -o-linear-gradient(left, #58595b, #939598);		
-	
 	padding: 10px 20px;
 	border-radius: 10px;
 	line-height: 2em;
+	background-image: url("images/tilebg.jpg");
+	background-repeat: repeat;	
 }
 #research-clusters h2 {
-	color: #d2edf6;
+	color: #231F20;
 	margin: 0px;
 	font-weight:normal;	
 }
@@ -149,21 +112,16 @@ Version: 1.0
 #research-clusters li {
 	float: left;
 	list-style: none;
-	width:47%;	
+	width:50%;	
 }
 #research-clusters li a {
-	color: #fff;
 	padding-right: 25px;
-	background-image: url("images/arrow_sm_white_right.png");
+	background-image: url("images/arrow_sm_blue_right.png");
 	background-repeat: no-repeat;
 	background-position: 98% 50%;		
 }
 
 /* Footer Widgets */
-.fl-site-footer #text-4 p:first-child {
-	font-style: italic;
-}
-
 .fl-site-footer ul#menu-partners li {
 	list-style: none;
 	display: inline;
@@ -174,8 +132,20 @@ Version: 1.0
 }
 .fl-site-footer ul#menu-partners li:first-child { background-image: none; }
 
-/* columns */
+.fl-site-footer .footer-address {
+	background-color: #333;
+	color: #fff;
+}
+.fl-site-footer .footer-address a {
+	color: #fff;
+}
 
+/* columns */
+.front-cols {
+	width:97%;
+	margin-left: auto;
+	margin-right: auto;
+}
 .front-cols .fl-col {
 	width: 31.75%;
 	margin-left: 0.5%;
@@ -194,7 +164,7 @@ Version: 1.0
 }
 
 .sidebar-tweets ul {
-	margin-left: 0px;
+	margin: 0px;	
 }
 .sidebar-tweets .tweet-date {
 	color: #58595b;
@@ -211,14 +181,19 @@ Version: 1.0
 }
 
 /* Staff/People page */
+.ppl-person {
+	clear: right;
+	margin-bottom: 2em;
+}
 .ppl-person img {
-	border: 1px solid black;
-	width: 100px;
-	height: 150px;
+	width: 125px;
+	margin-left: 3.5em;
+	margin-top: 0.5em;
 }
 
 .ppl-person .ppl-title {
 	font-weight: bold;
+	margin-bottom: 1em;
 }
 
 /* Contact Form 7 Plugin */
@@ -237,10 +212,11 @@ Version: 1.0
 /* News */
 .post h2, .post h3 {
 	margin-bottom: 0.3em;
+	margin-top: 0;
 }
 .post .date {
-	font-weight:bold;
-	padding-bottom: 1em;
+	margin-top: 1em;
+	font-size: 123.1%;
 }
 
 ol ol li { list-style-type: lower-alpha; }

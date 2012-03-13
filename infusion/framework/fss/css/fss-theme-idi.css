@@ -20,20 +20,20 @@
 }
   
 /* Divs, inputs */
-.fl-theme-idi div, .fl-theme-idi input {color:#231f20; border-color:#231f20;}
 .fl-theme-idi input { 
 	padding: 5px; 
-	border: 1px solid #cbb494; 
+	border: 1px solid #ccc; 
 }
 .fl-theme-idi input[type=submit] { 
 	font-weight: bold;
-	border-radius: 5px;	
+	border: 1px solid #008cbb;
+	color: #008cbb;
+	background-color: #fff;
 }
 
 /* Links */
-.fl-theme-idi a  {color: #008cbb;}
-.fl-theme-idi a:hover { color: #008cbb; text-decoration: none; }
-
+.fl-theme-idi a  {color: #008cbb; text-decoration: none; }
+.fl-theme-idi a:hover { color: #F93; }
 
 /* Headers */
 .fl-theme-idi h1, 
@@ -157,7 +157,7 @@
 
 /* UI Options */
 .fl-theme-idi .fl-uiOptions-fatPanel .fl-panelBar {
-	background-color: #e3136a;
+	background-color: #333333;
 }
 
 .fl-theme-idi .fl-uiOptions-fatPanel .fl-toggleButton {
@@ -165,11 +165,10 @@
 	background-repeat: no-repeat;
 	background-position: 3% 50%;
 	padding: 10px 10px 10px 25px;
-	background-color: #e3136a;
+	background-color: #333333;
 	color: white;
 	text-transform: none;
 	border-radius: 0 0 8px 8px;
-	font-style: italic;
 }
 
 /* UI Options theming */

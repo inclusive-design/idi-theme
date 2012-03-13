@@ -5,8 +5,9 @@
  */
 
 .fl-theme-idi .fl-site-logo { 
-	background-image: url('../../../../images/idi_logo.png');
-	width: 9em;
+	background-image: url('../../../../images/idi_logo.jpg');
+	width: 370px;
+	height: 80px;
 } 
 
 /* Layout */
@@ -17,8 +18,6 @@
  
 .fl-theme-idi .fl-site-header {
 	width: 100%;
-    height: 7.6em;
-	border-bottom: 1px solid black;    
 	margin-bottom: 1em;
     display: block;	
 }
@@ -28,7 +27,7 @@
 	background-repeat: no-repeat;
 	background-position: 50% 15%;
     text-align: center;
-    padding: 5em 10px 10px 10px;
+    padding: 5em 10px 0px 10px;
     display: block;
 }
 
@@ -53,7 +52,6 @@
 .fl-theme-idi .fl-site-nav-main a:hover, 
 .fl-theme-idi .fl-site-nav-main a:focus  {
 	color: #008cbb;
-	border-bottom: 3px solid #008cbb;
 	padding-bottom: 9px;	
 }
 
@@ -116,17 +114,11 @@
 
 /* read more link */
 .fl-theme-idi .fl-site-read-more {
-	background-color: #008cbb;
-	padding: 8px 23px 8px 8px;
-	background-image: url("../../../../images/arrow_sm_white_right.png");
+	padding-right: 23px;
+	background-image: url("../../../../images/arrow_sm_blue_right.png");
 	background-repeat: no-repeat;
 	background-position: 90% 50%;
-	margin-top: 5px;
-	display: inline-block;
-	border: 2px solid #f3f9fe;
-}
-.fl-theme-idi .fl-site-read-more a:link, .fl-theme-idi .fl-site-read-more a:visited, .fl-theme-idi .fl-site-read-more a:hover {
-	color: #fff;
+	display: inline;
 }
 
 /* skip to content link */
@@ -167,6 +159,11 @@
 .fl-theme-by .fl-site-skipto a:hover, 
 .fl-theme-by .fl-site-skipto a:focus {
 	color: #000 !important;
+}
+
+.fl-theme-bw .fl-site-logo,
+.fl-theme-by .fl-site-logo {
+    background-image: url("../../../../images/themes/idi_logo_black.png");
 }
 
 .fl-theme-bw .fl-site-nav-main .current-menu-item a, 
