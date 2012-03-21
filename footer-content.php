@@ -19,8 +19,8 @@
 						<div class="fl-col"><span class="address">205 Richmond St. West 2nd Floor<br/>
 							                Toronto ON, M5V 1V3, Canada</span>
 						</div>
-						<div class="fl-col"><span class="phone-number"></span>416.977.6000 ext. 3968</span>
-											<span class="email"></span>idi@ocadu.ca</span>
+						<div class="fl-col"><span class="phone-number">416.977.6000 ext. 3968</span><br/>
+											<span class="email">idi@ocadu.ca</span>
 						</div>
 					</div>
 				</div>

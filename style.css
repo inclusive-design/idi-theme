@@ -109,8 +109,13 @@ html {
     padding: 1em;
     width: 16em;
     position: relative;
-    }
-
+}
+.fl-site-footer ul {
+    margin-left: 0;
+}
+.fl-site-footer ul li {
+    list-style: none;
+}
 /* Tweaking FSS column sizes */
 .fl-col-mixed .fl-col-fixed {
     padding: 0 1em;
@@ -123,4 +128,32 @@ html {
 .fl-col-mixed .fl-col-flex.idi-one-column {
     margin-right: 17em;
     margin-left: 0;
+}
+
+/* Twitter widget */
+.sidebar-tweets h2 {
+    background-image: url("images/twitter_bird.png");
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    display: inline-block;
+    padding-right: 30px;
+    color: #000;
+    font-weight: normal;
+}
+.sidebar-tweets .twitter-feed-group {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+.sidebar-tweets .twitter-follow-button {
+    font-size: 1.2em;
+}
+.sidebar-tweets ul {
+    margin: 0px;    
+}
+.sidebar-tweets ul li {
+    list-style: none;
+}
+.sidebar-tweets .tweet-date {
+    font-style: italic;
+    text-decoration: none;
 }

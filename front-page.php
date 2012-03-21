@@ -41,7 +41,7 @@
  		<?php endwhile; ?>
 
  		<div class="fl-col"> 	
- 			<?php get_sidebar('sidebar-1'); ?>
+ 			<?php get_sidebar('tweets'); ?>
  		</div>
  	</div> 	
  </div>
