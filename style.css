@@ -9,18 +9,30 @@ Version: 1.0
 
 @import url("../wordpress-fss-theme/style.css");
 
+html {
+    background-color: #efefef; /* this will become the background of the footer */
+    height: 100%;
+}
+/* Background of main content */
+.fl-site-header,
+.fl-site-main-body {
+    background-color: #ffffff;
+    padding-bottom: 1em;
+    max-width: inherit;
+    min-width: inherit;
+}
+.foofer {
+    top: 0;
+}
 .fl-site-logo {
     background-repeat: no-repeat;
-    background-image: url('images/idi_logo_126x120.png');
-    height: 120px;
-    width: 126px;
+    background-image: url('images/idi_logo.png');
+    height: 174px;
+    width: 173px;
     float: none;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-.fl-site-header {
-    width: 100%;
 }
 .fl-site-nav-main {
     float: none;
@@ -63,4 +75,33 @@ Version: 1.0
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Navigational Cues */
+.current_page_item {
+    /* this class is added to the page link for the current page */
+}
+
+/* Footer */
+.fl-site-footer {
+    /* these should match the site wrapper */
+    max-width: 1280px;
+    min-width: 800px;
+}
+footer {
+    margin-top: 2em;
+}
+
+/* Tweaking FSS column sizes */
+.fl-col-mixed .fl-col-fixed {
+    padding: 0 1em;
+    width: 15em;
+}
+.fl-col-mixed .fl-col-flex.idi-two-column {
+    margin-left: 17em; /* the 15em of the sidebars, plus their 2x1em paddings */
+    margin-right: 17em;
+}
+.fl-col-mixed .fl-col-flex.idi-one-column {
+    margin-right: 17em;
+    margin-left: 0;
 }
