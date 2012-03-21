@@ -83,14 +83,33 @@ html {
 }
 
 /* Footer */
-.fl-site-footer {
+.idi-footer-popup {
+    background-color: #ffffff;
+}
+.idi-footer-popup-content {
     /* these should match the site wrapper */
     max-width: 1280px;
     min-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
-footer {
-    margin-top: 2em;
+.idi-footer-main {
+    max-width: 1280px;
+    min-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
 }
+.fl-site-footer {
+    margin-top: 0;
+}
+.idi-mailing-list {
+    color: white;
+    background-color: blue;
+    padding: 1em;
+    width: 16em;
+    position: relative;
+    }
 
 /* Tweaking FSS column sizes */
 .fl-col-mixed .fl-col-fixed {

@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 	
-	<nav role="navigation" id="research-clusters" class="fl-clearfix">
+<div class="fl-centered fl-col-mixed fl-site-wrapper">
+	<nav role="navigation" id="research-clusters" class="fl-centered fl-clearfix">
 		<ul id="menu-research-clusters" class="nav">
 			<li>
 				<a href="design-and-development"> <img src="<?php bloginfo('stylesheet_directory'); ?>/images/cluster-logo.png"/> Design and Development</a>
@@ -43,5 +44,6 @@
  			<?php get_sidebar('sidebar-1'); ?>
  		</div>
  	</div> 	
- 	
+ </div>
+ 
 <?php get_footer(); ?>
