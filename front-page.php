@@ -1,19 +1,20 @@
 <?php get_header(); ?>
 	
 <div class="fl-centered fl-col-mixed fl-site-wrapper">
+	<div class="idi-name">Inclusive Design Institute</div>
 	<nav role="navigation" id="research-clusters" class="fl-centered fl-clearfix">
 		<ul id="menu-research-clusters" class="nav">
 			<li>
-				<a href="design-and-development"> <img src="<?php bloginfo('stylesheet_directory'); ?>/images/cluster-logo.png"/> Design and Development</a>
+				<a href="design-and-development"> <img src="<?php bloginfo('stylesheet_directory'); ?>/images/cluster-logo.png"/> Design & Development</a>
 			</li>
 			<li>
-				<a href="implementation-and-information-practices/"> <img src="<?php bloginfo('stylesheet_directory'); ?>/images/cluster-logo.png"/> Implementation and Information Practices</a>
+				<a href="implementation-and-information-practices/"> <img src="<?php bloginfo('stylesheet_directory'); ?>/images/cluster-logo.png"/> Implementation & Information Practices</a>
 			</li>
 			<li>
-				<a href="business-case-policies-standards-and-legislation/"> <img src="<?php bloginfo('stylesheet_directory'); ?>/images/cluster-logo.png"/> Business Case, Policies, Standards and Legislation</a>
+				<a href="business-case-policies-standards-and-legislation/"> <img src="<?php bloginfo('stylesheet_directory'); ?>/images/cluster-logo.png"/> Business Case, Policies, Standards & Legislation</a>
 			</li>
 			<li>
-				<a href="mobile-and-pervasive-computing/"> <img src="<?php bloginfo('stylesheet_directory'); ?>/images/cluster-logo.png"/> Mobile and Pervasive Computing</a>
+				<a href="mobile-and-pervasive-computing/"> <img src="<?php bloginfo('stylesheet_directory'); ?>/images/cluster-logo.png"/> Mobile & Pervasive Computing</a>
 			</li>
 		</ul>				
 	</nav>

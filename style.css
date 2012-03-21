@@ -10,19 +10,25 @@ Version: 1.0
 @import url("../wordpress-fss-theme/style.css");
 
 html {
-    background-color: #efefef; /* this will become the background of the footer */
     height: 100%;
+    font-size: 1.2em;
+}
+a {
+    text-decoration: none;
 }
 /* Background of main content */
 .fl-site-header,
 .fl-site-main-body {
-    background-color: #ffffff;
     padding-bottom: 1em;
     max-width: inherit;
     min-width: inherit;
 }
-.foofer {
-    top: 0;
+.fl-site-header {
+    background-color: #add3d3;
+}
+.fl-site-main-body,
+.idi-footer-popup {
+    background-color: #efefef; /* this will become the background of the footer */
 }
 .fl-site-logo {
     background-repeat: no-repeat;
@@ -34,10 +40,23 @@ html {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Main site navigation */
 .fl-site-nav-main {
     float: none;
     display:block;
-    background-color: white;
+    background-color: inherit;
+}
+.fl-site-nav-main a {
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+}
+.fl-site-nav-main li.current_page_item {
+    border: 2px solid #fbf8cd;
+}
+.fl-site-nav-main li.current_page_item a {
+    color: #fbf8cd;
 }
 .fl-site-nav-main .menu {
     width: 100%;
@@ -49,7 +68,7 @@ html {
 }
 
 .fl-site-nav-main.sticky {
-    width: 950px; /* this matches the 950px width of the main container */
+    width: 100%;
     position: fixed;
     top: 0;
 }
@@ -58,6 +77,13 @@ html {
 }
 
 /* Research Cluster images */
+.idi-name {
+    text-transform: lowercase;
+    color: #2dafb9;
+    text-align: center;
+    margin: 2em 0;
+    font-size: 2em;
+}
 #research-clusters ul {
     margin-left: 0;
     margin-right: 0;
@@ -70,6 +96,10 @@ html {
     width: 20%;
     text-align: center;
     vertical-align:text-top;
+}
+#research-clusters ul li a {
+    color: #3dac6b;
+    font-style: italic;
 }
 #research-clusters ul li a img {
     display: block;
@@ -84,7 +114,7 @@ html {
 
 /* Footer */
 .idi-footer-popup {
-    background-color: #ffffff;
+    border-bottom: 1px solid gray;
 }
 .idi-footer-popup-content {
     /* these should match the site wrapper */
@@ -105,7 +135,7 @@ html {
 }
 .idi-mailing-list {
     color: white;
-    background-color: blue;
+    background-color: #add3d3;
     padding: 1em;
     width: 16em;
     position: relative;
@@ -134,11 +164,17 @@ html {
 .sidebar-tweets h2 {
     background-image: url("images/twitter_bird.png");
     background-repeat: no-repeat;
-    background-position: 100% 50%;
+    background-position: 0 50%;
+    padding-left: 2em;
     display: inline-block;
-    padding-right: 30px;
-    color: #000;
     font-weight: normal;
+    color: #f4be3d;
+    text-transform: lowercase;
+    font-style: italic;
+}
+.sidebar-tweets .tweet-container {
+    background-color: #ffffff;
+    padding: 1em;
 }
 .sidebar-tweets .twitter-feed-group {
     margin-top: 0.5em;
@@ -156,4 +192,11 @@ html {
 .sidebar-tweets .tweet-date {
     font-style: italic;
     text-decoration: none;
+}
+
+/* The UIO show/hide button */
+.fl-uiOptions-fatPanel .fl-toggleButton {
+    background-color: #e9f4f3;
+    color: #7598a5;
+    text-transform: lowercase;
 }

@@ -7,7 +7,7 @@ $twitter_feed_opts = ' followlink="no" num="1" img="no" tprefix="" tsuffix="ago"
 
 <div class="sidebar-tweets">
 	<h2 class="widgettitle">Recent tweets</h2>
-	<div>
+	<div class="tweet-container">
 		<div class="twitter-feed-group">
 			<a class="twitter-follow-button" rel="external nofollow" href="http://twitter.com/aegisproj">@aegisproj</a>
 			<?php echo do_shortcode('[twitter-feed username="aegisproj"' . $twitter_feed_opts . ']'); ?>	
