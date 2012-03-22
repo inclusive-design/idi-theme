@@ -1,3 +1,9 @@
+<?php
+/*
+Template Name: Front Page
+*/
+?>
+
 <?php get_header(); ?>
 	
 <div class="fl-centered fl-col-mixed fl-site-wrapper">

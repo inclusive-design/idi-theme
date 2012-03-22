@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Research Page
+Template Name: News
 */
 ?>
 <?php get_header(); ?>
@@ -8,14 +8,13 @@ Template Name: Research Page
 <div class="fl-centered fl-col-mixed fl-site-wrapper">
 
 	<div class="fl-col-fixed fl-force-right"> 	
-		<?php get_sidebar('research'); ?>
+		<?php get_sidebar('tweets'); ?>
 	</div>
 
     <div class="fl-col-flex idi-one-column">
-		<h1><?php the_title(); ?></h1>
-		<?php the_post(); the_content(); ?> 
+		This is the news page.
 	</div>
 
 </div>
-
+		
 <?php get_footer(); ?>

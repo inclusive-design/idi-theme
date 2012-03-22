@@ -7,11 +7,13 @@ Template: wordpress-fss-theme
 Version: 1.0
 */
 
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 @import url("../wordpress-fss-theme/style.css");
 
 html {
     height: 100%;
     font-size: 1.2em;
+    font-family: 'Lato', sans-serif;
 }
 a {
     text-decoration: none;
@@ -51,6 +53,7 @@ a {
     text-transform: uppercase;
     color: #ffffff;
     text-decoration: none;
+    font-weight: bold;
 }
 .fl-site-nav-main li.current_page_item {
     border: 2px solid #fbf8cd;
@@ -62,7 +65,7 @@ a {
     width: 100%;
 }
 .fl-site-nav-main ul {
-    width: 25em;
+    width: 38em;
     margin: 0 auto;
     padding: 1em 0;
 }
@@ -136,9 +139,13 @@ a {
 .idi-mailing-list {
     color: white;
     background-color: #add3d3;
-    padding: 1em;
+    padding: 1em 1em 2em 1em; /*  top right bottom left*/
     width: 16em;
     position: relative;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg);
 }
 .fl-site-footer ul {
     margin-left: 0;
