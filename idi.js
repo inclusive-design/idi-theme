@@ -10,7 +10,7 @@ https://github.com/fluid-project/infusion/raw/master/Infusion-LICENSE.txt
 */
 
 // Declare dependencies
-/*global idi:true, fluid, jQuery*/
+/*global idi:true, fluid, jQuery, window*/
 
 // JSLint options 
 /*jslint white: true, funcinvoke: true, undef: true, newcap: true, nomen: true, regexp: true, bitwise: true, browser: true, forin: true, maxerr: 100, indent: 4 */
@@ -21,6 +21,7 @@ var idi = idi || {};
         var theWindow = $(window);
 
         var topNavEl = $('.fl-site-nav-main');
+        var aboutSectionNav = $('.idi-section-nav');
         var topNavHeight = topNavEl.css('height');
 
         var topNavTop = topNavEl.offset().top;
@@ -32,6 +33,7 @@ var idi = idi || {};
             var windowTop = theWindow.scrollTop();
             spacerEl.toggle(windowTop > topNavTop);
             topNavEl.toggleClass('sticky', windowTop > topNavTop);
+            aboutSectionNav.toggleClass('sticky', windowTop > topNavTop);
         });
     };
 

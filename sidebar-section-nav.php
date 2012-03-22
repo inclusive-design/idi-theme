@@ -1,16 +1,16 @@
                 <ul>
-                    <li>Who we are</li>
-                    <li>People
+                    <li><a href="#whoweare">Who we are</a></li>
+                    <li><a href="#people">People
                         <ul>
-                            <li>Jutta Treviranus</li>
-                            <li>Robert Luke</li>
-                            <li>Francois Desjardins</li>
-                            <li>Darren Lawless</li>
-                            <li>Dawn Mercer</li>
-                            <li>Deborah Fels</li>
-                            <li>Matt Ratto</li>
-                            <li>Ron Owston</li>
+                            <li><a href="#Treviranus">Jutta Treviranus</a></li>
+                            <li><a href="#Luke">Robert Luke</a></li>
+                            <li><a href="#Desjardins">Francois Desjardins</a></li>
+                            <li><a href="#Lawless">Darren Lawless</a></li>
+                            <li><a href="#Mercer">Dawn Mercer</a></li>
+                            <li><a href="#Fels">Deborah Fels</a></li>
+                            <li><a href="#Ratto">Matt Ratto</a></li>
+                            <li><a href="#Owston">Ron Owston</a></li>
                         </ul>
                     </li>
-                    <li>Contact us</li>
+                    <li><a href="#contact">Contact us</a></li>
                 </ul>

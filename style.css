@@ -44,8 +44,8 @@ a {
 .fl-site-logo {
     background-repeat: no-repeat;
     background-image: url('images/idi_logo.png');
-    height: 174px;
-    width: 173px;
+    height: 87px;
+    width: 87px;
     float: none;
     display: block;
     margin-left: auto;
@@ -79,13 +79,18 @@ a {
     padding: 1em 0;
 }
 
+/* Ensure nav elements stick to top of screen */
+.fl-spacer-el {
+    display: none;
+}
 .fl-site-nav-main.sticky {
     width: 100%;
     position: fixed;
     top: 0;
 }
-.fl-spacer-el {
-    display: none;
+.idi-section-nav.sticky {
+    position: fixed;
+    top: 3em;
 }
 
 /* Research Cluster images */
@@ -232,4 +237,10 @@ a {
 }
 .idi-loginout a {
     color: #7598A5;
+}
+
+/* for pages with a ToC, ensure anchors don't hide under top nav */
+a.anchor {
+    position: relative;
+    top: -3em; /* this amount is an estimate */
 }
