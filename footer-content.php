@@ -1,13 +1,39 @@
+		<script type="text/javascript">
+			function submitForm() {
+				var listForm = $('#myForm');
+				var listEmail = $('#listEmail').val();
+
+				//validate for non-html5 browsers
+				var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+			    if(reg.test(listEmail) == false) {
+					alert("Invalid email");			//switch to accessible html?
+				} else {
+					$.ajax({
+						url: listForm.attr('action'),
+						type: listForm.attr('method'),
+						data: {email: listEmail},
+						success: function(email) {
+							$("#listForm").html("<p>Success! " + email + " has been added to the mailing list. You should receive a confirmation email shortly.</p>"); 	
+						}
+					});
+
+				}
+				return false;
+			}
+		</script>
+
 		<footer class="fl-centered fl-site-footer">
 			<div class="idi-footer-popup">
 				<div class="idi-footer-popup-content">
 					<div class="idi-mailing-list">
-						<div>
-							Stay updated with our mailing list
-						</div>
-						<div>
-							<input prompt="your email address" />
-							<button type="submit">submit</button>
+						<div id="listForm">
+							<div>
+								Stay updated with our mailing list
+							</div>
+							<form id="myForm" method="post" action="<?php bloginfo('stylesheet_directory'); ?>/mailinglist.php" onsubmit="return submitForm()">
+								<input type="email" name="listEmail" id="listEmail" value="your email address" />
+								<input type="submit" value="submit" />
+							</form>
 						</div>
 					</div>
 				</div>
