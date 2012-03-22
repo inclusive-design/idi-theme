@@ -31,7 +31,7 @@
 								Stay updated with our mailing list
 							</div>
 							<form id="myForm" method="post" action="<?php bloginfo('stylesheet_directory'); ?>/mailinglist.php" onsubmit="return submitForm()">
-								<input type="email" name="listEmail" id="listEmail" value="your email address" />
+								<input type="email" name="listEmail" id="listEmail" placeholder="your email address" required />
 								<input type="submit" value="submit" />
 							</form>
 						</div>
