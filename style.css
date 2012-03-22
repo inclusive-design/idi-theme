@@ -10,10 +10,19 @@ Version: 1.0
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 @import url("../wordpress-fss-theme/style.css");
 
+/* Page-wide styles */
 html {
     height: 100%;
     font-size: 1.2em;
     font-family: 'Lato', sans-serif;
+}
+.idi-footer-popup-content,
+.idi-footer-main,
+.fl-uiOptions-fatPanel {
+    max-width: 1280px;
+    min-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 a {
     text-decoration: none;
@@ -119,18 +128,7 @@ a {
 .idi-footer-popup {
     border-bottom: 1px solid gray;
 }
-.idi-footer-popup-content {
-    /* these should match the site wrapper */
-    max-width: 1280px;
-    min-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-}
 .idi-footer-main {
-    max-width: 1280px;
-    min-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
     text-align: left;
 }
 .fl-site-footer {
@@ -201,9 +199,37 @@ a {
     text-decoration: none;
 }
 
-/* The UIO show/hide button */
-.fl-uiOptions-fatPanel .fl-toggleButton {
+/* Buttons at the top of the window */
+.fl-uiOptions-fatPanel .fl-panelBar {
+    height: 0;
+}
+.fl-uiOptions-fatPanel .fl-toggleButton,
+.idi-loginout {
     background-color: #e9f4f3;
     color: #7598a5;
     text-transform: lowercase;
+    border-radius: 5px;
+    background-position: 3% 50%;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
+.fl-uiOptions-fatPanel .fl-toggleButton {
+    background-image: url("images/gear_white.png");
+}    
+.idi-loginout {
+    width: 4em;
+    text-align: center;
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    float: right;
+    font-weight: bold;
+    padding: 5px 5px 5px 25px;
+    background-image: url("images/gear_white.png");
+    margin-right: 0.3em;
+}
+.idi-loginout a {
+    color: #7598A5;
 }

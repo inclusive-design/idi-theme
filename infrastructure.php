@@ -5,6 +5,8 @@ Template Name: Infrastructure
 ?>
 <?php get_header(); ?>
 
-This is the infrastructure page.
-		
+<div class="fl-centered fl-col-mixed fl-site-wrapper">
+	This is the infrastructure page.
+</div>
+
 <?php get_footer(); ?>

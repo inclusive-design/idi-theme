@@ -5,6 +5,8 @@ Template Name: Contact
 ?>
 <?php get_header(); ?>
 
-This is the Contact page.
+<div class="fl-centered fl-col-mixed fl-site-wrapper">
+	This is the Contact page.
+</div>
 		
 <?php get_footer(); ?>

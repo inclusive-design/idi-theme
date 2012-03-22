@@ -5,6 +5,8 @@ Template Name: Education
 ?>
 <?php get_header(); ?>
 
-This is the education page.
+<div class="fl-centered fl-col-mixed fl-site-wrapper">
+	This is the Education page.
+</div>
 		
 <?php get_footer(); ?>
