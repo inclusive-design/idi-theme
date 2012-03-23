@@ -135,6 +135,8 @@ a {
 }
 .idi-footer-main {
     text-align: left;
+    position: relative;
+    background-color: #ffffff;
 }
 .fl-site-footer {
     margin-top: 0;
@@ -148,7 +150,10 @@ a {
     -webkit-transform: rotate(-3deg);
     -moz-transform: rotate(-3deg);
     -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
     transform: rotate(-3deg);
+    position: relative;
+    top: 1em;
 }
 .fl-site-footer ul {
     margin-left: 0;
