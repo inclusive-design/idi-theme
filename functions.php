@@ -23,9 +23,8 @@ add_filter('excerpt_more', 'idi_excerpt_more');
  * Brand the login page with IDI-specific styling
  */
 function brand_login_page() {
-	$baseurl = get_stylesheet_directory_uri();
-    echo '<link rel="stylesheet" type="text/css" media="all" href="'. $baseurl .'/login-page.css" />';
-	echo '<script type="text/javascript" src="' . $baseurl .'/infusion/MyInfusion.js"></script>';
+	echo '<link rel="stylesheet" type="text/css" media="all" href="'. get_stylesheet_directory_uri() .'/login-page.css" />';
+	echo '<script type="text/javascript" src="' . get_template_directory_uri() .'/infusion/MyInfusion.js"></script>';
 	echo '<script type="text/javascript">
 		function loginalt() {
 			var logoLink = $("#login a");
