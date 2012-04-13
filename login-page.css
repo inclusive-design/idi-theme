@@ -1,0 +1,16 @@
+body.login {
+    background-image: url('images/temp-background.png');
+    background-position: 0px 0px; /* horizontal vertical */
+    background-repeat: repeat;
+    overflow: auto;
+}
+.login h1 a  {
+    background-repeat: no-repeat;
+    background-image: url('images/idi_logo.png');
+    height: 87px;
+    width: 87px;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -23,8 +23,9 @@ var idi = idi || {};
         var topNavEl = $('.fl-site-nav-main');
         var aboutSectionNav = $('.idi-section-nav');
         var topNavHeight = topNavEl.css('height');
-
-        var topNavTop = topNavEl.offset().top;
+        var paddingString = $('.fl-site-nav-main ul').css('padding-top');
+        var padding = parseInt(paddingString.substring(0, paddingString.length - 3));
+        var topNavTop = topNavEl.offset().top - padding;
         var spacerEl = $("<div class='fl-spacer-el'></div>");
         spacerEl.css("height", topNavHeight);
         spacerEl.insertBefore(topNavEl);
@@ -37,7 +38,22 @@ var idi = idi || {};
         });
     };
 
+    idi.setUpLoginOutPanel = function () {
+        fluid.slidingPanel(".idi-loginOut-fatPanel", {
+            selectors: {
+                panel: ".idi-slidingPanel-panel",
+                toggleButton: ".idi-slidingPanel-toggleButton"
+            },
+            strings: {
+                showText: "Login",
+                hideText: "Login"
+            }
+        });
+        $(".idi-login-form").show();
+    };
+
     $(document).ready(function () {
         idi.makeTopNavSticky();
+        idi.setUpLoginOutPanel();
     });
 })(jQuery);

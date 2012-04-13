@@ -16,9 +16,27 @@ html {
     font-size: 1.2em;
     font-family: 'Lato', sans-serif;
 }
+body {
+    background-image: url('images/temp-background.png');
+    background-position: 0px 0px; /* horizontal vertical */
+    background-repeat: repeat;
+    overflow: auto;
+}
+a {
+    color: #0096Bf;
+}
+.front-cols {
+    background-color: #ffffff;
+    -moz-box-shadow: 0 0 5px 5px #888;
+    -webkit-box-shadow: 0 0 5px 5px #888;
+    box-shadow: 0 0 5px 5px #888;
+    margin: 10px 10px; /* the margin is to provide room for the box shadow */
+   padding: 10px
+}
 .idi-footer-popup-content,
 .idi-footer-main,
-.fl-uiOptions-fatPanel {
+.fl-uiOptions-fatPanel,
+.idi-loginOut-fatPanel {
     max-width: 1280px;
     min-width: 800px;
     margin-left: auto;
@@ -35,11 +53,10 @@ a {
     min-width: inherit;
 }
 .fl-site-header {
-    background-color: #add3d3;
 }
 .fl-site-main-body,
 .idi-footer-popup {
-    background-color: #efefef; /* this will become the background of the footer */
+/*    background-color: #efefef; /* this will become the background of the footer */
 }
 .fl-site-logo {
     background-repeat: no-repeat;
@@ -59,16 +76,17 @@ a {
     background-color: inherit;
 }
 .fl-site-nav-main a {
-    text-transform: uppercase;
-    color: #ffffff;
+    text-transform: lowercase;
+    color: #666666;
     text-decoration: none;
     font-weight: bold;
+    text-shadow: 0px 1px 1px #ffffff;
 }
 .fl-site-nav-main li.current_page_item {
-    border: 2px solid #fbf8cd;
+    border-bottom: 2px solid orange;
 }
 .fl-site-nav-main li.current_page_item a {
-    color: #fbf8cd;
+    color: #000000;
 }
 .fl-site-nav-main .menu {
     width: 100%;
@@ -88,6 +106,13 @@ a {
     position: fixed;
     top: 0;
 }
+.fl-site-nav-main.sticky .menu {
+    background-color: #ffffff;
+    max-width: 1260px;
+    min-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .idi-section-nav.sticky {
     position: fixed;
     top: 3em;
@@ -96,10 +121,12 @@ a {
 /* Research Cluster images */
 .idi-name {
     text-transform: lowercase;
-    color: #2dafb9;
+    color: #666666;
+    text-shadow: 0px 1px 1px #ffffff;
     text-align: center;
     margin: 2em 0;
     font-size: 2em;
+    font-style: italic;
 }
 #research-clusters ul {
     margin-left: 0;
@@ -136,7 +163,9 @@ a {
 .idi-footer-main {
     text-align: left;
     position: relative;
+/*
     background-color: #ffffff;
+*/
 }
 .fl-site-footer {
     margin-top: 0;
@@ -176,6 +205,10 @@ a {
 }
 
 /* Twitter widget */
+.sidebar-tweets {
+    border-top:#f4be3d solid 5px;
+    background: #EEEEEE;
+}
 .sidebar-tweets h2 {
     background-image: url("images/twitter_bird.png");
     background-repeat: no-repeat;
@@ -188,7 +221,6 @@ a {
     font-style: italic;
 }
 .sidebar-tweets .tweet-container {
-    background-color: #ffffff;
     padding: 1em;
 }
 .sidebar-tweets .twitter-feed-group {
@@ -248,4 +280,17 @@ a {
 a.anchor {
     position: relative;
     top: -3em; /* this amount is an estimate */
+}
+
+/* Login/out pull-down panel */
+.idi-loginOutPanel {
+    background-color: #FFFFFF;
+    clear: both;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    padding: 2em;
+}
+.idi-login-form #loginform p {
+    display: inline;
 }
