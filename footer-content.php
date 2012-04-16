@@ -23,21 +23,6 @@
 		</script>
 
 		<footer class="fl-centered fl-site-footer">
-			<div class="idi-footer-popup">
-				<div class="idi-footer-popup-content">
-					<div class="idi-mailing-list">
-						<div id="listForm">
-							<div>
-								Stay updated with our mailing list
-							</div>
-							<form id="myForm" method="post" action="<?php bloginfo('stylesheet_directory'); ?>/mailinglist.php" onsubmit="return submitForm()">
-								<input type="email" name="listEmail" id="listEmail" placeholder="your email address" required />
-								<input type="submit" value="submit" />
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
 			<div class="fl-col-flex2 idi-footer-main">
 				<div class="fl-col">
 					Inclusive Design Institute

@@ -17,7 +17,7 @@ html {
     font-family: 'Lato', sans-serif;
 }
 body {
-    background-image: url('images/temp-background.png');
+    background-image: url('images/bg.png');
     background-position: 0px 0px; /* horizontal vertical */
     background-repeat: repeat;
     overflow: auto;
@@ -25,11 +25,11 @@ body {
 a {
     color: #0096Bf;
 }
-.front-cols {
+.front-cols .box {
     background-color: #ffffff;
-    -moz-box-shadow: 0 0 5px 5px #888;
-    -webkit-box-shadow: 0 0 5px 5px #888;
-    box-shadow: 0 0 5px 5px #888;
+    -moz-box-shadow: 0 0 5px 3px #DDDDDD;
+    -webkit-box-shadow: 0 0 5px 3px #DDDDDD;
+    box-shadow: 0 0 5px 3px #DDDDDD;
     margin: 10px 10px; /* the margin is to provide room for the box shadow */
    padding: 10px
 }
@@ -63,10 +63,12 @@ a {
     background-image: url('images/idi_logo.png');
     height: 87px;
     width: 87px;
-    float: none;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.fl-site-name {
+    text-align: center;
 }
 
 /* Main site navigation */
@@ -171,18 +173,6 @@ a {
     margin-top: 0;
 }
 .idi-mailing-list {
-    color: white;
-    background-color: #add3d3;
-    padding: 1em 1em 2em 1em; /*  top right bottom left*/
-    width: 16em;
-    position: relative;
-    -webkit-transform: rotate(-3deg);
-    -moz-transform: rotate(-3deg);
-    -o-transform: rotate(-3deg);
-    -ms-transform: rotate(-3deg);
-    transform: rotate(-3deg);
-    position: relative;
-    top: 1em;
 }
 .fl-site-footer ul {
     margin-left: 0;
