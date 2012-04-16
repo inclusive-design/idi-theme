@@ -7,14 +7,46 @@ Template: wordpress-fss-theme
 Version: 1.0
 */
 
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 @import url("../wordpress-fss-theme/style.css");
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url('fonts/Lato-Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url('fonts/Lato-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Lato Light Italic'), local('Lato-LightItalic'), url('fonts/Lato-LightItalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url('fonts/Lato-BoldItalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url('fonts/Lato-Italic.woff') format('woff');
+}
+
 
 /* Page-wide styles */
 html {
     height: 100%;
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #202020;
 }
 body {
     background-image: url('images/bg.png');
@@ -25,6 +57,11 @@ body {
 a {
     color: #0096Bf;
 }
+h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
 .front-cols .box {
     background-color: #ffffff;
     -moz-box-shadow: 0 0 5px 3px #DDDDDD;
@@ -32,6 +69,9 @@ a {
     box-shadow: 0 0 5px 3px #DDDDDD;
     margin: 10px 10px; /* the margin is to provide room for the box shadow */
    padding: 10px
+}
+.front-cols .post .date {
+    font-weight: 700;
 }
 .idi-footer-popup-content,
 .idi-footer-main,
@@ -68,7 +108,11 @@ a {
     margin-right: auto;
 }
 .fl-site-name {
+    text-transform: lowercase;
     text-align: center;
+    font-style: italic;
+    font-size: 1.75em;
+    color: #585858;
 }
 
 /* Main site navigation */
@@ -79,13 +123,13 @@ a {
 }
 .fl-site-nav-main a {
     text-transform: lowercase;
-    color: #666666;
+    color: #414141;
     text-decoration: none;
-    font-weight: bold;
-    text-shadow: 0px 1px 1px #ffffff;
+    font-weight: normal;
+    font-size: 0.875em;
 }
 .fl-site-nav-main li.current_page_item {
-    border-bottom: 2px solid orange;
+    border: 2px solid #414141;
 }
 .fl-site-nav-main li.current_page_item a {
     color: #000000;
