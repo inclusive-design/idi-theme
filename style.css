@@ -38,6 +38,12 @@ Version: 1.0
   font-weight: 400;
   src: local('Lato Italic'), local('Lato-Italic'), url('fonts/Lato-Italic.woff') format('woff');
 }
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Lato Black'), local('Lato-Black'), url('fonts/Lato-Black.woff') format('woff');
+}
 
 
 /* Page-wide styles */
@@ -55,13 +61,15 @@ body {
     overflow: auto;
 }
 a {
-    color: #0096Bf;
+    color: #0075B0;
 }
 h2 {
     font-size: 1.5em;
     font-weight: 700;
 }
-
+.front-cols {
+    position: static;
+}
 .front-cols .box {
     background-color: #ffffff;
     -moz-box-shadow: 0 0 5px 3px #DDDDDD;
@@ -73,11 +81,12 @@ h2 {
 .front-cols .post .date {
     font-weight: 700;
 }
+.fl-site-wrapper,
 .idi-footer-popup-content,
 .idi-footer-main,
 .fl-uiOptions-fatPanel,
 .idi-loginOut-fatPanel {
-    max-width: 1280px;
+    max-width: 1024px;
     min-width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -125,7 +134,7 @@ a {
     text-transform: lowercase;
     color: #414141;
     text-decoration: none;
-    font-weight: normal;
+    font-weight: 900;
     font-size: 0.875em;
 }
 .fl-site-nav-main li.current_page_item {
@@ -164,38 +173,121 @@ a {
     top: 3em;
 }
 
-/* Research Cluster images */
-.idi-name {
+/**
+ * Research Cluster circles
+ */
+
+/* general to all circles */
+#research-clusters {
+    position: relative;
+    height: 575px;
+}
+#research-clusters .idi-research-cluster {
+    vertical-align: middle;
+}
+#research-clusters .idi-research-cluster * {
+    display: inline-block;
+}
+#research-clusters .idi-research-cluster .idi-cluster-arrow {
+    width: 21px;
+    height: 21px;
+}
+#research-clusters .idi-research-cluster a {
+    font-style: italic;
+    font-weight: 700;
     text-transform: lowercase;
-    color: #666666;
-    text-shadow: 0px 1px 1px #ffffff;
-    text-align: center;
-    margin: 2em 0;
-    font-size: 2em;
-    font-style: italic;
+    line-height: 1em;
 }
-#research-clusters ul {
-    margin-left: 0;
-    margin-right: 0;
+#research-clusters .idi-research-cluster div {
+    opacity: 0.7;
 }
-#research-clusters ul li {
-    display: inline-block;
-    display: inline-block;
-    margin-left: 2%;
-    margin-right: 2%;
-    width: 20%;
-    text-align: center;
-    vertical-align:text-top;
+/* position of each cluster */
+#research-clusters .idi-dev-cluster {
+    position: absolute;
+    top: 195px;
+    left: 64px;
 }
-#research-clusters ul li a {
-    color: #3dac6b;
-    font-style: italic;
+#research-clusters .idi-info-cluster {
+    position: absolute;
+    top: 130px;
+    right: 360px;
 }
-#research-clusters ul li a img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#research-clusters .idi-policy-cluster {
+    position: absolute;
+    top: 390px;
+    left: 176px;
 }
+#research-clusters .idi-mobile-cluster {
+    position: absolute;
+    top: 90px;
+    left: 688px;
+}
+
+/* Design and Dev cluster */
+#research-clusters .idi-dev-cluster-circle {
+    width: 141px;
+    height: 141px;
+    background-color: #17B46C;
+    border-radius: 70px;
+}
+#research-clusters .idi-dev-cluster-arrow {
+    background-image:  url("images/arrow_lg_blue_right.png");
+}
+#research-clusters .idi-dev-cluster-name {
+    color: #17B46C;
+    font-size: 1.75em;
+    width: 8em;
+}
+
+/* Information and Implementation Practices cluster */
+#research-clusters .idi-info-cluster-circle {
+    width: 121px;
+    height: 121px;
+    background-color: #0EB0E6;
+    border-radius: 60px;
+}
+#research-clusters .idi-info-cluster-arrow {
+    background-image:  url("images/arrow_lg_blue_left.png");
+}
+#research-clusters .idi-info-cluster-name {
+    color: #0EB0E6;
+    font-size: 1.5em;
+    text-align: right;
+    width: 10em;
+}
+
+/* Business Case, Policies, Standards and Legislation cluster */
+#research-clusters .idi-policy-cluster-circle {
+    width: 70px;
+    height: 70px;
+    background-color: #EF5C25;
+    border-radius: 35px;
+}
+#research-clusters .idi-policy-cluster-arrow {
+    background-image:  url("images/arrow_lg_blue_right.png");
+}
+#research-clusters .idi-policy-cluster-name {
+    color: #EF5C25;
+    font-size: 1.5em;
+    width: 10em;
+}
+
+/* Moble and Pervasive Computing cluster */
+#research-clusters .idi-mobile-cluster-circle {
+    width: 88px;
+    height: 88px;
+    background-color: #FED307;
+    border-radius: 44px;
+}
+#research-clusters .idi-mobile-cluster-arrow {
+    background-image:  url("images/arrow_lg_blue_right.png");
+}
+#research-clusters .idi-mobile-cluster-name {
+    color: #FED307;
+    width: 7em;
+    font-size: 1.3125em;
+}
+
 
 /* Navigational Cues */
 .current_page_item {
@@ -281,8 +373,10 @@ a {
 }
 .fl-uiOptions-fatPanel .fl-toggleButton,
 .idi-loginout {
-    background-color: #e9f4f3;
-    color: #7598a5;
+    background-color: #FFFFFF;
+    color: #414141;
+    font-style: italic;
+    font-weight: 400;
     text-transform: lowercase;
     border-radius: 5px;
     background-position: 3% 50%;
