@@ -101,12 +101,6 @@ a {
     max-width: inherit;
     min-width: inherit;
 }
-.fl-site-header {
-}
-.fl-site-main-body,
-.idi-footer-popup {
-/*    background-color: #efefef; /* this will become the background of the footer */
-}
 .fl-site-logo {
     background-repeat: no-repeat;
     background-image: url('images/idi_logo.png');
@@ -190,37 +184,39 @@ a {
 }
 #research-clusters .idi-research-cluster .idi-cluster-arrow {
     width: 21px;
-    height: 21px;
+    background-repeat: no-repeat;
+    background-position: 50%;
 }
-#research-clusters .idi-research-cluster a {
+#research-clusters .idi-research-cluster div {
+    opacity: 0.7;
+}
+#research-clusters .idi-cluster-name {
+    position: absolute;
     font-style: italic;
     font-weight: 700;
     text-transform: lowercase;
     line-height: 1em;
 }
-#research-clusters .idi-research-cluster div {
-    opacity: 0.7;
-}
 /* position of each cluster */
 #research-clusters .idi-dev-cluster {
     position: absolute;
-    top: 195px;
-    left: 64px;
+    top: 175px;
+    left: 65px;
 }
 #research-clusters .idi-info-cluster {
     position: absolute;
-    top: 130px;
-    right: 360px;
+    top: 85px;
+    right: 280px;
 }
 #research-clusters .idi-policy-cluster {
     position: absolute;
-    top: 390px;
-    left: 176px;
+    top: 360px;
+    left: 195px;
 }
 #research-clusters .idi-mobile-cluster {
     position: absolute;
-    top: 90px;
-    left: 688px;
+    top: 60px;
+    left: 700px;
 }
 
 /* Design and Dev cluster */
@@ -232,11 +228,14 @@ a {
 }
 #research-clusters .idi-dev-cluster-arrow {
     background-image:  url("images/arrow_lg_blue_right.png");
+    height: 141px;
 }
 #research-clusters .idi-dev-cluster-name {
     color: #17B46C;
     font-size: 1.75em;
     width: 8em;
+    top: 36%;
+    left: 170px;
 }
 
 /* Information and Implementation Practices cluster */
@@ -248,12 +247,15 @@ a {
 }
 #research-clusters .idi-info-cluster-arrow {
     background-image:  url("images/arrow_lg_blue_left.png");
+    height: 121px;
 }
 #research-clusters .idi-info-cluster-name {
     color: #0EB0E6;
     font-size: 1.5em;
     text-align: right;
     width: 10em;
+    top: 36%;
+    right: 150px;
 }
 
 /* Business Case, Policies, Standards and Legislation cluster */
@@ -265,11 +267,14 @@ a {
 }
 #research-clusters .idi-policy-cluster-arrow {
     background-image:  url("images/arrow_lg_blue_right.png");
+    height: 70px;
 }
 #research-clusters .idi-policy-cluster-name {
     color: #EF5C25;
     font-size: 1.5em;
     width: 10em;
+    top: 27%;
+    left: 100px;
 }
 
 /* Moble and Pervasive Computing cluster */
@@ -281,11 +286,14 @@ a {
 }
 #research-clusters .idi-mobile-cluster-arrow {
     background-image:  url("images/arrow_lg_blue_right.png");
+    height: 88px;
 }
 #research-clusters .idi-mobile-cluster-name {
     color: #FED307;
     width: 7em;
     font-size: 1.3125em;
+    top: 33%;
+    left: 115px;
 }
 
 
@@ -377,6 +385,7 @@ a {
     color: #414141;
     font-style: italic;
     font-weight: 400;
+    font-size: 1em;
     text-transform: lowercase;
     border-radius: 5px;
     background-position: 3% 50%;

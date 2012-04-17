@@ -11,22 +11,22 @@ Template Name: Front Page
 		<div class="idi-research-cluster idi-dev-cluster">
 			<a href="design-and-development"> <div class="idi-dev-cluster-circle"></div> </a>
 			<div class="idi-cluster-arrow idi-dev-cluster-arrow"> </div>
-			<a class="idi-dev-cluster-name" href="design-and-development"> Design & Development</a>
+			<a class="idi-cluster-name idi-dev-cluster-name" href="design-and-development"> Design & Development</a>
 		</div>
 		<div class="idi-research-cluster idi-info-cluster">
-			<a class="idi-info-cluster-name" href="implementation-and-information-practices"> Information & Implementation Practices</a>
+			<a class="idi-cluster-name idi-info-cluster-name" href="implementation-and-information-practices"> Information & Implementation Practices</a>
 			<div class="idi-cluster-arrow idi-info-cluster-arrow"> </div>
 			<a href="implementation-and-information-practices"> <div class="idi-info-cluster-circle"></div> </a>
 		</div>
 		<div class="idi-research-cluster idi-policy-cluster">
 			<a href="design-and-development"> <div class="idi-policy-cluster-circle"></div> </a>
 			<div class="idi-cluster-arrow idi-policy-cluster-arrow"> </div>
-			<a class="idi-policy-cluster-name" href="design-and-development"> Business Case, Policies, Standards & Legislation</a>
+			<a class="idi-cluster-name idi-policy-cluster-name" href="design-and-development"> Business Case, Policies, Standards & Legislation</a>
 		</div>
 		<div class="idi-research-cluster idi-mobile-cluster">
 			<a href="design-and-development"> <div class="idi-mobile-cluster-circle"></div> </a>
 			<div class="idi-cluster-arrow idi-mobile-cluster-arrow"> </div>
-			<a class="idi-mobile-cluster-name" href="design-and-development"> Moble & Pervasive Computing</a>
+			<a class="idi-cluster-name idi-mobile-cluster-name" href="design-and-development"> Moble & Pervasive Computing</a>
 		</div>
 
 	</nav>
