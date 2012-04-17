@@ -3,19 +3,6 @@
 <div class="fl-col-mixed-200">
 	<div class="fl-col-fixed fl-force-right">
 		<?php get_sidebar(); ?>
-		
-	<?php 
-	$sboptions = array(
-     'order' => 'title-content-widgets', 
-     'before_title' => '<h3>', 
-     'after_title' => '</h3>', 
-     'before_content' => '',  
-     'after_content' => ''); 
-     $sidebar = trim(coresidebar($sboptions));
-     
-	 if (!empty($sidebar)) {
-	 	echo $sidebar;
-	 } ?>		
 	</div>
     <div class="fl-col-flex-left">
         <?php if(have_posts()) : ?><?php while(have_posts()) : the_post(); ?>
