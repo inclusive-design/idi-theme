@@ -62,37 +62,55 @@ body {
 }
 a {
     color: #0075B0;
+    text-decoration: none;
 }
 h2 {
     font-size: 1.5em;
     font-weight: 700;
 }
+h3 {
+    font-size: 1.125em;
+    font-weight: 700;
+}
 .front-cols {
     position: static;
 }
-.front-cols .box {
+.front-cols .idi-box {
+    margin: 10px 10px;
+    padding: 20px;
+}
+.front-cols .idi-shadow-box {
     background-color: #ffffff;
     -moz-box-shadow: 0 0 5px 3px #DDDDDD;
     -webkit-box-shadow: 0 0 5px 3px #DDDDDD;
     box-shadow: 0 0 5px 3px #DDDDDD;
     margin: 10px 10px; /* the margin is to provide room for the box shadow */
-   padding: 10px
+    padding: 20px;
 }
 .front-cols .post .date {
     font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0.625em;
+}
+.front-cols .post h2 {
+    margin-top: 0;
+    margin-bottom: 0.625em;
+}
+.front-cols .post h2 a {
+    color: #202020;
+    font-style: normal;
+    font-weight: 700;
 }
 .fl-site-wrapper,
-.idi-footer-popup-content,
-.idi-footer-main,
 .fl-uiOptions-fatPanel,
 .idi-loginOut-fatPanel {
-    max-width: 1024px;
+    max-width: 1280px;
     min-width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
-a {
-    text-decoration: none;
+nav#research-clusters {
+    max-width: 1024px;
 }
 /* Background of main content */
 .fl-site-header,
@@ -303,27 +321,11 @@ a {
 }
 
 /* Footer */
-.idi-footer-popup {
-    border-bottom: 1px solid gray;
-}
-.idi-footer-main {
-    text-align: left;
-    position: relative;
-/*
-    background-color: #ffffff;
-*/
-}
 .fl-site-footer {
-    margin-top: 0;
+    padding-top: 1em;
+    border-top: 1px solid #202020;
 }
-.idi-mailing-list {
-}
-.fl-site-footer ul {
-    margin-left: 0;
-}
-.fl-site-footer ul li {
-    list-style: none;
-}
+
 /* Tweaking FSS column sizes */
 .fl-col-mixed .fl-col-fixed {
     padding: 0 1em;
@@ -339,11 +341,7 @@ a {
 }
 
 /* Twitter widget */
-.sidebar-tweets {
-    border-top:#f4be3d solid 5px;
-    background: #EEEEEE;
-}
-.sidebar-tweets h2 {
+.twitter-feed-group h2 {
     background-image: url("images/twitter_bird.png");
     background-repeat: no-repeat;
     background-position: 0 50%;
@@ -354,23 +352,26 @@ a {
     text-transform: lowercase;
     font-style: italic;
 }
-.sidebar-tweets .tweet-container {
+.twitter-feed-group .tweet-container {
     padding: 1em;
 }
-.sidebar-tweets .twitter-feed-group {
+.twitter-feed-group {
     margin-top: 0.5em;
     margin-bottom: 1em;
 }
-.sidebar-tweets .twitter-follow-button {
+.twitter-feed-group a.twitter-follow-button {
     font-size: 1.2em;
+    color: #202020;
+    font-weight: 700;
+    margin-bottom: 0.5em;
 }
-.sidebar-tweets ul {
-    margin: 0px;    
+.twitter-feed-group ul {
+    margin-left: 0px;
 }
-.sidebar-tweets ul li {
+.twitter-feed-group ul li {
     list-style: none;
 }
-.sidebar-tweets .tweet-date {
+.twitter-feed-group .tweet-date {
     font-style: italic;
     text-decoration: none;
 }
@@ -430,4 +431,42 @@ a.anchor {
 }
 .idi-login-form #loginform p {
     display: inline;
+}
+
+/* Institution List on front page */
+.idi-institutions.idi-box {
+    margin-top: 0;
+}
+.idi-institutions h3 {
+    margin-top: 0;
+    margin-bottom: 0.625em;
+}
+.idi-institutions p {
+    font-style: italic;
+    margin-bottom: 0.625em;
+}
+ul.idi-institution-list {
+    margin-left: 0;
+    padding-bottom: 1.25em;
+    border-bottom: 1px solid #202020;
+}
+ul.idi-institution-list li {
+    list-style-type: none;
+}
+
+/* Contact Us section */
+.idi-mailing-address,
+.idi-phone,
+.idi-email {
+    font-size: 0.875em;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    background-image: url("images/arrow_lg_blue_right.png");
+    background-repeat: no-repeat;
+}
+.idi-mailing-list {
+    margin-top: 1em;
+}
+.idi-mailing-list form {
+    margin-top: 0.375em;
 }
