@@ -60,9 +60,19 @@ body {
     background-repeat: repeat;
     overflow: auto;
 }
+.fl-site-wrapper,
+.fl-uiOptions-fatPanel,
+.idi-loginOut-fatPanel,
+.fl-site-header,
+.fl-site-main-body,
+.fl-site-footer {
+    max-width: 1280px;
+    min-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
 a {
     color: #0075B0;
-    text-decoration: none;
 }
 h2 {
     font-size: 1.5em;
@@ -75,11 +85,11 @@ h3 {
 .front-cols {
     position: static;
 }
-.front-cols .idi-box {
+.idi-box {
     margin: 10px 10px;
     padding: 20px;
 }
-.front-cols .idi-shadow-box {
+.idi-shadow-box {
     background-color: #ffffff;
     -moz-box-shadow: 0 0 5px 3px #DDDDDD;
     -webkit-box-shadow: 0 0 5px 3px #DDDDDD;
@@ -100,14 +110,7 @@ h3 {
     color: #202020;
     font-style: normal;
     font-weight: 700;
-}
-.fl-site-wrapper,
-.fl-uiOptions-fatPanel,
-.idi-loginOut-fatPanel {
-    max-width: 1280px;
-    min-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    text-decoration: none;
 }
 nav#research-clusters {
     max-width: 1024px;
@@ -116,8 +119,6 @@ nav#research-clusters {
 .fl-site-header,
 .fl-site-main-body {
     padding-bottom: 1em;
-    max-width: inherit;
-    min-width: inherit;
 }
 .fl-site-logo {
     background-repeat: no-repeat;
@@ -134,6 +135,9 @@ nav#research-clusters {
     font-style: italic;
     font-size: 1.75em;
     color: #585858;
+}
+.fl-site-header a {
+    text-decoration: none;
 }
 
 /* Main site navigation */
@@ -212,6 +216,7 @@ nav#research-clusters {
     position: absolute;
     font-style: italic;
     font-weight: 700;
+    text-decoration: none;
     text-transform: lowercase;
     line-height: 1em;
 }
@@ -324,6 +329,14 @@ nav#research-clusters {
 .fl-site-footer {
     padding-top: 1em;
     border-top: 1px solid #202020;
+    font-style: italic;
+}
+.fl-site-footer .idi-cfi {
+    margin-top: 1em;
+    font-size: 1.2em;
+}
+.fl-site-footer .idi-cfi a {
+    font-weight: 400;
 }
 
 /* Tweaking FSS column sizes */
@@ -364,6 +377,7 @@ nav#research-clusters {
     color: #202020;
     font-weight: 700;
     margin-bottom: 0.5em;
+    text-decoration: none;
 }
 .twitter-feed-group ul {
     margin-left: 0px;
