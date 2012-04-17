@@ -378,14 +378,17 @@ a {
     font-style: italic;
     font-weight: 400;
     text-transform: lowercase;
-    border-radius: 5px;
+    border-radius: 3px;
     background-position: 3% 50%;
     background-repeat: no-repeat;
     padding-left: 25px;
+    margin-top: 0px;
+    font-weight: bold;
 }
 .fl-uiOptions-fatPanel .fl-toggleButton {
     background-image: url("images/gear_white.png");
-}    
+    margin-top: 1px;
+}
 .idi-loginout {
     width: 4em;
     text-align: center;
@@ -394,11 +397,14 @@ a {
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
     -moz-border-top-colors: none;
-    float: right;
-    font-weight: bold;
     padding: 5px 5px 5px 25px;
     background-image: url("images/gear_white.png");
-    margin-right: 0.3em;
+    position: absolute;
+    right: 12.5em;
+    border-width: 0 0 1px;
+}
+.idi-loginOut-fatPanel, .fl-panelBar {
+    position: relative;
 }
 .idi-loginout a {
     color: #7598A5;
@@ -413,9 +419,9 @@ a.anchor {
 /* Login/out pull-down panel */
 .idi-loginOutPanel {
     background-color: #FFFFFF;
-    clear: both;
+    /*clear: both;
+    position: absolute;*/
     z-index: 999;
-    position: absolute;
     top: 0;
     padding: 2em;
 }

@@ -38,15 +38,41 @@ var idi = idi || {};
         });
     };
 
+    idi.closeOpenedPanel = function (panel, toggleBtn) {
+        if (panel.css("display") === "block") {
+            toggleBtn.click();
+        }
+    };
+
+    var selectorUIOContainer = ".flc-uiOptions-fatPanel";
+    var selectorLoginContainer = ".idi-loginOut-fatPanel";
+    var selectorLoginPanel = ".idi-slidingPanel-panel";
+    var selectorLoginToggleBtn = ".idi-slidingPanel-toggleButton";
+    
     idi.setUpLoginOutPanel = function () {
-        fluid.slidingPanel(".idi-loginOut-fatPanel", {
+        fluid.slidingPanel(selectorLoginContainer, {
             selectors: {
-                panel: ".idi-slidingPanel-panel",
-                toggleButton: ".idi-slidingPanel-toggleButton"
+                panel: selectorLoginPanel,
+                toggleButton: selectorLoginToggleBtn
             },
             strings: {
                 showText: "Login",
                 hideText: "Login"
+            },
+            listeners: {
+                onPanelShow: function (slidingPanel) {
+                    // close UIO panel if it was open
+                    var uioPanel = $('.flc-slidingPanel-panel');
+                    var uioToggleButton = $('.flc-slidingPanel-toggleButton');
+                    
+                    idi.closeOpenedPanel(uioPanel, uioToggleButton);
+                    
+                    // swap the login container to be in front of UIO container
+                    // so both "login" and "UIO" toggle buttons get pushed down
+                    // below the container that is currently shown
+                  $(selectorLoginContainer).insertBefore(selectorUIOContainer);
+                    
+                }
             }
         });
         $(".idi-login-form").show();
@@ -55,5 +81,24 @@ var idi = idi || {};
     $(document).ready(function () {
         idi.makeTopNavSticky();
         idi.setUpLoginOutPanel();
+        
+        fluid.demands("fluid.slidingPanel", ["fluid.uiOptions", "fluid.uiEnhancer"], {
+            options: {
+                listeners: {
+                    onPanelShow: function () {
+                        // close login panel if it was open
+                        var loginPanel = $(selectorLoginPanel);
+                        var loginToggleButton = $(selectorLoginToggleBtn);
+                        
+                        idi.closeOpenedPanel(loginPanel, loginToggleButton);
+
+                        // swap the login container to be after the UIO container
+                        // so both "login" and "UIO" toggle buttons get pushed down
+                        // below the container that is currently shown
+                        $(selectorLoginContainer).insertAfter(selectorUIOContainer);
+                    }
+                }
+            }
+        });
     });
 })(jQuery);
