@@ -1,4 +1,5 @@
 <?php
+add_theme_support( 'post-thumbnails' ); 
 
 /**
  *  Add IDI-specific JS files to the header

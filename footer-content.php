@@ -1,5 +1,5 @@
 
-		<footer class="fl-centered fl-site-footer">
+		<footer class="fl-centered fl-site-footer fl-push">
 			<div class="idi-contact-info">
 				205 Richmond Street West, 2nd Floor, Toronto, ON M5V 1V3, Canada
 				<br/>
