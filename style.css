@@ -398,6 +398,9 @@ h3 {
 }
 
 /* Buttons at the top of the window */
+.fl-uiOptions-fatPanel {
+    margin-bottom: 2em;
+}
 .fl-uiOptions-fatPanel .fl-panelBar {
     height: 0;
 }
@@ -409,14 +412,19 @@ h3 {
     font-weight: 400;
     font-size: 1em;
     text-transform: lowercase;
-    border-radius: 5px;
+    border-radius: 3px;
     background-position: 3% 50%;
     background-repeat: no-repeat;
     padding-left: 25px;
+    margin-top: 0px;
+    font-weight: bold;
+    border: thin;
 }
 .fl-uiOptions-fatPanel .fl-toggleButton {
     background-image: url("images/gear_white.png");
-}    
+    margin-top: 1px;
+    border-style: none solid solid solid;
+}
 .idi-loginout {
     width: 4em;
     text-align: center;
@@ -425,14 +433,11 @@ h3 {
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
     -moz-border-top-colors: none;
-    float: right;
-    font-weight: bold;
     padding: 5px 5px 5px 25px;
     background-image: url("images/gear_white.png");
-    margin-right: 0.3em;
-}
-.idi-loginout a {
-    color: #7598A5;
+    position: absolute;
+    right: 12.5em;
+    border-style: none solid solid solid;
 }
 
 /* for pages with a ToC, ensure anchors don't hide under top nav */
@@ -444,9 +449,7 @@ a.anchor {
 /* Login/out pull-down panel */
 .idi-loginOutPanel {
     background-color: #FFFFFF;
-    clear: both;
     z-index: 999;
-    position: absolute;
     top: 0;
     padding: 2em;
 }
