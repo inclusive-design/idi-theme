@@ -24,7 +24,7 @@ var idi = idi || {};
         var aboutSectionNav = $('.idi-section-nav');
         var topNavHeight = topNavEl.css('height');
         var paddingString = $('.fl-site-nav-main ul').css('padding-top');
-        var padding = parseInt(paddingString.substring(0, paddingString.length - 3));
+        var padding = parseInt(paddingString.substring(0, paddingString.length - 3), 10);
         var topNavTop = topNavEl.offset().top - padding;
         var spacerEl = $("<div class='fl-spacer-el'></div>");
         spacerEl.css("height", topNavHeight);
@@ -44,9 +44,17 @@ var idi = idi || {};
         }
     };
 
-    var selectorUIOContainer = selectorLoginContainer = ".flc-uiOptions-fatPanel";
+    var selectorUIOContainer, selectorLoginContainer;
+    
+    selectorUIOContainer = selectorLoginContainer = ".flc-uiOptions-fatPanel";
+    
     var selectorLoginPanel = ".idi-slidingPanel-panel";
     var selectorLoginToggleBtn = ".idi-slidingPanel-toggleButton";
+    
+    var selectorUIOPanel = '.flc-slidingPanel-panel';
+    var selectorUIOToggleButton = '.flc-slidingPanel-toggleButton';
+    
+    var selectorLoginForm = ".idi-login-form";
     
     idi.setUpLoginOutPanel = function () {
         fluid.slidingPanel(selectorLoginContainer, {
@@ -59,16 +67,13 @@ var idi = idi || {};
                 hideText: "Login"
             },
             listeners: {
-                onPanelShow: function (slidingPanel) {
+                onPanelShow: function () {
                     // close UIO panel if it was open
-                    var uioPanel = $('.flc-slidingPanel-panel');
-                    var uioToggleButton = $('.flc-slidingPanel-toggleButton');
-                    
-                    idi.closeOpenedPanel(uioPanel, uioToggleButton);
+                    idi.closeOpenedPanel($(selectorUIOPanel), $(selectorUIOToggleButton));
                 }
             }
         });
-        $(".idi-login-form").show();
+        $(selectorLoginForm).show();
     };
 
     $(document).ready(function () {
@@ -80,10 +85,7 @@ var idi = idi || {};
                 listeners: {
                     afterPanelShow: function () {
                         // close login panel if it was open
-                        var loginPanel = $(selectorLoginPanel);
-                        var loginToggleButton = $(selectorLoginToggleBtn);
-                        
-                        idi.closeOpenedPanel(loginPanel, loginToggleButton);
+                        idi.closeOpenedPanel($(selectorLoginPanel), $(selectorLoginToggleBtn));
                     }
                 }
             }
