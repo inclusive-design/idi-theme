@@ -157,11 +157,12 @@ h3 {
     font-weight: 900;
     font-size: 0.875em;
 }
+.fl-site-nav-main ul li {
+    margin: 0 0.75em;
+}
 .fl-site-nav-main li.current_page_item {
     border: 2px solid #414141;
-}
-.fl-site-nav-main li.current_page_item a {
-    color: #000000;
+    border-radius: 4px;
 }
 .fl-site-nav-main .menu {
     width: 100%;
