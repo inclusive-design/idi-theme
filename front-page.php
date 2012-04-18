@@ -40,7 +40,7 @@ Template Name: Front Page
 			$more = 0; 
 			?>
 			<div class="fl-col">
-				<div class="idi-box idi-shadow-box post">
+				<div class="idi-box idi-highlight-box post">
 					<?php if(has_post_thumbnail()) {
 						the_post_thumbnail();
 					} ?>
@@ -63,14 +63,14 @@ $twitter_feed_opts = ' followlink="no" num="1" linktotweet="no" tweetintent="no"
 ?>
 
 		<div class="fl-col">
-			<div class="idi-box idi-shadow-box twitter-feed-group">
+			<div class="idi-box idi-highlight-box twitter-feed-group">
 				<div class="idi-box-text">
 					<a class="twitter-follow-button" rel="external nofollow" href="http://twitter.com/aegisproj">@aegisproj</a>
 					<?php echo do_shortcode('[twitter-feed username="aegisproj"' . $twitter_feed_opts . ']'); ?>
 				</div>
 			</div>
 
-			<div class="idi-box idi-shadow-box twitter-feed-group">
+			<div class="idi-box idi-highlight-box twitter-feed-group">
 				<div class="idi-box-text">
 					<a class="twitter-follow-button" rel="external nofollow" href="http://twitter.com/SNOWocad">@SNOWocad</a>
 					<?php echo do_shortcode('[twitter-feed username="SNOWocad"' . $twitter_feed_opts . ']'); ?>
@@ -80,7 +80,7 @@ $twitter_feed_opts = ' followlink="no" num="1" linktotweet="no" tweetintent="no"
 		</div>
 
 		<div class="fl-col">
-			<div class="idi-box idi-shadow-box twitter-feed-group">
+			<div class="idi-box idi-highlight-box twitter-feed-group">
 				<div class="idi-box-text">
 					<a class="twitter-follow-button" rel="external nofollow" href="http://twitter.com/FluidProject">@FluidProject</a>
 					<?php echo do_shortcode('[twitter-feed username="FluidProject"' . $twitter_feed_opts . ']'); ?>
