@@ -78,7 +78,7 @@ var idi = idi || {};
         fluid.demands("fluid.slidingPanel", ["fluid.uiOptions", "fluid.uiEnhancer"], {
             options: {
                 listeners: {
-                    onPanelShow: function () {
+                    afterPanelShow: function () {
                         // close login panel if it was open
                         var loginPanel = $(selectorLoginPanel);
                         var loginToggleButton = $(selectorLoginToggleBtn);

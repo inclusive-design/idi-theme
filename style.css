@@ -60,6 +60,23 @@ body {
     background-repeat: repeat;
     overflow: auto;
 }
+.fl-site-wrapper,
+.fl-uiOptions-fatPanel,
+.idi-loginOut-fatPanel,
+.fl-site-header,
+.fl-site-nav-main.sticky .menu,
+.fl-site-main-body,
+.fl-site-footer {
+    max-width: 1024px;
+    min-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fl-col-flex4 .fl-col {
+    margin: 0;
+    padding: 0;
+    width: 25%;
+}
 a {
     color: #0075B0;
 }
@@ -67,45 +84,47 @@ h2 {
     font-size: 1.5em;
     font-weight: 700;
 }
+h3 {
+    font-size: 1.125em;
+    font-weight: 700;
+}
+.idi-box {
+    margin: 10px 10px;
+}
+.idi-box .idi-box-text {
+    padding: 20px;
+}
+.idi-highlight-box {
+    background-color: #ffffff;
+}
+
+/* Front Page styles */
 .front-cols {
     position: static;
 }
-.front-cols .box {
-    background-color: #ffffff;
-    -moz-box-shadow: 0 0 5px 3px #DDDDDD;
-    -webkit-box-shadow: 0 0 5px 3px #DDDDDD;
-    box-shadow: 0 0 5px 3px #DDDDDD;
-    margin: 10px 10px; /* the margin is to provide room for the box shadow */
-   padding: 10px
+.front-cols .wp-post-image {
+    width: 100%;
+    height: auto;
 }
 .front-cols .post .date {
     font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0.625em;
 }
-.fl-site-wrapper,
-.idi-footer-popup-content,
-.idi-footer-main,
-.fl-uiOptions-fatPanel {
-    max-width: 1024px;
-    min-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+.front-cols .post h2 {
+    margin-top: 0;
+    margin-bottom: 0.625em;
 }
-a {
+.front-cols .post h2 a {
+    color: #202020;
+    font-style: normal;
+    font-weight: 700;
     text-decoration: none;
 }
+.idi-research-clusters {
+    max-width: 1024px;
+}
 /* Background of main content */
-.fl-site-header,
-.fl-site-main-body {
-    padding-bottom: 1em;
-    max-width: inherit;
-    min-width: inherit;
-}
-.fl-site-header {
-}
-.fl-site-main-body,
-.idi-footer-popup {
-/*    background-color: #efefef; /* this will become the background of the footer */
-}
 .fl-site-logo {
     background-repeat: no-repeat;
     background-image: url('images/idi_logo.png');
@@ -116,11 +135,15 @@ a {
     margin-right: auto;
 }
 .fl-site-name {
+    margin-top: 1.125em;
     text-transform: lowercase;
     text-align: center;
     font-style: italic;
     font-size: 1.75em;
     color: #585858;
+}
+.fl-site-header a {
+    text-decoration: none;
 }
 
 /* Main site navigation */
@@ -136,19 +159,21 @@ a {
     font-weight: 900;
     font-size: 0.875em;
 }
+.fl-site-nav-main ul li {
+    margin: 0 0.75em;
+}
 .fl-site-nav-main li.current_page_item {
     border: 2px solid #414141;
-}
-.fl-site-nav-main li.current_page_item a {
-    color: #000000;
+    border-radius: 4px;
 }
 .fl-site-nav-main .menu {
     width: 100%;
 }
 .fl-site-nav-main ul {
-    width: 38em;
-    margin: 0 auto;
-    padding: 1em 0;
+    text-align: center;
+    margin: 0;
+    padding-top: 1.125em;
+    padding-bottom: 1.5em;
 }
 
 /* Ensure nav elements stick to top of screen */
@@ -159,13 +184,12 @@ a {
     width: 100%;
     position: fixed;
     top: 0;
+    left: 0;
+    background: url("images/bg.png") repeat scroll center center transparent;
+    z-index: 9999;
 }
 .fl-site-nav-main.sticky .menu {
-    background-color: #ffffff;
-    max-width: 1260px;
-    min-width: 780px;
-    margin-left: auto;
-    margin-right: auto;
+    border-bottom: 1px solid #202020;
 }
 .idi-section-nav.sticky {
     position: fixed;
@@ -177,114 +201,129 @@ a {
  */
 
 /* general to all circles */
-#research-clusters {
+.idi-research-clusters {
     position: relative;
     height: 575px;
 }
-#research-clusters .idi-research-cluster {
+.idi-research-clusters .idi-research-cluster {
     vertical-align: middle;
 }
-#research-clusters .idi-research-cluster * {
+.idi-research-clusters .idi-research-cluster * {
     display: inline-block;
 }
-#research-clusters .idi-research-cluster .idi-cluster-arrow {
+.idi-research-clusters .idi-research-cluster .idi-cluster-arrow {
     width: 21px;
-    height: 21px;
+    background-repeat: no-repeat;
+    background-position: 50%;
 }
-#research-clusters .idi-research-cluster a {
+.idi-research-clusters .idi-research-cluster div {
+    opacity: 0.7;
+}
+.idi-research-clusters .idi-cluster-name {
+    position: absolute;
     font-style: italic;
     font-weight: 700;
+    text-decoration: none;
     text-transform: lowercase;
     line-height: 1em;
 }
-#research-clusters .idi-research-cluster div {
-    opacity: 0.7;
-}
 /* position of each cluster */
-#research-clusters .idi-dev-cluster {
+.idi-research-clusters .idi-dev-cluster {
     position: absolute;
-    top: 195px;
-    left: 64px;
+    top: 175px;
+    left: 65px;
 }
-#research-clusters .idi-info-cluster {
+.idi-research-clusters .idi-info-cluster {
     position: absolute;
-    top: 130px;
-    right: 360px;
+    top: 85px;
+    right: 280px;
 }
-#research-clusters .idi-policy-cluster {
+.idi-research-clusters .idi-policy-cluster {
     position: absolute;
-    top: 390px;
-    left: 176px;
+    top: 360px;
+    left: 195px;
 }
-#research-clusters .idi-mobile-cluster {
+.idi-research-clusters .idi-mobile-cluster {
     position: absolute;
-    top: 90px;
-    left: 688px;
+    top: 60px;
+    left: 700px;
 }
 
 /* Design and Dev cluster */
-#research-clusters .idi-dev-cluster-circle {
+.idi-research-clusters .idi-dev-cluster-circle {
     width: 141px;
     height: 141px;
     background-color: #17B46C;
     border-radius: 70px;
 }
-#research-clusters .idi-dev-cluster-arrow {
+.idi-research-clusters .idi-dev-cluster-arrow {
     background-image:  url("images/arrow_lg_blue_right.png");
+    height: 141px;
 }
-#research-clusters .idi-dev-cluster-name {
+.idi-research-clusters .idi-dev-cluster-name {
     color: #17B46C;
     font-size: 1.75em;
     width: 8em;
+    top: 36%;
+    left: 170px;
 }
 
 /* Information and Implementation Practices cluster */
-#research-clusters .idi-info-cluster-circle {
+.idi-research-clusters .idi-info-cluster-circle {
     width: 121px;
     height: 121px;
     background-color: #0EB0E6;
     border-radius: 60px;
 }
-#research-clusters .idi-info-cluster-arrow {
+.idi-research-clusters .idi-info-cluster-arrow {
     background-image:  url("images/arrow_lg_blue_left.png");
+    height: 121px;
 }
-#research-clusters .idi-info-cluster-name {
+.idi-research-clusters .idi-info-cluster-name {
     color: #0EB0E6;
     font-size: 1.5em;
     text-align: right;
     width: 10em;
+    top: 36%;
+    right: 150px;
 }
 
 /* Business Case, Policies, Standards and Legislation cluster */
-#research-clusters .idi-policy-cluster-circle {
+.idi-research-clusters .idi-policy-cluster-circle {
     width: 70px;
     height: 70px;
     background-color: #EF5C25;
     border-radius: 35px;
 }
-#research-clusters .idi-policy-cluster-arrow {
+.idi-research-clusters .idi-policy-cluster-arrow {
     background-image:  url("images/arrow_lg_blue_right.png");
+    height: 70px;
 }
-#research-clusters .idi-policy-cluster-name {
+.idi-research-clusters .idi-policy-cluster-name {
     color: #EF5C25;
     font-size: 1.5em;
     width: 10em;
+    top: 27%;
+    left: 100px;
 }
 
 /* Moble and Pervasive Computing cluster */
-#research-clusters .idi-mobile-cluster-circle {
+.idi-research-clusters .idi-mobile-cluster-circle {
     width: 88px;
     height: 88px;
     background-color: #FED307;
     border-radius: 44px;
 }
-#research-clusters .idi-mobile-cluster-arrow {
+.idi-research-clusters .idi-mobile-cluster-arrow {
     background-image:  url("images/arrow_lg_blue_right.png");
+    height: 88px;
 }
-#research-clusters .idi-mobile-cluster-name {
+.idi-research-clusters .idi-mobile-cluster-name {
     color: #FED307;
     width: 7em;
     font-size: 1.3125em;
+    top: 33%;
+    left: 115px;
 }
 
 
@@ -294,27 +333,19 @@ a {
 }
 
 /* Footer */
-.idi-footer-popup {
-    border-bottom: 1px solid gray;
-}
-.idi-footer-main {
-    text-align: left;
-    position: relative;
-/*
-    background-color: #ffffff;
-*/
-}
 .fl-site-footer {
-    margin-top: 0;
+    padding-top: 1em;
+    border-top: 1px solid #202020;
+    font-style: italic;
 }
-.idi-mailing-list {
+.fl-site-footer .idi-cfi {
+    margin-top: 1em;
+    font-size: 1.2em;
 }
-.fl-site-footer ul {
-    margin-left: 0;
+.fl-site-footer .idi-cfi a {
+    font-weight: 400;
 }
-.fl-site-footer ul li {
-    list-style: none;
-}
+
 /* Tweaking FSS column sizes */
 .fl-col-mixed .fl-col-fixed {
     padding: 0 1em;
@@ -330,11 +361,7 @@ a {
 }
 
 /* Twitter widget */
-.sidebar-tweets {
-    border-top:#f4be3d solid 5px;
-    background: #EEEEEE;
-}
-.sidebar-tweets h2 {
+.twitter-feed-group h2 {
     background-image: url("images/twitter_bird.png");
     background-repeat: no-repeat;
     background-position: 0 50%;
@@ -345,23 +372,27 @@ a {
     text-transform: lowercase;
     font-style: italic;
 }
-.sidebar-tweets .tweet-container {
+.twitter-feed-group .tweet-container {
     padding: 1em;
 }
-.sidebar-tweets .twitter-feed-group {
+.twitter-feed-group {
     margin-top: 0.5em;
     margin-bottom: 1em;
 }
-.sidebar-tweets .twitter-follow-button {
+.twitter-feed-group a.twitter-follow-button {
     font-size: 1.2em;
+    color: #202020;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    text-decoration: none;
 }
-.sidebar-tweets ul {
-    margin: 0px;    
+.twitter-feed-group ul {
+    margin-left: 0px;
 }
-.sidebar-tweets ul li {
+.twitter-feed-group ul li {
     list-style: none;
 }
-.sidebar-tweets .tweet-date {
+.twitter-feed-group .tweet-date {
     font-style: italic;
     text-decoration: none;
 }
@@ -379,6 +410,7 @@ a {
     color: #414141;
     font-style: italic;
     font-weight: 400;
+    font-size: 1em;
     text-transform: lowercase;
     border-radius: 3px;
     background-position: 3% 50%;
@@ -425,4 +457,54 @@ a.anchor {
 }
 .idi-login-form #loginform p {
     display: inline;
+}
+
+/* Institution List on front page */
+.idi-institutions.idi-box {
+    margin-top: 0;
+}
+.idi-institutions h3 {
+    color: #774A9E;
+    margin-top: 0;
+    margin-bottom: 0.625em;
+    font-style: italic;
+}
+.idi-institutions p {
+    font-style: italic;
+    margin-bottom: 0.625em;
+}
+ul.idi-institution-list {
+    margin-left: 0;
+    padding-bottom: 1.25em;
+}
+ul.idi-institution-list li {
+    list-style-type: none;
+}
+ul.idi-institution-list li:before {
+    content: "•";
+    padding-right: 0.5em;
+    color: #CCCCCC;
+}
+
+/* Contact Us section */
+.idi-mailing-address,
+.idi-phone,
+.idi-email {
+    font-size: 0.875em;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    background-image: url("images/arrow_lg_blue_right.png");
+    background-repeat: no-repeat;
+}
+.idi-mailing-list {
+    margin-top: 1em;
+    font-style: italic;
+}
+.idi-mailing-list form {
+    margin-top: 0.375em;
+}
+.idi-more {
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: none;
 }

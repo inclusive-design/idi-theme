@@ -7,26 +7,26 @@ Template Name: Front Page
 <?php get_header(); ?>
 	
 <div class="fl-centered fl-col-mixed fl-site-wrapper">
-	<nav role="navigation" id="research-clusters" class="fl-centered fl-clearfix">
+	<nav role="navigation" class="idi-research-clusters fl-centered fl-clearfix">
 		<div class="idi-research-cluster idi-dev-cluster">
 			<a href="design-and-development"> <div class="idi-dev-cluster-circle"></div> </a>
 			<div class="idi-cluster-arrow idi-dev-cluster-arrow"> </div>
-			<a class="idi-dev-cluster-name" href="design-and-development"> Design & Development</a>
+			<a class="idi-cluster-name idi-dev-cluster-name" href="design-and-development"> Design & Development</a>
 		</div>
 		<div class="idi-research-cluster idi-info-cluster">
-			<a class="idi-info-cluster-name" href="implementation-and-information-practices"> Information & Implementation Practices</a>
+			<a class="idi-cluster-name idi-info-cluster-name" href="implementation-and-information-practices"> Information & Implementation Practices</a>
 			<div class="idi-cluster-arrow idi-info-cluster-arrow"> </div>
 			<a href="implementation-and-information-practices"> <div class="idi-info-cluster-circle"></div> </a>
 		</div>
 		<div class="idi-research-cluster idi-policy-cluster">
 			<a href="design-and-development"> <div class="idi-policy-cluster-circle"></div> </a>
 			<div class="idi-cluster-arrow idi-policy-cluster-arrow"> </div>
-			<a class="idi-policy-cluster-name" href="design-and-development"> Business Case, Policies, Standards & Legislation</a>
+			<a class="idi-cluster-name idi-policy-cluster-name" href="design-and-development"> Business Case, Policies, Standards & Legislation</a>
 		</div>
 		<div class="idi-research-cluster idi-mobile-cluster">
 			<a href="design-and-development"> <div class="idi-mobile-cluster-circle"></div> </a>
 			<div class="idi-cluster-arrow idi-mobile-cluster-arrow"> </div>
-			<a class="idi-mobile-cluster-name" href="design-and-development"> Moble & Pervasive Computing</a>
+			<a class="idi-cluster-name idi-mobile-cluster-name" href="design-and-development"> Moble & Pervasive Computing</a>
 		</div>
 
 	</nav>
@@ -40,12 +40,17 @@ Template Name: Front Page
 			$more = 0; 
 			?>
 			<div class="fl-col">
-				<div class="box post">
-				    <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-			        <div class="date"><?php the_time('F jS, Y') ?></div>
-		            <div class="entry">
-		                <?php the_excerpt(); ?>
-		            </div>
+				<div class="idi-box idi-highlight-box post">
+					<?php if(has_post_thumbnail()) {
+						the_post_thumbnail();
+					} ?>
+					<div class="idi-box-text">
+					    <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+				        <div class="date"><?php the_time('F jS, Y') ?></div>
+			            <div class="entry">
+			                <?php the_excerpt(); ?>
+			            </div>
+					</div>
 				</div>
 			</div>
  		<?php endwhile; ?>
@@ -54,39 +59,90 @@ Template Name: Front Page
 // This page uses The Twitter Feed Wordpress Plugin found at
 //     http://pleer.co.uk/wordpress/plugins/wp-twitter-feed/
 
-$twitter_feed_opts = ' followlink="no" num="1" img="no" tprefix="" tsuffix="ago" other=”yes”';
+$twitter_feed_opts = ' followlink="no" num="1" linktotweet="no" tweetintent="no" img="no" tprefix="" tsuffix="ago" other=”yes” ulclass="twitter-list" liclass="twitter-tweet"';
 ?>
 
 		<div class="fl-col">
-			<div class="box twitter-feed-group">
-				<a class="twitter-follow-button" rel="external nofollow" href="http://twitter.com/aegisproj">@aegisproj</a>
-				<?php echo do_shortcode('[twitter-feed username="aegisproj"' . $twitter_feed_opts . ']'); ?>
+			<div class="idi-box idi-highlight-box twitter-feed-group">
+				<div class="idi-box-text">
+					<a class="twitter-follow-button" rel="external nofollow" href="http://twitter.com/aegisproj">@aegisproj</a>
+					<?php echo do_shortcode('[twitter-feed username="aegisproj"' . $twitter_feed_opts . ']'); ?>
+				</div>
 			</div>
 
-			<div class="box twitter-feed-group">
-				<a class="twitter-follow-button" rel="external nofollow" href="http://twitter.com/FluidProject">@FluidProject</a>
-				<?php echo do_shortcode('[twitter-feed username="FluidProject"' . $twitter_feed_opts . ']'); ?>
+			<div class="idi-box idi-highlight-box twitter-feed-group">
+				<div class="idi-box-text">
+					<a class="twitter-follow-button" rel="external nofollow" href="http://twitter.com/SNOWocad">@SNOWocad</a>
+					<?php echo do_shortcode('[twitter-feed username="SNOWocad"' . $twitter_feed_opts . ']'); ?>
+				</div>
 			</div>
 
 		</div>
 
 		<div class="fl-col">
-			<div class="box twitter-feed-group">
-				<a class="twitter-follow-button" rel="external nofollow" href="http://twitter.com/SNOWocad">@SNOWocad</a>
-				<?php echo do_shortcode('[twitter-feed username="SNOWocad"' . $twitter_feed_opts . ']'); ?>
+			<div class="idi-box idi-highlight-box twitter-feed-group">
+				<div class="idi-box-text">
+					<a class="twitter-follow-button" rel="external nofollow" href="http://twitter.com/FluidProject">@FluidProject</a>
+					<?php echo do_shortcode('[twitter-feed username="FluidProject"' . $twitter_feed_opts . ']'); ?>
+				</div>
 			</div>
 
-			<div>
-				IDI Institution list,
-				contact us,
-				<div class="idi-mailing-list">
-					<div id="listForm">
-						<div>
-							Stay updated with our mailing list
-						</div>
-						<form id="myForm" method="post" action="<?php bloginfo('stylesheet_directory'); ?>/mailinglist.php" onsubmit="return submitForm()">
-							<input type="email" name="listEmail" id="listEmail" placeholder="your email address" required />
-							<input type="submit" value="submit" />
+			<div class="idi-box idi-institutions">
+				<div class="idi-box-text">
+					<h3>IDI Institutions</h3>
+					<p>Find out more about their ongoing research</p>
+					<ul class="idi-institution-list">
+						<li><a href="about/ocadu">OCAD University</a></li>
+						<li><a href="ryerson">Ryerson University</a></li>
+						<li><a href="about/york">York University</a></li>
+						<li><a href="about/uoit">UOIT</a></li>
+						<li><a href="about/utoronto">University of Toronto</a></li>
+						<li><a href="about/sheridan">Sheridan College</a></li>
+						<li><a href="about/george-brown">George Brown College</a></li>
+						<li><a href="about/seneca">Seneca College</a></li>
+					</ul>
+					<h3>Contact us!</h3>
+					<div class="idi-mailing-address">
+						Inclusive Design Institute
+						<a href="http://maps.google.com/maps?q=205+Richmond+Street+West,+Toronto,+ON,+Canada&hl=en&sll=37.0625,-95.677068&sspn=40.137381,47.8125&oq=205+richmon&hnear=205+Richmond+St+W,+Toronto,+Toronto+Division,+Ontario+M5V+1V6,+Canada&t=m&z=16">
+							205 Richmond Street West</a>
+						2nd Floor
+						Toronto, ON M5V 1V3
+						Canada
+					</div>
+					<div class="idi-phone">
+						(416) 977-6000, x3968
+					</div>
+					<div class="idi-email">
+						<a href="mailto:idi@ocadu.ca">idi@ocadu.ca</a>
+					</div>
+					<script type="text/javascript">
+						function submitForm() {
+							var listForm = $('#myForm');
+							var listEmail = $('#listEmail').val();
+
+							//validate for non-html5 browsers
+							var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+						    if(reg.test(listEmail) == false) {
+								alert("Invalid email");			//switch to accessible html?
+							} else {
+								$.ajax({
+									url: listForm.attr('action'),
+									type: listForm.attr('method'),
+									data: {email: listEmail},
+									success: function(email) {
+										$("#listForm").html("<p>Success! " + email + " has been added to the mailing list. You should receive a confirmation email shortly.</p>"); 	
+									}
+								});
+
+							}
+							return false;
+						}
+					</script>
+					<div class="idi-mailing-list">
+						Mailing list sign up
+						<form id="idiMailingListSignup" method="post" action="<?php bloginfo('stylesheet_directory'); ?>/mailinglist.php" onsubmit="return submitForm()">
+							<input type="email" name="listEmail" id="listEmail" placeholder="Your email address" required />
 						</form>
 					</div>
 				</div>
