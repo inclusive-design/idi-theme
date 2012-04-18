@@ -84,8 +84,7 @@ h2 {
 .fl-site-wrapper,
 .idi-footer-popup-content,
 .idi-footer-main,
-.fl-uiOptions-fatPanel,
-.idi-loginOut-fatPanel {
+.fl-uiOptions-fatPanel {
     max-width: 1024px;
     min-width: 800px;
     margin-left: auto;
@@ -368,6 +367,9 @@ a {
 }
 
 /* Buttons at the top of the window */
+.fl-uiOptions-fatPanel {
+    margin-bottom: 2em;
+}
 .fl-uiOptions-fatPanel .fl-panelBar {
     height: 0;
 }
@@ -384,10 +386,12 @@ a {
     padding-left: 25px;
     margin-top: 0px;
     font-weight: bold;
+    border: thin;
 }
 .fl-uiOptions-fatPanel .fl-toggleButton {
     background-image: url("images/gear_white.png");
     margin-top: 1px;
+    border-style: none solid solid solid;
 }
 .idi-loginout {
     width: 4em;
@@ -401,13 +405,7 @@ a {
     background-image: url("images/gear_white.png");
     position: absolute;
     right: 12.5em;
-    border-width: 0 0 1px;
-}
-.idi-loginOut-fatPanel, .fl-panelBar {
-    position: relative;
-}
-.idi-loginout a {
-    color: #7598A5;
+    border-style: none solid solid solid;
 }
 
 /* for pages with a ToC, ensure anchors don't hide under top nav */

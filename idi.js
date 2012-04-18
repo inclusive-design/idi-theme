@@ -44,8 +44,7 @@ var idi = idi || {};
         }
     };
 
-    var selectorUIOContainer = ".flc-uiOptions-fatPanel";
-    var selectorLoginContainer = ".idi-loginOut-fatPanel";
+    var selectorUIOContainer = selectorLoginContainer = ".flc-uiOptions-fatPanel";
     var selectorLoginPanel = ".idi-slidingPanel-panel";
     var selectorLoginToggleBtn = ".idi-slidingPanel-toggleButton";
     
@@ -66,12 +65,6 @@ var idi = idi || {};
                     var uioToggleButton = $('.flc-slidingPanel-toggleButton');
                     
                     idi.closeOpenedPanel(uioPanel, uioToggleButton);
-                    
-                    // swap the login container to be in front of UIO container
-                    // so both "login" and "UIO" toggle buttons get pushed down
-                    // below the container that is currently shown
-                  $(selectorLoginContainer).insertBefore(selectorUIOContainer);
-                    
                 }
             }
         });
@@ -91,11 +84,6 @@ var idi = idi || {};
                         var loginToggleButton = $(selectorLoginToggleBtn);
                         
                         idi.closeOpenedPanel(loginPanel, loginToggleButton);
-
-                        // swap the login container to be after the UIO container
-                        // so both "login" and "UIO" toggle buttons get pushed down
-                        // below the container that is currently shown
-                        $(selectorLoginContainer).insertAfter(selectorUIOContainer);
                     }
                 }
             }
