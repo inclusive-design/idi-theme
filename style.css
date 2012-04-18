@@ -449,8 +449,6 @@ a.anchor {
 /* Login/out pull-down panel */
 .idi-loginOutPanel {
     background-color: #FFFFFF;
-    /*clear: both;
-    position: absolute;*/
     z-index: 999;
     top: 0;
     padding: 2em;

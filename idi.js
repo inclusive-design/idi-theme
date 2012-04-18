@@ -44,23 +44,21 @@ var idi = idi || {};
         }
     };
 
-    var selectorUIOContainer, selectorLoginContainer;
-    
-    selectorUIOContainer = selectorLoginContainer = ".flc-uiOptions-fatPanel";
-    
-    var selectorLoginPanel = ".idi-slidingPanel-panel";
-    var selectorLoginToggleBtn = ".idi-slidingPanel-toggleButton";
-    
-    var selectorUIOPanel = '.flc-slidingPanel-panel';
-    var selectorUIOToggleButton = '.flc-slidingPanel-toggleButton';
-    
-    var selectorLoginForm = ".idi-login-form";
-    
+    idi.selectors = {
+        UIOContainer:  ".flc-uiOptions-fatPanel",
+        loginContainer: ".flc-uiOptions-fatPanel",
+        loginPanel: ".idi-slidingPanel-panel",
+        loginToggleBtn: ".idi-slidingPanel-toggleButton",
+        UIOPanel: '.flc-slidingPanel-panel',
+        UIOToggleButton: '.flc-slidingPanel-toggleButton',
+        loginForm: ".idi-login-form"
+    };
+
     idi.setUpLoginOutPanel = function () {
-        fluid.slidingPanel(selectorLoginContainer, {
+        fluid.slidingPanel(idi.selectors.loginContainer, {
             selectors: {
-                panel: selectorLoginPanel,
-                toggleButton: selectorLoginToggleBtn
+                panel: idi.selectors.loginPanel,
+                toggleButton: idi.selectors.loginToggleBtn
             },
             strings: {
                 showText: "Login",
@@ -69,26 +67,26 @@ var idi = idi || {};
             listeners: {
                 onPanelShow: function () {
                     // close UIO panel if it was open
-                    idi.closeOpenedPanel($(selectorUIOPanel), $(selectorUIOToggleButton));
+                    idi.closeOpenedPanel($(idi.selectors.UIOPanel), $(idi.selectors.UIOToggleButton));
                 }
             }
         });
-        $(selectorLoginForm).show();
+        $(idi.selectors.loginForm).show();
     };
 
     $(document).ready(function () {
-        idi.makeTopNavSticky();
         idi.setUpLoginOutPanel();
-        
-        fluid.demands("fluid.slidingPanel", ["fluid.uiOptions", "fluid.uiEnhancer"], {
-            options: {
-                listeners: {
-                    afterPanelShow: function () {
-                        // close login panel if it was open
-                        idi.closeOpenedPanel($(selectorLoginPanel), $(selectorLoginToggleBtn));
-                    }
+        idi.makeTopNavSticky();
+    });
+
+    fluid.demands("fluid.slidingPanel", ["fluid.uiOptions", "fluid.uiEnhancer"], {
+        options: {
+            listeners: {
+                afterPanelShow: function () {
+                    // close login panel if it was open
+                    idi.closeOpenedPanel($(idi.selectors.loginPanel), $(idi.selectors.loginToggleBtn));
                 }
             }
-        });
+        }
     });
 })(jQuery);
