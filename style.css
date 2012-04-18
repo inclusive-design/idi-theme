@@ -498,3 +498,8 @@ ul.idi-institution-list li:before {
 .idi-mailing-list form {
     margin-top: 0.375em;
 }
+.idi-more {
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: none;
+}
