@@ -67,10 +67,15 @@ body {
 .fl-site-nav-main.sticky .menu,
 .fl-site-main-body,
 .fl-site-footer {
-    max-width: 1280px;
+    max-width: 1024px;
     min-width: 800px;
     margin-left: auto;
     margin-right: auto;
+}
+.fl-col-flex4 .fl-col {
+    margin: 0;
+    padding: 0;
+    width: 25%;
 }
 a {
     color: #0075B0;
@@ -89,11 +94,8 @@ h3 {
 .idi-box .idi-box-text {
     padding: 20px;
 }
-.idi-shadow-box {
+.idi-highlight-box {
     background-color: #ffffff;
-    -moz-box-shadow: 0 0 5px 3px #DDDDDD;
-    -webkit-box-shadow: 0 0 5px 3px #DDDDDD;
-    box-shadow: 0 0 5px 3px #DDDDDD;
 }
 
 /* Front Page styles */
@@ -157,11 +159,12 @@ h3 {
     font-weight: 900;
     font-size: 0.875em;
 }
+.fl-site-nav-main ul li {
+    margin: 0 0.75em;
+}
 .fl-site-nav-main li.current_page_item {
     border: 2px solid #414141;
-}
-.fl-site-nav-main li.current_page_item a {
-    color: #000000;
+    border-radius: 4px;
 }
 .fl-site-nav-main .menu {
     width: 100%;
@@ -456,8 +459,10 @@ a.anchor {
     margin-top: 0;
 }
 .idi-institutions h3 {
+    color: #774A9E;
     margin-top: 0;
     margin-bottom: 0.625em;
+    font-style: italic;
 }
 .idi-institutions p {
     font-style: italic;
@@ -466,10 +471,14 @@ a.anchor {
 ul.idi-institution-list {
     margin-left: 0;
     padding-bottom: 1.25em;
-    border-bottom: 1px solid #202020;
 }
 ul.idi-institution-list li {
     list-style-type: none;
+}
+ul.idi-institution-list li:before {
+    content: "•";
+    padding-right: 0.5em;
+    color: #CCCCCC;
 }
 
 /* Contact Us section */
@@ -484,7 +493,13 @@ ul.idi-institution-list li {
 }
 .idi-mailing-list {
     margin-top: 1em;
+    font-style: italic;
 }
 .idi-mailing-list form {
     margin-top: 0.375em;
+}
+.idi-more {
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: none;
 }
