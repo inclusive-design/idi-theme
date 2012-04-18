@@ -64,6 +64,7 @@ body {
 .fl-uiOptions-fatPanel,
 .idi-loginOut-fatPanel,
 .fl-site-header,
+.fl-site-nav-main.sticky .menu,
 .fl-site-main-body,
 .fl-site-footer {
     max-width: 1280px;
@@ -180,13 +181,12 @@ h3 {
     width: 100%;
     position: fixed;
     top: 0;
+    left: 0;
+    background: url("images/bg.png") repeat scroll center center transparent;
+    z-index: 9999;
 }
 .fl-site-nav-main.sticky .menu {
-    background-color: #ffffff;
-    max-width: 1260px;
-    min-width: 780px;
-    margin-left: auto;
-    margin-right: auto;
+    border-bottom: 1px solid #202020;
 }
 .idi-section-nav.sticky {
     position: fixed;
