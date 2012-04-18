@@ -72,6 +72,11 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+.fl-col-flex4 .fl-col {
+    margin: 0;
+    padding: 0;
+    width: 25%;
+}
 a {
     color: #0075B0;
 }
@@ -469,6 +474,11 @@ ul.idi-institution-list {
 }
 ul.idi-institution-list li {
     list-style-type: none;
+}
+ul.idi-institution-list li:before {
+    content: "•";
+    padding-right: 0.5em;
+    color: #CCCCCC;
 }
 
 /* Contact Us section */

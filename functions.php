@@ -15,7 +15,7 @@ add_action('wp_head', 'add_idi_files');
  * Customize the 'more' link at the end of a post excerpt
  */
 function idi_excerpt_more($more) {
-	return ' <a class="more" href="' + the_permalink() + '">Read article</a>';
+	return ' <a class="more" href="' + the_permalink() + '">read article</a>';
 
 }
 add_filter('excerpt_more', 'idi_excerpt_more');
