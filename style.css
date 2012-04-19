@@ -672,3 +672,59 @@ img.idi-about-person {
     list-style-type: none;
     margin-top: 0.5em;
 }
+
+/* infrastructure page */
+.idi-infra h1 {
+    font-size: 48pt;
+    font-weight: bold;
+    font-style: italic;
+    color:  #D33476;
+    text-shadow: 1px 1px 0px #ffffff;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+.idi-infra h2 {
+    font-size: 1.3em;
+    color: #0076B0;
+    line-height: 1.2em;
+    padding-left: 1em;
+    background-image: url("images/arrow_lg_blue_right.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin-top: 0;
+}
+.idi-infra h4 {
+    color: #0076B0;
+}
+.idi-infra-bookit {
+    background-image: url("images/arrow_lg_blue_right.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 2em;
+}
+.idi-infra h5 {
+    font-style: italic;
+    color: #808080;
+    padding-bottom: 0.5em;
+}
+.idi-infra .idi-3cols {
+    width: 72%;
+}
+.idi-infra .idi-summary-title {
+    font-size: 28pt;
+    color: #3FB66C;
+    font-weight: bold;
+    font-style: italic;
+    background-image: none;
+}
+.idi-infra-row {
+    padding-bottom: 2em;
+}
+.idi-infra-item {
+    margin-bottom: 2em;
+    padding-left: 1.6em;
+}
+.idi-infra-campus-image {
+    width: 300px;
+    height: 300px;
+}
