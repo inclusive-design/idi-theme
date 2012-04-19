@@ -693,6 +693,9 @@ img.idi-about-person {
     background-position: left top;
     margin-top: 0;
 }
+.idi-infra a.idi-map-link {
+    text-decoration: none;
+}
 .idi-infra h4 {
     color: #0076B0;
 }

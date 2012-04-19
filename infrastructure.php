@@ -32,7 +32,9 @@ Template Name: Infrastructure
 			<img src="" alt="A picture of facility." />
 		</div>
 		<div class="fl-col">
-			<h2>205 Richmond St. W.<br />Toronto, Canada</h2>
+			<a class="idi-map-link" href="http://maps.google.com/maps?q=205+Richmond+Street+West,+Toronto,+ON,+Canada&hl=en&sll=37.0625,-95.677068&sspn=40.137381,47.8125&oq=205+richmon&hnear=205+Richmond+St+W,+Toronto,+Toronto+Division,+Ontario+M5V+1V6,+Canada&t=m&z=16">
+				<h2>205 Richmond St. W.<br />Toronto, Canada</h2>
+			</a>
 			
 			<div class="idi-infra-item">
 				<h3>Collaboration room</h3>
@@ -49,8 +51,9 @@ Template Name: Infrastructure
 			</div>
 		</div>
 		<div class="fl-col">
-			<h2 class="idi-infra-h2">230 Richmond St. W.<br />Toronto, Canada</h2>
-			
+			<a class="idi-map-link" href="http://maps.google.com/maps?q=205+Richmond+Street+West,+Toronto,+ON,+Canada&hl=en&sll=37.0625,-95.677068&sspn=40.137381,47.8125&oq=205+richmon&hnear=205+Richmond+St+W,+Toronto,+Toronto+Division,+Ontario+M5V+1V6,+Canada&t=m&z=16">
+				<h2>230 Richmond St. W.<br />Toronto, Canada</h2>
+			</a>
 			<div class="idi-infra-item">
 				<h3>Captioning lab</h3>
 				<h4><span class="idi-infra-bookit">Book it</span></h4>
@@ -66,7 +69,9 @@ Template Name: Infrastructure
 			</div>
 		</div>
 		<div class="fl-col">
-			<h2 class="idi-infra-h2">49 McCaul St.<br />Toronto, Canada</h2>
+			<a class="idi-map-link" href="http://maps.google.com/maps?q=49+McCaul+Street,+Toronto,+ON,+Canada&hl=en&sll=43.649461,-79.38875&sspn=0.01343,0.013175&oq=49+Mc,+Toronto,+ON,+Canada&hnear=49+McCaul+St,+Toronto,+Ontario+M5T+2W7,+Canada&t=m&z=17">
+				<h2>49 McCaul St.<br />Toronto, Canada</h2>
+			</a>
 			
 			<div class="idi-infra-item">
 				<h3>Blackbox theatre</h3>
