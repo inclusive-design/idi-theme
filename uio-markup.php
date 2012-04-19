@@ -9,7 +9,7 @@
 		</div>
 			
 		<div class="fl-panelBar">
-			<button class="flc-slidingPanel-toggleButton fl-toggleButton">Show/Hide</button>
+			<button class="flc-slidingPanel-toggleButton fl-toggleButton idi-uio-button">Show/Hide</button>
 			<button class="idi-slidingPanel-toggleButton fl-toggleButton idi-loginout">Show/Hide</button>
 		</div>
 	</div>

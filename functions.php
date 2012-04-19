@@ -1,6 +1,9 @@
 <?php
 add_theme_support( 'post-thumbnails' ); 
 
+// Override the default UIO strings
+$uio_strings_custom = 'showText: "Preferences", hideText: "Preferences"';
+
 // This site uses The Twitter Feed Wordpress Plugin found at
 //     http://pleer.co.uk/wordpress/plugins/wp-twitter-feed/
 
