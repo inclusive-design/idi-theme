@@ -1,6 +1,11 @@
 <?php
 add_theme_support( 'post-thumbnails' ); 
 
+// This site uses The Twitter Feed Wordpress Plugin found at
+//     http://pleer.co.uk/wordpress/plugins/wp-twitter-feed/
+
+$twitter_feed_opts = ' followlink="no" num="1" linktotweet="no" tweetintent="no" img="no" tprefix="" tsuffix="ago" other=”yes” ulclass="twitter-list" liclass="twitter-tweet"';
+
 /**
  *  Add IDI-specific JS files to the header
  */

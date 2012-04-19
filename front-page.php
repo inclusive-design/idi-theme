@@ -46,7 +46,7 @@ Template Name: Front Page
 					} ?>
 					<div class="idi-box-text">
 					    <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-				        <div class="date"><?php the_time('F jS, Y') ?></div>
+				        <div class="idi-date"><?php the_time('F jS, Y') ?></div>
 			            <div class="entry">
 			                <?php the_excerpt(); ?>
 			            </div>
@@ -55,37 +55,14 @@ Template Name: Front Page
 			</div>
  		<?php endwhile; ?>
 
-<?php
-// This page uses The Twitter Feed Wordpress Plugin found at
-//     http://pleer.co.uk/wordpress/plugins/wp-twitter-feed/
-
-$twitter_feed_opts = ' followlink="no" num="1" linktotweet="no" tweetintent="no" img="no" tprefix="" tsuffix="ago" other=”yes” ulclass="twitter-list" liclass="twitter-tweet"';
-?>
-
 		<div class="fl-col">
-			<div class="idi-box idi-highlight-box twitter-feed-group">
-				<div class="idi-box-text">
-					<a class="twitter-follow-button" rel="external nofollow" href="http://twitter.com/aegisproj">@aegisproj</a>
-					<?php echo do_shortcode('[twitter-feed username="aegisproj"' . $twitter_feed_opts . ']'); ?>
-				</div>
-			</div>
-
-			<div class="idi-box idi-highlight-box twitter-feed-group">
-				<div class="idi-box-text">
-					<a class="twitter-follow-button" rel="external nofollow" href="http://twitter.com/SNOWocad">@SNOWocad</a>
-					<?php echo do_shortcode('[twitter-feed username="SNOWocad"' . $twitter_feed_opts . ']'); ?>
-				</div>
-			</div>
+			<?php get_template_part('tweets', 'aegisprog') ?>
+			<?php get_template_part('tweets', 'SNOWocad') ?>
 
 		</div>
 
 		<div class="fl-col">
-			<div class="idi-box idi-highlight-box twitter-feed-group">
-				<div class="idi-box-text">
-					<a class="twitter-follow-button" rel="external nofollow" href="http://twitter.com/FluidProject">@FluidProject</a>
-					<?php echo do_shortcode('[twitter-feed username="FluidProject"' . $twitter_feed_opts . ']'); ?>
-				</div>
-			</div>
+			<?php get_template_part('tweets', 'FluidProject') ?>
 
 			<div class="idi-box idi-institutions">
 				<div class="idi-box-text">
@@ -116,34 +93,9 @@ $twitter_feed_opts = ' followlink="no" num="1" linktotweet="no" tweetintent="no"
 					<div class="idi-email">
 						<a href="mailto:idi@ocadu.ca">idi@ocadu.ca</a>
 					</div>
-					<script type="text/javascript">
-						function submitForm() {
-							var listForm = $('#myForm');
-							var listEmail = $('#listEmail').val();
-
-							//validate for non-html5 browsers
-							var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
-						    if(reg.test(listEmail) == false) {
-								alert("Invalid email");			//switch to accessible html?
-							} else {
-								$.ajax({
-									url: listForm.attr('action'),
-									type: listForm.attr('method'),
-									data: {email: listEmail},
-									success: function(email) {
-										$("#listForm").html("<p>Success! " + email + " has been added to the mailing list. You should receive a confirmation email shortly.</p>"); 	
-									}
-								});
-
-							}
-							return false;
-						}
-					</script>
 					<div class="idi-mailing-list">
 						Mailing list sign up
-						<form id="idiMailingListSignup" method="post" action="<?php bloginfo('stylesheet_directory'); ?>/mailinglist.php" onsubmit="return submitForm()">
-							<input type="email" name="listEmail" id="listEmail" placeholder="Your email address" required />
-						</form>
+						<?php get_template_part("mailing-list-form"); ?>
 					</div>
 				</div>
 			</div>
