@@ -572,3 +572,64 @@ a.idi-breadcrumbs {
     font-style: italic;
     font-weight: 700;
 }
+
+/* infrastructure page */
+.idi-noborder, .idi-noborder tr, .idi-noborder th, .idi-noborder td {
+    border: none;
+}
+.idi-infra-table td {
+    vertical-align: top;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+table .idi-summary-col {
+    width: 10em;
+    text-align: right;
+}
+table .idi-summary-title {
+    font-family: 'Lato';
+    font-size: 28pt;
+    color: #3FB66C;
+    font-weight: bold;
+    font-style: italic;
+}
+.idi-infra-h1 {
+    font-family: 'Lato';
+    font-size: 48pt;
+    font-weight: bold;
+    font-style: italic;
+    color:  #D33476;
+    text-shadow: 1px 1px 0px #ffffff;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+.idi-infra-h2 {
+    color: #0076B0;
+    line-height: 1.2em;
+    padding-left: 25px;
+    background-image: url("images/arrow_lg_blue_right.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.idi-infra-h4 {
+    color: #0076B0;
+}
+.idi-infra-bookit {
+    background-image: url("images/arrow_lg_blue_right.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 2em;
+}
+.idi-infra-h5 {
+    font-style: italic;
+    color: #808080;
+    padding-bottom: 0.5em;
+}
+.idi-infra-item {
+    margin-bottom: 2em;
+    padding-left: 25px;
+}
+.idi-infra-campus-image {
+    width: 300px;
+    height: 300px;
+}
