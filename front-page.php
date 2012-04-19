@@ -66,33 +66,8 @@ Template Name: Front Page
 
 			<div class="idi-box idi-institutions">
 				<div class="idi-box-text">
-					<h3>IDI Institutions</h3>
-					<p>Find out more about their ongoing research</p>
-					<ul class="idi-institution-list">
-						<li><a href="about/ocadu">OCAD University</a></li>
-						<li><a href="ryerson">Ryerson University</a></li>
-						<li><a href="about/york">York University</a></li>
-						<li><a href="about/uoit">UOIT</a></li>
-						<li><a href="about/utoronto">University of Toronto</a></li>
-						<li><a href="about/sheridan">Sheridan College</a></li>
-						<li><a href="about/george-brown">George Brown College</a></li>
-						<li><a href="about/seneca">Seneca College</a></li>
-					</ul>
-					<h3>Contact us!</h3>
-					<div class="idi-mailing-address">
-						Inclusive Design Institute
-						<a href="http://maps.google.com/maps?q=205+Richmond+Street+West,+Toronto,+ON,+Canada&hl=en&sll=37.0625,-95.677068&sspn=40.137381,47.8125&oq=205+richmon&hnear=205+Richmond+St+W,+Toronto,+Toronto+Division,+Ontario+M5V+1V6,+Canada&t=m&z=16">
-							205 Richmond Street West</a>
-						2nd Floor
-						Toronto, ON M5V 1V3
-						Canada
-					</div>
-					<div class="idi-phone">
-						(416) 977-6000, x3968
-					</div>
-					<div class="idi-email">
-						<a href="mailto:idi@ocadu.ca">idi@ocadu.ca</a>
-					</div>
+					<?php get_template_part("institution-list"); ?>
+					<?php get_template_part("contact-info"); ?>
 					<div class="idi-mailing-list">
 						Mailing list sign up
 						<?php get_template_part("mailing-list-form"); ?>
