@@ -48,4 +48,17 @@ function brand_login_page() {
 }
 add_action('login_head', 'brand_login_page');
 
+function idi_generate_top_nav() {
+	$pages = get_pages( array ('parent' => '0', 'sort_column' => 'menu_order'));
+	echo "<ul>";
+	foreach ( $pages as $pagg ) {
+		echo '<a ';
+		if (is_page($pagg->post_name)) {
+			echo 'class="current_page_item"';
+		}
+		echo 'href="' . get_page_link($pagg->ID) . '">';
+		echo '<li class="idi-nav-' . $pagg->post_name . '">' . $pagg->post_name . '</li></a>';
+	}
+	echo "</ul>";
+}
 ?>
