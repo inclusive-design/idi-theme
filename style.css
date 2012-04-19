@@ -64,7 +64,7 @@ body {
 .fl-uiOptions-fatPanel,
 .idi-loginOut-fatPanel,
 .fl-site-header,
-.fl-site-nav-main.sticky .menu,
+.fl-site-nav-main.sticky ul,
 .fl-site-main-body,
 .fl-site-footer {
     max-width: 1024px;
@@ -157,7 +157,7 @@ These shadow styles are still being decided on by the designers
     text-align: center;
     font-style: italic;
     font-size: 1.75em;
-    color: #585858;
+    color: #BBBBBB;
 }
 .fl-site-header a {
     text-decoration: none;
@@ -169,28 +169,69 @@ These shadow styles are still being decided on by the designers
     display:block;
     background-color: inherit;
 }
+.fl-site-nav-main ul {
+    text-align: center;
+    margin: 0;
+    padding-top: 1.125em;
+    padding-bottom: 3em;
+}
 .fl-site-nav-main a {
     text-transform: lowercase;
-    color: #414141;
     text-decoration: none;
     font-weight: 900;
     font-size: 0.875em;
 }
 .fl-site-nav-main ul li {
     margin: 0 0.75em;
+    padding-bottom: 0.4em;
+    padding-top: 0.3em;
+    padding-left: 1.7em;
+    background-size: auto 50%;
+    background-position: 0.4em center;
+    background-repeat: no-repeat;
 }
-.fl-site-nav-main li.current_page_item {
-    border: 2px solid #414141;
+.fl-site-nav-main .current_page_item li {
+    background-color: #0076B0;
     border-radius: 4px;
+    color: #ffffff;
+    font-weight: 700;
 }
-.fl-site-nav-main .menu {
-    width: 100%;
+/* custom icons for each main nav link */
+.fl-site-nav-main .idi-nav-home {
+    background-image: url('images/navigation/home.png');
 }
-.fl-site-nav-main ul {
-    text-align: center;
-    margin: 0;
-    padding-top: 1.125em;
-    padding-bottom: 3em;
+.fl-site-nav-main .current_page_item .idi-nav-home {
+    background-image: url('images/navigation/home-white.png');
+}
+.fl-site-nav-main .idi-nav-about {
+    background-image: url('images/navigation/about.png');
+}
+.fl-site-nav-main .current_page_item .idi-nav-about {
+    background-image: url('images/navigation/about-white.png');
+}
+.fl-site-nav-main .idi-nav-news {
+    background-image: url('images/navigation/news.png');
+}
+.fl-site-nav-main .current_page_item .idi-nav-news {
+    background-image: url('images/navigation/news-white.png');
+}
+.fl-site-nav-main .idi-nav-education {
+    background-image: url('images/navigation/education.png');
+}
+.fl-site-nav-main .current_page_item .idi-nav-education {
+    background-image: url('images/navigation/education-white.png');
+}
+.fl-site-nav-main .idi-nav-research {
+    background-image: url('images/navigation/research.png');
+}
+.fl-site-nav-main .current_page_item .idi-nav-research {
+    background-image: url('images/navigation/research-white.png');
+}
+.fl-site-nav-main .idi-nav-infrastructure {
+    background-image: url('images/navigation/infrastructure.png');
+}
+.fl-site-nav-main .current_page_item .idi-nav-infrastructure {
+    background-image: url('images/navigation/infrastructure-white.png');
 }
 
 /* Ensure nav elements stick to top of screen */
@@ -205,7 +246,7 @@ These shadow styles are still being decided on by the designers
     background: url("images/bg.png") repeat scroll center center transparent;
     z-index: 9999;
 }
-.fl-site-nav-main.sticky .menu {
+.fl-site-nav-main.sticky ul {
     border-bottom: 1px solid #202020;
 }
 .idi-about-nav.sticky {
@@ -421,40 +462,33 @@ These shadow styles are still being decided on by the designers
 .fl-uiOptions-fatPanel .fl-panelBar {
     height: 0;
 }
-.fl-uiOptions-fatPanel .fl-toggleButton,
-.idi-loginout {
-    background-color: #FFFFFF;
-    color: #414141;
+.fl-uiOptions-fatPanel .fl-toggleButton {
+    border: none;
+    margin-top: 1px;
+    background-color: #828282;
+    box-shadow: 0px 0px 4px 1px #666666 inset;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px #000000;
     font-style: italic;
     font-weight: 400;
     font-size: 1em;
     text-transform: lowercase;
-    border-radius: 3px;
-    background-position: 3% 50%;
+    border-radius: 0 0 6px 6px;
+    background-position: 0.2em 50%;
     background-repeat: no-repeat;
     padding-left: 25px;
     margin-top: 0px;
-    font-weight: bold;
-    border: thin;
+    font-weight: 400;
 }
-.fl-uiOptions-fatPanel .fl-toggleButton {
+.idi-uio-button {
     background-image: url("images/gear_white.png");
-    margin-top: 1px;
-    border-style: none solid solid solid;
 }
 .idi-loginout {
-    width: 4em;
-    text-align: center;
-    -moz-border-bottom-colors: none;
-    -moz-border-image: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
-    padding: 5px 5px 5px 25px;
     background-image: url("images/gear_white.png");
+    width: 4em;
+    padding: 5px 5px 5px 25px;
     position: absolute;
-    right: 12.5em;
-    border-style: none solid solid solid;
+    right: 7.5em;
 }
 
 /* for pages with a ToC, ensure anchors don't hide under top nav */
@@ -637,4 +671,63 @@ img.idi-about-person {
 .idi-about-nav ul li {
     list-style-type: none;
     margin-top: 0.5em;
+}
+
+/* infrastructure page */
+.idi-infra h1 {
+    font-size: 48pt;
+    font-weight: bold;
+    font-style: italic;
+    color:  #D33476;
+    text-shadow: 1px 1px 0px #ffffff;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+.idi-infra h2 {
+    font-size: 1.3em;
+    color: #0076B0;
+    line-height: 1.2em;
+    padding-left: 1em;
+    background-image: url("images/arrow_lg_blue_right.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin-top: 0;
+}
+.idi-infra a.idi-map-link {
+    text-decoration: none;
+}
+.idi-infra h4 {
+    color: #0076B0;
+}
+.idi-infra-bookit {
+    background-image: url("images/arrow_lg_blue_right.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 2em;
+}
+.idi-infra h5 {
+    font-style: italic;
+    color: #808080;
+    padding-bottom: 0.5em;
+}
+.idi-infra .idi-3cols {
+    width: 72%;
+}
+.idi-infra .idi-summary-title {
+    font-size: 28pt;
+    color: #3FB66C;
+    font-weight: bold;
+    font-style: italic;
+    background-image: none;
+}
+.idi-infra-row {
+    padding-bottom: 2em;
+}
+.idi-infra-item {
+    margin-bottom: 2em;
+    padding-left: 1.6em;
+}
+.idi-infra-campus-image {
+    width: 300px;
+    height: 300px;
 }
