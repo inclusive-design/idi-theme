@@ -78,7 +78,10 @@ body {
     width: 22%;
 }
 a {
-    color: #0075B0;
+    color: #0076B0;
+}
+a:hover {
+    color: #00ADE4;
 }
 h1 {
     font-size: 3em;
@@ -87,13 +90,14 @@ h1 {
     margin-bottom: 0;
 }
 h2 {
-    font-size: 1.5em;
+    font-size: 1.9375em;
     font-weight: 700;
 }
 h3 {
     font-size: 1.125em;
     font-weight: 700;
-    color: #774A9E;
+    color: #774A9C;
+    text-shadow: 1px 1px 0px #ffffff;
     margin-top: 0;
     margin-bottom: 0.625em;
     font-style: italic;
@@ -204,7 +208,7 @@ These shadow styles are still being decided on by the designers
 .fl-site-nav-main.sticky .menu {
     border-bottom: 1px solid #202020;
 }
-.idi-section-nav.sticky {
+.idi-about-nav.sticky {
     position: fixed;
     top: 3em;
 }
@@ -571,4 +575,66 @@ a.idi-breadcrumbs {
     text-decoration: none;
     font-style: italic;
     font-weight: 700;
+}
+
+/* About page styles */
+.idi-about h2 {
+    font-style: italic;
+    color: #3FB66C;
+}
+.idi-about-tagline {
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 1.1em;
+    font-style: italic;
+    color: #A3AF39;
+    text-shadow: 1px 1px 0px #ffffff;
+    margin-bottom: 1em;
+}
+.idi-about-nav,
+.idi-about-sidebar {
+    margin-top: 8em;
+}
+.idi-about-people h3 {
+    color: #202020;
+    font-style: normal;
+    font-size: 1.5em;
+}
+.idi-person {
+    margin-bottom: 2em;
+}
+.idi-person:after {
+    content: "•";
+    color: #999999;
+    margin-left: 50%;
+    line-height: 2em;
+}
+img.idi-about-person {
+    float: right;
+    margin: 5px;
+    width: 100px;
+}
+.idi-person-intro {
+    overflow: auto;
+    width: 100%
+}
+.idi-about-nav {
+    text-align: right;
+}
+.idi-about-nav > * {
+    margin-right: 2em;
+}
+.idi-about-nav-header {
+    font-weight: 700;
+    font-size: 1.2em;
+}
+.idi-about-nav-who {
+    margin-bottom: 1.5em;
+}
+.idi-about-nav ul {
+    margin: 0;
+}
+.idi-about-nav ul li {
+    list-style-type: none;
+    margin-top: 0.5em;
 }
