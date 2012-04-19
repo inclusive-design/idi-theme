@@ -73,12 +73,18 @@ body {
     margin-right: auto;
 }
 .fl-col-flex4 .fl-col {
-    margin: 0;
-    padding: 0;
-    width: 25%;
+    margin-left: 0.625em;
+    margin-right: 0.625em;
+    width: 22%;
 }
 a {
     color: #0075B0;
+}
+h1 {
+    font-size: 3em;
+    line-height: 1.2em;
+    margin-top: 0.5em;
+    margin-bottom: 0;
 }
 h2 {
     font-size: 1.5em;
@@ -87,15 +93,22 @@ h2 {
 h3 {
     font-size: 1.125em;
     font-weight: 700;
-}
-.idi-box {
-    margin: 10px 10px;
+    color: #774A9E;
+    margin-top: 0;
+    margin-bottom: 0.625em;
+    font-style: italic;
 }
 .idi-box .idi-box-text {
     padding: 20px;
 }
 .idi-highlight-box {
     background-color: #ffffff;
+    margin-bottom: 1.25em;
+/*
+These shadow styles are still being decided on by the designers
+    box-shadow: 0px 0px 4px 1px #CCCCCC;
+    margin-top: 5px;
+*/
 }
 
 /* Front Page styles */
@@ -106,16 +119,16 @@ h3 {
     width: 100%;
     height: auto;
 }
-.front-cols .post .date {
+.post .idi-date {
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 0.625em;
 }
-.front-cols .post h2 {
+.post h2 {
     margin-top: 0;
     margin-bottom: 0.625em;
 }
-.front-cols .post h2 a {
+.post h2 a {
     color: #202020;
     font-style: normal;
     font-weight: 700;
@@ -173,7 +186,7 @@ h3 {
     text-align: center;
     margin: 0;
     padding-top: 1.125em;
-    padding-bottom: 1.5em;
+    padding-bottom: 3em;
 }
 
 /* Ensure nav elements stick to top of screen */
@@ -356,8 +369,8 @@ h3 {
     margin-right: 17em;
 }
 .fl-col-mixed .fl-col-flex.idi-one-column {
-    margin-right: 17em;
-    margin-left: 0;
+    margin-left: 17em;
+    margin-right: 0;
 }
 
 /* Twitter widget */
@@ -376,7 +389,6 @@ h3 {
     padding: 1em;
 }
 .twitter-feed-group {
-    margin-top: 0.5em;
     margin-bottom: 1em;
 }
 .twitter-feed-group a.twitter-follow-button {
@@ -388,6 +400,7 @@ h3 {
 }
 .twitter-feed-group ul {
     margin-left: 0px;
+    margin-bottom: 0px;
 }
 .twitter-feed-group ul li {
     list-style: none;
@@ -461,12 +474,6 @@ a.anchor {
 .idi-institutions.idi-box {
     margin-top: 0;
 }
-.idi-institutions h3 {
-    color: #774A9E;
-    margin-top: 0;
-    margin-bottom: 0.625em;
-    font-style: italic;
-}
 .idi-institutions p {
     font-style: italic;
     margin-bottom: 0.625em;
@@ -501,8 +508,67 @@ ul.idi-institution-list li:before {
 .idi-mailing-list form {
     margin-top: 0.375em;
 }
+form#idiMailingListSignup input {
+    width: 98%;
+}
 .idi-more {
     font-style: italic;
     font-weight: 700;
     text-decoration: none;
+}
+
+/* Search form */
+.idi-search-form {
+    margin-bottom: 1em;
+}
+.idi-search-form input {
+    width: 100%;
+}
+
+/* News Summary page styles */
+.idi-news-summary  .wp-post-image {
+    float: right;
+}
+.idi-search-field {
+    background-image: url("images/arrow_lg_blue_left.png");
+    background-repeat: no-repeat;
+    background-position: 98% 0;
+}
+.idi-mailing-list-reminder {
+    padding: 1em;
+    background-color: #EEEEEE;
+    box-shadow: 0px 0px 4px 1px #CCCCCC inset;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+.idi-article-list ul {
+    margin-left: 0;
+}
+.idi-article-list ul li {
+    list-style-type: none;
+    margin-bottom: 0.5em;
+}
+.idi-news-article {
+    margin-left: 1em;
+}
+.idi-news-article .idi-date {
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 0.625em;
+}
+
+img.alignright {
+    float: right;
+}
+img.alignleft {
+    float: left;
+}
+
+.idi-breadcrumbs a,
+a.idi-breadcrumbs {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: 700;
 }

@@ -7,12 +7,27 @@ Template Name: News
 
 <div class="fl-centered fl-col-mixed fl-site-wrapper">
 
-	<div class="fl-col-fixed fl-force-right"> 	
-		<?php get_sidebar('tweets'); ?>
+	<div class="fl-col-fixed fl-force-left">
+		<?php get_sidebar('news'); ?>
 	</div>
 
-    <div class="fl-col-flex idi-one-column">
-		This is the news page.
+    <div class="fl-col-flex idi-news-summary idi-one-column">
+        <?php query_posts( 'posts_per_page=5' );
+              if(have_posts()) :
+                while(have_posts()) : the_post(); ?>
+				<div class="idi-box idi-highlight-box post">
+					<?php the_post_thumbnail(); ?>
+					<div class="idi-box-text">
+					    <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+				        <div class="idi-date"><?php the_time('F jS, Y') ?></div>
+			            <div class="entry">
+			                <?php the_excerpt(); ?>
+			            </div>
+					</div>
+				</div>
+				<?php endwhile;
+				wp_reset_query();
+			endif; ?>
 	</div>
 
 </div>
