@@ -583,9 +583,26 @@ ul.idi-institution-list li:before {
     font-size: 0.875em;
     padding-left: 25px;
     padding-bottom: 10px;
-    background-image: url("images/arrow_lg_blue_right.png");
     background-repeat: no-repeat;
+    background-size: 15px auto;
 }
+.idi-mailing-address { background-image: url("images/contact/location.png"); }
+.idi-phone { background-image: url("images/contact/phone.png"); }
+.idi-email { background-image: url("images/contact/mail.png"); }
+
+.fl-theme-uio-yb .idi-mailing-address { background-image: url("images/contact/location-yellow.png"); }
+.fl-theme-uio-yb .idi-phone { background-image: url("images/contact/phone-yellow.png"); }
+.fl-theme-uio-yb .idi-email { background-image: url("images/contact/mail-yellow.png"); }
+.fl-theme-uio-wb .idi-mailing-address { background-image: url("images/contact/location-white.png"); }
+.fl-theme-uio-wb .idi-phone { background-image: url("images/contact/phone-white.png"); }
+.fl-theme-uio-wb .idi-email { background-image: url("images/contact/mail-white.png"); }
+.fl-theme-uio-by .idi-mailing-address,
+.fl-theme-uio-bw .idi-mailing-address { background-image: url("images/contact/location-black.png"); }
+.fl-theme-uio-by .idi-phone,
+.fl-theme-uio-bw .idi-phone { background-image: url("images/contact/phone-black.png"); }
+.fl-theme-uio-by .idi-email,
+.fl-theme-uio-bw .idi-email { background-image: url("images/contact/mail-black.png"); }
+
 .idi-mailing-list {
     margin-top: 1em;
     font-style: italic;
