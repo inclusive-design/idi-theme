@@ -184,8 +184,13 @@ These shadow styles are still being decided on by the designers
     font-weight: 900;
     font-size: 0.875em;
 }
+.fl-site-nav-main a:hover li,
 .fl-site-nav-main a:active li {
-    border: 1px solid #0075B0;
+    border: 2px solid #00ADE4;
+}
+.fl-site-nav-main a.current_page_item:hover li,
+.fl-site-nav-main a.current_page_item:active li {
+    border: 2px solid #0076B0;
 }
 .fl-site-nav-main ul li {
     margin: 0 0.75em;
@@ -196,6 +201,7 @@ These shadow styles are still being decided on by the designers
     background-position: 0.4em center;
     background-repeat: no-repeat;
     border-radius: 4px;
+    border: 2px solid transparent;
 }
 .current_page_item li {
     background-color: #0076B0;
