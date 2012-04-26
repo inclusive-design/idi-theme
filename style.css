@@ -60,6 +60,9 @@ body {
     background-repeat: repeat;
     overflow: auto;
 }
+body.fl-theme-uio-yb, body.fl-theme-uio-wb,
+body.fl-theme-uio-bw, body.fl-theme-uio-wb { background-image: none; }
+
 .fl-site-wrapper,
 .fl-uiOptions-fatPanel,
 .idi-loginOut-fatPanel,
@@ -487,10 +490,10 @@ These shadow styles are still being decided on by the designers
 .fl-uiOptions-fatPanel .fl-toggleButton {
     border: none;
     margin-top: 1px;
-    background-color: #828282;
-    box-shadow: 0px 0px 4px 1px #666666 inset;
-    color: #FFFFFF;
-    text-shadow: 1px 1px 0px #000000;
+    background-color: #E5E5E5;
+    box-shadow: 0px 0px 2px 1px #CCCCCC inset;
+    color: #000000;
+    text-shadow: 1px 1px 0px #FFFFFF;
     font-style: italic;
     font-weight: 400;
     font-size: 1em;
@@ -502,16 +505,38 @@ These shadow styles are still being decided on by the designers
     margin-top: 0px;
     font-weight: 400;
 }
-.idi-uio-button {
-    background-image: url("images/gear_white.png");
+.fl-theme-uio-yb .fl-uiOptions-fatPanel .fl-toggleButton,
+.fl-theme-uio-wb .fl-uiOptions-fatPanel .fl-toggleButton,
+.fl-theme-uio-by .fl-uiOptions-fatPanel .fl-toggleButton,
+.fl-theme-uio-bw .fl-uiOptions-fatPanel .fl-toggleButton {
+    text-shadow: none;
+    box-shadow: none;
 }
-.idi-loginout {
-    background-image: url("images/gear_white.png");
+/* these should not be necessary, but defaults not working? */
+.fl-theme-uio-yb .fl-uiOptions-fatPanel .fl-toggleButton { border: 1px solid yellow;  }
+.fl-theme-uio-wb .fl-uiOptions-fatPanel .fl-toggleButton { border: 1px solid white;  }
+.fl-theme-uio-by .fl-uiOptions-fatPanel .fl-toggleButton,
+.fl-theme-uio-bw .fl-uiOptions-fatPanel .fl-toggleButton { border: 1px solid black;  }
+
+.idi-uio-button {
+    background-image: url("images/loginandpreferences/preferences.png");
+}
+.fl-theme-uio-yb .idi-uio-button { background-image: url("images/loginandpreferences/preferences-yellow.png"); }
+.fl-theme-uio-wb .idi-uio-button { background-image: url("images/loginandpreferences/preferences-white.png"); }
+.fl-theme-uio-by .idi-uio-button,
+.fl-theme-uio-bw .idi-uio-button { background-image: url("images/loginandpreferences/preferences-black.png"); }
+.fl-uiOptions-fatPanel .fl-toggleButton.idi-slidingPanel-toggleButton {
+    background-image: url("images/loginandpreferences/login.png");
     width: 4em;
     padding: 5px 5px 5px 25px;
     position: absolute;
     right: 7.5em;
+    background-position: 0.6em 50%;
 }
+.fl-theme-uio-yb .fl-toggleButton.idi-slidingPanel-toggleButton { background-image: url("images/loginandpreferences/login-yellow.png"); }
+.fl-theme-uio-wb .fl-toggleButton.idi-slidingPanel-toggleButton { background-image: url("images/loginandpreferences/login-white.png"); }
+.fl-theme-uio-by .fl-toggleButton.idi-slidingPanel-toggleButton,
+.fl-theme-uio-bw .fl-toggleButton.idi-slidingPanel-toggleButton { background-image: url("images/loginandpreferences/login-black.png"); }
 
 /* for pages with a ToC, ensure anchors don't hide under top nav */
 a.anchor {
