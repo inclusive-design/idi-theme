@@ -503,7 +503,7 @@ These shadow styles are still being decided on by the designers
     margin-bottom: 1em;
     background-image: url('images/news-tweet/tweet.png');
     background-repeat: no-repeat;
-    background-size: 24px auto;
+    background-size: 1.6em auto;
     background-position: 90% 20%;
 }
 /* right now, these hc icons don't work because of a background color; don't know why */
@@ -631,7 +631,7 @@ ul.idi-institution-list li:before {
     padding-left: 25px;
     padding-bottom: 10px;
     background-repeat: no-repeat;
-    background-size: 15px auto;
+    background-size: 1em auto;
 }
 .idi-mailing-address { background-image: url("images/contact/location.png"); }
 .idi-phone { background-image: url("images/contact/phone.png"); }
@@ -807,24 +807,41 @@ img.idi-about-person {
     font-size: 1.3em;
     color: #0076B0;
     line-height: 1.2em;
-    padding-left: 1em;
-    background-image: url("images/arrow_lg_blue_right.png");
+    padding-left: 1.3em;
+    background-image: url("images/contact/location-blue.png");
+    background-size: 0.9em auto;
     background-repeat: no-repeat;
     background-position: left top;
     margin-top: 0;
 }
+.fl-theme-uio-yb .idi-infra h2 { background-image: url("images/contact/location-yellow.png"); }
+.fl-theme-uio-wb .idi-infra h2 { background-image: url("images/contact/location-white.png"); }
+.fl-theme-uio-by .idi-infra h2,
+.fl-theme-uio-bw .idi-infra h2 { background-image: url("images/contact/location-black.png"); }
+
 .idi-infra a.idi-map-link {
     text-decoration: none;
 }
 .idi-infra h4 {
     color: #0076B0;
 }
-.idi-infra-bookit {
-    background-image: url("images/arrow_lg_blue_right.png");
+.idi-infra-bookit,
+.idi-research .idi-more {
+    background-image: url("images/arrows/arrow.gif");
+    background-size: 1em auto;
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 2em;
 }
+.fl-theme-uio-yb .idi-infra-bookit,
+.fl-theme-uio-yb .idi-more { background-image: url("images/arrows/arrow-yellow.gif"); }
+.fl-theme-uio-wb .idi-infra-bookit,
+.fl-theme-uio-wb .idi-more { background-image: url("images/arrows/arrow-white.gif"); }
+.fl-theme-uio-by .idi-infra-bookit,
+.fl-theme-uio-bw .idi-infra-bookit,
+.fl-theme-uio-by .idi-more,
+.fl-theme-uio-bw .idi-more { background-image: url("images/arrows/arrow-black.gif"); }
+
 .idi-infra h5 {
     font-style: italic;
     color: #808080;
@@ -880,12 +897,14 @@ a.idi-project-link {
     height: auto;
     padding-top: 2em;
 }
+/*
 .idi-research .idi-more {
     background-image: url("images/arrow_lg_blue_right.png");
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 2em;
 }
+*/
 
 /* Remove shadows for high-contrast themes */
 .fl-theme-uio-yb .idi-about-tagline, .fl-theme-uio-wb .idi-about-tagline,
