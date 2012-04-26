@@ -1,2 +1,40 @@
-	<h2>Exemplar Projects</h2>
-	<div>Etiam at nunc sed neque tincidunt pulvinar. Duis non tortor justo. Nullam interdum aliquam fermentum. Fusce a neque sed est sollicitudin eleifend eget nec lorem. In id aliquet urna. Nunc semper sollicitudin lacus, ac venenatis diam ultrices non. Sed a neque a mi semper eleifend tempor eget nisi. Donec ante nisi, condimentum nec ultricies id, rhoncus nec lacus. Duis imperdiet augue et turpis aliquam mollis.</div>
+<div>
+	<form class="idi-search-form" role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
+		<input class="idi-search-field" type="text" value="" name="s" id="s" placeholder="search"/>
+	</form>
+	
+	<div class="idi-project-list">
+		<h3>Projects</h3>
+		<div class="idi-project-item">
+			<a class="idi-project-link" href="ligula"><h4>Ligula</h4></a>
+			<p>Donec facilisis ullamcorper pellentesque. Proin imperdiet Purus ligula porta.</p>
+		</div>
+
+		<div class="idi-project-item">
+			<a class="idi-project-link" href="ligula"><h4>Purus Imperdiet</h4></a>
+			<p>Donec facilisis ullamcorper pellentesque. Proin imperdiet Purus ligula porta.</p>
+		</div>
+
+		<div class="idi-project-item">
+			<a class="idi-project-link" href="ligula"><h4>Vitae Sit Amet</h4></a>
+			<p>Donec facilisis ullamcorper pellentesque. Proin imperdiet Purus ligula porta.</p>
+		</div>
+
+		<div class="idi-project-item">
+			<a class="idi-project-link" href="ligula"><h4>Scelerisque</h4></a>
+			<p>Donec facilisis ullamcorper pellentesque. Proin imperdiet Purus ligula porta.</p>
+		</div>
+
+		<div class="idi-project-item">
+			<a class="idi-project-link" href="ligula"><h4>Accusan</h4></a>
+			<p>Donec facilisis ullamcorper pellentesque. Proin imperdiet Purus ligula porta.</p>
+		</div>
+
+		<div class="idi-project-item">
+			<a class="idi-project-link" href="ligula"><h4>Ligula</h4></a>
+			<p>Donec facilisis ullamcorper pellentesque. Proin imperdiet Purus ligula porta.</p>
+		</div>
+	</div>
+	
+	<?php get_template_part("institution-list"); ?>
+</div>
