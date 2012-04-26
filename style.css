@@ -505,13 +505,6 @@ These shadow styles are still being decided on by the designers
     margin-top: 0px;
     font-weight: 400;
 }
-.fl-theme-uio-yb .fl-uiOptions-fatPanel .fl-toggleButton,
-.fl-theme-uio-wb .fl-uiOptions-fatPanel .fl-toggleButton,
-.fl-theme-uio-by .fl-uiOptions-fatPanel .fl-toggleButton,
-.fl-theme-uio-bw .fl-uiOptions-fatPanel .fl-toggleButton {
-    text-shadow: none;
-    box-shadow: none;
-}
 /* these should not be necessary, but defaults not working? */
 .fl-theme-uio-yb .fl-uiOptions-fatPanel .fl-toggleButton { border: 1px solid yellow;  }
 .fl-theme-uio-wb .fl-uiOptions-fatPanel .fl-toggleButton { border: 1px solid white;  }
@@ -829,4 +822,22 @@ a.idi-project-link {
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 2em;
+}
+
+/* Remove shadows for high-contrast themes */
+.fl-theme-uio-yb .idi-about-tagline, .fl-theme-uio-wb .idi-about-tagline,
+.fl-theme-uio-by .idi-about-tagline, .fl-theme-uio-bw .idi-about-tagline,
+.fl-theme-uio-yb h3, .fl-theme-uio-wb h3,
+.fl-theme-uio-by h3, .fl-theme-uio-bw h3,
+.fl-theme-uio-yb .idi-infra h1, .fl-theme-uio-wb .idi-infra h1,
+.fl-theme-uio-by .idi-infra h1, .fl-theme-uio-bw .idi-infra h1 { text-shadow: none; }
+
+
+
+.fl-theme-uio-yb .fl-uiOptions-fatPanel .fl-toggleButton,
+.fl-theme-uio-wb .fl-uiOptions-fatPanel .fl-toggleButton,
+.fl-theme-uio-by .fl-uiOptions-fatPanel .fl-toggleButton,
+.fl-theme-uio-bw .fl-uiOptions-fatPanel .fl-toggleButton {
+    text-shadow: none;
+    box-shadow: none;
 }
