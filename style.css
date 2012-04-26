@@ -618,6 +618,10 @@ ul.idi-institution-list li:before {
     padding-right: 0.5em;
     color: #CCCCCC;
 }
+.fl-theme-uio-yb ul.idi-institution-list li:before { color: #FFFF00; }
+.fl-theme-uio-wb ul.idi-institution-list li:before { color: #FFFFFF; }
+.fl-theme-uio-by ul.idi-institution-list li:before,
+.fl-theme-uio-bw ul.idi-institution-list li:before { color: #000000; }
 
 /* Contact Us section */
 .idi-mailing-address,
@@ -686,6 +690,11 @@ form#idiMailingListSignup input {
     border-radius: 5px;
     margin-bottom: 1em;
 }
+.fl-theme-uio-yb .idi-mailing-list-reminder { box-shadow: none; border: 1px solid #FFFF00; }
+.fl-theme-uio-wb .idi-mailing-list-reminder { box-shadow: none; border: 1px solid #000000; }
+.fl-theme-uio-by .idi-mailing-list-reminder,
+.fl-theme-uio-bw .idi-mailing-list-reminder { box-shadow: none; border: 1px solid #000000; }
+
 .idi-article-list ul {
     margin-left: 0;
 }
@@ -750,6 +759,10 @@ a.idi-breadcrumbs {
     margin-left: 50%;
     line-height: 2em;
 }
+.fl-theme-uio-yb .idi-person:after { color: #FFFF00; }
+.fl-theme-uio-wb .idi-person:after { color: #FFFFFF; }
+.fl-theme-uio-by .idi-person:after,
+.fl-theme-uio-bw .idi-person:after { color: #000000; }
 img.idi-about-person {
     float: right;
     margin: 5px;
