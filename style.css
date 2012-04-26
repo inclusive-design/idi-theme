@@ -83,7 +83,8 @@ body.fl-theme-uio-bw, body.fl-theme-uio-wb { background-image: none; }
 a {
     color: #0076B0;
 }
-a:hover {
+a:hover,
+.twitter-feed-group a.twitter-follow-button:hover {
     color: #00ADE4;
 }
 h1 {
@@ -507,23 +508,26 @@ These shadow styles are still being decided on by the designers
 }
 .twitter-feed-group {
     margin-bottom: 1em;
-    background-image: url('images/news-tweet/tweet.png');
-    background-repeat: no-repeat;
-    background-size: 1.6em auto;
-    background-position: 90% 20%;
 }
 /* right now, these hc icons don't work because of a background color; don't know why */
 .fl-theme-uio-yb .twitter-feed-group { background-image: url('images/news-tweet/tweet-yellow.png'); }
 .fl-theme-uio-wb .twitter-feed-group { background-image: url('images/news-tweet/tweet-white.png'); }
 .fl-theme-uio-by .twitter-feed-group,
 .fl-theme-uio-bw .twitter-feed-group { background-image: url('images/news-tweet/tweet-black.png'); }
+
 .twitter-feed-group a.twitter-follow-button {
+    display: block;
     font-size: 1.2em;
     color: #202020;
     font-weight: 700;
     margin-bottom: 0.5em;
     text-decoration: none;
+    background-image: url('images/news-tweet/tweet.png');
+    background-repeat: no-repeat;
+    background-size: 1.6em auto;
+    background-position: 90% 20%;
 }
+.twitter-feed-group a.twitter-follow-button:hover { background-image: url('images/news-tweet/tweet-hover.png'); }
 .twitter-feed-group ul {
     margin-left: 0px;
     margin-bottom: 0px;
