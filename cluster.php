@@ -21,7 +21,7 @@ Template Name: Research Cluster
     <div class="fl-col-flex idi-one-column">
 
     	<div class="idi-breadcrumbs">
-			<a href="research">Research Clusters</a> > <?php the_title(); ?>
+			<a href="/research">Research Clusters</a> > <?php the_title(); ?>
     	</div>
 
 		<h2><?php the_title(); ?></h2>
