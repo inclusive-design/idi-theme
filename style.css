@@ -181,6 +181,9 @@ These shadow styles are still being decided on by the designers
     font-weight: 900;
     font-size: 0.875em;
 }
+.fl-site-nav-main a:active li {
+    border: 1px solid #0075B0;
+}
 .fl-site-nav-main ul li {
     margin: 0 0.75em;
     padding-bottom: 0.4em;
@@ -189,10 +192,10 @@ These shadow styles are still being decided on by the designers
     background-size: auto 50%;
     background-position: 0.4em center;
     background-repeat: no-repeat;
+    border-radius: 4px;
 }
 .fl-site-nav-main .current_page_item li {
     background-color: #0076B0;
-    border-radius: 4px;
     color: #ffffff;
     font-weight: 700;
 }
@@ -275,7 +278,7 @@ These shadow styles are still being decided on by the designers
     background-position: 50%;
 }
 .idi-research-clusters .idi-research-cluster div {
-    opacity: 0.7;
+    opacity: 0.93;
 }
 .idi-research-clusters .idi-cluster-name {
     position: absolute;
@@ -293,7 +296,7 @@ These shadow styles are still being decided on by the designers
 }
 .idi-research-clusters .idi-info-cluster {
     position: absolute;
-    top: 85px;
+    top: 60px;
     right: 280px;
 }
 .idi-research-clusters .idi-policy-cluster {
@@ -303,23 +306,25 @@ These shadow styles are still being decided on by the designers
 }
 .idi-research-clusters .idi-mobile-cluster {
     position: absolute;
-    top: 60px;
-    left: 700px;
+    top: 158px;
+    left: 545px;
 }
 
 /* Design and Dev cluster */
 .idi-research-clusters .idi-dev-cluster-circle {
     width: 141px;
     height: 141px;
-    background-color: #17B46C;
     border-radius: 70px;
+/*    background-color: #17B46C; */
+    background-color: #AFB953;
 }
 .idi-research-clusters .idi-dev-cluster-arrow {
     background-image:  url("images/arrow_lg_blue_right.png");
     height: 141px;
 }
 .idi-research-clusters .idi-dev-cluster-name {
-    color: #17B46C;
+/*     color: #17B46C; */
+    color: #A3AF39;
     font-size: 1.75em;
     width: 8em;
     top: 36%;
@@ -328,37 +333,42 @@ These shadow styles are still being decided on by the designers
 
 /* Information and Implementation Practices cluster */
 .idi-research-clusters .idi-info-cluster-circle {
-    width: 121px;
-    height: 121px;
-    background-color: #0EB0E6;
-    border-radius: 60px;
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+/*    background-color: #0EB0E6; */
+    background-color: #FFCC00;
 }
-.idi-research-clusters .idi-info-cluster-arrow {
+.idi-research-clusters .idi-research-cluster .idi-info-cluster-arrow {
     background-image:  url("images/arrow_lg_blue_left.png");
-    height: 121px;
+    background-position: 50% 25%;
+    height: 120px;
 }
 .idi-research-clusters .idi-info-cluster-name {
-    color: #0EB0E6;
+/*    color: #0EB0E6; */
+    color: #F7B000;
     font-size: 1.5em;
     text-align: right;
     width: 10em;
     top: 36%;
-    right: 150px;
+    right: 210px;
 }
 
 /* Business Case, Policies, Standards and Legislation cluster */
 .idi-research-clusters .idi-policy-cluster-circle {
     width: 70px;
     height: 70px;
-    background-color: #EF5C25;
     border-radius: 35px;
+/*    background-color: #EF5C25; */
+    background-color: #774A9C;
 }
 .idi-research-clusters .idi-policy-cluster-arrow {
     background-image:  url("images/arrow_lg_blue_right.png");
     height: 70px;
 }
 .idi-research-clusters .idi-policy-cluster-name {
-    color: #EF5C25;
+/*     color: #EF5C25; */
+    color: #926EB0;
     font-size: 1.5em;
     width: 10em;
     top: 27%;
@@ -367,21 +377,24 @@ These shadow styles are still being decided on by the designers
 
 /* Moble and Pervasive Computing cluster */
 .idi-research-clusters .idi-mobile-cluster-circle {
-    width: 88px;
-    height: 88px;
-    background-color: #FED307;
-    border-radius: 44px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+/*     background-color: #FED307; */
+    background-color: #00ADE4;
 }
-.idi-research-clusters .idi-mobile-cluster-arrow {
+.idi-research-clusters .idi-research-cluster .idi-mobile-cluster-arrow {
     background-image:  url("images/arrow_lg_blue_right.png");
+    background-position: 50% 90%;
     height: 88px;
 }
 .idi-research-clusters .idi-mobile-cluster-name {
-    color: #FED307;
+/*    color: #FED307; */
+    color: #33BDE9;
     width: 7em;
     font-size: 1.3125em;
-    top: 33%;
-    left: 115px;
+    top: 67%;
+    left: 128px;
 }
 
 
