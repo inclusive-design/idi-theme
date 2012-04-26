@@ -770,3 +770,37 @@ img.idi-about-person {
 .idi-project.fl-col-mixed .fl-col-flex {
     margin-left: 100px; /* same as width above */
 }
+
+/* research page */
+.idi-project-list {
+    padding-bottom: 1em;
+}
+.idi-project-list h4 {
+    font-size: 1.3em;
+    color: #0076B0;
+    line-height: 1.2em;
+    padding-bottom: 0.2em;
+}
+.idi-project-list h3 {
+    font-size: 1.3em;
+}
+a.idi-project-link {
+    text-decoration: none;
+}
+.idi-research-item h2 {
+    font-size: 1.3em;
+    color: #3FB66C;
+    line-height: 1.2em;
+    font-style: italic;
+}
+.idi-research li {
+    width: 45%;
+    height: auto;
+    padding-top: 2em;
+}
+.idi-research .idi-more {
+    background-image: url("images/arrow_lg_blue_right.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 2em;
+}
