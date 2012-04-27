@@ -191,7 +191,7 @@ These shadow styles are still being decided on by the designers
 }
 .fl-site-nav-main a.current_page_item:hover li,
 .fl-site-nav-main a.current_page_item:active li {
-    border: 2px solid #0076B0;
+    border: 2px solid transparent;
 }
 .fl-site-nav-main ul li {
     margin: 0 0.75em;
@@ -204,6 +204,21 @@ These shadow styles are still being decided on by the designers
     border-radius: 4px;
     border: 2px solid transparent;
 }
+.fl-theme-uio-yb .fl-site-nav-main ul li,
+.fl-theme-uio-wb .fl-site-nav-main ul li,
+.fl-theme-uio-by .fl-site-nav-main ul li,
+.fl-theme-uio-bw .fl-site-nav-main ul li {
+    border: 2px solid transparent !important;
+}
+.fl-theme-yb .fl-site-nav-main a:hover li,
+.fl-theme-yb .fl-site-nav-main a:active li { border: 2px solid #FFFF00 !important; }
+.fl-theme-wb .fl-site-nav-main a:hover li,
+.fl-theme-wb .fl-site-nav-main a:active li { border: 2px solid #FFFFFF !important; }
+.fl-theme-by .fl-site-nav-main a:hover li,
+.fl-theme-by .fl-site-nav-main a:active li,
+.fl-theme-bw .fl-site-nav-main a:hover li,
+.fl-theme-bw .fl-site-nav-main a:active li { border: 2px solid #000000 !important; }
+
 .current_page_item li {
     background-color: #0076B0;
     color: #ffffff;
