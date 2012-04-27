@@ -60,6 +60,9 @@ body {
     background-repeat: repeat;
     overflow: auto;
 }
+body.fl-theme-uio-yb, body.fl-theme-uio-wb,
+body.fl-theme-uio-bw, body.fl-theme-uio-wb { background-image: none; }
+
 .fl-site-wrapper,
 .fl-uiOptions-fatPanel,
 .idi-loginOut-fatPanel,
@@ -80,7 +83,8 @@ body {
 a {
     color: #0076B0;
 }
-a:hover {
+a:hover,
+.twitter-feed-group a.twitter-follow-button:hover {
     color: #00ADE4;
 }
 h1 {
@@ -181,6 +185,14 @@ These shadow styles are still being decided on by the designers
     font-weight: 900;
     font-size: 0.875em;
 }
+.fl-site-nav-main a:hover li,
+.fl-site-nav-main a:active li {
+    border: 2px solid #00ADE4;
+}
+.fl-site-nav-main a.current_page_item:hover li,
+.fl-site-nav-main a.current_page_item:active li {
+    border: 2px solid transparent;
+}
 .fl-site-nav-main ul li {
     margin: 0 0.75em;
     padding-bottom: 0.4em;
@@ -189,50 +201,116 @@ These shadow styles are still being decided on by the designers
     background-size: auto 50%;
     background-position: 0.4em center;
     background-repeat: no-repeat;
-}
-.fl-site-nav-main .current_page_item li {
-    background-color: #0076B0;
     border-radius: 4px;
+    border: 2px solid transparent;
+}
+.fl-theme-uio-yb .fl-site-nav-main ul li,
+.fl-theme-uio-wb .fl-site-nav-main ul li,
+.fl-theme-uio-by .fl-site-nav-main ul li,
+.fl-theme-uio-bw .fl-site-nav-main ul li {
+    border: 2px solid transparent !important;
+}
+.fl-theme-yb .fl-site-nav-main a:hover li,
+.fl-theme-yb .fl-site-nav-main a:active li { border: 2px solid #FFFF00 !important; }
+.fl-theme-wb .fl-site-nav-main a:hover li,
+.fl-theme-wb .fl-site-nav-main a:active li { border: 2px solid #FFFFFF !important; }
+.fl-theme-by .fl-site-nav-main a:hover li,
+.fl-theme-by .fl-site-nav-main a:active li,
+.fl-theme-bw .fl-site-nav-main a:hover li,
+.fl-theme-bw .fl-site-nav-main a:active li { border: 2px solid #000000 !important; }
+
+.current_page_item li {
+    background-color: #0076B0;
     color: #ffffff;
     font-weight: 700;
 }
+/* high-contrast current-link colours */
+.fl-theme-uio-yb .current_page_item li,
+.fl-theme-uio-wb .current_page_item li {
+    color: #000000 !important;
+}
+.fl-theme-uio-yb .current_page_item li {
+    background-color: #FFFF00 !important;
+}
+.fl-theme-uio-wb .current_page_item li {
+    background-color: #FFFFFF !important;
+}
+.fl-theme-uio-by .current_page_item li {
+    color: #FFFF00 !important;
+}
+.fl-theme-uio-by .current_page_item li,
+.fl-theme-uio-bw .current_page_item li {
+    background-color: #000000 !important;
+}
+.fl-theme-uio-bw .current_page_item li {
+    color: #FFFFFF !important;
+}
 /* custom icons for each main nav link */
-.fl-site-nav-main .idi-nav-home {
-    background-image: url('images/navigation/home.png');
-}
-.fl-site-nav-main .current_page_item .idi-nav-home {
-    background-image: url('images/navigation/home-white.png');
-}
-.fl-site-nav-main .idi-nav-about {
-    background-image: url('images/navigation/about.png');
-}
-.fl-site-nav-main .current_page_item .idi-nav-about {
-    background-image: url('images/navigation/about-white.png');
-}
-.fl-site-nav-main .idi-nav-news {
-    background-image: url('images/navigation/news.png');
-}
-.fl-site-nav-main .current_page_item .idi-nav-news {
-    background-image: url('images/navigation/news-white.png');
-}
-.fl-site-nav-main .idi-nav-education {
-    background-image: url('images/navigation/education.png');
-}
-.fl-site-nav-main .current_page_item .idi-nav-education {
-    background-image: url('images/navigation/education-white.png');
-}
-.fl-site-nav-main .idi-nav-research {
-    background-image: url('images/navigation/research.png');
-}
-.fl-site-nav-main .current_page_item .idi-nav-research {
-    background-image: url('images/navigation/research-white.png');
-}
-.fl-site-nav-main .idi-nav-infrastructure {
-    background-image: url('images/navigation/infrastructure.png');
-}
-.fl-site-nav-main .current_page_item .idi-nav-infrastructure {
-    background-image: url('images/navigation/infrastructure-white.png');
-}
+.idi-nav-home { background-image: url('images/navigation/home.png'); }
+.current_page_item .idi-nav-home { background-image: url('images/navigation/home-white.png'); }
+.fl-theme-uio-yb .idi-nav-home { background-image: url('images/navigation/home-yellow.png'); }
+.fl-theme-uio-wb .idi-nav-home { background-image: url('images/navigation/home-white.png'); }
+.fl-theme-uio-by .idi-nav-home,
+.fl-theme-uio-bw .idi-nav-home { background-image: url('images/navigation/home-black.png'); }
+.fl-theme-uio-wb .current_page_item .idi-nav-home,
+.fl-theme-uio-yb .current_page_item .idi-nav-home { background-image: url('images/navigation/home-black.png'); }
+.fl-theme-uio-bw .current_page_item .idi-nav-home { background-image: url('images/navigation/home-white.png'); }
+.fl-theme-uio-by .current_page_item .idi-nav-home { background-image: url('images/navigation/home-yellow.png'); }
+
+.idi-nav-about { background-image: url('images/navigation/about.png'); }
+.current_page_item .idi-nav-about { background-image: url('images/navigation/about-white.png'); }
+.fl-theme-uio-yb .idi-nav-about { background-image: url('images/navigation/about-yellow.png'); }
+.fl-theme-uio-wb .idi-nav-about { background-image: url('images/navigation/about-white.png'); }
+.fl-theme-uio-by .idi-nav-about,
+.fl-theme-uio-bw .idi-nav-about { background-image: url('images/navigation/about-black.png'); }
+.fl-theme-uio-wb .current_page_item .idi-nav-about,
+.fl-theme-uio-yb .current_page_item .idi-nav-about { background-image: url('images/navigation/about-black.png'); }
+.fl-theme-uio-bw .current_page_item .idi-nav-about { background-image: url('images/navigation/about-white.png'); }
+.fl-theme-uio-by .current_page_item .idi-nav-about { background-image: url('images/navigation/about-yellow.png'); }
+
+.idi-nav-news { background-image: url('images/navigation/news.png'); }
+.current_page_item .idi-nav-news { background-image: url('images/navigation/news-white.png'); }
+.fl-theme-uio-yb .idi-nav-news { background-image: url('images/navigation/news-yellow.png'); }
+.fl-theme-uio-wb .idi-nav-news { background-image: url('images/navigation/news-white.png'); }
+.fl-theme-uio-by .idi-nav-news,
+.fl-theme-uio-bw .idi-nav-news { background-image: url('images/navigation/news-black.png'); }
+.fl-theme-uio-wb .current_page_item .idi-nav-news,
+.fl-theme-uio-yb .current_page_item .idi-nav-news { background-image: url('images/navigation/news-black.png'); }
+.fl-theme-uio-bw .current_page_item .idi-nav-news { background-image: url('images/navigation/news-white.png'); }
+.fl-theme-uio-by .current_page_item .idi-nav-news { background-image: url('images/navigation/news-yellow.png'); }
+
+.idi-nav-education { background-image: url('images/navigation/education.png'); }
+.current_page_item .idi-nav-education { background-image: url('images/navigation/education-white.png'); }
+.fl-theme-uio-yb .idi-nav-education { background-image: url('images/navigation/education-yellow.png'); }
+.fl-theme-uio-wb .idi-nav-education { background-image: url('images/navigation/education-white.png'); }
+.fl-theme-uio-by .idi-nav-education,
+.fl-theme-uio-bw .idi-nav-education { background-image: url('images/navigation/education-black.png'); }
+.fl-theme-uio-wb .current_page_item .idi-nav-education,
+.fl-theme-uio-yb .current_page_item .idi-nav-education { background-image: url('images/navigation/education-black.png'); }
+.fl-theme-uio-bw .current_page_item .idi-nav-education { background-image: url('images/navigation/education-white.png'); }
+.fl-theme-uio-by .current_page_item .idi-nav-education { background-image: url('images/navigation/education-yellow.png'); }
+
+.idi-nav-research { background-image: url('images/navigation/research.png'); }
+.current_page_item .idi-nav-research { background-image: url('images/navigation/research-white.png'); }
+.fl-theme-uio-yb .idi-nav-research { background-image: url('images/navigation/research-yellow.png'); }
+.fl-theme-uio-wb .idi-nav-research { background-image: url('images/navigation/research-white.png'); }
+.fl-theme-uio-by .idi-nav-research,
+.fl-theme-uio-bw .idi-nav-research { background-image: url('images/navigation/research-black.png'); }
+.fl-theme-uio-wb .current_page_item .idi-nav-research,
+.fl-theme-uio-yb .current_page_item .idi-nav-research { background-image: url('images/navigation/research-black.png'); }
+.fl-theme-uio-bw .current_page_item .idi-nav-research { background-image: url('images/navigation/research-white.png'); }
+.fl-theme-uio-by .current_page_item .idi-nav-research { background-image: url('images/navigation/research-yellow.png'); }
+
+.idi-nav-infrastructure { background-image: url('images/navigation/infrastructure.png'); }
+.current_page_item .idi-nav-infrastructure { background-image: url('images/navigation/infrastructure-white.png'); }
+.fl-theme-uio-yb .idi-nav-infrastructure { background-image: url('images/navigation/infrastructure-yellow.png'); }
+.fl-theme-uio-wb .idi-nav-infrastructure { background-image: url('images/navigation/infrastructure-white.png'); }
+.fl-theme-uio-by .idi-nav-infrastructure,
+.fl-theme-uio-bw .idi-nav-infrastructure { background-image: url('images/navigation/infrastructure-black.png'); }
+.fl-theme-uio-wb .current_page_item .idi-nav-infrastructure,
+.fl-theme-uio-yb .current_page_item .idi-nav-infrastructure { background-image: url('images/navigation/infrastructure-black.png'); }
+.fl-theme-uio-bw .current_page_item .idi-nav-infrastructure { background-image: url('images/navigation/infrastructure-white.png'); }
+.fl-theme-uio-by .current_page_item .idi-nav-infrastructure { background-image: url('images/navigation/infrastructure-yellow.png'); }
 
 /* Ensure nav elements stick to top of screen */
 .fl-spacer-el {
@@ -275,7 +353,7 @@ These shadow styles are still being decided on by the designers
     background-position: 50%;
 }
 .idi-research-clusters .idi-research-cluster div {
-    opacity: 0.7;
+    opacity: 0.93;
 }
 .idi-research-clusters .idi-cluster-name {
     position: absolute;
@@ -293,7 +371,7 @@ These shadow styles are still being decided on by the designers
 }
 .idi-research-clusters .idi-info-cluster {
     position: absolute;
-    top: 85px;
+    top: 60px;
     right: 280px;
 }
 .idi-research-clusters .idi-policy-cluster {
@@ -303,23 +381,25 @@ These shadow styles are still being decided on by the designers
 }
 .idi-research-clusters .idi-mobile-cluster {
     position: absolute;
-    top: 60px;
-    left: 700px;
+    top: 158px;
+    left: 545px;
 }
 
 /* Design and Dev cluster */
 .idi-research-clusters .idi-dev-cluster-circle {
     width: 141px;
     height: 141px;
-    background-color: #17B46C;
     border-radius: 70px;
+/*    background-color: #17B46C; */
+    background-color: #AFB953;
 }
 .idi-research-clusters .idi-dev-cluster-arrow {
     background-image:  url("images/arrow_lg_blue_right.png");
     height: 141px;
 }
 .idi-research-clusters .idi-dev-cluster-name {
-    color: #17B46C;
+/*     color: #17B46C; */
+    color: #A3AF39;
     font-size: 1.75em;
     width: 8em;
     top: 36%;
@@ -328,37 +408,42 @@ These shadow styles are still being decided on by the designers
 
 /* Information and Implementation Practices cluster */
 .idi-research-clusters .idi-info-cluster-circle {
-    width: 121px;
-    height: 121px;
-    background-color: #0EB0E6;
-    border-radius: 60px;
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+/*    background-color: #0EB0E6; */
+    background-color: #FFCC00;
 }
-.idi-research-clusters .idi-info-cluster-arrow {
+.idi-research-clusters .idi-research-cluster .idi-info-cluster-arrow {
     background-image:  url("images/arrow_lg_blue_left.png");
-    height: 121px;
+    background-position: 50% 25%;
+    height: 120px;
 }
 .idi-research-clusters .idi-info-cluster-name {
-    color: #0EB0E6;
+/*    color: #0EB0E6; */
+    color: #F7B000;
     font-size: 1.5em;
     text-align: right;
     width: 10em;
     top: 36%;
-    right: 150px;
+    right: 210px;
 }
 
 /* Business Case, Policies, Standards and Legislation cluster */
 .idi-research-clusters .idi-policy-cluster-circle {
     width: 70px;
     height: 70px;
-    background-color: #EF5C25;
     border-radius: 35px;
+/*    background-color: #EF5C25; */
+    background-color: #774A9C;
 }
 .idi-research-clusters .idi-policy-cluster-arrow {
     background-image:  url("images/arrow_lg_blue_right.png");
     height: 70px;
 }
 .idi-research-clusters .idi-policy-cluster-name {
-    color: #EF5C25;
+/*     color: #EF5C25; */
+    color: #926EB0;
     font-size: 1.5em;
     width: 10em;
     top: 27%;
@@ -367,21 +452,24 @@ These shadow styles are still being decided on by the designers
 
 /* Moble and Pervasive Computing cluster */
 .idi-research-clusters .idi-mobile-cluster-circle {
-    width: 88px;
-    height: 88px;
-    background-color: #FED307;
-    border-radius: 44px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+/*     background-color: #FED307; */
+    background-color: #00ADE4;
 }
-.idi-research-clusters .idi-mobile-cluster-arrow {
+.idi-research-clusters .idi-research-cluster .idi-mobile-cluster-arrow {
     background-image:  url("images/arrow_lg_blue_right.png");
+    background-position: 50% 90%;
     height: 88px;
 }
 .idi-research-clusters .idi-mobile-cluster-name {
-    color: #FED307;
+/*    color: #FED307; */
+    color: #33BDE9;
     width: 7em;
     font-size: 1.3125em;
-    top: 33%;
-    left: 115px;
+    top: 67%;
+    left: 128px;
 }
 
 
@@ -436,13 +524,25 @@ These shadow styles are still being decided on by the designers
 .twitter-feed-group {
     margin-bottom: 1em;
 }
+/* right now, these hc icons don't work because of a background color; don't know why */
+.fl-theme-uio-yb .twitter-feed-group { background-image: url('images/news-tweet/tweet-yellow.png'); }
+.fl-theme-uio-wb .twitter-feed-group { background-image: url('images/news-tweet/tweet-white.png'); }
+.fl-theme-uio-by .twitter-feed-group,
+.fl-theme-uio-bw .twitter-feed-group { background-image: url('images/news-tweet/tweet-black.png'); }
+
 .twitter-feed-group a.twitter-follow-button {
+    display: block;
     font-size: 1.2em;
     color: #202020;
     font-weight: 700;
     margin-bottom: 0.5em;
     text-decoration: none;
+    background-image: url('images/news-tweet/tweet.png');
+    background-repeat: no-repeat;
+    background-size: 1.6em auto;
+    background-position: 90% 20%;
 }
+.twitter-feed-group a.twitter-follow-button:hover { background-image: url('images/news-tweet/tweet-hover.png'); }
 .twitter-feed-group ul {
     margin-left: 0px;
     margin-bottom: 0px;
@@ -465,10 +565,10 @@ These shadow styles are still being decided on by the designers
 .fl-uiOptions-fatPanel .fl-toggleButton {
     border: none;
     margin-top: 1px;
-    background-color: #828282;
-    box-shadow: 0px 0px 4px 1px #666666 inset;
-    color: #FFFFFF;
-    text-shadow: 1px 1px 0px #000000;
+    background-color: #E5E5E5;
+    box-shadow: 0px 0px 2px 1px #CCCCCC inset;
+    color: #000000;
+    text-shadow: 1px 1px 0px #FFFFFF;
     font-style: italic;
     font-weight: 400;
     font-size: 1em;
@@ -480,16 +580,31 @@ These shadow styles are still being decided on by the designers
     margin-top: 0px;
     font-weight: 400;
 }
+/* these should not be necessary, but defaults not working? */
+.fl-theme-uio-yb .fl-uiOptions-fatPanel .fl-toggleButton { border: 1px solid yellow;  }
+.fl-theme-uio-wb .fl-uiOptions-fatPanel .fl-toggleButton { border: 1px solid white;  }
+.fl-theme-uio-by .fl-uiOptions-fatPanel .fl-toggleButton,
+.fl-theme-uio-bw .fl-uiOptions-fatPanel .fl-toggleButton { border: 1px solid black;  }
+
 .idi-uio-button {
-    background-image: url("images/gear_white.png");
+    background-image: url("images/loginandpreferences/preferences.png");
 }
-.idi-loginout {
-    background-image: url("images/gear_white.png");
+.fl-theme-uio-yb .idi-uio-button { background-image: url("images/loginandpreferences/preferences-yellow.png"); }
+.fl-theme-uio-wb .idi-uio-button { background-image: url("images/loginandpreferences/preferences-white.png"); }
+.fl-theme-uio-by .idi-uio-button,
+.fl-theme-uio-bw .idi-uio-button { background-image: url("images/loginandpreferences/preferences-black.png"); }
+.fl-uiOptions-fatPanel .fl-toggleButton.idi-slidingPanel-toggleButton {
+    background-image: url("images/loginandpreferences/login.png");
     width: 4em;
     padding: 5px 5px 5px 25px;
     position: absolute;
     right: 7.5em;
+    background-position: 0.6em 50%;
 }
+.fl-theme-uio-yb .fl-toggleButton.idi-slidingPanel-toggleButton { background-image: url("images/loginandpreferences/login-yellow.png"); }
+.fl-theme-uio-wb .fl-toggleButton.idi-slidingPanel-toggleButton { background-image: url("images/loginandpreferences/login-white.png"); }
+.fl-theme-uio-by .fl-toggleButton.idi-slidingPanel-toggleButton,
+.fl-theme-uio-bw .fl-toggleButton.idi-slidingPanel-toggleButton { background-image: url("images/loginandpreferences/login-black.png"); }
 
 /* for pages with a ToC, ensure anchors don't hide under top nav */
 a.anchor {
@@ -528,6 +643,10 @@ ul.idi-institution-list li:before {
     padding-right: 0.5em;
     color: #CCCCCC;
 }
+.fl-theme-uio-yb ul.idi-institution-list li:before { color: #FFFF00; }
+.fl-theme-uio-wb ul.idi-institution-list li:before { color: #FFFFFF; }
+.fl-theme-uio-by ul.idi-institution-list li:before,
+.fl-theme-uio-bw ul.idi-institution-list li:before { color: #000000; }
 
 /* Contact Us section */
 .idi-mailing-address,
@@ -536,9 +655,26 @@ ul.idi-institution-list li:before {
     font-size: 0.875em;
     padding-left: 25px;
     padding-bottom: 10px;
-    background-image: url("images/arrow_lg_blue_right.png");
     background-repeat: no-repeat;
+    background-size: 1em auto;
 }
+.idi-mailing-address { background-image: url("images/contact/location.png"); }
+.idi-phone { background-image: url("images/contact/phone.png"); }
+.idi-email { background-image: url("images/contact/mail.png"); }
+
+.fl-theme-uio-yb .idi-mailing-address { background-image: url("images/contact/location-yellow.png"); }
+.fl-theme-uio-yb .idi-phone { background-image: url("images/contact/phone-yellow.png"); }
+.fl-theme-uio-yb .idi-email { background-image: url("images/contact/mail-yellow.png"); }
+.fl-theme-uio-wb .idi-mailing-address { background-image: url("images/contact/location-white.png"); }
+.fl-theme-uio-wb .idi-phone { background-image: url("images/contact/phone-white.png"); }
+.fl-theme-uio-wb .idi-email { background-image: url("images/contact/mail-white.png"); }
+.fl-theme-uio-by .idi-mailing-address,
+.fl-theme-uio-bw .idi-mailing-address { background-image: url("images/contact/location-black.png"); }
+.fl-theme-uio-by .idi-phone,
+.fl-theme-uio-bw .idi-phone { background-image: url("images/contact/phone-black.png"); }
+.fl-theme-uio-by .idi-email,
+.fl-theme-uio-bw .idi-email { background-image: url("images/contact/mail-black.png"); }
+
 .idi-mailing-list {
     margin-top: 1em;
     font-style: italic;
@@ -579,6 +715,11 @@ form#idiMailingListSignup input {
     border-radius: 5px;
     margin-bottom: 1em;
 }
+.fl-theme-uio-yb .idi-mailing-list-reminder { box-shadow: none; border: 1px solid #FFFF00; }
+.fl-theme-uio-wb .idi-mailing-list-reminder { box-shadow: none; border: 1px solid #000000; }
+.fl-theme-uio-by .idi-mailing-list-reminder,
+.fl-theme-uio-bw .idi-mailing-list-reminder { box-shadow: none; border: 1px solid #000000; }
+
 .idi-article-list ul {
     margin-left: 0;
 }
@@ -645,6 +786,10 @@ a.idi-breadcrumbs,
     margin-left: 50%;
     line-height: 2em;
 }
+.fl-theme-uio-yb .idi-person:after { color: #FFFF00; }
+.fl-theme-uio-wb .idi-person:after { color: #FFFFFF; }
+.fl-theme-uio-by .idi-person:after,
+.fl-theme-uio-bw .idi-person:after { color: #000000; }
 img.idi-about-person {
     float: right;
     margin: 5px;
@@ -689,24 +834,41 @@ img.idi-about-person {
     font-size: 1.3em;
     color: #0076B0;
     line-height: 1.2em;
-    padding-left: 1em;
-    background-image: url("images/arrow_lg_blue_right.png");
+    padding-left: 1.3em;
+    background-image: url("images/contact/location-blue.png");
+    background-size: 0.9em auto;
     background-repeat: no-repeat;
     background-position: left top;
     margin-top: 0;
 }
+.fl-theme-uio-yb .idi-infra h2 { background-image: url("images/contact/location-yellow.png"); }
+.fl-theme-uio-wb .idi-infra h2 { background-image: url("images/contact/location-white.png"); }
+.fl-theme-uio-by .idi-infra h2,
+.fl-theme-uio-bw .idi-infra h2 { background-image: url("images/contact/location-black.png"); }
+
 .idi-infra a.idi-map-link {
     text-decoration: none;
 }
 .idi-infra h4 {
     color: #0076B0;
 }
-.idi-infra-bookit {
-    background-image: url("images/arrow_lg_blue_right.png");
+.idi-infra-bookit,
+.idi-more {
+    background-image: url("images/arrows/arrow.gif");
+    background-size: 1em auto;
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 2em;
 }
+.fl-theme-uio-yb .idi-infra-bookit,
+.fl-theme-uio-yb .idi-more { background-image: url("images/arrows/arrow-yellow.gif"); }
+.fl-theme-uio-wb .idi-infra-bookit,
+.fl-theme-uio-wb .idi-more { background-image: url("images/arrows/arrow-white.gif"); }
+.fl-theme-uio-by .idi-infra-bookit,
+.fl-theme-uio-bw .idi-infra-bookit,
+.fl-theme-uio-by .idi-more,
+.fl-theme-uio-bw .idi-more { background-image: url("images/arrows/arrow-black.gif"); }
+
 .idi-infra h5 {
     font-style: italic;
     color: #808080;
@@ -798,9 +960,21 @@ a.idi-project-link {
     height: auto;
     padding-top: 2em;
 }
-.idi-research .idi-more {
-    background-image: url("images/arrow_lg_blue_right.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    padding-right: 2em;
+
+/* Remove shadows for high-contrast themes */
+.fl-theme-uio-yb .idi-about-tagline, .fl-theme-uio-wb .idi-about-tagline,
+.fl-theme-uio-by .idi-about-tagline, .fl-theme-uio-bw .idi-about-tagline,
+.fl-theme-uio-yb h3, .fl-theme-uio-wb h3,
+.fl-theme-uio-by h3, .fl-theme-uio-bw h3,
+.fl-theme-uio-yb .idi-infra h1, .fl-theme-uio-wb .idi-infra h1,
+.fl-theme-uio-by .idi-infra h1, .fl-theme-uio-bw .idi-infra h1 { text-shadow: none; }
+
+
+
+.fl-theme-uio-yb .fl-uiOptions-fatPanel .fl-toggleButton,
+.fl-theme-uio-wb .fl-uiOptions-fatPanel .fl-toggleButton,
+.fl-theme-uio-by .fl-uiOptions-fatPanel .fl-toggleButton,
+.fl-theme-uio-bw .fl-uiOptions-fatPanel .fl-toggleButton {
+    text-shadow: none;
+    box-shadow: none;
 }
