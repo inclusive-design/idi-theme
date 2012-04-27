@@ -148,13 +148,18 @@ These shadow styles are still being decided on by the designers
 /* Background of main content */
 .fl-site-logo {
     background-repeat: no-repeat;
-    background-image: url('images/idi_logo.png');
-    height: 87px;
-    width: 87px;
+    background-image: url('images/logos/logo.png');
+    height: 74px;
+    width: 74px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+.fl-theme-uio-yb .fl-site-logo { background-image: url('images/logos/logo-yellow.png'); }
+.fl-theme-uio-wb .fl-site-logo { background-image: url('images/logos/logo-white.png'); }
+.fl-theme-uio-by .fl-site-logo,
+.fl-theme-uio-bw .fl-site-logo { background-image: url('images/logos/logo-black.png'); }
+
 .fl-site-name {
     margin-top: 1.125em;
     text-transform: lowercase;
@@ -333,7 +338,7 @@ These shadow styles are still being decided on by the designers
 }
 
 /**
- * Research Cluster circles
+ * Research Cluster circles on front page
  */
 
 /* general to all circles */
@@ -745,7 +750,8 @@ img.alignleft {
 }
 
 .idi-breadcrumbs a,
-a.idi-breadcrumbs {
+a.idi-breadcrumbs,
+.idi-breadcrumbs {
     text-transform: uppercase;
     text-decoration: none;
     font-style: italic;
@@ -753,7 +759,8 @@ a.idi-breadcrumbs {
 }
 
 /* About page styles */
-.idi-about h2 {
+.idi-about h2,
+.idi-cluster h2 {
     font-style: italic;
     color: #3FB66C;
 }
@@ -894,6 +901,42 @@ img.idi-about-person {
     height: 300px;
 }
 
+/* Research Cluster Pages styles */
+.idi-project img {
+    float: left;
+}
+.idi-project h3 {
+    font-style: normal;
+    margin-bottom: 0.3em;
+}
+.idi-project-leads {
+    margin-left: 0.5em;
+    margin-right: 2em;
+}
+.idi-project-lead {
+    margin-bottom: 1em;
+}
+.idi-project-lead-name {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.idi-project h3 a,
+.idi-project-lead-name a {
+    text-decoration: none;
+}
+.idi-cluster-description {
+    margin-top: 1.5em;
+}
+.idi-project {
+    margin-bottom: 1.3em;
+}
+.idi-project.fl-col-mixed .fl-col-fixed {
+    padding: 0;
+    width: 100px; /* same as margin-left below */
+}
+.idi-project.fl-col-mixed .fl-col-flex {
+    margin-left: 100px; /* same as width above */
+}
 
 /* research page */
 .idi-project-list {
@@ -922,14 +965,38 @@ a.idi-project-link {
     height: auto;
     padding-top: 2em;
 }
-/*
-.idi-research .idi-more {
-    background-image: url("images/arrow_lg_blue_right.png");
+
+/* Cluster icons on Research page */
+.idi-cluster-icon {
+    height: 240px;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: right;
-    padding-right: 2em;
 }
-*/
+.idi-cluster-design { background-image: url('images/clusters/design&development.png'); }
+.idi-cluster-policies { background-image: url('images/clusters/businesscase.png'); }
+.idi-cluster-mobile { background-image: url('images/clusters/mobile.png'); }
+.idi-cluster-implementation { background-image: url('images/clusters/information.png'); }
+
+.fl-theme-uio-yb .idi-cluster-design { background-image: url('images/clusters/design&development-yellow.png'); }
+.fl-theme-uio-wb .idi-cluster-design { background-image: url('images/clusters/design&development-white.png'); }
+.fl-theme-uio-by .idi-cluster-design,
+.fl-theme-uio-bw .idi-cluster-design { background-image: url('images/clusters/design&development-black.png'); }
+
+.fl-theme-uio-yb .idi-cluster-policies { background-image: url('images/clusters/businesscase-yellow.png'); }
+.fl-theme-uio-wb .idi-cluster-policies { background-image: url('images/clusters/businesscase-white.png'); }
+.fl-theme-uio-by .idi-cluster-policies,
+.fl-theme-uio-bw .idi-cluster-policies { background-image: url('images/clusters/businesscase-black.png'); }
+
+.fl-theme-uio-yb .idi-cluster-mobile { background-image: url('images/clusters/mobile-yellow.png'); }
+.fl-theme-uio-wb .idi-cluster-mobile { background-image: url('images/clusters/mobile-white.png'); }
+.fl-theme-uio-by .idi-cluster-mobile,
+.fl-theme-uio-bw .idi-cluster-mobile { background-image: url('images/clusters/mobile-black.png'); }
+
+.fl-theme-uio-yb .idi-cluster-implementation { background-image: url('images/clusters/information-yellow.png'); }
+.fl-theme-uio-wb .idi-cluster-implementation { background-image: url('images/clusters/information-white.png'); }
+.fl-theme-uio-by .idi-cluster-implementation,
+.fl-theme-uio-bw .idi-cluster-implementation { background-image: url('images/clusters/information-black.png'); }
+
 
 /* Remove shadows for high-contrast themes */
 .fl-theme-uio-yb .idi-about-tagline, .fl-theme-uio-wb .idi-about-tagline,
