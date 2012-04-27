@@ -14,11 +14,16 @@
 		<li>
 		      <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
 		</li>
-		<?php  endwhile;
-		endif;
+		<?php  endwhile; ?>
+		<li>
+			<!-- this still need the href -->
+			<a href="#" class="idi-more">view archive</a>
+		</li>
+		<?php endif;
 		wp_reset_query();
 		?>
 		</ul>
+
 	</div>
 
 	<div class="idi-mailing-list-reminder">
