@@ -333,7 +333,7 @@ These shadow styles are still being decided on by the designers
 }
 
 /**
- * Research Cluster circles
+ * Research Cluster circles on front page
  */
 
 /* general to all circles */
@@ -960,6 +960,17 @@ a.idi-project-link {
     height: auto;
     padding-top: 2em;
 }
+
+/* Cluster icons on Research page */
+.idi-cluster-icon {
+    height: 240px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.idi-cluster-design { background-image: url('images/clusters/design&development.png'); }
+.idi-cluster-policies { background-image: url('images/clusters/businesscase.png'); }
+.idi-cluster-mobile { background-image: url('images/clusters/mobile.png'); }
+.idi-cluster-implementation { background-image: url('images/clusters/information.png'); }
 
 /* Remove shadows for high-contrast themes */
 .fl-theme-uio-yb .idi-about-tagline, .fl-theme-uio-wb .idi-about-tagline,

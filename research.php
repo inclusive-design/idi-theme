@@ -21,9 +21,11 @@ Template Name: Research Page
 				<section>
 					<div class="idi-research-item">
 						<head>
-							<div>
-								<a href="design"><img src="" alt="A link picture to the research cluster of design and development." title="A link picture to the research cluster of design and development." /></a>
-							</div>
+							<a href="design" title="A link picture to the research cluster of design and development." />
+								<div class="idi-cluster-icon idi-cluster-design">
+									<span class="fl-hidden-accessible">Design and Development</span>
+								</div>
+							</a>
 							<h2>Design & Development</h2>
 						</head>
 						<p>Suspendisse erat ipsum, iaculis adipiscing adipiscing elit. Sed at purus auctor mi luctus sodales. Nunc scelerisque ligula porta.</p>
@@ -36,9 +38,11 @@ Template Name: Research Page
 				<section>
 					<div class="idi-research-item">
 						<head>
-							<div>
-								<a href="policies"><img src="" alt="A link picture to the research cluster of Business Case, Policies, Standards & Legislation." title="A link picture to the research cluster of Business Case, Policies, Standards & Legislation." /></a>
-							</div>
+							<a href="policies" title="A link picture to the research cluster of Business Case, Policies, Standards and Legislation." />
+								<div class="idi-cluster-icon idi-cluster-policies">
+									<span class="fl-hidden-accessible">Business Case, Policies, Standards and Legislation</span>
+								</div>
+							</a>
 							<h2>Business Case, Policies, Standards & Legislation</h2>
 						</head>
 						<p>Suspendisse erat ipsum, iaculis adipiscing adipiscing elit. Sed at purus auctor mi luctus sodales. Nunc scelerisque ligula porta.</p>
@@ -51,9 +55,11 @@ Template Name: Research Page
 				<section>
 					<div class="idi-research-item">
 						<head>
-							<div>
-								<a href="mobile"><img src="" alt="A link picture to the research cluster of Mobile & Pervasive Computing." title="A link picture to the research cluster of Mobile & Pervasive Computing." /></a>
-							</div>
+							<a href="mobile" title="A link picture to the research cluster of Mobile & Pervasive Computing." />
+								<div class="idi-cluster-icon idi-cluster-mobile">
+									<span class="fl-hidden-accessible">Mobile and Pervasive Computing</span>
+								</div>
+							</a>
 							<h2>Mobile & Pervasive Computing</h2>
 						</head>
 						<p>Suspendisse erat ipsum, iaculis adipiscing adipiscing elit. Sed at purus auctor mi luctus sodales. Nunc scelerisque ligula porta.</p>
@@ -66,9 +72,11 @@ Template Name: Research Page
 				<section>
 					<div class="idi-research-item">
 						<head>
-							<div>
-								<a href="implementation"><img src="" alt="A link picture to the research cluster design and development." title="A link picture to the research cluster design and development." /></a>
-							</div>
+							<a href="implementation" title="A link picture to the research cluster of Implementation and Information Practices." />
+								<div class="idi-cluster-icon idi-cluster-implementation">
+									<span class="fl-hidden-accessible">Implementation and Information Practices</span>
+								</div>
+							</a>
 							<h2>Implementation & Information Practices</h2>
 						</head>
 						<p>Suspendisse erat ipsum, iaculis adipiscing adipiscing elit. Sed at purus auctor mi luctus sodales. Nunc scelerisque ligula porta.</p>
