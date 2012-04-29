@@ -5,7 +5,7 @@ Template Name: Research Cluster
 ?>
 <?php get_header(); ?>
 
-<div class="fl-centered fl-col-mixed fl-site-wrapper idi-cluster">
+<div class="fl-centered fl-col-mixed fl-site-wrapper idi-cluster idi-<?php echo $post->post_name; ?>">
 
 	<div class="idi-cluster-leads fl-col-fixed fl-force-left"> 	
 
