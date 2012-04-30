@@ -9,22 +9,22 @@ Template Name: Front Page
 <div class="fl-centered fl-col-mixed fl-site-wrapper">
 	<nav role="navigation" class="idi-research-clusters fl-centered fl-clearfix">
 		<div class="idi-research-cluster idi-dev-cluster">
-			<a href="research/design"> <div class="idi-dev-cluster-circle"></div> </a>
+			<a href="research/design"> <div class="idi-cluster-circle idi-dev-cluster-circle"></div> </a>
 			<div class="idi-cluster-arrow idi-dev-cluster-arrow"> </div>
 			<a class="idi-cluster-name idi-dev-cluster-name" href="research/design"> Design & Development</a>
 		</div>
 		<div class="idi-research-cluster idi-info-cluster">
 			<a class="idi-cluster-name idi-info-cluster-name" href="research/implementation"> Information & Implementation Practices</a>
 			<div class="idi-cluster-arrow idi-info-cluster-arrow"> </div>
-			<a href="research/implementation"> <div class="idi-info-cluster-circle"></div> </a>
+			<a href="research/implementation"> <div class="idi-cluster-circle idi-info-cluster-circle"></div> </a>
 		</div>
 		<div class="idi-research-cluster idi-policy-cluster">
-			<a href="research/policies"> <div class="idi-policy-cluster-circle"></div> </a>
+			<a href="research/policies"> <div class="idi-cluster-circle idi-policy-cluster-circle"></div> </a>
 			<div class="idi-cluster-arrow idi-policy-cluster-arrow"> </div>
 			<a class="idi-cluster-name idi-policy-cluster-name" href="research/policies"> Business Case, Policies, Standards & Legislation</a>
 		</div>
 		<div class="idi-research-cluster idi-mobile-cluster">
-			<a href="research/mobile"> <div class="idi-mobile-cluster-circle"></div> </a>
+			<a href="research/mobile"> <div class="idi-cluster-circle idi-mobile-cluster-circle"></div> </a>
 			<div class="idi-cluster-arrow idi-mobile-cluster-arrow"> </div>
 			<a class="idi-cluster-name idi-mobile-cluster-name" href="research/mobile"> Moble & Pervasive Computing</a>
 		</div>
