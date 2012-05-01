@@ -144,9 +144,6 @@ These shadow styles are still being decided on by the designers
     font-weight: 700;
     text-decoration: none;
 }
-.idi-research-clusters {
-    max-width: 1024px;
-}
 /* Background of main content */
 .fl-site-logo {
     background-repeat: no-repeat;
@@ -343,10 +340,25 @@ These shadow styles are still being decided on by the designers
  * Research Cluster circles on front page
  */
 
+.idi-clusters-overlay {
+    background-image: url('images/clusters/design&development-bg.png'), url('images/clusters/businesscase-bg.png'), url('images/clusters/mobile-bg.png'), url('images/clusters/information-bg.png');
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: 0px 0px, 250px 0px, 375px 50px, 620px 0px; /* horizontal vertical */
+    height: 575px;
+    width: 1024px;
+    opacity: 0.09;
+    position: absolute;
+    z-index: 100;
+    pointer-events: none;
+}
 /* general to all circles */
 .idi-research-clusters {
+    max-width: 1024px;
     position: relative;
     height: 575px;
+}
+.idi-research-cluster {
+    z-index: 50;
 }
 .idi-research-clusters .idi-research-cluster {
     vertical-align: middle;
@@ -1080,6 +1092,32 @@ a.idi-project-link {
 .fl-theme-uio-by .idi-cluster-implementation,
 .fl-theme-uio-bw .idi-cluster-implementation { background-image: url('images/clusters/information-black.png'); }
 
+/* Individual Cluster Pages */
+.idi-cluster {
+    position: relative;
+}
+.idi-overlay {
+    background-repeat: no-repeat;
+    background-position: 5em 0;
+    opacity: 0.07;
+    height: 500px;
+    width: 450px;
+    position: absolute;
+    z-index: 999;
+    pointer-events: none;
+}
+.idi-design-overlay {
+    background-image: url('images/clusters/design&development-bg.png');
+}
+.idi-policies-overlay {
+    background-image: url('images/clusters/businesscase-bg.png');
+}
+.idi-mobile-overlay {
+    background-image: url('images/clusters/mobile-bg.png');
+}
+.idi-implementation-overlay {
+    background-image: url('images/clusters/information-bg.png');
+}
 
 /* Remove shadows for high-contrast themes */
 .fl-theme-uio-yb .idi-about-tagline, .fl-theme-uio-wb .idi-about-tagline,
