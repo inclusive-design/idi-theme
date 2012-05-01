@@ -8,6 +8,7 @@ Template Name: Front Page
 	
 <div class="fl-centered fl-col-mixed fl-site-wrapper">
 	<nav role="navigation" class="idi-research-clusters fl-centered fl-clearfix">
+		<div class="idi-clusters-overlay"></div>
 		<div class="idi-research-cluster idi-dev-cluster">
 			<a href="research/design"> <div class="idi-cluster-circle idi-dev-cluster-circle"></div> </a>
 			<div class="idi-cluster-arrow idi-dev-cluster-arrow"> </div>
@@ -28,7 +29,6 @@ Template Name: Front Page
 			<div class="idi-cluster-arrow idi-mobile-cluster-arrow"> </div>
 			<a class="idi-cluster-name idi-mobile-cluster-name" href="research/mobile"> Moble & Pervasive Computing</a>
 		</div>
-
 	</nav>
 
 	<div class="fl-col-flex4 front-cols">
