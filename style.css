@@ -97,7 +97,9 @@ h2 {
     font-size: 1.9375em;
     font-weight: 700;
 }
-h3 {
+h3,
+.idi-login-form .login-username label,
+.idi-login-form .login-password label {
     font-size: 1.125em;
     font-weight: 700;
     color: #774A9C;
@@ -633,11 +635,92 @@ a.anchor {
     background-color: #FFFFFF;
     z-index: 999;
     top: 0;
-    padding: 2em;
+    padding: 1em;
 }
-.idi-login-form #loginform p {
-    display: inline;
+.idi-login-form {
+    width: 46em;
 }
+.idi-login-form label {
+    padding-right: 0.4em;
+}
+.idi-login-form #loginform > * {
+    display: inline-block;
+    padding: 1em;
+}
+.idi-login-form #loginform div div {
+    display: inline-block;
+}
+.idi-login-form label,
+.idi-login-form .login-username,
+.idi-login-form .login-password,
+.idi-login-form .login-submit {
+    vertical-align: top;
+}
+.idi-login-form input {
+    border-radius: 4px;
+}
+.idi-login-form #wp-submit {
+    background-color: #0075B0;
+    border: 1px solid #0075B0;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 0.3em;
+    font-size: 0.9em;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: -moz-linear-gradient(top, #0292CB, #0075B0);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0075B0), to(#0292CB));
+    background: -webkit-linear-gradient(top, #0292CB, #0075B0);
+    background: -ms-linear-gradient(top, #0292CB, #0075B0);
+    background: -o-linear-gradient(top, #0292CB, #0075B0);
+    box-shadow: 0px 0px 2px 0px #FFFFFF inset;
+    text-shadow: #000000 0 1px 1px;
+}
+.idi-login-form #wp-submit:hover {
+    background: -moz-linear-gradient(top, #00ADE4, #00ADE4);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#00ADE4), to(#00ADE4));
+    background: -webkit-linear-gradient(top, #00ADE4, #00ADE4);
+    background: -ms-linear-gradient(top, #00ADE4, #00ADE4);
+    background: -o-linear-gradient(top, #00ADE4, #00ADE4);
+}
+.idi-login-form #wp-submit:active {
+    background: -moz-linear-gradient(top, #0292CB, #0292CB);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0292CB), to(#0292CB));
+    background: -webkit-linear-gradient(top, #0292CB, #0292CB);
+    background: -ms-linear-gradient(top, #0292CB, #0292CB);
+    background: -o-linear-gradient(top, #0292CB, #0292CB);
+    color: #005A8C;
+    text-shadow: #FFFFFF 0 1px 1px;
+}
+.fl-theme-uio-yb .idi-login-form #wp-submit,
+.fl-theme-uio-wb .idi-login-form #wp-submit { background: #000000; }
+.fl-theme-uio-bw .idi-login-form #wp-submit { background: #FFFFFF; }
+.fl-theme-uio-by .idi-login-form #wp-submit { background: #FFFF00; }
+
+.idi-login-form .idi-login-extra {
+    font-style: italic;
+    font-weight: 700;
+    background-image: url('images/arrows/arrow.gif');
+    background-repeat: no-repeat;
+    background-size: 1em auto;
+    margin-top: 0.5em;
+}
+.idi-login-form .idi-login-extra a {
+    text-decoration: none;
+}
+.idi-login-form .idi-login-signup {
+    width: 5em;
+    background-position: 3.5em 0.4em;
+}
+.idi-login-form .idi-login-forgot {
+    width: 10em;
+    background-position: 8.7em 0.4em;
+}
+
+.fl-theme-uio-yb .idi-login-form .idi-login-extra { background-image: url('images/arrows/arrow-yellow.gif'); }
+.fl-theme-uio-wb .idi-login-form .idi-login-extra { background-image: url('images/arrows/arrow-white.gif'); }
+.fl-theme-uio-by .idi-login-form .idi-login-extra,
+.fl-theme-uio-bw .idi-login-form .idi-login-extra { background-image: url('images/arrows/arrow-black.gif'); }
 
 /* Institution List on front page */
 .idi-institutions.idi-box {
@@ -1032,7 +1115,13 @@ a.idi-project-link {
 .fl-theme-uio-yb h3, .fl-theme-uio-wb h3,
 .fl-theme-uio-by h3, .fl-theme-uio-bw h3,
 .fl-theme-uio-yb .idi-infra h1, .fl-theme-uio-wb .idi-infra h1,
-.fl-theme-uio-by .idi-infra h1, .fl-theme-uio-bw .idi-infra h1 { text-shadow: none; }
+.fl-theme-uio-by .idi-infra h1, .fl-theme-uio-bw .idi-infra h1,
+.fl-theme-uio-yb .idi-login-form .login-username label, .fl-theme-uio-yb .idi-login-form .login-password label,
+.fl-theme-uio-wb .idi-login-form .login-username label, .fl-theme-uio-wb .idi-login-form .login-password label,
+.fl-theme-uio-by .idi-login-form .login-username label, .fl-theme-uio-by .idi-login-form .login-password label,
+.fl-theme-uio-bw .idi-login-form .login-username label, .fl-theme-uio-bw .idi-login-form .login-password label,
+.fl-theme-uio-yb .idi-login-form #wp-submit, .fl-theme-uio-wb .idi-login-form #wp-submit,
+.fl-theme-uio-by .idi-login-form #wp-submit, .fl-theme-uio-bw .idi-login-form #wp-submit { text-shadow: none; }
 
 
 
