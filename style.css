@@ -509,6 +509,11 @@ These shadow styles are still being decided on by the designers
 .fl-theme-uio-by .idi-research-clusters .idi-research-cluster .idi-cluster-arrow,
 .fl-theme-uio-bw .idi-research-clusters .idi-research-cluster .idi-cluster-arrow { background-image: url('images/arrows/arrowresearch-black.png'); }
 
+.fl-theme-uio-yb .idi-research-clusters .idi-research-cluster .idi-info-cluster-arrow { background-image: url('images/arrows/arrowresearch-yellowflip.png'); }
+.fl-theme-uio-wb .idi-research-clusters .idi-research-cluster .idi-info-cluster-arrow { background-image: url('images/arrows/arrowresearch-whiteflip.png'); }
+.fl-theme-uio-by .idi-research-clusters .idi-research-cluster .idi-info-cluster-arrow,
+.fl-theme-uio-bw .idi-research-clusters .idi-research-cluster .idi-info-cluster-arrow { background-image: url('images/arrows/arrowresearch-blackflip.png'); }
+
 .fl-theme-uio-yb .idi-mobile-cluster-circle,
 .fl-theme-uio-wb .idi-mobile-cluster-circle { border: 1px solid #000000 !important; }
 .fl-theme-uio-by .idi-mobile-cluster-circle { border: 1px solid #FFFF00 !important; }
