@@ -8,7 +8,7 @@ Template Name: Front Page
 	
 <div class="fl-centered fl-col-mixed fl-site-wrapper">
 	<nav role="navigation" class="idi-research-clusters fl-centered fl-clearfix">
-		<div class="idi-cluster-background"></div>
+		<div class="idi-clusters-overlay"></div>
 		<div class="idi-research-cluster idi-dev-cluster">
 			<a href="research/design"> <div class="idi-dev-cluster-circle"></div> </a>
 			<div class="idi-cluster-arrow idi-dev-cluster-arrow"> </div>

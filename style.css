@@ -340,15 +340,16 @@ These shadow styles are still being decided on by the designers
  * Research Cluster circles on front page
  */
 
-.idi-cluster-background {
+.idi-clusters-overlay {
     background-image: url('images/clusters/design&development-bg.png'), url('images/clusters/businesscase-bg.png'), url('images/clusters/mobile-bg.png'), url('images/clusters/information-bg.png');
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-position: 0px 0px, 250px 0px, 375px 50px, 620px 0px; /* horizontal vertical */
     height: 575px;
     width: 1024px;
     opacity: 0.09;
-    float: left;
+    position: absolute;
     z-index: 100;
+    pointer-events: none;
 }
 /* general to all circles */
 .idi-research-clusters {
@@ -1093,19 +1094,28 @@ a.idi-project-link {
 
 /* Individual Cluster Pages */
 .idi-cluster {
-    background-repeat: no-repeat;
-    background-position: 100px 0px;
+    position: relative;
 }
-.idi-design {
+.idi-overlay {
+    background-repeat: no-repeat;
+    background-position: 5em 0;
+    opacity: 0.07;
+    height: 500px;
+    width: 450px;
+    position: absolute;
+    z-index: 999;
+    pointer-events: none;
+}
+.idi-design-overlay {
     background-image: url('images/clusters/design&development-bg.png');
 }
-.idi-policies {
+.idi-policies-overlay {
     background-image: url('images/clusters/businesscase-bg.png');
 }
-.idi-mobile {
+.idi-mobile-overlay {
     background-image: url('images/clusters/mobile-bg.png');
 }
-.idi-implementation {
+.idi-implementation-overlay {
     background-image: url('images/clusters/information-bg.png');
 }
 
