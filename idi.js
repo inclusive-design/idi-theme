@@ -51,7 +51,17 @@ var idi = idi || {};
         loginToggleBtn: ".idi-slidingPanel-toggleButton",
         UIOPanel: '.flc-slidingPanel-panel',
         UIOToggleButton: '.flc-slidingPanel-toggleButton',
-        loginForm: ".idi-login-form"
+        loginForm: ".idi-login-form",
+        mailingList: {
+            form: ".idi-mailing-list-signup",
+            loading: ".idi-loading",
+            listForm: "#idiMailingListSignup",
+            listEmail: "#listEmail",
+            success: ".idi-signup-success",
+            emailed: ".idi-email-signedup",
+            error: ".idi-signup-error",
+            warning: ".idi-invalid-email-warning"
+        }
     };
 
     idi.setUpLoginOutPanel = function () {
@@ -72,6 +82,43 @@ var idi = idi || {};
             }
         });
         $(idi.selectors.loginForm).show();
+    };
+
+    idi.mailingListSignup = function () {
+        var form = $(idi.selectors.mailingList.form);
+        var loading = $(idi.selectors.mailingList.loading);
+        form.hide();
+        loading.show();
+
+        var listForm = $(idi.selectors.mailingList.listForm);
+        var listEmail = $(idi.selectors.mailingList.listEmail).val();
+        var success = $(idi.selectors.mailingList.success);
+        var emailed = $(idi.selectors.mailingList.emailed);
+        var error = $(idi.selectors.mailingList.error);
+        var warning = $(idi.selectors.mailingList.warning);
+        warning.hide();
+
+        //validate for non-html5 browsers
+        var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+        if (reg.test(listEmail) === false) {
+            warning.show();
+        } else {
+            $.ajax({
+                url: listForm.attr('action'),
+                type: listForm.attr('method'),
+                data: {email: listEmail},
+                success: function (email) {
+                    loading.hide();
+                    emailed.text(listEmail);
+                    success.show();
+                },
+                error: function () {
+                    loading.hide();
+                    error.show();
+                }
+            });
+        }
+        return false;
     };
 
     $(document).ready(function () {

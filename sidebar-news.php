@@ -24,10 +24,7 @@
 
 	</div>
 
-	<div class="idi-mailing-list-reminder">
-		<h3>Stay updated,<br/>join our mailing list:</h3>
-		<?php get_template_part("mailing-list-form"); ?>
-	</div>
+	<?php get_template_part("mailing-list-form"); ?>
 
 	<?php get_template_part('tweets', 'aegisprog') ?>
 	<?php get_template_part('tweets', 'SNOWocad') ?>
