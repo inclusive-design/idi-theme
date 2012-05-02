@@ -809,6 +809,21 @@ ul.idi-institution-list li:before {
 .idi-mailing-list form {
     margin-top: 0.375em;
 }
+.idi-loading {
+    background-image: url('images/loading.gif');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 5em;
+    display: none;
+}
+.fl-theme-uio-yb .idi-loading { background-image: url('images/loading-yellow.gif'); }
+.fl-theme-uio-wb .idi-loading { background-image: url('images/loading-white.gif'); }
+.fl-theme-uio-bw .idi-loading,
+.fl-theme-uio-by .idi-loading { background-image: url('images/loading-black.gif'); }
+
+.idi-email-signedup {
+    font-weight: bold;
+}
 form#idiMailingListSignup input {
     width: 98%;
 }
