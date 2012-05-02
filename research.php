@@ -14,16 +14,19 @@ Template Name: Research Page
 	</aside>
 
 	<div class="fl-col-flex idi-one-column idi-research">
-		<a class="idi-breadcrumbs" href="news">RESEARCH CLUSTERS &gt;</a>
-		
 		<ul class="fl-grid">
 			<li>
 				<section>
 					<div class="idi-research-item">
 						<head>
-							<a href="design" title="A link picture to the research cluster of design and development." />
+							<a href="design">
 								<div class="idi-cluster-icon idi-cluster-design">
-									<span class="fl-hidden-accessible">Design and Development</span>
+									<span class="fl-hidden-accessible">Design and Development research cluster</span>
+									<div class="idi-cluster-hover-overlay">
+										<div class="idi-cluster-icon idi-cluster-design-hover">
+											<span class="idi-cluster-icon-text fl-centered"> learn more</span>
+										</div>
+									</div>
 								</div>
 							</a>
 							<h2>Design & Development</h2>
@@ -38,9 +41,14 @@ Template Name: Research Page
 				<section>
 					<div class="idi-research-item">
 						<head>
-							<a href="policies" title="A link picture to the research cluster of Business Case, Policies, Standards and Legislation." />
+							<a href="policies">
 								<div class="idi-cluster-icon idi-cluster-policies">
-									<span class="fl-hidden-accessible">Business Case, Policies, Standards and Legislation</span>
+									<span class="fl-hidden-accessible">Business Case, Policies, Standards and Legislation research cluster</span>
+									<div class="idi-cluster-hover-overlay">
+										<div class="idi-cluster-icon idi-cluster-policies-hover">
+											<span class="idi-cluster-icon-text fl-centered"> learn more</span>
+										</div>
+									</div>
 								</div>
 							</a>
 							<h2>Business Case, Policies, Standards & Legislation</h2>
@@ -55,9 +63,14 @@ Template Name: Research Page
 				<section>
 					<div class="idi-research-item">
 						<head>
-							<a href="mobile" title="A link picture to the research cluster of Mobile & Pervasive Computing." />
+							<a href="mobile">
 								<div class="idi-cluster-icon idi-cluster-mobile">
-									<span class="fl-hidden-accessible">Mobile and Pervasive Computing</span>
+									<span class="fl-hidden-accessible">Mobile and Pervasive Computing research cluster</span>
+									<div class="idi-cluster-hover-overlay">
+										<div class="idi-cluster-icon idi-cluster-mobile-hover">
+											<span class="idi-cluster-icon-text fl-centered"> learn more</span>
+										</div>
+									</div>
 								</div>
 							</a>
 							<h2>Mobile & Pervasive Computing</h2>
@@ -72,9 +85,14 @@ Template Name: Research Page
 				<section>
 					<div class="idi-research-item">
 						<head>
-							<a href="implementation" title="A link picture to the research cluster of Implementation and Information Practices." />
+							<a href="implementation">
 								<div class="idi-cluster-icon idi-cluster-implementation">
-									<span class="fl-hidden-accessible">Implementation and Information Practices</span>
+									<span class="fl-hidden-accessible">Implementation and Information Practices research cluster</span>
+									<div class="idi-cluster-hover-overlay">
+										<div class="idi-cluster-icon idi-cluster-implementation-hover">
+											<span class="idi-cluster-icon-text fl-centered"> learn more</span>
+										</div>
+									</div>
 								</div>
 							</a>
 							<h2>Implementation & Information Practices</h2>
