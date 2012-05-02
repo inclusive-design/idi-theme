@@ -4,7 +4,7 @@
 	</form>
 	
 	<aside class="idi-project-list">
-		<h3>Projects</h3>
+		<h3>Featured Projects</h3>
 		<div class="idi-project-item">
 			<a class="idi-project-link" href="#"><h4>Ligula</h4></a>
 			<p>Donec facilisis ullamcorper pellentesque. Proin imperdiet Purus ligula porta.</p>

@@ -1089,35 +1089,93 @@ a.idi-project-link {
 }
 
 /* Cluster icons on Research page */
+.idi-research-item a {
+    text-decoration: none;
+}
 .idi-cluster-icon {
     height: 240px;
+    width: 240px;
     background-size: contain;
     background-repeat: no-repeat;
 }
-.idi-cluster-design { background-image: url('images/clusters/design&development.png'); }
+.idi-cluster-icon-text {
+    color: white;
+    text-shadow: 1px 1px 0px #000000;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.5em;
+    width: 4.5em;
+    position: relative;
+    top: 46%;
+}
+.fl-theme-uio-yb .idi-cluster-icon-text,
+.fl-theme-uio-wb .idi-cluster-icon-text,
+.fl-theme-uio-by .idi-cluster-icon-text,
+.fl-theme-uio-bw .idi-cluster-icon-text { padding: 0.5em; }
+
+.idi-cluster-hover-overlay {
+    opacity: 0;
+    -moz-transition-property: opacity;
+    -moz-transition-duration: 0.5s;
+    -webkit-transition-property: opacity;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-property: opacity;
+    -o-transition-duration: 0.5s;
+}
+.idi-cluster-hover-overlay:hover {
+    opacity: 1;
+    -moz-transition-property: opacity;
+    -moz-transition-duration: 1s;
+    -webkit-transition-property: opacity;
+    -webkit-transition-duration: 1s;
+    -o-transition-property: opacity;
+    -o-transition-duration: 1s;
+}
+
+.idi-cluster-design {  background-image: url('images/clusters/design&development.png'); }
+.idi-cluster-design-hover { background-image: url('images/clusters/design&development-hover.png'); }
 .idi-cluster-policies { background-image: url('images/clusters/businesscase.png'); }
+.idi-cluster-policies-hover { background-image: url('images/clusters/businesscase-hover.png'); }
 .idi-cluster-mobile { background-image: url('images/clusters/mobile.png'); }
+.idi-cluster-mobile-hover { background-image: url('images/clusters/mobile-hover.png'); }
 .idi-cluster-implementation { background-image: url('images/clusters/information.png'); }
+.idi-cluster-implementation-hover { background-image: url('images/clusters/information-hover.png'); }
 
-.fl-theme-uio-yb .idi-cluster-design { background-image: url('images/clusters/design&development-yellow.png'); }
-.fl-theme-uio-wb .idi-cluster-design { background-image: url('images/clusters/design&development-white.png'); }
+.fl-theme-uio-yb .idi-cluster-design,
+.fl-theme-uio-yb .idi-cluster-design-hover { background-image: url('images/clusters/design&development-yellow.png'); }
+.fl-theme-uio-wb .idi-cluster-design,
+.fl-theme-uio-wb .idi-cluster-design-hover { background-image: url('images/clusters/design&development-white.png'); }
 .fl-theme-uio-by .idi-cluster-design,
-.fl-theme-uio-bw .idi-cluster-design { background-image: url('images/clusters/design&development-black.png'); }
+.fl-theme-uio-by .idi-cluster-design-hover,
+.fl-theme-uio-bw .idi-cluster-design,
+.fl-theme-uio-bw .idi-cluster-design-hover { background-image: url('images/clusters/design&development-black.png'); }
 
-.fl-theme-uio-yb .idi-cluster-policies { background-image: url('images/clusters/businesscase-yellow.png'); }
-.fl-theme-uio-wb .idi-cluster-policies { background-image: url('images/clusters/businesscase-white.png'); }
+.fl-theme-uio-yb .idi-cluster-policies,
+.fl-theme-uio-yb .idi-cluster-policies-hover { background-image: url('images/clusters/businesscase-yellow.png'); }
+.fl-theme-uio-wb .idi-cluster-policies,
+.fl-theme-uio-wb .idi-cluster-policies-hover { background-image: url('images/clusters/businesscase-white.png'); }
 .fl-theme-uio-by .idi-cluster-policies,
-.fl-theme-uio-bw .idi-cluster-policies { background-image: url('images/clusters/businesscase-black.png'); }
+.fl-theme-uio-by .idi-cluster-policies-hover,
+.fl-theme-uio-bw .idi-cluster-policies,
+.fl-theme-uio-bw .idi-cluster-policies-hover { background-image: url('images/clusters/businesscase-black.png'); }
 
-.fl-theme-uio-yb .idi-cluster-mobile { background-image: url('images/clusters/mobile-yellow.png'); }
-.fl-theme-uio-wb .idi-cluster-mobile { background-image: url('images/clusters/mobile-white.png'); }
+.fl-theme-uio-yb .idi-cluster-mobile,
+.fl-theme-uio-yb .idi-cluster-mobile-hover { background-image: url('images/clusters/mobile-yellow.png'); }
+.fl-theme-uio-wb .idi-cluster-mobile,
+.fl-theme-uio-wb .idi-cluster-mobile-hover { background-image: url('images/clusters/mobile-white.png'); }
 .fl-theme-uio-by .idi-cluster-mobile,
-.fl-theme-uio-bw .idi-cluster-mobile { background-image: url('images/clusters/mobile-black.png'); }
+.fl-theme-uio-by .idi-cluster-mobile-hover,
+.fl-theme-uio-bw .idi-cluster-mobile,
+.fl-theme-uio-bw .idi-cluster-mobile-hover { background-image: url('images/clusters/mobile-black.png'); }
 
-.fl-theme-uio-yb .idi-cluster-implementation { background-image: url('images/clusters/information-yellow.png'); }
-.fl-theme-uio-wb .idi-cluster-implementation { background-image: url('images/clusters/information-white.png'); }
+.fl-theme-uio-yb .idi-cluster-implementation,
+.fl-theme-uio-yb .idi-cluster-implementation-hover { background-image: url('images/clusters/information-yellow.png'); }
+.fl-theme-uio-wb .idi-cluster-implementation,
+.fl-theme-uio-wb .idi-cluster-implementation-hover { background-image: url('images/clusters/information-white.png'); }
 .fl-theme-uio-by .idi-cluster-implementation,
-.fl-theme-uio-bw .idi-cluster-implementation { background-image: url('images/clusters/information-black.png'); }
+.fl-theme-uio-by .idi-cluster-implementation-hover,
+.fl-theme-uio-bw .idi-cluster-implementation,
+.fl-theme-uio-bw .idi-cluster-implementation-hover { background-image: url('images/clusters/information-black.png'); }
 
 /* Individual Cluster Pages */
 .idi-cluster {
