@@ -837,7 +837,7 @@ form#idiMailingListSignup input {
 }
 .idi-mailing-list-reminder {
     padding: 1em;
-    background-color: #EEEEEE;
+    background-image: url('images/bg-mailinglist.png');
     box-shadow: 0px 0px 4px 1px #CCCCCC inset;
     border-radius: 5px;
     margin-bottom: 1em;
@@ -846,6 +846,10 @@ form#idiMailingListSignup input {
 .fl-theme-uio-wb .idi-mailing-list-reminder { box-shadow: none; border: 1px solid #000000; }
 .fl-theme-uio-by .idi-mailing-list-reminder,
 .fl-theme-uio-bw .idi-mailing-list-reminder { box-shadow: none; border: 1px solid #000000; }
+
+.fl-theme-uio-yb .idi-mailing-list-reminder, .fl-theme-uio-wb .idi-mailing-list-reminder,
+.fl-theme-uio-by .idi-mailing-list-reminder, .fl-theme-uio-bw .idi-mailing-list-reminder { background-image: none; }
+
 
 .idi-article-list ul {
     margin-left: 0;
