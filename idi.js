@@ -24,7 +24,7 @@ var idi = idi || {};
         var aboutSectionNav = $('.idi-about-nav');
         var topNavHeight = topNavEl.css('height');
         var paddingString = $('.fl-site-nav-main ul').css('padding-top');
-        var padding = parseInt(paddingString.substring(0, paddingString.length - 3), 10);
+        var padding = parseInt(paddingString.substring(0, paddingString.length - 2), 10);
         var topNavTop = topNavEl.offset().top - padding;
         var spacerEl = $("<div class='fl-spacer-el'></div>");
         spacerEl.css("height", topNavHeight);

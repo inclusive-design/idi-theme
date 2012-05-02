@@ -1,6 +1,4 @@
 <div>
-	<?php get_template_part('searchform'); ?>
-
 	<div class="idi-article-list">
 		<h3>Newest articles</h3>
 		<ul>

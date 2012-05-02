@@ -180,8 +180,8 @@ These shadow styles are still being decided on by the designers
 .fl-site-nav-main ul {
     text-align: center;
     margin: 0;
-    padding-top: 1.125em;
-    padding-bottom: 3em;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
 }
 .fl-site-nav-main a {
     text-transform: lowercase;
@@ -325,11 +325,14 @@ These shadow styles are still being decided on by the designers
     position: fixed;
     top: 0;
     left: 0;
-    background: url("images/bg.png") repeat scroll center center transparent;
     z-index: 9999;
 }
-.fl-site-nav-main.sticky ul {
-    border-bottom: 1px solid #202020;
+.fl-site-nav-main.sticky .idi-nav-links {
+    background: url("images/bg.png") repeat scroll center center transparent;
+}
+.fl-site-nav-main.sticky .idi-nav-links-buffer {
+    background: url("images/divider-stickynav.png") no-repeat scroll center bottom transparent;
+    height: 40px;
 }
 .idi-about-nav.sticky {
     position: fixed;
@@ -526,9 +529,11 @@ These shadow styles are still being decided on by the designers
 
 /* Footer */
 .fl-site-footer {
-    padding-top: 1em;
-    border-top: 1px solid #202020;
+    padding-top: 3em;
     font-style: italic;
+    background-image: url('images/divider-footer.png');
+    background-repeat: no-repeat;
+    background-position: center top;
 }
 .fl-site-footer .idi-cfi {
     margin-top: 1em;
