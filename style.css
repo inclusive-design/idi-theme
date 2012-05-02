@@ -768,7 +768,7 @@ ul.idi-institution-list li {
 ul.idi-institution-list li:before {
     content: "•";
     padding-right: 0.5em;
-    color: #CCCCCC;
+    color: #0076B0;
 }
 .fl-theme-uio-yb ul.idi-institution-list li:before { color: #FFFF00; }
 .fl-theme-uio-wb ul.idi-institution-list li:before { color: #FFFFFF; }
@@ -1080,9 +1080,34 @@ img.idi-about-person {
 }
 
 /* research page */
+.idi-project-item {
+    margin-bottom: 1em;
+}
 .idi-project-list {
     padding-bottom: 1em;
 }
+.idi-external-link {
+    background-image: url('images/externalpage.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    width: 7.7em;
+    display: block;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+}
+.idi-external-link:hover {
+    background-image: url('images/externalpage-hover.gif');
+}
+.fl-theme-uio-yb .idi-external-link { background-image: url('images/externalpage-yellow.gif'); }
+.fl-theme-uio-wb .idi-external-link { background-image: url('images/externalpage-white.gif'); }
+.fl-theme-uio-bw .idi-external-link,
+.fl-theme-uio-by .idi-external-link { background-image: url('images/externalpage-black.gif'); }
+.fl-theme-uio-yb .idi-external-link:hover { background-image: url('images/externalpage-yellow-hover.gif'); }
+.fl-theme-uio-wb .idi-external-link:hover { background-image: url('images/externalpage-white-hover.gif'); }
+.fl-theme-uio-bw .idi-external-link:hover,
+.fl-theme-uio-by .idi-external-link:hover { background-image: url('images/externalpage-black-hover.gif'); }
+
 .idi-project-list h4 {
     font-size: 1.3em;
     color: #0076B0;
