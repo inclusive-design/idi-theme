@@ -89,7 +89,6 @@ a:hover,
 }
 h1 {
     font-size: 3em;
-    line-height: 1.2em;
     margin-top: 0.5em;
     margin-bottom: 0;
 }
@@ -384,7 +383,6 @@ These shadow styles are still being decided on by the designers
     font-weight: 700;
     text-decoration: none;
     text-transform: lowercase;
-    line-height: 1em;
 }
 /* position of each cluster */
 .idi-research-clusters .idi-dev-cluster {
@@ -913,7 +911,6 @@ a.idi-breadcrumbs,
 .idi-about-tagline {
     font-weight: 700;
     font-size: 3em;
-    line-height: 1.1em;
     font-style: italic;
     color: #A3AF39;
     text-shadow: 1px 1px 0px #ffffff;
@@ -935,7 +932,6 @@ a.idi-breadcrumbs,
     content: "•";
     color: #999999;
     margin-left: 50%;
-    line-height: 2em;
 }
 .fl-theme-uio-yb .idi-person:after { color: #FFFF00; }
 .fl-theme-uio-wb .idi-person:after { color: #FFFFFF; }
@@ -984,7 +980,6 @@ img.idi-about-person {
 .idi-infra h2 {
     font-size: 1.3em;
     color: #0076B0;
-    line-height: 1.2em;
     padding-left: 1.3em;
     background-image: url("images/contact/location-blue.png");
     background-size: 0.9em auto;
@@ -1116,7 +1111,6 @@ img.idi-about-person {
 .idi-project-list h4 {
     font-size: 1.3em;
     color: #0076B0;
-    line-height: 1.2em;
     padding-bottom: 0.2em;
 }
 .idi-project-list h3 {
@@ -1128,7 +1122,6 @@ a.idi-project-link {
 .idi-research-item h2 {
     font-size: 1.3em;
     color: #3FB66C;
-    line-height: 1.2em;
     font-style: italic;
 }
 .idi-research li {

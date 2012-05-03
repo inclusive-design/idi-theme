@@ -38,18 +38,17 @@ var idi = idi || {};
         });
     };
 
-    idi.closeOpenedPanel = function (panel, toggleBtn) {
-        if (panel.css("display") === "block") {
+    idi.closeOpenedPanel = function (toClose, toggleBtn) {
+        if (toClose.is(":visible") && (toClose.height() > 0)) {
             toggleBtn.click();
         }
     };
 
     idi.selectors = {
-        UIOContainer:  ".flc-uiOptions-fatPanel",
+        UIOiFrame: ".flc-iframe",
         loginContainer: ".flc-uiOptions-fatPanel",
         loginPanel: ".idi-slidingPanel-panel",
         loginToggleBtn: ".idi-slidingPanel-toggleButton",
-        UIOPanel: '.flc-slidingPanel-panel',
         UIOToggleButton: '.flc-slidingPanel-toggleButton',
         loginForm: ".idi-login-form",
         mailingList: {
@@ -77,10 +76,11 @@ var idi = idi || {};
             listeners: {
                 onPanelShow: function () {
                     // close UIO panel if it was open
-                    idi.closeOpenedPanel($(idi.selectors.UIOPanel), $(idi.selectors.UIOToggleButton));
+                    idi.closeOpenedPanel($(idi.selectors.UIOiFrame), $(idi.selectors.UIOToggleButton));
                 }
             }
         });
+        $(idi.selectors.loginPanel).hide();
         $(idi.selectors.loginForm).show();
     };
 
