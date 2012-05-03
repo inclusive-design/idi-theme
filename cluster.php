@@ -10,8 +10,6 @@ Template Name: Research Cluster
 </div>
 	<div class="idi-cluster-leads fl-col-fixed fl-force-left"> 	
 
-		<?php get_template_part('searchform'); ?>
-
 		<div class="idi-project-leads">
 			<h3>Project leads</h3>
 			<?php get_template_part("cluster-leads", $post->post_name); ?>
