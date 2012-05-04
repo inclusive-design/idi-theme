@@ -6,19 +6,14 @@ Template Name: Research Cluster
 <?php get_header(); ?>
 
 <div class="fl-centered fl-col-mixed fl-site-wrapper idi-cluster">
-<div class="idi-overlay idi-<?php echo $post->post_name; ?>-overlay">
-</div>
-	<div class="idi-cluster-leads fl-col-fixed fl-force-left"> 	
+	<div class="idi-underlay idi-<?php echo $post->post_name; ?>-underlay"></div>
 
-		<div class="idi-project-leads">
-			<h3>Project leads</h3>
-			<?php get_template_part("cluster-leads", $post->post_name); ?>
-		</div>
+	<aside class="idi-project-leads fl-col-fixed fl-force-left">
+		<h3>Project leads</h3>
+		<?php get_template_part("cluster-leads", $post->post_name); ?>
+	</aside>
 
-	</div>
-
-    <div class="fl-col-flex idi-one-column">
-
+    <section class="fl-col-flex idi-one-column">
     	<div class="idi-breadcrumbs">
 			<a href="/research">Research Clusters</a> > <?php the_title(); ?>
     	</div>
@@ -30,8 +25,7 @@ Template Name: Research Cluster
 		<div class="idi-cluster-description">
 			<?php get_template_part("cluster-description", $post->post_name); ?>
 		</div>
-		
-	</div>
+	</section>
 
 </div>
 		

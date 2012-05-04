@@ -159,7 +159,7 @@ These shadow styles are still being decided on by the designers
 .fl-theme-uio-bw .fl-site-logo { background-image: url('images/logos/logo-black.png'); }
 
 .fl-site-name {
-    margin-top: 1.125em;
+    margin-top: 0.13emem;
     text-transform: lowercase;
     text-align: center;
     font-style: italic;
@@ -342,6 +342,15 @@ These shadow styles are still being decided on by the designers
  * Research Cluster circles on front page
  */
 
+/* general to all circles */
+.idi-research-clusters {
+    max-width: 1024px;
+    position: relative;
+    height: 575px;
+}
+.idi-research-clusters * {
+    position: absolute;
+}
 .idi-clusters-overlay {
     background-image: url('images/clusters/design&development-bg.png'), url('images/clusters/businesscase-bg.png'), url('images/clusters/mobile-bg.png'), url('images/clusters/information-bg.png');
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
@@ -350,148 +359,149 @@ These shadow styles are still being decided on by the designers
     width: 1024px;
     opacity: 0.09;
     position: absolute;
-    z-index: 100;
-    pointer-events: none;
+    z-index: 2;
 }
-/* general to all circles */
-.idi-research-clusters {
-    max-width: 1024px;
-    position: relative;
-    height: 575px;
+.idi-cluster-circle {
+    z-index: 1;
 }
-.idi-research-cluster {
-    z-index: 50;
-}
-.idi-research-clusters .idi-research-cluster {
-    vertical-align: middle;
-}
-.idi-research-clusters .idi-research-cluster * {
-    display: inline-block;
-}
-.idi-research-clusters .idi-research-cluster .idi-cluster-arrow {
-    width: 30px;
-    margin: 0 5px;
-    background-repeat: no-repeat;
-    background-position: 50%;
-}
-.idi-research-clusters .idi-research-cluster div {
-    opacity: 0.93;
+.idi-cluster-circle-link, .idi-cluster-name {
+    z-index: 3;
 }
 .idi-research-clusters .idi-cluster-name {
-    position: absolute;
     font-style: italic;
     font-weight: 700;
     text-decoration: none;
     text-transform: lowercase;
 }
-/* position of each cluster */
-.idi-research-clusters .idi-dev-cluster {
-    position: absolute;
-    top: 175px;
-    left: 65px;
-}
-.idi-research-clusters .idi-info-cluster {
-    position: absolute;
-    top: 60px;
-    right: 280px;
-}
-.idi-research-clusters .idi-policy-cluster {
-    position: absolute;
-    top: 360px;
-    left: 195px;
-}
-.idi-research-clusters .idi-mobile-cluster {
-    position: absolute;
-    top: 158px;
-    left: 545px;
+.idi-cluster-arrow {
+    height: 20px;
+    width: 30px;
+    margin: 0 5px;
+    background-repeat: no-repeat;
 }
 
-/* Design and Dev cluster */
-.idi-research-clusters .idi-dev-cluster-circle {
+/* Design & Development */
+.idi-design-cluster-circle { /* both link and colour */
+    top: 196px;
+    left: 90px;
     width: 141px;
     height: 141px;
     border-radius: 70px;
+    border-radius: 70px;
+}
+.idi-design-cluster-circle-colour {
     background-color: #16B36C;
-/*    background-color: #AFB953; */
 }
-.idi-research-clusters .idi-dev-cluster-arrow {
-    background-image:  url("images/arrows/arrowresearch-green.png");
-    height: 141px;
-}
-.idi-research-clusters .idi-dev-cluster-name {
-     color: #16B36C;
-/*     color: #A3AF39; */
+.idi-design-cluster-name {
+    top: 253px;
+    left: 280px;
+    color: #16B36C;
     font-size: 1.75em;
     width: 8em;
-    top: 36%;
-    left: 187px;
+}
+.idi-design-link:hover ~ .idi-design-cluster-circle {
+/* waiting for designs for hover styling
+    border: 2px solid yellow;
+*/
+}
+.idi-design-cluster-arrow {
+    background-image:  url("images/arrows/arrowresearch-green.png");
+    top: 258px;
+    left: 235px;
 }
 
-/* Information and Implementation Practices cluster */
-.idi-research-clusters .idi-info-cluster-circle {
-    width: 160px;
-    height: 160px;
-    border-radius: 80px;
-/*    background-color: #0EB0E6; */
-    background-color: #FFCC00;
-}
-.idi-research-clusters .idi-research-cluster .idi-info-cluster-arrow {
-    background-image:  url("images/arrows/arrowresearch-orange.png");
-    background-position: 50% 25%;
-    height: 120px;
-}
-.idi-research-clusters .idi-info-cluster-name {
-/*    color: #0EB0E6; */
-    color: #F7B000;
-    font-size: 1.5em;
-    text-align: right;
-    width: 10em;
-    top: 36%;
-    right: 210px;
-}
-
-/* Business Case, Policies, Standards and Legislation cluster */
-.idi-research-clusters .idi-policy-cluster-circle {
+/* Business Case, Policies, Standards & Legislation */
+.idi-policies-cluster-circle { /* both link and colour */
+    top: 405px;
+    left: 230px;
     width: 70px;
     height: 70px;
     border-radius: 35px;
-    background-color: #EF5C25;
-/*    background-color: #774A9C; */
+    border-radius: 35px;
 }
-.idi-research-clusters .idi-policy-cluster-arrow {
-    background-image:  url("images/arrows/arrowresearch-red.png");
-    height: 70px;
+.idi-policies-cluster-circle-colour {
+    background-color: #EE5B24;
 }
-.idi-research-clusters .idi-policy-cluster-name {
-     color: #EF5C25;
-/*    color: #926EB0; */
+.idi-policies-cluster-name {
+    top: 422px;
+    left: 342px;
+    color: #EE5B24;
     font-size: 1.5em;
-    width: 10em;
-    top: 27%;
-    left: 115px;
+    width: 12em;
+}
+.idi-policies-link:hover ~ .idi-policies-cluster-circle {
+/*
+    border: 2px solid yellow;
+*/
+}
+.idi-policies-cluster-arrow {
+    background-image:  url("images/arrows/arrowresearch-red.png");
+    top: 423px;
+    left: 300px;
 }
 
-/* Moble and Pervasive Computing cluster */
-.idi-research-clusters .idi-mobile-cluster-circle {
+/* Information & Implementation Practices */
+.idi-information-cluster-circle { /* both link and colour */
+    top: 55px;
+    right: 170px;
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+    border-radius: 80px;
+}
+.idi-information-cluster-circle-colour {
+    background-color: #FFCC00;
+}
+.idi-information-cluster-name {
+    top: 97px;
+    right: 392px;
+    color: #FFCC00;
+    font-size: 1.5em;
+    width: 10em;
+    text-align: right;
+}
+.idi-information-link:hover ~ .idi-information-cluster-circle {
+/*
+    border: 2px solid yellow;
+*/
+}
+.idi-information-cluster-arrow {
+    background-image:  url("images/arrows/arrowresearch-orange.png");
+    top: 100px;
+    right: 340px;
+}
+
+/* Moble & Pervasive Computing */
+.idi-mobile-cluster-circle { /* both link and colour */
+    top: 143px;
+    left: 640px;
     width: 100px;
     height: 100px;
     border-radius: 50px;
-/*     background-color: #FED307; */
+    border-radius: 50px;
+    opacity: 0.45;
+}
+.idi-mobile-cluster-circle-colour {
     background-color: #00ADE4;
 }
-.idi-research-clusters .idi-research-cluster .idi-mobile-cluster-arrow {
-    background-image:  url("images/arrows/arrowresearch-blue.png");
-    background-position: 50% 90%;
-    height: 88px;
-}
-.idi-research-clusters .idi-mobile-cluster-name {
-/*    color: #FED307; */
-    color: #33BDE9;
-    width: 7em;
+.idi-mobile-cluster-name {
+    top: 220px;
+    left: 772px;
+    color: #00ADE4;
     font-size: 1.3125em;
-    top: 67%;
-    left: 147px;
+    width: 7em; 
 }
+.idi-mobile-link:hover ~ .idi-mobile-cluster-circle {
+/*
+    border: 2px solid yellow;
+*/
+}
+.idi-mobile-cluster-arrow {
+    background-image:  url("images/arrows/arrowresearch-blue.png");
+    top: 221px;
+    left: 727px;
+}
+
 
 /* High contrast circles and arrows */
 .fl-theme-uio-yb .idi-research-clusters div, .fl-theme-uio-yb .idi-research-clusters a,
@@ -505,20 +515,23 @@ These shadow styles are still being decided on by the designers
 .fl-theme-uio-by .idi-research-clusters .idi-cluster-circle,
 .fl-theme-uio-bw .idi-research-clusters .idi-cluster-circle { background-color: #000000 !important; }
 
-.fl-theme-uio-yb .idi-research-clusters .idi-research-cluster .idi-cluster-arrow { background-image: url('images/arrows/arrowresearch-yellow.png'); }
-.fl-theme-uio-wb .idi-research-clusters .idi-research-cluster .idi-cluster-arrow { background-image: url('images/arrows/arrowresearch-white.png'); }
-.fl-theme-uio-by .idi-research-clusters .idi-research-cluster .idi-cluster-arrow,
-.fl-theme-uio-bw .idi-research-clusters .idi-research-cluster .idi-cluster-arrow { background-image: url('images/arrows/arrowresearch-black.png'); }
+.fl-theme-uio-yb .idi-research-clusters .idi-cluster-arrow { background-image: url('images/arrows/arrowresearch-yellow.png'); }
+.fl-theme-uio-wb .idi-research-clusters .idi-cluster-arrow { background-image: url('images/arrows/arrowresearch-white.png'); }
+.fl-theme-uio-by .idi-research-clusters .idi-cluster-arrow,
+.fl-theme-uio-bw .idi-research-clusters .idi-cluster-arrow { background-image: url('images/arrows/arrowresearch-black.png'); }
 
-.fl-theme-uio-yb .idi-research-clusters .idi-research-cluster .idi-info-cluster-arrow { background-image: url('images/arrows/arrowresearch-yellowflip.png'); }
-.fl-theme-uio-wb .idi-research-clusters .idi-research-cluster .idi-info-cluster-arrow { background-image: url('images/arrows/arrowresearch-whiteflip.png'); }
-.fl-theme-uio-by .idi-research-clusters .idi-research-cluster .idi-info-cluster-arrow,
-.fl-theme-uio-bw .idi-research-clusters .idi-research-cluster .idi-info-cluster-arrow { background-image: url('images/arrows/arrowresearch-blackflip.png'); }
+.fl-theme-uio-yb .idi-research-clusters .idi-info-cluster-arrow { background-image: url('images/arrows/arrowresearch-yellowflip.png'); }
+.fl-theme-uio-wb .idi-research-clusters .idi-info-cluster-arrow { background-image: url('images/arrows/arrowresearch-whiteflip.png'); }
+.fl-theme-uio-by .idi-research-clusters .idi-info-cluster-arrow,
+.fl-theme-uio-bw .idi-research-clusters .idi-info-cluster-arrow { background-image: url('images/arrows/arrowresearch-blackflip.png'); }
 
 .fl-theme-uio-yb .idi-mobile-cluster-circle,
 .fl-theme-uio-wb .idi-mobile-cluster-circle { border: 1px solid #000000 !important; }
 .fl-theme-uio-by .idi-mobile-cluster-circle { border: 1px solid #FFFF00 !important; }
 .fl-theme-uio-bw .idi-mobile-cluster-circle { border: 1px solid #FFFFFF !important; }
+
+.fl-theme-uio-yb .idi-mobile-cluster-circle, .fl-theme-uio-wb .idi-mobile-cluster-circle,
+.fl-theme-uio-by .idi-mobile-cluster-circle, .fl-theme-uio-bw .idi-mobile-cluster-circle { opacity: 1 }
 
 /* Navigational Cues */
 .current_page_item {
@@ -1060,10 +1073,14 @@ img.idi-about-person {
 .idi-project-lead-name {
     font-size: 1.2em;
     font-weight: 700;
+    display: block;
 }
 .idi-project h3 a,
-.idi-project-lead-name a {
+a.idi-project-lead-name {
     text-decoration: none;
+}
+.idi-project-lead {
+    display: block;
 }
 .idi-cluster-description {
     margin-top: 1.5em;
@@ -1223,26 +1240,26 @@ a.idi-project-link {
 .idi-cluster {
     position: relative;
 }
-.idi-overlay {
+.idi-underlay {
     background-repeat: no-repeat;
     background-position: 5em 0;
     opacity: 0.07;
     height: 500px;
     width: 450px;
     position: absolute;
-    z-index: 999;
-    pointer-events: none;
+    top: 0;
+    z-index: -1;
 }
-.idi-design-overlay {
+.idi-design-underlay {
     background-image: url('images/clusters/design&development-bg.png');
 }
-.idi-policies-overlay {
+.idi-policies-underlay {
     background-image: url('images/clusters/businesscase-bg.png');
 }
-.idi-mobile-overlay {
+.idi-mobile-underlay {
     background-image: url('images/clusters/mobile-bg.png');
 }
-.idi-implementation-overlay {
+.idi-implementation-underlay {
     background-image: url('images/clusters/information-bg.png');
 }
 
