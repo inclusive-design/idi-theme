@@ -85,20 +85,20 @@ Template Name: Research Page
 				<section>
 					<div class="idi-research-item">
 						<head>
-							<a href="implementation">
-								<div class="idi-cluster-icon idi-cluster-implementation">
-									<span class="fl-hidden-accessible">Implementation and Information Practices research cluster</span>
+							<a href="information">
+								<div class="idi-cluster-icon idi-cluster-information">
+									<span class="fl-hidden-accessible">Information and Implementation Practices research cluster</span>
 									<div class="idi-cluster-hover-overlay">
-										<div class="idi-cluster-icon idi-cluster-implementation-hover">
+										<div class="idi-cluster-icon idi-cluster-information-hover">
 											<span class="idi-cluster-icon-text fl-centered"> learn more</span>
 										</div>
 									</div>
 								</div>
 							</a>
-							<h2>Implementation & Information Practices</h2>
+							<h2>Information & Implementation Practices</h2>
 						</head>
 						<p>Suspendisse erat ipsum, iaculis adipiscing adipiscing elit. Sed at purus auctor mi luctus sodales. Nunc scelerisque ligula porta.</p>
-						<p><a class="idi-more" href="implementation">learn more</a></p>
+						<p><a class="idi-more" href="information">learn more</a></p>
 					</div>
 				</section>
 			</li>
