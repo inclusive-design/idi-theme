@@ -9,26 +9,26 @@ Template Name: Front Page
 <div class="fl-centered fl-col-mixed fl-site-wrapper">
 	<nav role="navigation" class="idi-research-clusters fl-centered fl-clearfix">
 		<div class="idi-clusters-overlay"></div>
-		<div class="idi-research-cluster idi-dev-cluster">
-			<a href="research/design"> <div class="idi-cluster-circle idi-dev-cluster-circle"></div> </a>
-			<div class="idi-cluster-arrow idi-dev-cluster-arrow"> </div>
-			<a class="idi-cluster-name idi-dev-cluster-name" href="research/design"> Design & Development</a>
-		</div>
-		<div class="idi-research-cluster idi-info-cluster">
-			<a class="idi-cluster-name idi-info-cluster-name" href="research/implementation"> Information & Implementation Practices</a>
-			<div class="idi-cluster-arrow idi-info-cluster-arrow"> </div>
-			<a href="research/implementation"> <div class="idi-cluster-circle idi-info-cluster-circle"></div> </a>
-		</div>
-		<div class="idi-research-cluster idi-policy-cluster">
-			<a href="research/policies"> <div class="idi-cluster-circle idi-policy-cluster-circle"></div> </a>
-			<div class="idi-cluster-arrow idi-policy-cluster-arrow"> </div>
-			<a class="idi-cluster-name idi-policy-cluster-name" href="research/policies"> Business Case, Policies, Standards & Legislation</a>
-		</div>
-		<div class="idi-research-cluster idi-mobile-cluster">
-			<a href="research/mobile"> <div class="idi-cluster-circle idi-mobile-cluster-circle"></div> </a>
-			<div class="idi-cluster-arrow idi-mobile-cluster-arrow"> </div>
-			<a class="idi-cluster-name idi-mobile-cluster-name" href="research/mobile"> Moble & Pervasive Computing</a>
-		</div>
+
+		<a class="idi-design-cluster-circle idi-cluster-circle-link idi-design-link" href="research/design"></a>
+		<div class="idi-cluster-circle idi-design-cluster-circle idi-design-cluster-circle-colour"></div>
+		<div class="idi-cluster-arrow idi-design-cluster-arrow"> </div>
+		<a class="idi-cluster-name idi-design-cluster-name" href="research/design">Design & Development</a>
+
+		<a class="idi-information-cluster-circle idi-information-link idi-cluster-circle-link" href="research/information"></a>
+		<div class="idi-cluster-circle idi-information-cluster-circle idi-information-cluster-circle-colour"></div>
+		<div class="idi-cluster-arrow idi-information-cluster-arrow"> </div>
+		<a class="idi-cluster-name idi-information-cluster-name" href="research/information">Information & Implementation Practices</a>
+
+		<a class="idi-policies-cluster-circle idi-policies-link idi-cluster-circle-link" href="research/policies"></a>
+		<div class="idi-cluster-circle idi-policies-cluster-circle idi-policies-cluster-circle-colour"></div>
+		<div class="idi-cluster-arrow idi-policies-cluster-arrow"> </div>
+		<a class="idi-cluster-name idi-policies-cluster-name" href="research/policies">Business Case, Policies, Standards & Legislation</a>
+
+		<a class="idi-mobile-cluster-circle idi-mobile-link idi-cluster-circle-link" href="research/mobile"></a>
+		<div class="idi-cluster-circle idi-mobile-cluster-circle idi-mobile-cluster-circle-colour"></div>
+		<div class="idi-cluster-arrow idi-mobile-cluster-arrow"> </div>
+		<a class="idi-cluster-name idi-mobile-cluster-name" href="research/mobile">Mobile & Pervasive Computing</a>
 	</nav>
 
 	<div class="fl-col-flex4 front-cols">
