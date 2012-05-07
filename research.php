@@ -29,9 +29,9 @@ Template Name: Research Page
 									</div>
 								</div>
 							</a>
-							<h2>Design & Development</h2>
+							<h2>Design &amp; Development</h2>
 						</head>
-						<p>Suspendisse erat ipsum, iaculis adipiscing adipiscing elit. Sed at purus auctor mi luctus sodales. Nunc scelerisque ligula porta.</p>
+						<p>Creating tools, strategies, resources and exemplars that address all stages of ICT production and use</p>
 						<p><a class="idi-more" href="design">learn more</a></p>
 					</div>
 				</section>
@@ -51,9 +51,9 @@ Template Name: Research Page
 									</div>
 								</div>
 							</a>
-							<h2>Business Case, Policies, Standards & Legislation</h2>
+							<h2>Business Case, Policies, Standards &amp; Legislation</h2>
 						</head>
-						<p>Suspendisse erat ipsum, iaculis adipiscing adipiscing elit. Sed at purus auctor mi luctus sodales. Nunc scelerisque ligula porta.</p>
+						<p>Engaging legislators, specifications bodies, advocacy grops and consumer communities in inclusive design research</p>
 						<p><a class="idi-more" href="policies">learn more</a></p>
 					</div>
 				</section>
@@ -73,9 +73,9 @@ Template Name: Research Page
 									</div>
 								</div>
 							</a>
-							<h2>Mobile & Pervasive Computing</h2>
+							<h2>Mobile &amp; Pervasive Computing</h2>
 						</head>
-						<p>Suspendisse erat ipsum, iaculis adipiscing adipiscing elit. Sed at purus auctor mi luctus sodales. Nunc scelerisque ligula porta.</p>
+						<p>Focusing on mobile, context-aware and location-aware technologies, ubiquitous web application, pervasive computing and ambient intelligence</p>
 						<p><a class="idi-more" href="mobile">learn more</a></p>
 					</div>
 				</section>
@@ -87,7 +87,7 @@ Template Name: Research Page
 						<head>
 							<a href="information">
 								<div class="idi-cluster-icon idi-cluster-information">
-									<span class="fl-hidden-accessible">Information and Implementation Practices research cluster</span>
+									<span class="fl-hidden-accessible">Implementation and Information Practices research cluster</span>
 									<div class="idi-cluster-hover-overlay">
 										<div class="idi-cluster-icon idi-cluster-information-hover">
 											<span class="idi-cluster-icon-text fl-centered"> learn more</span>
@@ -95,9 +95,9 @@ Template Name: Research Page
 									</div>
 								</div>
 							</a>
-							<h2>Information & Implementation Practices</h2>
+							<h2>Implementation &amp; Information Practices</h2>
 						</head>
-						<p>Suspendisse erat ipsum, iaculis adipiscing adipiscing elit. Sed at purus auctor mi luctus sodales. Nunc scelerisque ligula porta.</p>
+						<p>Examining the role of ICT and inclusive design in education, health, cultur and civic engagement</p>
 						<p><a class="idi-more" href="information">learn more</a></p>
 					</div>
 				</section>

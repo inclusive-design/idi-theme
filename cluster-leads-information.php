@@ -1,11 +1,11 @@
 <div class="idi-project-lead">	
-	<a href="#" class="idi-project-lead-name">First Lead</a>
-	<a href="#" class="idi-project-lead-org">Some Organization</a>
-	<div class="idi-project-lead-blurb">Suspendisse potenti. Aenean sodales nulla non metus condimentum a venenatis quam bibendum.</div>
+	<a href="/about/#Frazee" class="idi-project-lead-name">Catherine Frazee</a>
+	<a href="/about/ryerson" class="idi-project-lead-org">Ryerson University</a>
+	<div class="idi-project-lead-blurb">Professor of Distinction, Disability Studies</div>
 </div>
 
 <div class="idi-project-lead">	
-	<a href="#" class="idi-project-lead-name">Secong Lead</a>
-	<a href="#" class="idi-project-lead-org">Other Organization</a>
-	<div class="idi-project-lead-blurb">Sed ut sapien tortor, vitae fringilla justo. Aliquam eu nulla tortor, ut consequat odio.</div>
+	<a href="/about/#Luke" class="idi-project-lead-name">Robert Luke</a>
+	<a href="/about/georgebrown" class="idi-project-lead-org">George Brown College</a>
+	<div class="idi-project-lead-blurb">Director, Applied Research and Innovation</div>
 </div>
