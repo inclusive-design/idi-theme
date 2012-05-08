@@ -1,0 +1,89 @@
+.fl-site-nav-main a {
+    background-position: 5px 50%;
+    padding-top: 0.7em;
+    padding-bottom: 0.6em;
+}
+.fl-site-nav-main a.idi-nav-home {
+    background-image: url('images/navigation-small/home.png');
+    padding-left: 30px;
+}
+.fl-site-nav-main ul a.idi-nav-about {
+    background-image: url('images/navigation-small/about.png');
+    padding-left: 20px;
+}
+.fl-site-nav-main ul a.idi-nav-news {
+    background-image: url('images/navigation-small/news.png');
+    padding-left: 35px;
+}
+.fl-site-nav-main ul a.idi-nav-education {
+    background-image: url('images/navigation-small/education.png');
+    padding-left: 25px;
+}
+.fl-site-nav-main ul a.idi-nav-research {
+    background-image: url('images/navigation-small/research.png');
+    padding-left: 25px;
+}
+.fl-site-nav-main ul a.idi-nav-infrastructure {
+    background-image: url('images/navigation-small/infrastructure.png');
+    padding-left: 25px;
+}
+
+.fl-site-nav-main .current_page_item.idi-nav-home,
+.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-home,
+.fl-theme-uio-wb .fl-site-nav-main .idi-nav-home { background-image: url('images/navigation-small/home-white.png'); }
+.fl-theme-uio-by .fl-site-nav-main .idi-nav-home,
+.fl-theme-uio-bw .fl-site-nav-main .idi-nav-home,
+.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-home,
+.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-home { background-image: url('images/navigation-small/home-black.png'); }
+.fl-theme-uio-yb .fl-site-nav-main .idi-nav-home,
+.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-home { background-image: url('images/navigation-small/home-yellow.png'); }
+
+.fl-site-nav-main .current_page_item.idi-nav-about,
+.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-about,
+.fl-theme-uio-wb .fl-site-nav-main .idi-nav-about { background-image: url('images/navigation-small/about-white.png'); }
+.fl-theme-uio-by .fl-site-nav-main .idi-nav-about,
+.fl-theme-uio-bw .fl-site-nav-main .idi-nav-about,
+.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-about,
+.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-about { background-image: url('images/navigation-small/about-black.png'); }
+.fl-theme-uio-yb .fl-site-nav-main .idi-nav-about,
+.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-about { background-image: url('images/navigation-small/about-yellow.png'); }
+
+.fl-site-nav-main .current_page_item.idi-nav-news,
+.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-news,
+.fl-theme-uio-wb .fl-site-nav-main .idi-nav-news { background-image: url('images/navigation-small/news-white.png'); }
+.fl-theme-uio-by .fl-site-nav-main .idi-nav-news,
+.fl-theme-uio-bw .fl-site-nav-main .idi-nav-news,
+.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-news,
+.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-news { background-image: url('images/navigation-small/news-black.png'); }
+.fl-theme-uio-yb .fl-site-nav-main .idi-nav-news,
+.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-news { background-image: url('images/navigation-small/news-yellow.png'); }
+
+.fl-site-nav-main .current_page_item.idi-nav-education,
+.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-education,
+.fl-theme-uio-wb .fl-site-nav-main .idi-nav-education { background-image: url('images/navigation-small/education-white.png'); }
+.fl-theme-uio-by .fl-site-nav-main .idi-nav-education,
+.fl-theme-uio-bw .fl-site-nav-main .idi-nav-education,
+.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-education,
+.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-education { background-image: url('images/navigation-small/education-black.png'); }
+.fl-theme-uio-yb .fl-site-nav-main .idi-nav-education,
+.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-education { background-image: url('images/navigation-small/education-yellow.png'); }
+
+.fl-site-nav-main .current_page_item.idi-nav-research,
+.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-research,
+.fl-theme-uio-wb .fl-site-nav-main .idi-nav-research { background-image: url('images/navigation-small/research-white.png'); }
+.fl-theme-uio-by .fl-site-nav-main .idi-nav-research,
+.fl-theme-uio-bw .fl-site-nav-main .idi-nav-research,
+.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-research,
+.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-research { background-image: url('images/navigation-small/research-black.png'); }
+.fl-theme-uio-yb .fl-site-nav-main .idi-nav-research,
+.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-research { background-image: url('images/navigation-small/research-yellow.png'); }
+
+.fl-site-nav-main .current_page_item.idi-nav-infrastructure,
+.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-infrastructure,
+.fl-theme-uio-wb .fl-site-nav-main .idi-nav-infrastructure { background-image: url('images/navigation-small/infrastructure-white.png'); }
+.fl-theme-uio-by .fl-site-nav-main .idi-nav-infrastructure,
+.fl-theme-uio-bw .fl-site-nav-main .idi-nav-infrastructure,
+.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-infrastructure,
+.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-infrastructure { background-image: url('images/navigation-small/infrastructure-black.png'); }
+.fl-theme-uio-yb .fl-site-nav-main .idi-nav-infrastructure,
+.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-infrastructure { background-image: url('images/navigation-small/infrastructure-yellow.png'); }
