@@ -18,7 +18,7 @@ Not allowing sign-up right now
 					<div class="login-password">
 						<label for="user_pass">Password</label>
 						<div>
-							<input type="password" placeholder="your password" ttabindex="20" size="20" value="" class="input" id="user_pass" name="pwd">
+							<input type="password" placeholder="your password" tabindex="20" size="20" value="" class="input" id="user_pass" name="pwd">
 							<br/><div class="idi-login-extra idi-login-forgot"><a href="<?php echo wp_lostpassword_url(); ?>">Forgot my password</a></div>
 						</div>
 					</div>
