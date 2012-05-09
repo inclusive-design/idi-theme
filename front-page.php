@@ -15,10 +15,10 @@ Template Name: Front Page
 		<div class="idi-cluster-arrow idi-design-cluster-arrow"> </div>
 		<a class="idi-cluster-name idi-design-cluster-name" href="research/design">Design & Development</a>
 
-		<a class="idi-information-cluster-circle idi-information-link idi-cluster-circle-link" href="research/information"></a>
-		<div class="idi-cluster-circle idi-information-cluster-circle idi-information-cluster-circle-colour"></div>
-		<div class="idi-cluster-arrow idi-information-cluster-arrow"> </div>
-		<a class="idi-cluster-name idi-information-cluster-name" href="research/information">Information & Implementation Practices</a>
+		<a class="idi-implementation-cluster-circle idi-implementation-link idi-cluster-circle-link" href="research/implementation"></a>
+		<div class="idi-cluster-circle idi-implementation-cluster-circle idi-implementation-cluster-circle-colour"></div>
+		<div class="idi-cluster-arrow idi-implementation-cluster-arrow"> </div>
+		<a class="idi-cluster-name idi-implementation-cluster-name" href="research/implementation">Implementation & Information Practices</a>
 
 		<a class="idi-policies-cluster-circle idi-policies-link idi-cluster-circle-link" href="research/policies"></a>
 		<div class="idi-cluster-circle idi-policies-cluster-circle idi-policies-cluster-circle-colour"></div>

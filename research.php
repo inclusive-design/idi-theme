@@ -85,11 +85,11 @@ Template Name: Research Page
 				<section>
 					<div class="idi-research-item">
 						<head>
-							<a href="information">
-								<div class="idi-cluster-icon idi-cluster-information">
+							<a href="implementation">
+								<div class="idi-cluster-icon idi-cluster-implementation">
 									<span class="fl-hidden-accessible">Implementation and Information Practices research cluster</span>
 									<div class="idi-cluster-hover-overlay">
-										<div class="idi-cluster-icon idi-cluster-information-hover">
+										<div class="idi-cluster-icon idi-cluster-implementation-hover">
 											<span class="idi-cluster-icon-text fl-centered"> learn more</span>
 										</div>
 									</div>
@@ -98,7 +98,7 @@ Template Name: Research Page
 							<h2>Implementation &amp; Information Practices</h2>
 						</head>
 						<p>Examining the role of ICT and inclusive design in education, health, cultur and civic engagement</p>
-						<p><a class="idi-more" href="information">learn more</a></p>
+						<p><a class="idi-more" href="implementation">learn more</a></p>
 					</div>
 				</section>
 			</li>

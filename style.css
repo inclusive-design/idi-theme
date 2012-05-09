@@ -352,7 +352,7 @@ These shadow styles are still being decided on by the designers
     position: absolute;
 }
 .idi-clusters-overlay {
-    background-image: url('images/clusters/design&development-bg.png'), url('images/clusters/businesscase-bg.png'), url('images/clusters/mobile-bg.png'), url('images/clusters/information-bg.png');
+    background-image: url('images/clusters/design&development-bg.png'), url('images/clusters/businesscase-bg.png'), url('images/clusters/mobile-bg.png'), url('images/clusters/implementation-bg.png');
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-position: 0px 0px, 250px 0px, 375px 50px, 620px 0px; /* horizontal vertical */
     height: 575px;
@@ -440,8 +440,8 @@ These shadow styles are still being decided on by the designers
     left: 300px;
 }
 
-/* Information & Implementation Practices */
-.idi-information-cluster-circle { /* both link and colour */
+/* Implementation & Information Practices */
+.idi-implementation-cluster-circle { /* both link and colour */
     top: 55px;
     right: 170px;
     width: 160px;
@@ -449,10 +449,10 @@ These shadow styles are still being decided on by the designers
     border-radius: 80px;
     border-radius: 80px;
 }
-.idi-information-cluster-circle-colour {
+.idi-implementation-cluster-circle-colour {
     background-color: #FFCC00;
 }
-.idi-information-cluster-name {
+.idi-implementation-cluster-name {
     top: 97px;
     right: 392px;
     color: #FFCC00;
@@ -460,12 +460,12 @@ These shadow styles are still being decided on by the designers
     width: 10em;
     text-align: right;
 }
-.idi-information-link:hover ~ .idi-information-cluster-circle {
+.idi-implementation-link:hover ~ .idi-implementation-cluster-circle {
 /*
     border: 2px solid yellow;
 */
 }
-.idi-information-cluster-arrow {
+.idi-implementation-cluster-arrow {
     background-image:  url("images/arrows/arrowresearch-orange.png");
     top: 100px;
     right: 340px;
@@ -1197,8 +1197,8 @@ a.idi-project-link {
 .idi-cluster-policies-hover { background-image: url('images/clusters/businesscase-hover.png'); }
 .idi-cluster-mobile { background-image: url('images/clusters/mobile.png'); }
 .idi-cluster-mobile-hover { background-image: url('images/clusters/mobile-hover.png'); }
-.idi-cluster-information { background-image: url('images/clusters/information.png'); }
-.idi-cluster-information-hover { background-image: url('images/clusters/information-hover.png'); }
+.idi-cluster-implementation { background-image: url('images/clusters/implementation.png'); }
+.idi-cluster-implementation-hover { background-image: url('images/clusters/implementation-hover.png'); }
 
 .fl-theme-uio-yb .idi-cluster-design,
 .fl-theme-uio-yb .idi-cluster-design-hover { background-image: url('images/clusters/design&development-yellow.png'); }
@@ -1227,14 +1227,14 @@ a.idi-project-link {
 .fl-theme-uio-bw .idi-cluster-mobile,
 .fl-theme-uio-bw .idi-cluster-mobile-hover { background-image: url('images/clusters/mobile-black.png'); }
 
-.fl-theme-uio-yb .idi-cluster-information,
-.fl-theme-uio-yb .idi-cluster-information-hover { background-image: url('images/clusters/information-yellow.png'); }
-.fl-theme-uio-wb .idi-cluster-information,
-.fl-theme-uio-wb .idi-cluster-information-hover { background-image: url('images/clusters/information-white.png'); }
-.fl-theme-uio-by .idi-cluster-information,
-.fl-theme-uio-by .idi-cluster-information-hover,
-.fl-theme-uio-bw .idi-cluster-information,
-.fl-theme-uio-bw .idi-cluster-information-hover { background-image: url('images/clusters/information-black.png'); }
+.fl-theme-uio-yb .idi-cluster-implementation,
+.fl-theme-uio-yb .idi-cluster-implementation-hover { background-image: url('images/clusters/implementation-yellow.png'); }
+.fl-theme-uio-wb .idi-cluster-implementation,
+.fl-theme-uio-wb .idi-cluster-implementation-hover { background-image: url('images/clusters/implementation-white.png'); }
+.fl-theme-uio-by .idi-cluster-implementation,
+.fl-theme-uio-by .idi-cluster-implementation-hover,
+.fl-theme-uio-bw .idi-cluster-implementation,
+.fl-theme-uio-bw .idi-cluster-implementation-hover { background-image: url('images/clusters/implementation-black.png'); }
 
 /* Individual Cluster Pages */
 .idi-cluster {
@@ -1259,8 +1259,8 @@ a.idi-project-link {
 .idi-mobile-underlay {
     background-image: url('images/clusters/mobile-bg.png');
 }
-.idi-information-underlay {
-    background-image: url('images/clusters/information-bg.png');
+.idi-implementation-underlay {
+    background-image: url('images/clusters/implementation-bg.png');
 }
 
 /* Remove shadows for high-contrast themes */
