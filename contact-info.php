@@ -2,7 +2,7 @@
 	<h3>Contact us!</h3>
 	<div class="idi-mailing-address">
 		Inclusive Design Institute
-		<a href="http://maps.google.com/maps?q=205+Richmond+Street+West,+Toronto,+ON,+Canada&hl=en&sll=37.0625,-95.677068&sspn=40.137381,47.8125&oq=205+richmon&hnear=205+Richmond+St+W,+Toronto,+Toronto+Division,+Ontario+M5V+1V6,+Canada&t=m&z=16">
+		<a href="http://g.co/maps/a5tua">
 			205 Richmond Street West</a>
 		2nd Floor
 		Toronto, ON M5V 1V3
