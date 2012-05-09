@@ -87,3 +87,37 @@
 .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-infrastructure { background-image: url('images/navigation-small/infrastructure-black.png'); }
 .fl-theme-uio-yb .fl-site-nav-main .idi-nav-infrastructure,
 .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-infrastructure { background-image: url('images/navigation-small/infrastructure-yellow.png'); }
+
+
+.idi-cluster-hover-overlay { display: none; }
+.idi-cluster-design { background-image: url('images/clusters-small/design&development.png');}
+.idi-cluster-design:hover { background-image: url('images/clusters-small/design&development-hover.png');}
+
+.idi-cluster-policies { background-image: url('images/clusters-small/businesscase.png');}
+.idi-cluster-policies:hover { background-image: url('images/clusters-small/businesscase-hover.png');}
+
+.idi-cluster-information { background-image: url('images/clusters-small/information.png');}
+.idi-cluster-information:hover { background-image: url('images/clusters-small/information-hover.png');}
+
+.idi-cluster-mobile { background-image: url('images/clusters-small/mobile.png');}
+.idi-cluster-mobile:hover { background-image: url('images/clusters-small/mobile-hover.png');}
+
+.fl-theme-uio-yb .idi-cluster-design { background-image: url('images/clusters-small/design&development-yellow.png'); }
+.fl-theme-uio-wb .idi-cluster-design { background-image: url('images/clusters-small/design&development-white.png'); }
+.fl-theme-uio-by .idi-cluster-design,
+.fl-theme-uio-bw .idi-cluster-design { background-image: url('images/clusters-small/design&development-black.png'); }
+
+.fl-theme-uio-yb .idi-cluster-policies { background-image: url('images/clusters-small/businesscase-yellow.png'); }
+.fl-theme-uio-wb .idi-cluster-policies { background-image: url('images/clusters-small/businesscase-white.png'); }
+.fl-theme-uio-by .idi-cluster-policies,
+.fl-theme-uio-bw .idi-cluster-policies { background-image: url('images/clusters-small/businesscase-black.png'); }
+
+.fl-theme-uio-yb .idi-cluster-information { background-image: url('images/clusters-small/information-yellow.png'); }
+.fl-theme-uio-wb .idi-cluster-information { background-image: url('images/clusters-small/information-white.png'); }
+.fl-theme-uio-by .idi-cluster-information,
+.fl-theme-uio-bw .idi-cluster-information { background-image: url('images/clusters-small/information-black.png'); }
+
+.fl-theme-uio-yb .idi-cluster-mobile { background-image: url('images/clusters-small/mobile-yellow.png'); }
+.fl-theme-uio-wb .idi-cluster-mobile { background-image: url('images/clusters-small/mobile-white.png'); }
+.fl-theme-uio-by .idi-cluster-mobile,
+.fl-theme-uio-bw .idi-cluster-mobile { background-image: url('images/clusters-small/mobile-black.png'); }

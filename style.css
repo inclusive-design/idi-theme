@@ -651,11 +651,13 @@ These shadow styles are still being decided on by the designers
     font-size: 1em;
     text-transform: lowercase;
     border-radius: 0 0 6px 6px;
-    background-position: 0.2em 50%;
+    background-position: 0.4em 50%;
     background-repeat: no-repeat;
     padding-left: 25px;
+    width: 7em;
     margin-top: 0px;
     font-weight: 400;
+    text-align: right;
 }
 /* these should not be necessary, but defaults not working? */
 .fl-theme-uio-yb .fl-uiOptions-fatPanel .fl-toggleButton { border: 1px solid yellow;  }
