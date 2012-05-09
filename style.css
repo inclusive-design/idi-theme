@@ -1318,7 +1318,9 @@ a.idi-project-link {
 .idi-institution .idi-one-column h3 {
     color: #0076B0;
 }
-
+.idi-institution .idi-project-logo {
+    padding: 0.5em;
+}
 /* Remove shadows for high-contrast themes */
 .fl-theme-uio-yb .idi-about-tagline, .fl-theme-uio-wb .idi-about-tagline,
 .fl-theme-uio-by .idi-about-tagline, .fl-theme-uio-bw .idi-about-tagline,
