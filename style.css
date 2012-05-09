@@ -45,6 +45,10 @@ Version: 1.0
   src: local('Lato Black'), local('Lato-Black'), url('fonts/Lato-Black.woff') format('woff');
 }
 
+.aligncenter {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* Page-wide styles */
 html {
@@ -1091,6 +1095,7 @@ img.idi-about-person {
     font-size: 1.2em;
     font-weight: 700;
     display: block;
+    color: #0076B0;
 }
 .idi-project h3 a,
 a.idi-project-lead-name {
@@ -1124,8 +1129,7 @@ a.idi-project-lead-name {
     background-image: url('images/externalpage.png');
     background-repeat: no-repeat;
     background-position: right center;
-    width: 7.7em;
-    display: block;
+    padding-right: 20px;
     text-decoration: none;
     font-style: italic;
     font-weight: bold;
@@ -1279,6 +1283,40 @@ a.idi-project-link {
 }
 .idi-implementation-underlay {
     background-image: url('images/clusters/implementation-bg.png');
+}
+
+/* Institution page styles */
+.idi-institution h1,
+.idi-institution h2 {
+    color: #3FB66C;
+    font-style: italic;
+    font-weight: 700;
+}
+.idi-institution h1 {
+    font-size: 3em; /* 48px/16px */
+}
+.idi-institution h2 {
+    font-size: 2.25em; /* 36px/16px */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.idi-institution aside h3 {
+    margin-top: 1em;
+}
+.idi-inst-site-links p {
+    margin: 0.6em 0;
+}
+.idi-institution aside {
+    margin-top: 6em;
+}
+.idi-institution .idi-project-lead-blurb {
+    font-style: italic;
+}
+.idi-inst-content {
+    margin-top: 1em;
+}
+.idi-institution .idi-one-column h3 {
+    color: #0076B0;
 }
 
 /* Remove shadows for high-contrast themes */

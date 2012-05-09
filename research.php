@@ -7,10 +7,8 @@ Template Name: Research Page
 
 <div class="fl-centered fl-col-mixed fl-site-wrapper">
 
-	<aside>
-		<div class="fl-col-fixed fl-force-left"> 
-			<?php get_sidebar('research'); ?>
-		</div>
+	<aside class="fl-col-fixed fl-force-left">
+		<?php get_sidebar('research'); ?>
 	</aside>
 
 	<div class="fl-col-flex idi-one-column idi-research">

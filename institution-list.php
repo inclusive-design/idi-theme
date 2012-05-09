@@ -1,3 +1,5 @@
+<?php $site_url = get_site_url(); ?>
+
 <div class="idi-institutions">
 	<h3>IDI Institutions</h3>
 	<p>Find out more about their ongoing research</p>
