@@ -191,133 +191,148 @@ These shadow styles are still being decided on by the designers
     text-decoration: none;
     font-weight: 900;
     font-size: 0.875em;
-}
-.fl-site-nav-main a:hover li,
-.fl-site-nav-main a:active li {
-    border: 2px solid #00ADE4;
-}
-.fl-site-nav-main a.current_page_item:hover li,
-.fl-site-nav-main a.current_page_item:active li {
-    border: 2px solid transparent;
-}
-.fl-site-nav-main ul li {
     margin: 0 0.75em;
     padding-bottom: 0.4em;
     padding-top: 0.3em;
-    padding-left: 1.7em;
-    background-size: auto 50%;
-    background-position: 0.4em center;
+    padding-right: 0.3em;
+    padding-left: 2em;
+    background-size: auto 75%;
+    background-position: 0.3em 50%;
     background-repeat: no-repeat;
     border-radius: 4px;
     border: 2px solid transparent;
 }
-.fl-theme-uio-yb .fl-site-nav-main ul li,
-.fl-theme-uio-wb .fl-site-nav-main ul li,
-.fl-theme-uio-by .fl-site-nav-main ul li,
-.fl-theme-uio-bw .fl-site-nav-main ul li {
-    border: 2px solid transparent !important;
-}
-.fl-theme-yb .fl-site-nav-main a:hover li,
-.fl-theme-yb .fl-site-nav-main a:active li { border: 2px solid #FFFF00 !important; }
-.fl-theme-wb .fl-site-nav-main a:hover li,
-.fl-theme-wb .fl-site-nav-main a:active li { border: 2px solid #FFFFFF !important; }
-.fl-theme-by .fl-site-nav-main a:hover li,
-.fl-theme-by .fl-site-nav-main a:active li,
-.fl-theme-bw .fl-site-nav-main a:hover li,
-.fl-theme-bw .fl-site-nav-main a:active li { border: 2px solid #000000 !important; }
-
-.current_page_item li {
+.fl-site-nav-main a.current_page_item {
     background-color: #0076B0;
     color: #ffffff;
     font-weight: 700;
 }
+.fl-site-nav-main a:hover,
+.fl-site-nav-main a:active {
+    border: 2px solid #00ADE4;
+}
+.fl-site-nav-main a.current_page_item:hover,
+.fl-site-nav-main a.current_page_item:active {
+    border: 2px solid transparent;
+}
+.fl-theme-uio-yb .fl-site-nav-main a,
+.fl-theme-uio-wb .fl-site-nav-main a,
+.fl-theme-uio-by .fl-site-nav-main a,
+.fl-theme-uio-bw .fl-site-nav-main a {
+    border: 2px solid transparent !important;
+}
+.fl-theme-yb .fl-site-nav-main a:hover,
+.fl-theme-yb .fl-site-nav-main a:active { border: 2px solid #FFFF00 !important; }
+.fl-theme-wb .fl-site-nav-main a:hover,
+.fl-theme-wb .fl-site-nav-main a:active { border: 2px solid #FFFFFF !important; }
+.fl-theme-by .fl-site-nav-main a:hover,
+.fl-theme-by .fl-site-nav-main a:active,
+.fl-theme-bw .fl-site-nav-main a:hover,
+.fl-theme-bw .fl-site-nav-main a:active { border: 2px solid #000000 !important; }
+
 /* high-contrast current-link colours */
-.fl-theme-uio-yb .current_page_item li,
-.fl-theme-uio-wb .current_page_item li {
+.fl-theme-uio-yb a.current_page_item,
+.fl-theme-uio-wb a.current_page_item {
     color: #000000 !important;
 }
-.fl-theme-uio-yb .current_page_item li {
+.fl-theme-uio-yb a.current_page_item {
     background-color: #FFFF00 !important;
 }
-.fl-theme-uio-wb .current_page_item li {
+.fl-theme-uio-wb a.current_page_item {
     background-color: #FFFFFF !important;
 }
-.fl-theme-uio-by .current_page_item li {
+.fl-theme-uio-by a.current_page_item {
     color: #FFFF00 !important;
 }
-.fl-theme-uio-by .current_page_item li,
-.fl-theme-uio-bw .current_page_item li {
+.fl-theme-uio-by a.current_page_item,
+.fl-theme-uio-bw a.current_page_item {
     background-color: #000000 !important;
 }
-.fl-theme-uio-bw .current_page_item li {
+.fl-theme-uio-bw a.current_page_item {
     color: #FFFFFF !important;
 }
 /* custom icons for each main nav link */
-.idi-nav-home { background-image: url('images/navigation/home.png'); }
-.current_page_item .idi-nav-home { background-image: url('images/navigation/home-white.png'); }
-.fl-theme-uio-yb .idi-nav-home { background-image: url('images/navigation/home-yellow.png'); }
-.fl-theme-uio-wb .idi-nav-home { background-image: url('images/navigation/home-white.png'); }
-.fl-theme-uio-by .idi-nav-home,
-.fl-theme-uio-bw .idi-nav-home { background-image: url('images/navigation/home-black.png'); }
-.fl-theme-uio-wb .current_page_item .idi-nav-home,
-.fl-theme-uio-yb .current_page_item .idi-nav-home { background-image: url('images/navigation/home-black.png'); }
-.fl-theme-uio-bw .current_page_item .idi-nav-home { background-image: url('images/navigation/home-white.png'); }
-.fl-theme-uio-by .current_page_item .idi-nav-home { background-image: url('images/navigation/home-yellow.png'); }
+.fl-site-nav-main a.idi-nav-home {
+    background-image: url('images/navigation/home.png');
+    padding-left: 2.3em;
+}
+.fl-site-nav-main a.idi-nav-about {
+    background-image: url('images/navigation/about.png');
+    padding-left: 1.3em;
+}
+.fl-site-nav-main a.idi-nav-news {
+    background-image: url('images/navigation/news.png');
+    padding-left: 2.3em;
+}
+.fl-site-nav-main a.idi-nav-research {
+    background-image: url('images/navigation/research.png');
+    padding-left: 1.8em;
+}
+.fl-site-nav-main a.idi-nav-infrastructure {
+    background-image: url('images/navigation/infrastructure.png');
+    padding-left: 1.8em;
+}
 
-.idi-nav-about { background-image: url('images/navigation/about.png'); }
-.current_page_item .idi-nav-about { background-image: url('images/navigation/about-white.png'); }
-.fl-theme-uio-yb .idi-nav-about { background-image: url('images/navigation/about-yellow.png'); }
-.fl-theme-uio-wb .idi-nav-about { background-image: url('images/navigation/about-white.png'); }
-.fl-theme-uio-by .idi-nav-about,
-.fl-theme-uio-bw .idi-nav-about { background-image: url('images/navigation/about-black.png'); }
-.fl-theme-uio-wb .current_page_item .idi-nav-about,
-.fl-theme-uio-yb .current_page_item .idi-nav-about { background-image: url('images/navigation/about-black.png'); }
-.fl-theme-uio-bw .current_page_item .idi-nav-about { background-image: url('images/navigation/about-white.png'); }
-.fl-theme-uio-by .current_page_item .idi-nav-about { background-image: url('images/navigation/about-yellow.png'); }
+/* high-contrast images for main nav links */
+.fl-site-nav-main .current_page_item.idi-nav-home,
+.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-home,
+.fl-theme-uio-wb .fl-site-nav-main .idi-nav-home { background-image: url('images/navigation/home-white.png'); }
+.fl-theme-uio-by .fl-site-nav-main .idi-nav-home,
+.fl-theme-uio-bw .fl-site-nav-main .idi-nav-home,
+.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-home,
+.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-home { background-image: url('images/navigation/home-black.png'); }
+.fl-theme-uio-yb .fl-site-nav-main .idi-nav-home,
+.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-home { background-image: url('images/navigation/home-yellow.png'); }
 
-.idi-nav-news { background-image: url('images/navigation/news.png'); }
-.current_page_item .idi-nav-news { background-image: url('images/navigation/news-white.png'); }
-.fl-theme-uio-yb .idi-nav-news { background-image: url('images/navigation/news-yellow.png'); }
-.fl-theme-uio-wb .idi-nav-news { background-image: url('images/navigation/news-white.png'); }
-.fl-theme-uio-by .idi-nav-news,
-.fl-theme-uio-bw .idi-nav-news { background-image: url('images/navigation/news-black.png'); }
-.fl-theme-uio-wb .current_page_item .idi-nav-news,
-.fl-theme-uio-yb .current_page_item .idi-nav-news { background-image: url('images/navigation/news-black.png'); }
-.fl-theme-uio-bw .current_page_item .idi-nav-news { background-image: url('images/navigation/news-white.png'); }
-.fl-theme-uio-by .current_page_item .idi-nav-news { background-image: url('images/navigation/news-yellow.png'); }
+.fl-site-nav-main .current_page_item.idi-nav-about,
+.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-about,
+.fl-theme-uio-wb .fl-site-nav-main .idi-nav-about { background-image: url('images/navigation/about-white.png'); }
+.fl-theme-uio-by .fl-site-nav-main .idi-nav-about,
+.fl-theme-uio-bw .fl-site-nav-main .idi-nav-about,
+.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-about,
+.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-about { background-image: url('images/navigation/about-black.png'); }
+.fl-theme-uio-yb .fl-site-nav-main .idi-nav-about,
+.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-about { background-image: url('images/navigation/about-yellow.png'); }
 
-.idi-nav-education { background-image: url('images/navigation/education.png'); }
-.current_page_item .idi-nav-education { background-image: url('images/navigation/education-white.png'); }
-.fl-theme-uio-yb .idi-nav-education { background-image: url('images/navigation/education-yellow.png'); }
-.fl-theme-uio-wb .idi-nav-education { background-image: url('images/navigation/education-white.png'); }
-.fl-theme-uio-by .idi-nav-education,
-.fl-theme-uio-bw .idi-nav-education { background-image: url('images/navigation/education-black.png'); }
-.fl-theme-uio-wb .current_page_item .idi-nav-education,
-.fl-theme-uio-yb .current_page_item .idi-nav-education { background-image: url('images/navigation/education-black.png'); }
-.fl-theme-uio-bw .current_page_item .idi-nav-education { background-image: url('images/navigation/education-white.png'); }
-.fl-theme-uio-by .current_page_item .idi-nav-education { background-image: url('images/navigation/education-yellow.png'); }
+.fl-site-nav-main .current_page_item.idi-nav-news,
+.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-news,
+.fl-theme-uio-wb .fl-site-nav-main .idi-nav-news { background-image: url('images/navigation/news-white.png'); }
+.fl-theme-uio-by .fl-site-nav-main .idi-nav-news,
+.fl-theme-uio-bw .fl-site-nav-main .idi-nav-news,
+.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-news,
+.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-news { background-image: url('images/navigation/news-black.png'); }
+.fl-theme-uio-yb .fl-site-nav-main .idi-nav-news,
+.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-news { background-image: url('images/navigation/news-yellow.png'); }
 
-.idi-nav-research { background-image: url('images/navigation/research.png'); }
-.current_page_item .idi-nav-research { background-image: url('images/navigation/research-white.png'); }
-.fl-theme-uio-yb .idi-nav-research { background-image: url('images/navigation/research-yellow.png'); }
-.fl-theme-uio-wb .idi-nav-research { background-image: url('images/navigation/research-white.png'); }
-.fl-theme-uio-by .idi-nav-research,
-.fl-theme-uio-bw .idi-nav-research { background-image: url('images/navigation/research-black.png'); }
-.fl-theme-uio-wb .current_page_item .idi-nav-research,
-.fl-theme-uio-yb .current_page_item .idi-nav-research { background-image: url('images/navigation/research-black.png'); }
-.fl-theme-uio-bw .current_page_item .idi-nav-research { background-image: url('images/navigation/research-white.png'); }
-.fl-theme-uio-by .current_page_item .idi-nav-research { background-image: url('images/navigation/research-yellow.png'); }
+.fl-site-nav-main .current_page_item.idi-nav-education,
+.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-education,
+.fl-theme-uio-wb .fl-site-nav-main .idi-nav-education { background-image: url('images/navigation/education-white.png'); }
+.fl-theme-uio-by .fl-site-nav-main .idi-nav-education,
+.fl-theme-uio-bw .fl-site-nav-main .idi-nav-education,
+.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-education,
+.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-education { background-image: url('images/navigation/education-black.png'); }
+.fl-theme-uio-yb .fl-site-nav-main .idi-nav-education,
+.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-education { background-image: url('images/navigation/education-yellow.png'); }
 
-.idi-nav-infrastructure { background-image: url('images/navigation/infrastructure.png'); }
-.current_page_item .idi-nav-infrastructure { background-image: url('images/navigation/infrastructure-white.png'); }
-.fl-theme-uio-yb .idi-nav-infrastructure { background-image: url('images/navigation/infrastructure-yellow.png'); }
-.fl-theme-uio-wb .idi-nav-infrastructure { background-image: url('images/navigation/infrastructure-white.png'); }
-.fl-theme-uio-by .idi-nav-infrastructure,
-.fl-theme-uio-bw .idi-nav-infrastructure { background-image: url('images/navigation/infrastructure-black.png'); }
-.fl-theme-uio-wb .current_page_item .idi-nav-infrastructure,
-.fl-theme-uio-yb .current_page_item .idi-nav-infrastructure { background-image: url('images/navigation/infrastructure-black.png'); }
-.fl-theme-uio-bw .current_page_item .idi-nav-infrastructure { background-image: url('images/navigation/infrastructure-white.png'); }
-.fl-theme-uio-by .current_page_item .idi-nav-infrastructure { background-image: url('images/navigation/infrastructure-yellow.png'); }
+.fl-site-nav-main .current_page_item.idi-nav-research,
+.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-research,
+.fl-theme-uio-wb .fl-site-nav-main .idi-nav-research { background-image: url('images/navigation/research-white.png'); }
+.fl-theme-uio-by .fl-site-nav-main .idi-nav-research,
+.fl-theme-uio-bw .fl-site-nav-main .idi-nav-research,
+.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-research,
+.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-research { background-image: url('images/navigation/research-black.png'); }
+.fl-theme-uio-yb .fl-site-nav-main .idi-nav-research,
+.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-research { background-image: url('images/navigation/research-yellow.png'); }
+
+.fl-site-nav-main .current_page_item.idi-nav-infrastructure,
+.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-infrastructure,
+.fl-theme-uio-wb .fl-site-nav-main .idi-nav-infrastructure { background-image: url('images/navigation/infrastructure-white.png'); }
+.fl-theme-uio-by .fl-site-nav-main .idi-nav-infrastructure,
+.fl-theme-uio-bw .fl-site-nav-main .idi-nav-infrastructure,
+.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-infrastructure,
+.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-infrastructure { background-image: url('images/navigation/infrastructure-black.png'); }
+.fl-theme-uio-yb .fl-site-nav-main .idi-nav-infrastructure,
+.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-infrastructure { background-image: url('images/navigation/infrastructure-yellow.png'); }
 
 /* Ensure nav elements stick to top of screen */
 .fl-spacer-el {
@@ -640,11 +655,13 @@ These shadow styles are still being decided on by the designers
     font-size: 1em;
     text-transform: lowercase;
     border-radius: 0 0 6px 6px;
-    background-position: 0.2em 50%;
+    background-position: 0.4em 50%;
     background-repeat: no-repeat;
     padding-left: 25px;
+    width: 7em;
     margin-top: 0px;
     font-weight: 400;
+    text-align: right;
 }
 /* these should not be necessary, but defaults not working? */
 .fl-theme-uio-yb .fl-uiOptions-fatPanel .fl-toggleButton { border: 1px solid yellow;  }
@@ -1243,6 +1260,7 @@ a.idi-project-link {
 /* Individual Cluster Pages */
 .idi-cluster {
     position: relative;
+    overflow: hidden;
 }
 .idi-underlay {
     background-repeat: no-repeat;

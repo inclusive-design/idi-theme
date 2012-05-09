@@ -68,15 +68,17 @@ function is_tree($pid) {      // $pid = The ID of the page we're looking for pag
 
 function idi_generate_top_nav() {
 	$pages = get_pages( array ('parent' => '0', 'sort_column' => 'menu_order'));
-	echo "<ul>";
+	$out = "<ul>";
 	foreach ( $pages as $pagg ) {
-		echo '<a ';
+		$out .= '<li><a class="idi-nav-' . $pagg->post_name;
 		if (is_tree($pagg->ID)) {
-			echo 'class="current_page_item"';
+			$out .= ' current_page_item';
 		}
-		echo 'href="' . get_page_link($pagg->ID) . '">';
-		echo '<li class="idi-nav-' . $pagg->post_name . '">' . $pagg->post_name . '</li></a>';
+		$out .= '" href="' . get_page_link($pagg->ID) . '">';
+        $out .= $pagg->post_name . '</a></li>';
 	}
-	echo "</ul>";
+	$out .= "</ul>";
+
+	echo $out;
 }
 ?>
