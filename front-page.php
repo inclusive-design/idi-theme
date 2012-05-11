@@ -64,13 +64,13 @@ Template Name: Front Page
 		<div class="fl-col">
 			<?php get_template_part('tweets', 'FluidProject') ?>
 
-			<div class="idi-box idi-institutions">
+			<div class="idi-box">
 				<div class="idi-box-text">
-					<?php get_template_part("institution-list"); ?>
-					<?php get_template_part("contact-info"); ?>
 					<div class="idi-mailing-list">
 						<?php get_template_part("mailing-list-form"); ?>
 					</div>
+					<?php get_template_part("institution-list"); ?>
+					<?php get_template_part("contact-info"); ?>
 				</div>
 			</div>
 		</div>

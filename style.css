@@ -111,9 +111,6 @@ h3,
     margin-bottom: 0.625em;
     font-style: italic;
 }
-.idi-box .idi-box-text {
-    padding: 20px;
-}
 .idi-highlight-box {
     background-color: #ffffff;
     margin-bottom: 1.25em;
@@ -788,8 +785,8 @@ a.anchor {
 .fl-theme-uio-bw .idi-login-form .idi-login-extra { background-image: url('images/arrows/arrow-black.gif'); }
 
 /* Institution List on front page */
-.idi-institutions.idi-box {
-    margin-top: 0;
+.idi-institutions, .idi-contact-info {
+    padding: .3em 1em 0em 1em;
 }
 .idi-institutions p {
     font-style: italic;
