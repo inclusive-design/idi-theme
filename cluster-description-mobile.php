@@ -1,3 +1,5 @@
-<p>This is the description of the Mobile cluster. Sed ultricies enim a lectus adipiscing at suscipit orci mattis. Duis lorem nisi, cursus porta facilisis ac, porta a leo. Aenean eget quam vitae neque viverra vestibulum at vel nisi. Sed interdum elit quis tellus eleifend imperdiet sit amet eget velit. Cras consequat fringilla felis, sit amet commodo nisl sagittis et. Ut sed mauris augue, nec mollis magna. In pharetra quam vel tortor faucibus porta. Integer vitae vestibulum arcu.</p>
-
-<p>Nam mollis lacus at erat volutpat malesuada iaculis purus dapibus. Nulla id enim id nulla feugiat malesuada. Sed quis velit dolor, ac aliquet libero. Mauris nec est quam, eu pellentesque mi. Pellentesque congue imperdiet urna et ultrices.</p>
+<p>This research cluster brings together a rich and highly innovative group of projects,
+collaboratively engaging a broad participatory design community.
+This research is taking inclusive design out of the workstation into the ICT-enabled environment,
+focusing on mobile, context-aware and location-aware technologies, ubiquitous web applications or pervasive computing and ambient intelligence.
+</p>

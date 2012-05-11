@@ -1,3 +1,3 @@
-<p>This is the description of the Mobile cluster. Sed ultricies enim a lectus adipiscing at suscipit orci mattis. Duis lorem nisi, cursus porta facilisis ac, porta a leo. Aenean eget quam vitae neque viverra vestibulum at vel nisi. Sed interdum elit quis tellus eleifend imperdiet sit amet eget velit. Cras consequat fringilla felis, sit amet commodo nisl sagittis et. Ut sed mauris augue, nec mollis magna. In pharetra quam vel tortor faucibus porta. Integer vitae vestibulum arcu.</p>
-
-<p>Nam mollis lacus at erat volutpat malesuada iaculis purus dapibus. Nulla id enim id nulla feugiat malesuada. Sed quis velit dolor, ac aliquet libero. Mauris nec est quam, eu pellentesque mi. Pellentesque congue imperdiet urna et ultrices.</p>
+<p>The IDI is developing the business case for inclusive design through market and labour trend research and the study of the relationship between inclusive design and innovation.
+	We are bringing together consumers and researchers with disabilities, alternative language and cultural needs and industry leaders to engage legislators, specifications bodies,
+	advocacy grops and consumer communities in inclusive design research.</p>

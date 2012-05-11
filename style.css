@@ -1112,10 +1112,13 @@ a.idi-project-lead-name {
 }
 .idi-project.fl-col-mixed .fl-col-fixed {
     padding: 0;
-    width: 100px; /* same as margin-left below */
+    width: 70px; /* same as margin-left below */
+}
+.idi-project.fl-col-mixed .fl-col-fixed img {
+    width: 60px;
 }
 .idi-project.fl-col-mixed .fl-col-flex {
-    margin-left: 100px; /* same as width above */
+    margin-left: 70px; /* same as width above */
 }
 
 /* research page */
