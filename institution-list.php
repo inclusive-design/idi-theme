@@ -7,7 +7,7 @@
 		<li><a href="/about/ocadu">OCAD University</a></li>
 		<li><a href="/about/ryerson">Ryerson University</a></li>
 		<li><a href="/about/york">York University</a></li>
-		<li><a href="/about/uoit">UOIT</a></li>
+		<li><a href="/about/uoit">University of Ontario Institute of Technology</a></li>
 		<li><a href="/about/utoronto">University of Toronto</a></li>
 		<li><a href="/about/sheridan">Sheridan College</a></li>
 		<li><a href="/about/george-brown">George Brown College</a></li>
