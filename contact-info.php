@@ -1,11 +1,11 @@
 <div class="idi-contact-info">
 	<h3>Contact us!</h3>
 	<div class="idi-mailing-address">
-		Inclusive Design Institute
+		Inclusive Design Institute<br/>
 		<a href="http://g.co/maps/a5tua">
-			205 Richmond Street West</a>
-		2nd Floor
-		Toronto, ON M5V 1V3
+			205 Richmond Street West</a><br/>
+		2nd Floor<br/>
+		Toronto, ON M5V 1V3<br/>
 		Canada
 	</div>
 	<div class="idi-phone">
