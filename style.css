@@ -823,8 +823,8 @@ ul.idi-institution-list li:before {
     background-size: 1em auto;
 }
 .idi-mailing-address { background-image: url("images/contact/location.png"); }
-.idi-phone { background-image: url("images/contact/phone.png"); }
-.idi-email { background-image: url("images/contact/mail.png"); }
+.idi-phone { background-image: url("images/contact/phone.png"); background-position: left 20%; }
+.idi-email { background-image: url("images/contact/mail.png"); background-position: left 34%; }
 
 .fl-theme-uio-yb .idi-mailing-address { background-image: url("images/contact/location-yellow.png"); }
 .fl-theme-uio-yb .idi-phone { background-image: url("images/contact/phone-yellow.png"); }
