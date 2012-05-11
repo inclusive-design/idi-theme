@@ -256,21 +256,36 @@ These shadow styles are still being decided on by the designers
     background-image: url('images/navigation/home.png');
     padding-left: 2.3em;
 }
+.fl-site-nav-main a.idi-nav-home:hover {
+    background-image: url('images/navigation/home-hover.png');
+}
 .fl-site-nav-main a.idi-nav-about {
     background-image: url('images/navigation/about.png');
     padding-left: 1.3em;
+}
+.fl-site-nav-main a.idi-nav-about:hover {
+    background-image: url('images/navigation/about-hover.png');
 }
 .fl-site-nav-main a.idi-nav-news {
     background-image: url('images/navigation/news.png');
     padding-left: 2.3em;
 }
+.fl-site-nav-main a.idi-nav-news:hover {
+    background-image: url('images/navigation/news-hover.png');
+}
 .fl-site-nav-main a.idi-nav-research {
     background-image: url('images/navigation/research.png');
     padding-left: 1.8em;
 }
+.fl-site-nav-main a.idi-nav-research:hover {
+    background-image: url('images/navigation/research-hover.png');
+}
 .fl-site-nav-main a.idi-nav-infrastructure {
     background-image: url('images/navigation/infrastructure.png');
     padding-left: 1.8em;
+}
+.fl-site-nav-main a.idi-nav-infrastructure:hover {
+    background-image: url('images/navigation/infrastructure-hover.png');
 }
 
 /* high-contrast images for main nav links */
