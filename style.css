@@ -167,6 +167,9 @@ These shadow styles are still being decided on by the designers
     font-size: 1.75em;
     color: #BBBBBB;
 }
+.fl-site-name:hover {
+    color: #999999;
+}
 .fl-site-header a {
     text-decoration: none;
 }
