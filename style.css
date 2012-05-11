@@ -575,12 +575,12 @@ These shadow styles are still being decided on by the designers
 
 /* Tweaking FSS column sizes */
 .fl-col-mixed .fl-col-fixed {
-    padding: 0 1em;
-    width: 15em;
+    padding: 0;
+    width: 14em;
 }
 .fl-col-mixed .fl-col-flex.idi-two-column {
-    margin-left: 17em; /* the 15em of the sidebars, plus their 2x1em paddings */
-    margin-right: 17em;
+    margin-left: 16em; /* the 14em of the sidebars, plus their 2em paddings */
+    margin-right: 16em;
 }
 .fl-col-mixed .fl-col-flex.idi-one-column {
     margin-left: 17em;
@@ -948,11 +948,10 @@ a.idi-breadcrumbs,
     font-style: italic;
     color: #A3AF39;
     text-shadow: 1px 1px 0px #ffffff;
-    margin-bottom: 1em;
 }
 .idi-about-nav,
 .idi-about-sidebar {
-    margin-top: 8em;
+    margin-top: 2em;
 }
 .idi-about-people h3 {
     color: #202020;
@@ -967,6 +966,10 @@ a.idi-breadcrumbs,
     color: #999999;
     margin-left: 50%;
 }
+.idi-people-position,
+.idi-people.org {
+    font-style: italic;
+}
 .fl-theme-uio-yb .idi-person:after { color: #FFFF00; }
 .fl-theme-uio-wb .idi-person:after { color: #FFFFFF; }
 .fl-theme-uio-by .idi-person:after,
@@ -979,12 +982,16 @@ img.idi-about-person {
 .idi-person-intro {
     overflow: auto;
     width: 100%
+    min-height: 4em;
+}
+.idi-person-intro  h3 {
+    margin-bottom: 0;
 }
 .idi-about-nav {
     text-align: right;
 }
-.idi-about-nav > * {
-    margin-right: 2em;
+.idi-about-nav a {
+    text-decoration: none;
 }
 .idi-about-nav-header {
     font-weight: 700;
