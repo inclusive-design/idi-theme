@@ -160,7 +160,7 @@ These shadow styles are still being decided on by the designers
 .fl-theme-uio-bw .fl-site-logo { background-image: url('images/logos/logo-black.png'); }
 
 .fl-site-name {
-    margin-top: 0.13emem;
+    margin-bottom: 0.25em;
     text-transform: lowercase;
     text-align: center;
     font-style: italic;
@@ -183,8 +183,8 @@ These shadow styles are still being decided on by the designers
 .fl-site-nav-main ul {
     text-align: center;
     margin: 0;
-    padding-top: 1.5em;
-    padding-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 .fl-site-nav-main a {
     text-transform: lowercase;
