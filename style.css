@@ -1062,7 +1062,10 @@ img.idi-about-person {
     background-size: 1em auto;
     background-repeat: no-repeat;
     background-position: right;
-    padding-right: 2em;
+    padding-right: 1.5em;
+}
+.idi-more:hover {
+    background-image: url("images/arrows/arrow-hover.gif");
 }
 .fl-theme-uio-yb .idi-infra-bookit,
 .fl-theme-uio-yb .idi-more { background-image: url("images/arrows/arrow-yellow.gif"); }
