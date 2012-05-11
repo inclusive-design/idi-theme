@@ -163,12 +163,15 @@ These shadow styles are still being decided on by the designers
 .fl-theme-uio-bw .fl-site-logo { background-image: url('images/logos/logo-black.png'); }
 
 .fl-site-name {
-    margin-top: 0.13emem;
+    margin-bottom: 0.25em;
     text-transform: lowercase;
     text-align: center;
     font-style: italic;
     font-size: 1.75em;
     color: #BBBBBB;
+}
+.fl-site-name:hover {
+    color: #999999;
 }
 .fl-site-header a {
     text-decoration: none;
@@ -183,8 +186,8 @@ These shadow styles are still being decided on by the designers
 .fl-site-nav-main ul {
     text-align: center;
     margin: 0;
-    padding-top: 1.5em;
-    padding-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 .fl-site-nav-main a {
     text-transform: lowercase;
@@ -256,21 +259,36 @@ These shadow styles are still being decided on by the designers
     background-image: url('images/navigation/home.png');
     padding-left: 2.3em;
 }
+.fl-site-nav-main a.idi-nav-home:hover {
+    background-image: url('images/navigation/home-hover.png');
+}
 .fl-site-nav-main a.idi-nav-about {
     background-image: url('images/navigation/about.png');
     padding-left: 1.3em;
+}
+.fl-site-nav-main a.idi-nav-about:hover {
+    background-image: url('images/navigation/about-hover.png');
 }
 .fl-site-nav-main a.idi-nav-news {
     background-image: url('images/navigation/news.png');
     padding-left: 2.3em;
 }
+.fl-site-nav-main a.idi-nav-news:hover {
+    background-image: url('images/navigation/news-hover.png');
+}
 .fl-site-nav-main a.idi-nav-research {
     background-image: url('images/navigation/research.png');
     padding-left: 1.8em;
 }
+.fl-site-nav-main a.idi-nav-research:hover {
+    background-image: url('images/navigation/research-hover.png');
+}
 .fl-site-nav-main a.idi-nav-infrastructure {
     background-image: url('images/navigation/infrastructure.png');
     padding-left: 1.8em;
+}
+.fl-site-nav-main a.idi-nav-infrastructure:hover {
+    background-image: url('images/navigation/infrastructure-hover.png');
 }
 
 /* high-contrast images for main nav links */
@@ -625,8 +643,7 @@ These shadow styles are still being decided on by the designers
 }
 .twitter-feed-group a.twitter-follow-button:hover { background-image: url('images/news-tweet/tweet-hover.png'); }
 .twitter-feed-group ul {
-    margin-left: 0px;
-    margin-bottom: 0px;
+    margin: 0px;
 }
 .twitter-feed-group ul li {
     list-style: none;
@@ -788,8 +805,8 @@ a.anchor {
 .fl-theme-uio-bw .idi-login-form .idi-login-extra { background-image: url('images/arrows/arrow-black.gif'); }
 
 /* Institution List on front page */
-.idi-institutions.idi-box {
-    margin-top: 0;
+.idi-institutions, .idi-contact-info {
+    padding: .3em 1em 0em 1em;
 }
 .idi-institutions p {
     font-style: italic;
