@@ -2,7 +2,7 @@
 			<div class="fl-col">
 				<section class="idi-project fl-col-mixed">
 					<div class="fl-col-fixed fl-force-left">
-						<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/floe-logo.png"/>
+						<a href="http://floeproject.org"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/floe-logo.png"/></a>
 					</div>
 					<div class="fl-col-flex">
 						<h3><a href="http://floeproject.org">Floe Project</a></h3>
@@ -11,7 +11,7 @@
 				</section>
 				<section class="idi-project fl-col-mixed">
 					<div class="fl-col-fixed fl-force-left">
-						<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/gpii_logo.png"/>
+						<a href="http://gpii.net"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/gpii_logo.png"/></a>
 					</div>
 					<div class="fl-col-flex">
 							<h3><a href="http://gpii.net">GPII</a></h3>
@@ -22,7 +22,7 @@
 			<div class="fl-col">
 				<section class="idi-project fl-col-mixed">
 					<div class="fl-col-fixed fl-force-left">
-						<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/fluid_logo.png"/>
+						<a href="http://fluidproject.org"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/fluid_logo.png"/></a>
 					</div>
 					<div class="fl-col-flex">
 							<h3><a href="http://fluidproject.org">Fluid</a></h3>
@@ -31,7 +31,7 @@
 				</section>
 				<section class="idi-project fl-col-mixed">
 					<div class="fl-col-fixed fl-force-left">
-						<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/aegis_logo.png"/>
+						<a href="http://aegis.idrc.ocad.ca/"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/aegis_logo.png"/></a>
 					</div>
 					<div class="fl-col-flex">
 							<h3><a href="http://aegis.idrc.ocad.ca/">AEGIS</a></h3>
