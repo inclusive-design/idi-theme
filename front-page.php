@@ -65,13 +65,11 @@ Template Name: Front Page
 			<?php get_template_part('tweets', 'FluidProject') ?>
 
 			<div class="idi-box">
-				<div class="idi-box-text">
-					<div class="idi-mailing-list">
-						<?php get_template_part("mailing-list-form"); ?>
-					</div>
-					<?php get_template_part("institution-list"); ?>
-					<?php get_template_part("contact-info"); ?>
+				<div class="idi-mailing-list">
+					<?php get_template_part("mailing-list-form"); ?>
 				</div>
+				<?php get_template_part("institution-list"); ?>
+				<?php get_template_part("contact-info"); ?>				
 			</div>
 		</div>
 

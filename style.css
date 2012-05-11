@@ -111,6 +111,9 @@ h3,
     margin-bottom: 0.625em;
     font-style: italic;
 }
+.idi-box .idi-box-text {
+    padding: 20px;
+}
 .idi-highlight-box {
     background-color: #ffffff;
     margin-bottom: 1.25em;
@@ -640,8 +643,7 @@ These shadow styles are still being decided on by the designers
 }
 .twitter-feed-group a.twitter-follow-button:hover { background-image: url('images/news-tweet/tweet-hover.png'); }
 .twitter-feed-group ul {
-    margin-left: 0px;
-    margin-bottom: 0px;
+    margin: 0px;
 }
 .twitter-feed-group ul li {
     list-style: none;
