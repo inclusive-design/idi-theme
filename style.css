@@ -151,11 +151,14 @@ These shadow styles are still being decided on by the designers
 .fl-site-logo {
     background-repeat: no-repeat;
     background-image: url('images/logos/logo.png');
-    height: 74px;
-    width: 74px;
+    height: 85px;
+    width: 118px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.fl-site-logo:hover {
+    background-image: url('images/logos/logo-hover.png');
 }
 .fl-theme-uio-yb .fl-site-logo { background-image: url('images/logos/logo-yellow.png'); }
 .fl-theme-uio-wb .fl-site-logo { background-image: url('images/logos/logo-white.png'); }
