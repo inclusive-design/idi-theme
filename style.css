@@ -642,7 +642,7 @@ These shadow styles are still being decided on by the designers
     background-image: url('images/news-tweet/tweet.png');
     background-repeat: no-repeat;
     background-size: 1.6em auto;
-    background-position: 90% 20%;
+    background-position: 100% 20%;
 }
 .twitter-feed-group a.twitter-follow-button:hover { background-image: url('images/news-tweet/tweet-hover.png'); }
 .twitter-feed-group ul {
