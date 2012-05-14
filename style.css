@@ -133,7 +133,7 @@ These shadow styles are still being decided on by the designers
     height: auto;
 }
 .post .idi-date {
-    font-weight: 700;
+    font-style: italic;
     margin-top: 0;
     margin-bottom: 0.625em;
 }
