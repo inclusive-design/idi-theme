@@ -1056,8 +1056,9 @@ img.idi-about-person {
 .idi-infra a.idi-map-link {
     text-decoration: none;
 }
-.idi-infra h4 {
+.idi-infra-bookit {
     color: #0076B0;
+    font-weight: bold;
 }
 .idi-infra-bookit,
 .idi-more {
@@ -1066,6 +1067,7 @@ img.idi-about-person {
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 1.5em;
+    text-decoration: none;
 }
 .idi-more:hover {
     background-image: url("images/arrows/arrow-hover.gif");
@@ -1079,10 +1081,12 @@ img.idi-about-person {
 .fl-theme-uio-by .idi-more,
 .fl-theme-uio-bw .idi-more { background-image: url("images/arrows/arrow-black.gif"); }
 
-.idi-infra h5 {
+.idi-infra p.coming-soon {
     font-style: italic;
     color: #808080;
     padding-bottom: 0.5em;
+    font-weight: bold;
+    margin: 0;
 }
 .idi-infra .idi-3cols {
     width: 72%;
