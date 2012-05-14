@@ -1,7 +1,7 @@
 <div class="idi-about-nav-who">
 	<a class="idi-about-nav-header" href="#whoweare">Who we are</a>
 </div>
-<div>
+<nav>
 	<a class="idi-about-nav-header" href="#people">People</a>
 	<ul>
 	    <li><a href="#Baecker">Ron Baecker</a></li>
@@ -27,7 +27,7 @@
 	    <li><a href="#Stolarick">Kevin Stolarick</a></li>
 	    <li><a href="#Treviranus">Jutta Treviranus</a></li>
 	</ul>
-</div>
+</nav>
 
 
 

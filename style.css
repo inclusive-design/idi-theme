@@ -1038,8 +1038,25 @@ img.idi-about-person {
 }
 
 /* infrastructure page */
+
+.idi-infra .fl-col-flex4 .fl-col {
+    width: 21%
+    min-width: 8em;
+    max-width: 15em;
+    margin-left: 1em;
+}
+.idi-infra .fl-col-flex4 .fl-col:first-child {
+    width: 12em;
+    margin-left: 0;
+    text-align: right;
+}
+.idi-infra .fl-col-flex4 .idi-3cols {
+    width: 72%;
+    max-width: 72%;
+}
 .idi-infra h1 {
-    font-size: 48pt;
+    font-size: 3em;
+    padding-left: 0.55em;
     font-weight: bold;
     font-style: italic;
     color:  #D33476;
@@ -1065,8 +1082,9 @@ img.idi-about-person {
 .idi-infra a.idi-map-link {
     text-decoration: none;
 }
-.idi-infra h4 {
+.idi-infra-bookit {
     color: #0076B0;
+    font-weight: bold;
 }
 .idi-infra-bookit,
 .idi-more {
@@ -1075,6 +1093,7 @@ img.idi-about-person {
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 1.5em;
+    text-decoration: none;
 }
 .idi-more:hover {
     background-image: url("images/arrows/arrow-hover.gif");
@@ -1088,13 +1107,12 @@ img.idi-about-person {
 .fl-theme-uio-by .idi-more,
 .fl-theme-uio-bw .idi-more { background-image: url("images/arrows/arrow-black.gif"); }
 
-.idi-infra h5 {
+.idi-infra p.coming-soon {
     font-style: italic;
     color: #808080;
     padding-bottom: 0.5em;
-}
-.idi-infra .idi-3cols {
-    width: 72%;
+    font-weight: bold;
+    margin: 0;
 }
 .idi-infra .idi-summary-title {
     font-size: 28pt;
@@ -1102,6 +1120,9 @@ img.idi-about-person {
     font-weight: bold;
     font-style: italic;
     background-image: none;
+}
+.idi-infra h2.idi-summary-title {
+    padding-left: 0;
 }
 .idi-infra-row {
     padding-bottom: 2em;
