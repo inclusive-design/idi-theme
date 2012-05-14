@@ -148,6 +148,11 @@ These shadow styles are still being decided on by the designers
     text-decoration: none;
 }
 /* Background of main content */
+.fl-site-link {
+    width: 17em;
+    margin-left: auto;
+    margin-right: auto;
+}
 .fl-site-logo {
     background-repeat: no-repeat;
     background-image: url('images/logos/logo.png');
@@ -157,7 +162,7 @@ These shadow styles are still being decided on by the designers
     margin-left: auto;
     margin-right: auto;
 }
-.fl-site-logo:hover {
+.fl-site-link:hover .fl-site-logo {
     background-image: url('images/logos/logo-hover.png');
 }
 .fl-theme-uio-yb .fl-site-logo { background-image: url('images/logos/logo-yellow.png'); }
@@ -173,7 +178,7 @@ These shadow styles are still being decided on by the designers
     font-size: 1.75em;
     color: #BBBBBB;
 }
-.fl-site-name:hover {
+.fl-site-link:hover .fl-site-name {
     color: #999999;
 }
 .fl-site-header a {
