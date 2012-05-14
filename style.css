@@ -132,11 +132,6 @@ These shadow styles are still being decided on by the designers
     width: 100%;
     height: auto;
 }
-.post .idi-date {
-    font-weight: 700;
-    margin-top: 0;
-    margin-bottom: 0.625em;
-}
 .post h2 {
     margin-top: 0;
     margin-bottom: 0.625em;
@@ -933,12 +928,13 @@ form#idiMailingListSignup input {
 .idi-news-article {
     margin-left: 1em;
 }
-.idi-news-article .idi-date {
+.idi-news-article .idi-date,
+.post .idi-date {
     font-weight: 400;
     font-style: italic;
     margin-top: 0;
     margin-bottom: 0.625em;
-}
+}   
 
 img.alignright {
     float: right;
