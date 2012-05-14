@@ -433,7 +433,7 @@ These shadow styles are still being decided on by the designers
     background-color: #16B36C;
 }
 .idi-design-cluster-name {
-    top: 253px;
+    top: 250px;
     left: 280px;
     color: #16B36C;
     font-size: 1.75em;
@@ -463,7 +463,7 @@ These shadow styles are still being decided on by the designers
     background-color: #EE5B24;
 }
 .idi-policies-cluster-name {
-    top: 422px;
+    top: 417px;
     left: 342px;
     color: #EE5B24;
     font-size: 1.5em;
@@ -493,7 +493,7 @@ These shadow styles are still being decided on by the designers
     background-color: #FFCC00;
 }
 .idi-implementation-cluster-name {
-    top: 97px;
+    top: 94px;
     right: 392px;
     color: #FFCC00;
     font-size: 1.5em;
@@ -525,7 +525,7 @@ These shadow styles are still being decided on by the designers
     background-color: #00ADE4;
 }
 .idi-mobile-cluster-name {
-    top: 220px;
+    top: 217px;
     left: 772px;
     color: #00ADE4;
     font-size: 1.3125em;
