@@ -147,6 +147,9 @@ These shadow styles are still being decided on by the designers
     font-weight: 700;
     text-decoration: none;
 }
+.post h2 a:hover {
+    color: #0EB0E6;
+}
 /* Background of main content */
 .fl-site-logo {
     background-repeat: no-repeat;
@@ -826,11 +829,6 @@ ul.idi-institution-list {
     padding-bottom: 1.25em;
 }
 ul.idi-institution-list li {
-    list-style-type: none;
-}
-ul.idi-institution-list li:before {
-    content: "•";
-    padding-right: 0.5em;
     color: #0076B0;
 }
 .fl-theme-uio-yb ul.idi-institution-list li:before { color: #FFFF00; }
