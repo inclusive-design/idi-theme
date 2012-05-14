@@ -968,6 +968,9 @@ a.idi-breadcrumbs,
     font-style: italic;
     color: #3FB66C;
 }
+.idi-about h2 {
+    margin-bottom: .5em;    
+}
 .idi-about-tagline {
     font-weight: 700;
     font-size: 3em;
