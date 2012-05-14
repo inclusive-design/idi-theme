@@ -88,7 +88,8 @@ a {
     color: #0076B0;
 }
 a:hover,
-.twitter-feed-group a.twitter-follow-button:hover {
+.twitter-feed-group a.twitter-follow-button:hover,
+.fl-site-link:hover .fl-site-name {
     color: #00ADE4;
 }
 h1 {
@@ -163,22 +164,25 @@ These shadow styles are still being decided on by the designers
     margin-right: auto;
 }
 .fl-site-link:hover .fl-site-logo {
-    background-image: url('images/logos/logo-hover.png');
+    background-image: url('images/logos/logo-hover.gif');
 }
-.fl-theme-uio-yb .fl-site-logo { background-image: url('images/logos/logo-yellow.png'); }
-.fl-theme-uio-wb .fl-site-logo { background-image: url('images/logos/logo-white.png'); }
-.fl-theme-uio-by .fl-site-logo,
-.fl-theme-uio-bw .fl-site-logo { background-image: url('images/logos/logo-black.png'); }
+.fl-theme-uio-yb .fl-site-logo, .fl-theme-uio-yb .fl-site-link:hover .fl-site-logo { background-image: url('images/logos/logo-yellow.png'); }
+.fl-theme-uio-wb .fl-site-logo, .fl-theme-uio-wb .fl-site-link:hover .fl-site-logo { background-image: url('images/logos/logo-white.png'); }
+.fl-theme-uio-by .fl-site-logo, .fl-theme-uio-by .fl-site-link:hover .fl-site-logo,
+.fl-theme-uio-bw .fl-site-logo, .fl-theme-uio-bw .fl-site-link:hover .fl-site-logo { background-image: url('images/logos/logo-black.png'); }
 
+.fl-theme-uio-yb .fl-site-link a,
+.fl-theme-uio-by .fl-site-link a,
+.fl-theme-uio-wb .fl-site-link a,
+.fl-theme-uio-bw .fl-site-link a {
+    font-weight: 300;
+}
 .fl-site-name {
     margin-bottom: 0.25em;
     text-transform: lowercase;
     text-align: center;
     font-style: italic;
     font-size: 1.75em;
-    color: #BBBBBB;
-}
-.fl-site-link:hover .fl-site-name {
     color: #999999;
 }
 .fl-site-header a {
