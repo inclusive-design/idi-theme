@@ -1,4 +1,4 @@
-<div class="idi-contact-info">
+<address class="idi-contact-info">
 	<h3>Contact us!</h3>
 	<div class="idi-mailing-address">
 		Inclusive Design Institute<br/>
@@ -14,4 +14,4 @@
 	<div class="idi-email">
 		<a href="mailto:idi@ocadu.ca">idi@ocadu.ca</a>
 	</div>
-</div>
+</address>
