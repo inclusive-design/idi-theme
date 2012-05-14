@@ -1029,8 +1029,25 @@ img.idi-about-person {
 }
 
 /* infrastructure page */
+
+.idi-infra .fl-col-flex4 .fl-col {
+    width: 21%
+    min-width: 8em;
+    max-width: 15em;
+    margin-left: 1em;
+}
+.idi-infra .fl-col-flex4 .fl-col:first-child {
+    width: 12em;
+    margin-left: 0;
+    text-align: right;
+}
+.idi-infra .fl-col-flex4 .idi-3cols {
+    width: 72%;
+    max-width: 72%;
+}
 .idi-infra h1 {
-    font-size: 48pt;
+    font-size: 3em;
+    padding-left: 0.55em;
     font-weight: bold;
     font-style: italic;
     color:  #D33476;
@@ -1088,15 +1105,15 @@ img.idi-about-person {
     font-weight: bold;
     margin: 0;
 }
-.idi-infra .idi-3cols {
-    width: 72%;
-}
 .idi-infra .idi-summary-title {
     font-size: 28pt;
     color: #3FB66C;
     font-weight: bold;
     font-style: italic;
     background-image: none;
+}
+.idi-infra h2.idi-summary-title {
+    padding-left: 0;
 }
 .idi-infra-row {
     padding-bottom: 2em;
