@@ -296,6 +296,7 @@ These shadow styles are still being decided on by the designers
 
 /* high-contrast images for main nav links */
 .fl-site-nav-main .current_page_item.idi-nav-home,
+.fl-site-nav-main .current_page_item.idi-nav-home:hover,
 .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-home,
 .fl-theme-uio-wb .fl-site-nav-main .idi-nav-home { background-image: url('images/navigation/home-white.png'); }
 .fl-theme-uio-by .fl-site-nav-main .idi-nav-home,
@@ -306,6 +307,7 @@ These shadow styles are still being decided on by the designers
 .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-home { background-image: url('images/navigation/home-yellow.png'); }
 
 .fl-site-nav-main .current_page_item.idi-nav-about,
+.fl-site-nav-main .current_page_item.idi-nav-about:hover,
 .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-about,
 .fl-theme-uio-wb .fl-site-nav-main .idi-nav-about { background-image: url('images/navigation/about-white.png'); }
 .fl-theme-uio-by .fl-site-nav-main .idi-nav-about,
@@ -316,6 +318,7 @@ These shadow styles are still being decided on by the designers
 .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-about { background-image: url('images/navigation/about-yellow.png'); }
 
 .fl-site-nav-main .current_page_item.idi-nav-news,
+.fl-site-nav-main .current_page_item.idi-nav-news:hover,
 .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-news,
 .fl-theme-uio-wb .fl-site-nav-main .idi-nav-news { background-image: url('images/navigation/news-white.png'); }
 .fl-theme-uio-by .fl-site-nav-main .idi-nav-news,
@@ -326,6 +329,7 @@ These shadow styles are still being decided on by the designers
 .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-news { background-image: url('images/navigation/news-yellow.png'); }
 
 .fl-site-nav-main .current_page_item.idi-nav-education,
+.fl-site-nav-main .current_page_item.idi-nav-education:hover,
 .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-education,
 .fl-theme-uio-wb .fl-site-nav-main .idi-nav-education { background-image: url('images/navigation/education-white.png'); }
 .fl-theme-uio-by .fl-site-nav-main .idi-nav-education,
@@ -336,6 +340,7 @@ These shadow styles are still being decided on by the designers
 .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-education { background-image: url('images/navigation/education-yellow.png'); }
 
 .fl-site-nav-main .current_page_item.idi-nav-research,
+.fl-site-nav-main .current_page_item.idi-nav-research:hover,
 .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-research,
 .fl-theme-uio-wb .fl-site-nav-main .idi-nav-research { background-image: url('images/navigation/research-white.png'); }
 .fl-theme-uio-by .fl-site-nav-main .idi-nav-research,
@@ -346,6 +351,7 @@ These shadow styles are still being decided on by the designers
 .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-research { background-image: url('images/navigation/research-yellow.png'); }
 
 .fl-site-nav-main .current_page_item.idi-nav-infrastructure,
+.fl-site-nav-main .current_page_item.idi-nav-infrastructure:hover,
 .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-infrastructure,
 .fl-theme-uio-wb .fl-site-nav-main .idi-nav-infrastructure { background-image: url('images/navigation/infrastructure-white.png'); }
 .fl-theme-uio-by .fl-site-nav-main .idi-nav-infrastructure,
