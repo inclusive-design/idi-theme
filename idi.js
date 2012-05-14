@@ -21,7 +21,6 @@ var idi = idi || {};
         var theWindow = $(window);
 
         var topNavEl = $('.fl-site-nav-main');
-        var aboutSectionNav = $('.idi-about-nav');
         var topNavHeight = topNavEl.css('height');
         var paddingString = $('.fl-site-nav-main ul').css('padding-top');
         var padding = parseInt(paddingString.substring(0, paddingString.length - 2), 10);
@@ -30,11 +29,14 @@ var idi = idi || {};
         spacerEl.css("height", topNavHeight);
         spacerEl.insertBefore(topNavEl);
 
+        var aboutSectionNav = $('.idi-about-nav');
+        var aboutSectionThreshold = aboutSectionNav.offset().top - (2 * padding) - 48; /* 48px = 3em @ 16px/em */
+
         theWindow.scroll(function () {
             var windowTop = theWindow.scrollTop();
             spacerEl.toggle(windowTop > topNavTop);
             topNavEl.toggleClass('sticky', windowTop > topNavTop);
-            aboutSectionNav.toggleClass('sticky', windowTop > topNavTop);
+            aboutSectionNav.toggleClass('sticky', windowTop > aboutSectionThreshold);
         });
     };
 
