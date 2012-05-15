@@ -2,36 +2,31 @@
 			<div class="fl-col">
 				<section class="idi-project fl-col-mixed">
 					<div class="fl-col-fixed fl-force-left">
-						<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png"/>
+						<a href="http://floeproject.org"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/floe-logo.png"/></a>
 					</div>
 					<div class="fl-col-flex">
-						<h3><a href="">Project</a></h3>
+						<h3><a href="http://floeproject.org">Floe Project</a></h3>
+						Through the Open Education Resources community, Floe makes tools that help transform, augment, and personalize the learning experience.
 					</div>
 				</section>
 				<section class="idi-project fl-col-mixed">
 					<div class="fl-col-fixed fl-force-left">
-						<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png"/>
+						<a href="http://fluidproject.org"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/fluid_logo.png"/></a>
 					</div>
 					<div class="fl-col-flex">
-						<h3><a href="">Project</a></h3>
+							<h3><a href="http://fluidproject.org">Fluid</a></h3>
+						Fluid is an open-source software community that designs user interfaces, builds Web tools, teaches inclusive design and integrates interface components into open source applications .
 					</div>
 				</section>
 			</div>
 			<div class="fl-col">
 				<section class="idi-project fl-col-mixed">
 					<div class="fl-col-fixed fl-force-left">
-						<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png"/>
+						<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="logo placeholder" alt="a placeholder for the project logo" />
 					</div>
 					<div class="fl-col-flex">
-						<h3><a href="">Project</a></h3>
-					</div>
-				</section>
-				<section class="idi-project fl-col-mixed">
-					<div class="fl-col-fixed fl-force-left">
-						<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png"/>
-					</div>
-					<div class="fl-col-flex">
-						<h3><a href="">Project</a></h3>
+						<h3><a href="http://cdot.senecac.on.ca/">Technologies and Tools for the Open Web</a></h3>
+						This project is working with the Mozilla Foundation to develop technologies that will expand the inclusiveness of the open web, and to develop tools to enable a broad range of developers to utilize these technologies.
 					</div>
 				</section>
 			</div>
