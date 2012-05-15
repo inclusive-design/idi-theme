@@ -21,7 +21,6 @@ var idi = idi || {};
         var theWindow = $(window);
 
         var topNavEl = $('.fl-site-nav-main');
-        var aboutSectionNav = $('.idi-about-nav');
         var topNavHeight = topNavEl.css('height');
         var paddingString = $('.fl-site-nav-main ul').css('padding-top');
         var padding = parseInt(paddingString.substring(0, paddingString.length - 2), 10);
@@ -34,7 +33,6 @@ var idi = idi || {};
             var windowTop = theWindow.scrollTop();
             spacerEl.toggle(windowTop > topNavTop);
             topNavEl.toggleClass('sticky', windowTop > topNavTop);
-            aboutSectionNav.toggleClass('sticky', windowTop > topNavTop);
         });
     };
 

@@ -6,7 +6,7 @@
 <div class="idi-contact-info">
 	<h3>Contact</h3>
 	<div class="idi-mailing-address">
-		UOIT<br/>
+		University of Ontario Institute of Technology<br/>
 		<a href="http://g.co/maps/tgw7d">
 		2000 Simcoe Street North</a><br/>
 		Oshawa, ON L1H 7K4<br/>
