@@ -91,7 +91,8 @@ a:hover,
 a:focus,
 .twitter-feed-group a.twitter-follow-button:hover,
 .twitter-feed-group a.twitter-follow-button:focus,
-.fl-site-link:hover .fl-site-name {
+.fl-site-link:hover .fl-site-name,
+.idi-map-link:focus h2 {
     color: #00ADE4;
 }
 h1 {
@@ -1285,7 +1286,7 @@ a.idi-project-lead-name {
     font-style: italic;
     font-weight: bold;
 }
-.idi-external-link:hover {
+.idi-external-link:hover, .idi-external-link:focus {
     background-image: url('images/externalpage-hover.gif');
 }
 .fl-theme-uio-yb .idi-external-link { background-image: url('images/externalpage-yellow.gif'); }
@@ -1328,7 +1329,7 @@ a.idi-project-link {
 .idi-research-item p {
     margin-bottom: 0.2em;
 }
-.idi-research-item h2:hover {
+.idi-research-item h2:hover, .idi-research-item a:focus h2 {
     text-decoration: underline;
 }
 .idi-research-item p {
@@ -1374,7 +1375,7 @@ a.idi-project-link {
     -o-transition-property: opacity;
     -o-transition-duration: 0.5s;
 }
-.idi-cluster-hover-overlay:hover {
+.idi-cluster-hover-overlay:hover, .idi-research-item a:focus .idi-cluster-hover-overlay {
     opacity: 1;
     -moz-transition-property: opacity;
     -moz-transition-duration: 1s;
@@ -1383,7 +1384,6 @@ a.idi-project-link {
     -o-transition-property: opacity;
     -o-transition-duration: 1s;
 }
-
 .idi-cluster-design {  background-image: url('images/clusters/design&development.png'); }
 .idi-cluster-design-hover { background-image: url('images/clusters/design&development-hover.png'); }
 .idi-cluster-policies { background-image: url('images/clusters/businesscase.png'); }
