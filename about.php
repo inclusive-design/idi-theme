@@ -39,14 +39,13 @@ IDI is a community that values collaboration, broad participation, transparency,
 <section class="idi-person">
 <a id="Baecker"></a>
 <div class="idi-person-intro">
-	<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Baecker.jpg"/>
+	<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Baecker.gif"/>
 	<h3>Ron Baecker</h3>
 	<div class="idi-people-position">Director, <a href="http://taglab.utoronto.ca/">Technologies for Aging Gracefully Lab (TAGlab)</a></div>
 	<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
 </div>
 <p>
-Fusce at sodales leo. Aliquam eros velit, tempus non condimentum ac, luctus ut diam. Sed vel arcu diam. Fusce ac tellus at sapien dignissim mattis posuere vitae elit. Donec tortor leo, lobortis in posuere sit amet, lacinia non neque. Praesent leo metus, gravida a elementum ac, blandit in ipsum. Nullam nulla lacus, luctus eget tincidunt eu, rutrum quis turpis.
-</p>
+Ronald Baecker is Professor of Computer Science, Bell Universities Laboratories Chair in Human-Computer Interaction, and Director of the Technologies for Aging Gracefully lab (TAGlab) at the University of Toronto. He has been named one of the 60 Pioneers of Computer Graphics by ACM SIGGRAPH, has been elected to the CHI (Computers and Human Interaction) Academy by ACM SIGCHI, and has been given the Canadian Human Computer Communications Society Achievement Award.</p>
 </section>
 
 <section class="idi-person">
