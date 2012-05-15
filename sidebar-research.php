@@ -8,21 +8,9 @@
 		</div>
 
 		<div class="idi-project-item">
-			<h4><a class="idi-project-link" href="http://seasr.org/">SEASR</a></h4>
-			<div>A research and development environment capable of powering leading-edge digital humanities initiatives.</div>
-			<a class="idi-external-link" href="http://seasr.org/">visit project site</a>
-		</div>
-
-		<div class="idi-project-item">
 			<h4><a class="idi-project-link" href="http://gpii.net/">GPII</a></h4>
-			<div>Combining cloud computer, web and platform services to make accessibility available everywhere.</div>
+			<div>Combining cloud computing with web and platform services to make accessibility available everywhere.</div>
 			<a class="idi-external-link" href="http://gpii.net/">visit project site</a>
-		</div>
-
-		<div class="idi-project-item">
-			<h4><a class="idi-project-link" href="Building applications and shared infrastructure for humanities research.">Project Bamboo</a></h4>
-			<div>Building applications and shared infrastructure for humanities research.</div>
-			<a class="idi-external-link" href="Building applications and shared infrastructure for humanities research.">visit project site</a>
 		</div>
 	</aside>
 	

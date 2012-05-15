@@ -15,7 +15,7 @@
 					</div>
 					<div class="fl-col-flex">
 							<h3><a href="http://gpii.net">GPII</a></h3>
-						The Global Public Inclusive Infrastructure will combine cloud computer, web and platform services to make accessibility available everywhere.
+						The Global Public Inclusive Infrastructure will combine cloud computing with web and platform services to make accessibility available everywhere.
 					</div>
 				</section>
 			</div>
@@ -26,7 +26,7 @@
 					</div>
 					<div class="fl-col-flex">
 							<h3><a href="http://fluidproject.org">Fluid</a></h3>
-						Fluid is an open-source software community that that designs user interfaces, builds Web tools, teaches inclusive design and integrates interface components into open source applications .
+						Fluid is an open-source software community that designs user interfaces, builds Web tools, teaches inclusive design and integrates interface components into open source applications .
 					</div>
 				</section>
 				<section class="idi-project fl-col-mixed">
