@@ -10,22 +10,22 @@ Template Name: Front Page
 	<nav role="navigation" class="idi-research-clusters fl-centered fl-clearfix">
 		<div class="idi-clusters-overlay"></div>
 
-		<a class="idi-design-cluster-circle idi-cluster-circle-link idi-design-link" href="research/design"></a>
+		<a class="idi-design-cluster-circle idi-cluster-circle-link idi-design-link" href="research/design" title="Design & Development"></a>
 		<div class="idi-cluster-circle idi-design-cluster-circle idi-design-cluster-circle-colour"></div>
 		<div class="idi-cluster-arrow idi-design-cluster-arrow"> </div>
 		<a class="idi-cluster-name idi-design-cluster-name" href="research/design">Design & Development</a>
 
-		<a class="idi-implementation-cluster-circle idi-implementation-link idi-cluster-circle-link" href="research/implementation"></a>
+		<a class="idi-implementation-cluster-circle idi-implementation-link idi-cluster-circle-link" href="research/implementation" title="Implementation & Information Practices"></a>
 		<div class="idi-cluster-circle idi-implementation-cluster-circle idi-implementation-cluster-circle-colour"></div>
 		<div class="idi-cluster-arrow idi-implementation-cluster-arrow"> </div>
 		<a class="idi-cluster-name idi-implementation-cluster-name" href="research/implementation">Implementation & Information Practices</a>
 
-		<a class="idi-policies-cluster-circle idi-policies-link idi-cluster-circle-link" href="research/policies"></a>
+		<a class="idi-policies-cluster-circle idi-policies-link idi-cluster-circle-link" href="research/policies" title="Business Case, Policies, Standards & Legislation"></a>
 		<div class="idi-cluster-circle idi-policies-cluster-circle idi-policies-cluster-circle-colour"></div>
 		<div class="idi-cluster-arrow idi-policies-cluster-arrow"> </div>
 		<a class="idi-cluster-name idi-policies-cluster-name" href="research/policies">Business Case, Policies, Standards & Legislation</a>
 
-		<a class="idi-mobile-cluster-circle idi-mobile-link idi-cluster-circle-link" href="research/mobile"></a>
+		<a class="idi-mobile-cluster-circle idi-mobile-link idi-cluster-circle-link" href="research/mobile" title="Mobile & Pervasive Computing"></a>
 		<div class="idi-cluster-circle idi-mobile-cluster-circle idi-mobile-cluster-circle-colour"></div>
 		<div class="idi-cluster-arrow idi-mobile-cluster-arrow"> </div>
 		<a class="idi-cluster-name idi-mobile-cluster-name" href="research/mobile">Mobile & Pervasive Computing</a>

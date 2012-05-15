@@ -2,7 +2,7 @@
 			<div class="fl-col">
 				<section class="idi-project fl-col-mixed">
 					<div class="fl-col-fixed fl-force-left">
-						<a href="http://zenit.senecac.on.ca/wiki/index.php/Fedora_ARM_Secondary_Architecture"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="logo placeholder" alt="a placeholder for the project logo" /></a>
+						<a href=""><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" /></a>
 					</div>
 					<div class="fl-col-flex">
 						<h3><a href="http://zenit.senecac.on.ca/wiki/index.php/Fedora_ARM_Secondary_Architecture">Pervasive Computing and Intelligent Device Control using ARM Devices</a></h3>
@@ -13,7 +13,7 @@
 			<div class="fl-col">
 				<section class="idi-project fl-col-mixed">
 					<div class="fl-col-fixed fl-force-left">
-						<a href="http://zenit.senecac.on.ca/wiki/index.php/NexJ_Express"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/NexJ-logo.jpg" title="NexJ project logo" alt="NexJ Systems"/></a>
+						<a href=""><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" /></a>
 					</div>
 					<div class="fl-col-flex">
 						<h3><a href="http://zenit.senecac.on.ca/wiki/index.php/NexJ_Express">Accessibility for mobile devices for NexJ Connected Wellness Platform</a></h3>

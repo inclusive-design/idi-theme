@@ -5,7 +5,7 @@
 </div>
 
 <div class="idi-project-lead">	
-	<a href="/about/#Hockema" class="idi-project-lead-name">Stephen Hockema</a>
-	<a href="/about/utoronto" class="idi-project-lead-org">University of Toronto</a>
+	<a href="<?php echo get_home_url(); ?>/about/#Hockema" class="idi-project-lead-name">Stephen Hockema</a>
+	<a href="<?php echo get_home_url(); ?>/about/utoronto" class="idi-project-lead-org">University of Toronto</a>
 	<div class="idi-project-lead-blurb">Professor, Faculty of Information</div>
 </div>

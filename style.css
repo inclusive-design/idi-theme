@@ -1054,7 +1054,7 @@ a.idi-breadcrumbs {
 }
 .idi-about-nav,
 .idi-about-sidebar {
-    margin-top: 2em;
+    margin-top: 13.2em;
 }
 .idi-about-people h3 {
     color: #202020;
@@ -1123,6 +1123,7 @@ img.idi-about-person {
     width: 12em;
     margin-left: 0;
     text-align: right;
+    min-height:1px;
 }
 .idi-infra .fl-col-flex4 .idi-3cols {
     width: 72%;
