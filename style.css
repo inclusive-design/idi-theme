@@ -88,8 +88,12 @@ a {
     color: #0076B0;
 }
 a:hover,
+a:focus,
 .twitter-feed-group a.twitter-follow-button:hover,
-.fl-site-link:hover .fl-site-name {
+.twitter-feed-group a.twitter-follow-button:focus,
+.fl-site-link:hover a,
+.fl-site-link a:focus,
+.idi-map-link:focus h2 {
     color: #00ADE4;
 }
 h1 {
@@ -149,7 +153,8 @@ h3,
     font-weight: 700;
     text-decoration: none;
 }
-.post h2 a:hover {
+.post h2 a:hover,
+.post h2 a:focus {
     color: #0EB0E6;
 }
 /* Background of main content */
@@ -158,22 +163,30 @@ h3,
     margin-left: auto;
     margin-right: auto;
 }
-.fl-site-logo {
+.fl-site-link a {
     background-repeat: no-repeat;
     background-image: url('images/logos/logo.png');
-    height: 85px;
-    width: 118px;
-    display: block;
+    background-position: 2.7em 0;
     margin-left: auto;
     margin-right: auto;
+    height: 4.3em;
 }
-.fl-site-link:hover .fl-site-logo {
+.fl-site-link span {
+    top: 84px;
+}
+.fl-site-link:hover a, .fl-site-link a:focus {
     background-image: url('images/logos/logo-hover.gif');
 }
-.fl-theme-uio-yb .fl-site-logo, .fl-theme-uio-yb .fl-site-link:hover .fl-site-logo { background-image: url('images/logos/logo-yellow.png'); }
-.fl-theme-uio-wb .fl-site-logo, .fl-theme-uio-wb .fl-site-link:hover .fl-site-logo { background-image: url('images/logos/logo-white.png'); }
-.fl-theme-uio-by .fl-site-logo, .fl-theme-uio-by .fl-site-link:hover .fl-site-logo,
-.fl-theme-uio-bw .fl-site-logo, .fl-theme-uio-bw .fl-site-link:hover .fl-site-logo { background-image: url('images/logos/logo-black.png'); }
+.fl-theme-uio-yb .fl-site-link a, .fl-theme-uio-yb .fl-site-link:hover a, .fl-theme-uio-yb .fl-site-link a:focus { 
+    background-image: url('images/logos/logo-yellow.png'); 
+}
+.fl-theme-uio-wb .fl-site-link a, .fl-theme-uio-wb .fl-site-link:hover a, .fl-theme-uio-wb .fl-site-link a:focus { 
+    background-image: url('images/logos/logo-white.png'); 
+}
+.fl-theme-uio-by .fl-site-link a, .fl-theme-uio-by .fl-site-link:hover a, .fl-theme-uio-by .fl-site-link a:focus,
+.fl-theme-uio-bw .fl-site-link a, .fl-theme-uio-bw .fl-site-link:hover a, .fl-theme-uio-bw .fl-site-link a:focus { 
+    background-image: url('images/logos/logo-black.png'); 
+}
 
 .fl-theme-uio-yb .fl-site-link a,
 .fl-theme-uio-by .fl-site-link a,
@@ -181,7 +194,7 @@ h3,
 .fl-theme-uio-bw .fl-site-link a {
     font-weight: 300;
 }
-.fl-site-name {
+.fl-site-link a {
     margin-bottom: 0.25em;
     text-transform: lowercase;
     text-align: center;
@@ -275,35 +288,40 @@ h3,
     background-image: url('images/navigation/home.png');
     padding-left: 2.3em;
 }
-.fl-site-nav-main a.idi-nav-home:hover {
+.fl-site-nav-main a.idi-nav-home:hover,
+.fl-site-nav-main a.idi-nav-home:focus {
     background-image: url('images/navigation/home-hover.png');
 }
 .fl-site-nav-main a.idi-nav-about {
     background-image: url('images/navigation/about.png');
     padding-left: 1.3em;
 }
-.fl-site-nav-main a.idi-nav-about:hover {
+.fl-site-nav-main a.idi-nav-about:hover,
+.fl-site-nav-main a.idi-nav-about:focus {
     background-image: url('images/navigation/about-hover.png');
 }
 .fl-site-nav-main a.idi-nav-news {
     background-image: url('images/navigation/news.png');
     padding-left: 2.3em;
 }
-.fl-site-nav-main a.idi-nav-news:hover {
+.fl-site-nav-main a.idi-nav-news:hover,
+.fl-site-nav-main a.idi-nav-news:focus {
     background-image: url('images/navigation/news-hover.png');
 }
 .fl-site-nav-main a.idi-nav-research {
     background-image: url('images/navigation/research.png');
     padding-left: 1.8em;
 }
-.fl-site-nav-main a.idi-nav-research:hover {
+.fl-site-nav-main a.idi-nav-research:hover,
+.fl-site-nav-main a.idi-nav-research:focus {
     background-image: url('images/navigation/research-hover.png');
 }
 .fl-site-nav-main a.idi-nav-infrastructure {
     background-image: url('images/navigation/infrastructure.png');
     padding-left: 1.8em;
 }
-.fl-site-nav-main a.idi-nav-infrastructure:hover {
+.fl-site-nav-main a.idi-nav-infrastructure:hover,
+.fl-site-nav-main a.idi-nav-infrastructure:focus {
     background-image: url('images/navigation/infrastructure-hover.png');
 }
 
@@ -693,7 +711,7 @@ h3,
     background-size: 1.6em auto;
     background-position: 100% 20%;
 }
-.twitter-feed-group a.twitter-follow-button:hover { background-image: url('images/news-tweet/tweet-hover.png'); }
+.twitter-feed-group a.twitter-follow-button:hover, .twitter-feed-group a.twitter-follow-button:focus { background-image: url('images/news-tweet/tweet-hover.png'); }
 .twitter-feed-group ul {
     margin: 0px;
 }
@@ -1170,7 +1188,8 @@ img.idi-about-person {
     padding-right: 1.5em;
     text-decoration: none;
 }
-.idi-more:hover {
+.idi-more:hover,
+.idi-more:focus {
     background-image: url("images/arrows/arrow-hover.gif");
 }
 .fl-theme-uio-yb .idi-infra-bookit,
@@ -1277,7 +1296,7 @@ a.idi-project-lead-name {
     font-style: italic;
     font-weight: bold;
 }
-.idi-external-link:hover {
+.idi-external-link:hover, .idi-external-link:focus {
     background-image: url('images/externalpage-hover.gif');
 }
 .fl-theme-uio-yb .idi-external-link { background-image: url('images/externalpage-yellow.gif'); }
@@ -1320,7 +1339,7 @@ a.idi-project-link {
 .idi-research-item p {
     margin-bottom: 0.2em;
 }
-.idi-research-item h2:hover {
+.idi-research-item h2:hover, .idi-research-item a:focus h2 {
     text-decoration: underline;
 }
 .idi-research-item p {
@@ -1366,7 +1385,7 @@ a.idi-project-link {
     -o-transition-property: opacity;
     -o-transition-duration: 0.5s;
 }
-.idi-cluster-hover-overlay:hover {
+.idi-cluster-hover-overlay:hover, .idi-research-item a:focus .idi-cluster-hover-overlay {
     opacity: 1;
     -moz-transition-property: opacity;
     -moz-transition-duration: 1s;
@@ -1375,7 +1394,6 @@ a.idi-project-link {
     -o-transition-property: opacity;
     -o-transition-duration: 1s;
 }
-
 .idi-cluster-design {  background-image: url('images/clusters/design&development.png'); }
 .idi-cluster-design-hover { background-image: url('images/clusters/design&development-hover.png'); }
 .idi-cluster-policies { background-image: url('images/clusters/businesscase.png'); }

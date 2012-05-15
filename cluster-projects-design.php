@@ -2,7 +2,7 @@
 			<div class="fl-col">
 				<section class="idi-project fl-col-mixed">
 					<div class="idi-project-logo fl-col-fixed fl-force-left">
-						<a href=""><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" /></a>
+						<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
 					</div>
 					<div class="fl-col-flex">
 						<h3><a href="http://imdc.ca/">Alternative Audio Description</a></h3>
@@ -11,7 +11,7 @@
 				</section>
 				<section class="idi-project fl-col-mixed">
 					<div class="idi-project-logo fl-col-fixed fl-force-left">
-						<a href=""><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" /></a>
+						<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
 					</div>
 					<div class="fl-col-flex">
 						<h3><a href="http://irlt.yorku.ca/">Which Hand?</a></h3>
@@ -22,7 +22,7 @@
 			<div class="fl-col">
 				<section class="idi-project fl-col-mixed">
 					<div class="idi-project-logo fl-col-fixed fl-force-left">
-						<a href=""><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" /></a>
+						<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
 					</div>
 					<div class="fl-col-flex">
 						<h3><a href="http://abelearn.ca/">Accessible Video Conferencing and Streamed Video</a></h3>
@@ -31,7 +31,7 @@
 				</section>
 				<section class="idi-project fl-col-mixed">
 					<div class="idi-project-logo fl-col-fixed fl-force-left">
-						<a href=""><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" /></a>
+						<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
 					</div>
 					<div class="fl-col-flex">
 						<h3><a href="http://imdc.ca/">EnACT</a></h3>

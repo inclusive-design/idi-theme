@@ -2,7 +2,7 @@
 			<div class="fl-col">
 				<section class="idi-project fl-col-mixed">
 					<div class="fl-col-fixed fl-force-left">
-						<a href=""><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" /></a>
+						<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
 					</div>
 					<div class="fl-col-flex">
 						<h3><a href="http://zenit.senecac.on.ca/wiki/index.php/Fedora_ARM_Secondary_Architecture">Pervasive Computing and Intelligent Device Control using ARM Devices</a></h3>
@@ -13,7 +13,7 @@
 			<div class="fl-col">
 				<section class="idi-project fl-col-mixed">
 					<div class="fl-col-fixed fl-force-left">
-						<a href=""><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" /></a>
+						<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
 					</div>
 					<div class="fl-col-flex">
 						<h3><a href="http://zenit.senecac.on.ca/wiki/index.php/NexJ_Express">Accessibility for mobile devices for NexJ Connected Wellness Platform</a></h3>
