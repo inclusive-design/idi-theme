@@ -57,8 +57,7 @@ Ronald Baecker is Professor of Computer Science, Bell Universities Laboratories 
 	<div class="idi-people-org"><a href="http://ryerson.ca">Ryerson University</a></div>
 </div>
 <p>
-Fusce at sodales leo. Aliquam eros velit, tempus non condimentum ac, luctus ut diam. Sed vel arcu diam. Fusce ac tellus at sapien dignissim mattis posuere vitae elit. Donec tortor leo, lobortis in posuere sit amet, lacinia non neque. Praesent leo metus, gravida a elementum ac, blandit in ipsum. Nullam nulla lacus, luctus eget tincidunt eu, rutrum quis turpis.
-</p>
+Kathryn Church studied Psychology at the University of Regina, Saskatchewan (Masters 1983) and Sociology at OISE/University of Toronto (PhD 1993) during radical periods in the history of these departments. But it was psychiatric survivors who truly politicized her as she encountered them, their stories, and their activism while she was employed as an organizer in the mid-80s. These relationships propelled her into a decade of post-doctoral engagement as a “freelance” researcher working for and with psychiatric survivor organizations. Then, in 2002 she was drawn into Ryerson by the challenge of building a research program for the School of Disability Studies that would resonate with issues and debates in this emergent field.  </p>
 </section>
 
 <section class="idi-person">
