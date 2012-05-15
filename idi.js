@@ -29,14 +29,10 @@ var idi = idi || {};
         spacerEl.css("height", topNavHeight);
         spacerEl.insertBefore(topNavEl);
 
-        var aboutSectionNav = $('.idi-about-nav');
-        var aboutSectionThreshold = aboutSectionNav.offset().top - (2 * padding) - 48; /* 48px = 3em @ 16px/em */
-
         theWindow.scroll(function () {
             var windowTop = theWindow.scrollTop();
             spacerEl.toggle(windowTop > topNavTop);
             topNavEl.toggleClass('sticky', windowTop > topNavTop);
-            aboutSectionNav.toggleClass('sticky', windowTop > aboutSectionThreshold);
         });
     };
 
