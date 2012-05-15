@@ -825,17 +825,14 @@ a.anchor {
 .fl-theme-uio-by .idi-login-form .idi-login-extra,
 .fl-theme-uio-bw .idi-login-form .idi-login-extra { background-image: url('images/arrows/arrow-black.gif'); }
 
-/* Institution List on front page */
-.idi-institutions, .idi-contact-info {
-    padding: .3em 0em;
-}
+/* Institution List */
 .idi-institutions p {
     font-style: italic;
     margin-bottom: 0.625em;
 }
 ul.idi-institution-list {
     margin-left: 0;
-    padding-bottom: 1.25em;
+    padding: .3em 1em 1.25em 1em;
 }
 ul.idi-institution-list li {
     color: #0076B0;
