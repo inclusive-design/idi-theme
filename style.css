@@ -88,7 +88,9 @@ a {
     color: #0076B0;
 }
 a:hover,
+a:focus,
 .twitter-feed-group a.twitter-follow-button:hover,
+.twitter-feed-group a.twitter-follow-button:focus,
 .fl-site-link:hover .fl-site-name {
     color: #00ADE4;
 }
@@ -148,7 +150,8 @@ These shadow styles are still being decided on by the designers
     font-weight: 700;
     text-decoration: none;
 }
-.post h2 a:hover {
+.post h2 a:hover,
+.post h2 a:focus {
     color: #0EB0E6;
 }
 /* Background of main content */
@@ -274,35 +277,40 @@ These shadow styles are still being decided on by the designers
     background-image: url('images/navigation/home.png');
     padding-left: 2.3em;
 }
-.fl-site-nav-main a.idi-nav-home:hover {
+.fl-site-nav-main a.idi-nav-home:hover,
+.fl-site-nav-main a.idi-nav-home:focus {
     background-image: url('images/navigation/home-hover.png');
 }
 .fl-site-nav-main a.idi-nav-about {
     background-image: url('images/navigation/about.png');
     padding-left: 1.3em;
 }
-.fl-site-nav-main a.idi-nav-about:hover {
+.fl-site-nav-main a.idi-nav-about:hover,
+.fl-site-nav-main a.idi-nav-about:focus {
     background-image: url('images/navigation/about-hover.png');
 }
 .fl-site-nav-main a.idi-nav-news {
     background-image: url('images/navigation/news.png');
     padding-left: 2.3em;
 }
-.fl-site-nav-main a.idi-nav-news:hover {
+.fl-site-nav-main a.idi-nav-news:hover,
+.fl-site-nav-main a.idi-nav-news:focus {
     background-image: url('images/navigation/news-hover.png');
 }
 .fl-site-nav-main a.idi-nav-research {
     background-image: url('images/navigation/research.png');
     padding-left: 1.8em;
 }
-.fl-site-nav-main a.idi-nav-research:hover {
+.fl-site-nav-main a.idi-nav-research:hover,
+.fl-site-nav-main a.idi-nav-research:focus {
     background-image: url('images/navigation/research-hover.png');
 }
 .fl-site-nav-main a.idi-nav-infrastructure {
     background-image: url('images/navigation/infrastructure.png');
     padding-left: 1.8em;
 }
-.fl-site-nav-main a.idi-nav-infrastructure:hover {
+.fl-site-nav-main a.idi-nav-infrastructure:hover,
+.fl-site-nav-main a.idi-nav-infrastructure:focus {
     background-image: url('images/navigation/infrastructure-hover.png');
 }
 
@@ -662,7 +670,7 @@ These shadow styles are still being decided on by the designers
     background-size: 1.6em auto;
     background-position: 100% 20%;
 }
-.twitter-feed-group a.twitter-follow-button:hover { background-image: url('images/news-tweet/tweet-hover.png'); }
+.twitter-feed-group a.twitter-follow-button:hover, .twitter-feed-group a.twitter-follow-button:focus { background-image: url('images/news-tweet/tweet-hover.png'); }
 .twitter-feed-group ul {
     margin: 0px;
 }
@@ -1138,7 +1146,8 @@ img.idi-about-person {
     padding-right: 1.5em;
     text-decoration: none;
 }
-.idi-more:hover {
+.idi-more:hover,
+.idi-more:focus {
     background-image: url("images/arrows/arrow-hover.gif");
 }
 .fl-theme-uio-yb .idi-infra-bookit,

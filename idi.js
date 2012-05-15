@@ -119,9 +119,15 @@ var idi = idi || {};
         return false;
     };
 
+    idi.keyboardA11y = function () {
+        // Pull the circle links out of tab order
+        $(".idi-cluster-circle-link").attr("tabindex", "-1");
+    };
+    
     $(document).ready(function () {
         idi.setUpLoginOutPanel();
         idi.makeTopNavSticky();
+        idi.keyboardA11y();
     });
 
     fluid.demands("fluid.slidingPanel", ["fluid.uiOptions", "fluid.uiEnhancer"], {
