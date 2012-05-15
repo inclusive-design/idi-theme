@@ -869,6 +869,7 @@ ul.idi-institution-list {
 }
 ul.idi-institution-list li {
     color: #0076B0;
+    margin-left: 1em;
 }
 .fl-theme-uio-yb ul.idi-institution-list li:before { color: #FFFF00; }
 .fl-theme-uio-wb ul.idi-institution-list li:before { color: #FFFFFF; }
@@ -1182,6 +1183,11 @@ img.idi-about-person {
 .fl-theme-uio-bw .idi-infra-bookit,
 .fl-theme-uio-by .idi-more,
 .fl-theme-uio-bw .idi-more { background-image: url("images/arrows/arrow-black.gif"); }
+
+.fl-theme-uio-yb .idi-more:hover { background-image: url("images/arrows/arrow-hover-yellow.gif"); }
+.fl-theme-uio-wb .idi-more:hover { background-image: url("images/arrows/arrow-hover-white.gif"); }
+.fl-theme-uio-by .idi-more:hover,
+.fl-theme-uio-bw .idi-more:hover { background-image: url("images/arrows/arrow-hover-black.gif"); }
 
 .idi-infra p.coming-soon {
     font-style: italic;
