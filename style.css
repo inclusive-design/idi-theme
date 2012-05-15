@@ -867,7 +867,6 @@ ul.idi-institution-list {
 }
 ul.idi-institution-list li {
     color: #0076B0;
-    margin-left: 1em;
 }
 .fl-theme-uio-yb ul.idi-institution-list li:before { color: #FFFF00; }
 .fl-theme-uio-wb ul.idi-institution-list li:before { color: #FFFFFF; }
