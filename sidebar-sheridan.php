@@ -5,13 +5,15 @@
 
 <div class="idi-contact-info">
 	<h3>Contact</h3>
-	<div class="idi-mailing-address">
-		Visualization Design Institute<br/>
-		Sheridan College<br/>
-		<a href="http://g.co/maps/exr7d">
-		1430 Trafalgar Road</a><br/>
-		Oakville, ON L6L 2L1 
-	</div>
+	<address>
+		<div class="idi-mailing-address">
+			Visualization Design Institute<br/>
+			Sheridan College<br/>
+			<a href="http://g.co/maps/exr7d">
+			1430 Trafalgar Road</a><br/>
+			Oakville, ON L6L 2L1 
+		</div>
+	</address>
 </div>
 
 <h3>Leads</h3>
