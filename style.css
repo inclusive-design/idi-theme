@@ -926,9 +926,7 @@ form#idiMailingListSignup input {
     margin-bottom: 0.5em;
 }
 .idi-news-article,
-.idi-breadcrumbs a,
-a.idi-breadcrumbs,
-.idi-breadcrumbs {
+.idi-news-article.idi-breadcrumbs {
     margin-left: 1em;
 }
 .idi-news-article .idi-date,
@@ -946,60 +944,48 @@ img.alignleft {
     float: left;
 }
 
-.idi-breadcrumbs a,
-a.idi-breadcrumbs,
 .idi-breadcrumbs {
+    display: inline-block;
+    padding-left: 1.5em;
+}
+.idi-breadcrumbs a,
+a.idi-breadcrumbs {
     text-transform: uppercase;
     text-decoration: none;
     font-style: italic;
     font-weight: 700;
+    font-size: 0.8em;
+}
+.idi-breadcrumbs {
     background-image: url("images/arrows/arrow-left.gif");
     background-position: left center;
     background-repeat: no-repeat;
     background-size: 1em auto;
-    padding-left: 1.3em;
-    font-size: 0.8em;
 }
-.idi-breadcrumbs a:hover,
-a.idi-breadcrumbs:hover,
 .idi-breadcrumbs:hover {
     background-image: url("images/arrows/arrow-left-hover.gif");
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 1em auto;
 }
 
-.fl-theme-uio-yb .idi-breadcrumbs a,
-.fl-theme-uio-yb a.idi-breadcrumbs,
 .fl-theme-uio-yb .idi-breadcrumbs {
     background-image: url("images/arrows/arrow-left-yellow.gif");
 }
-.fl-theme-uio-wb .idi-breadcrumbs a,
-.fl-theme-uio-wb a.idi-breadcrumbs,
 .fl-theme-uio-wb .idi-breadcrumbs {
     background-image: url("images/arrows/arrow-left-white.gif"); 
 }
-.fl-theme-uio-by .idi-breadcrumbs a,
-.fl-theme-uio-by a.idi-breadcrumbs,
 .fl-theme-uio-by .idi-breadcrumbs,
-.fl-theme-uio-bw .idi-breadcrumbs a,
-.fl-theme-uio-bw a.idi-breadcrumbs,
 .fl-theme-uio-bw .idi-breadcrumbs {
     background-image: url("images/arrows/arrow-left-black.gif"); 
 }
-
-.fl-theme-uio-yb .idi-breadcrumbs a:hover,
-.fl-theme-uio-yb a.idi-breadcrumbs:hover,
 .fl-theme-uio-yb .idi-breadcrumbs:hover {
     background-image: url("images/arrows/arrow-left-hover-yellow.gif"); 
 }
-.fl-theme-uio-wb .idi-breadcrumbs a:hover,
-.fl-theme-uio-wb a.idi-breadcrumbs:hover,
 .fl-theme-uio-wb .idi-breadcrumbs:hover {
     background-image: url("images/arrows/arrow-left-hover-white.gif");
 }
-.fl-theme-uio-by .idi-breadcrumbs a:hover,
-.fl-theme-uio-by a.idi-breadcrumbs:hover,
 .fl-theme-uio-by .idi-breadcrumbs:hover,
-.fl-theme-uio-bw .idi-breadcrumbs a:hover,
-.fl-theme-uio-bw a.idi-breadcrumbs:hover,
 .fl-theme-uio-bw .idi-breadcrumbs:hover {
     background-image: url("images/arrows/arrow-left-hover-black.gif"); 
 }
