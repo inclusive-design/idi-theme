@@ -51,7 +51,7 @@ Template Name: Research Page
 							</a>
 							<h2>Business Case, Policies, Standards &amp; Legislation</h2>
 						</head>
-						<p>Engaging legislators, specifications bodies, advocacy grops and consumer communities in inclusive design research</p>
+						<p>Engaging legislators, specifications bodies, advocacy groups and consumer communities in inclusive design research</p>
 						<p><a class="idi-more" href="policies">learn more</a></p>
 					</div>
 				</section>
@@ -73,7 +73,7 @@ Template Name: Research Page
 							</a>
 							<h2>Mobile &amp; Pervasive Computing</h2>
 						</head>
-						<p>Focusing on mobile, context-aware and location-aware technologies, ubiquitous web application, pervasive computing and ambient intelligence</p>
+						<p>Focusing on mobile, context-aware and location-aware technologies, ubiquitous web applications, pervasive computing and ambient intelligence</p>
 						<p><a class="idi-more" href="mobile">learn more</a></p>
 					</div>
 				</section>
@@ -95,7 +95,7 @@ Template Name: Research Page
 							</a>
 							<h2>Implementation &amp; Information Practices</h2>
 						</head>
-						<p>Examining the role of ICT and inclusive design in education, health, cultur and civic engagement</p>
+						<p>Examining the role of ICT and inclusive design in education, health, culture and civic engagement</p>
 						<p><a class="idi-more" href="implementation">learn more</a></p>
 					</div>
 				</section>
