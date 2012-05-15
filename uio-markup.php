@@ -30,8 +30,8 @@ Not allowing sign-up right now
 		</div>
 			
 		<div class="fl-panelBar">
-			<button class="flc-slidingPanel-toggleButton fl-toggleButton idi-uio-button">preferences</button>
 			<button class="idi-slidingPanel-toggleButton fl-toggleButton idi-loginout">login</button>
+			<button class="flc-slidingPanel-toggleButton fl-toggleButton idi-uio-button">preferences</button>
 		</div>
 	</div>
 	<!-- end markup for UI Options Fat Panel -->
