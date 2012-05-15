@@ -69,8 +69,7 @@ Kathryn Church studied Psychology at the University of Regina, Saskatchewan (Mas
 	<div class="idi-people-org"><a href="http://ocadu.ca">OCAD University</a></div>
 </div>
 <p>
-Fusce at sodales leo. Aliquam eros velit, tempus non condimentum ac, luctus ut diam. Sed vel arcu diam. Fusce ac tellus at sapien dignissim mattis posuere vitae elit. Donec tortor leo, lobortis in posuere sit amet, lacinia non neque. Praesent leo metus, gravida a elementum ac, blandit in ipsum. Nullam nulla lacus, luctus eget tincidunt eu, rutrum quis turpis.
-</p>
+Recently appointed to the Order of Ontario, Sara Diamond holds a PhD in Computer Science and degrees in new media theory and practice, social history and communications. She was the Artistic Director of Media and Visual Art and Director of Research at the Banff Centre, where she created the Banff New Media Institute (BNMI) in 1995. She currently serves on the Ontario Ministry of Culture’s Advisory Council on Arts & Culture, the Board of Directors of the Toronto Arts Council Foundation, ORANO (Ontario’s high-speed network), the board of National Centre of Excellence GRAND, IO (Interactive Ontario), and the Association of Universities and Colleges of Canada's SACUR (Standing Advisory Committee on University Research). She is founding Chair of the Mobile Experience Innovation Centre and current co-chair.</p>
 </section>
 
 <section class="idi-person">
@@ -98,7 +97,10 @@ Current research projects include: 1) emotive captioning and music visualization
 	<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
 </div>
 <p>
-Fusce at sodales leo. Aliquam eros velit, tempus non condimentum ac, luctus ut diam. Sed vel arcu diam. Fusce ac tellus at sapien dignissim mattis posuere vitae elit. Donec tortor leo, lobortis in posuere sit amet, lacinia non neque. Praesent leo metus, gravida a elementum ac, blandit in ipsum. Nullam nulla lacus, luctus eget tincidunt eu, rutrum quis turpis.
+In addition to his role as Director of the Martin Prosperity Institute, Dr. Florida is professor of Business and Creativity at the Rotman School. He is the founder of the Creative Class Group , a global think tank based in Washington, DC.
+</p>
+<p>
+Prior to joining the Rotman School he was the Hirst Professor of Public Policy at George Mason University and a senior scientist with the Gallup Organization. Prof. Florida taught for nearly two decades at Carnegie Mellon University and has been a visiting professor at MIT and Harvard University’s Kennedy School of Government. He earned his bachelor’s from Rutgers College and his Ph.D. from Columbia University. His books include three best sellers: The Rise of the Creative Class (Basic Books, 2002), The Flight of the Creative Class (Harper Collins, 2005) and Who’s Your City (Basic Books, 2008).
 </p>
 </section>
 
@@ -111,8 +113,7 @@ Fusce at sodales leo. Aliquam eros velit, tempus non condimentum ac, luctus ut d
 	<div class="idi-people-org"><a href="http://ryerson.ca">Ryerson University</a></div>
 </div>
 <p>
-Fusce at sodales leo. Aliquam eros velit, tempus non condimentum ac, luctus ut diam. Sed vel arcu diam. Fusce ac tellus at sapien dignissim mattis posuere vitae elit. Donec tortor leo, lobortis in posuere sit amet, lacinia non neque. Praesent leo metus, gravida a elementum ac, blandit in ipsum. Nullam nulla lacus, luctus eget tincidunt eu, rutrum quis turpis.
-</p>
+Catherine Frazee is a writer, an educator and an activist.  These three identities come together for her at Ryerson, where she happily indulges her activist inclinations and curiosities about disability rights, disability arts and the place of disabled people in moral and political culture.  Drawing from her own experience of disablement as point of entry, she seeks to write and teach pathways into ethical and cultural dialogues about citizenship and personhood. Her present work is informed by many years of involvement in the equality struggles of disadvantaged and marginalized groups, most notably during a term as Chief Commissioner of the Ontario Human Rights Commission from 1989 to 1992. </p>
 </section>
 
 <section class="idi-person">
