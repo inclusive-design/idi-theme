@@ -68,8 +68,10 @@ Template Name: Front Page
 				<div class="idi-mailing-list">
 					<?php get_template_part("mailing-list-form"); ?>
 				</div>
-				<?php get_template_part("institution-list"); ?>
-				<?php get_template_part("contact-info"); ?>				
+				<div class="idi-box idi-box-text">
+					<?php get_template_part("institution-list"); ?>
+					<?php get_template_part("contact-info"); ?>
+				</div>
 			</div>
 		</div>
 

@@ -121,12 +121,11 @@ Catherine Frazee is a writer, an educator and an activist.  These three identiti
 <div class="idi-person-intro">
 	<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Hockema.jpg"/>
 	<h3>Stephen Hockema</h3>
-	<div class="idi-people-position">Professor, <a href="http://www.ischool.utoronto.ca/">Faculty of Information</a></div>
-	<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
+	<div class="idi-people-position">Senior Engineer and Co-Founder</div>
+	<div class="idi-people-org"><a href="http://www.branchfire.com/">Branchfire</a></div>
 </div>
 <p>
-Fusce at sodales leo. Aliquam eros velit, tempus non condimentum ac, luctus ut diam. Sed vel arcu diam. Fusce ac tellus at sapien dignissim mattis posuere vitae elit. Donec tortor leo, lobortis in posuere sit amet, lacinia non neque. Praesent leo metus, gravida a elementum ac, blandit in ipsum. Nullam nulla lacus, luctus eget tincidunt eu, rutrum quis turpis.
-</p>
+Prior to joining the Branchfire team, Stephen Hockema was a professor in the Faculty of Information at the University of Toronto, where he conducted research and taught courses on design, impact, and social shaping of information technologies. His development experience includes work in the telecommunications industry and at Intel Corp. Steve holds a joint Ph.D. in Computer and Cognitive Science from Indiana University, where he specialized in perceptual and linguistic development and learning, and a BSCEE and MSEE from Purdue University.</p>
 </section>
 
 <section class="idi-person">
@@ -150,7 +149,10 @@ David Humphrey is a professor in the Centre for Development of Open Technology (
 	<div class="idi-people-org"><a href="http://www.uhn.ca">University Health Network</a></div>
 </div>
 <p>
-Fusce at sodales leo. Aliquam eros velit, tempus non condimentum ac, luctus ut diam. Sed vel arcu diam. Fusce ac tellus at sapien dignissim mattis posuere vitae elit. Donec tortor leo, lobortis in posuere sit amet, lacinia non neque. Praesent leo metus, gravida a elementum ac, blandit in ipsum. Nullam nulla lacus, luctus eget tincidunt eu, rutrum quis turpis.
+Dr. Jadad is a physician, educator, researcher and public advocate, whose mission is to help improve health and wellness for all, thorough information and communication technologies (ICTs).
+</p>
+<p>
+He has been called a «human Internet», as his research and innovation work seeks to identify and connect the best minds, the best knowledge and the best tools across traditional boundaries to eliminate unnecessary suffering. Such work focuses on a radical 'glocal' innovation model designed to improve the capacity of humans to imagine, create and promote new and better approaches to living, healing, working and learning across the world. Powered by social networks and other leading-edge telecommunication tools, his projects attempt to anticipate and respond to major public health threats (e.g., multiple chronic conditions, pandemics) through strong and sustainable international collaboration, and to enable the public (particularly young people) to shape the health system and society.
 </p>
 </section>
 
@@ -175,8 +177,7 @@ Group of Polytechnics Canada. Dr. Luke is an experienced researcher and expert a
 	<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
 </div>
 <p>
-Fusce at sodales leo. Aliquam eros velit, tempus non condimentum ac, luctus ut diam. Sed vel arcu diam. Fusce ac tellus at sapien dignissim mattis posuere vitae elit. Donec tortor leo, lobortis in posuere sit amet, lacinia non neque. Praesent leo metus, gravida a elementum ac, blandit in ipsum. Nullam nulla lacus, luctus eget tincidunt eu, rutrum quis turpis.
-</p>
+Rhonda McEwen is an Assistant Professor at the University of Toronto Mississauga where she teaches and conducts research on New Media. She spends most of her time at the Institute of Communication, Culture and Information Technology at UTM where she works with bright undergraduates, and she works with stellar graduate students at the iSchool (Faculty of Information) on the St. George campus. Her research and teaching centre around information practices involving new media technologies. She actively engages with questions on how we use, seek, share, and create information by using devices to talk, text, tweet, collect images, message via Facebook, LinkedIn, and other IM, at work and play. She also examines the ways that we perform identities in both 'real' and virtual worlds through avatars; how we integrate location awareness in our interactions; and she considers the consequences of the uses of technologies on our communication, sociality, and humanity.</p>
 </section>
 
 <!--
@@ -229,8 +230,7 @@ Dr. Dawn Mercer PhD is a Research Coordinator in the Centre for Development of O
 	<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
 </div>
 <p>
-Fusce at sodales leo. Aliquam eros velit, tempus non condimentum ac, luctus ut diam. Sed vel arcu diam. Fusce ac tellus at sapien dignissim mattis posuere vitae elit. Donec tortor leo, lobortis in posuere sit amet, lacinia non neque. Praesent leo metus, gravida a elementum ac, blandit in ipsum. Nullam nulla lacus, luctus eget tincidunt eu, rutrum quis turpis.
-</p>
+Alex Mihailidis, Ph.D., P.Eng., is the Barbara G. Stymiest Research Chair in Rehabilitation Technology at the University of Toronto and Toronto Rehab Institute. He is an Associate Professor in the Department of Occupational Science and Occupational Therapy (U of T) and in the Institute of Biomaterials and Biomedical Engineering (U of T), with a cross appointment in the Department of Computer Science (U of T). He has been conducting research in the field of pervasive computing and intelligent systems in health for the past 13 years, having published over 100 journal papers, conference papers, and abstracts in this field. He has specifically focused on the development of intelligent home systems for elder care and wellness, technology for children with autism, and adaptive tools for nurses and clinical applications.</p>
 </section>
 
 <section class="idi-person">
@@ -266,8 +266,7 @@ Dr. Ron Owston is Professor of Education and Director of the Institute for Resea
 	<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
 </div>
 <p>
-In tempor nibh accumsan mauris cursus sodales. Fusce quis laoreet tortor. Vestibulum vel turpis sit amet sapien ultrices porta. Vestibulum ultrices scelerisque urna ac malesuada. Suspendisse molestie, nibh at interdum mollis, quam quam vulputate arcu, et venenatis massa diam a lorem. Cras posuere diam feugiat felis egestas non dignissim odio tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In eget tortor sit amet dolor dapibus ullamcorper. Vestibulum eget enim sapien. Nullam libero arcu, venenatis vel gravida a, pulvinar sit amet ipsum. Phasellus id libero non velit ultricies lobortis sit amet vel lorem. Sed et pulvinar dolor.
-</p>
+Professor Ratto is developing critical making methodologies that blend scholarly reflection on critical information issues with hands-on material work. His SSHRC-funded project examines changing notions of labour and expertise in relation to 3D printing and rapid prototyping technologies. His work on the materialization of information has been awarded a grant from the Canadian Foundation of Information and the Ontario Research Fund. He is Director of the Critical Making Laboratory at the iSchool.</p>
 </section>
 
 <section class="idi-person">
@@ -279,8 +278,7 @@ In tempor nibh accumsan mauris cursus sodales. Fusce quis laoreet tortor. Vestib
 	<div class="idi-people-org"><a href="http://www.yorku.ca">York University</a></div>
 </div>
 <p>
-Fusce at sodales leo. Aliquam eros velit, tempus non condimentum ac, luctus ut diam. Sed vel arcu diam. Fusce ac tellus at sapien dignissim mattis posuere vitae elit. Donec tortor leo, lobortis in posuere sit amet, lacinia non neque. Praesent leo metus, gravida a elementum ac, blandit in ipsum. Nullam nulla lacus, luctus eget tincidunt eu, rutrum quis turpis.
-</p>
+Marcia Rioux is a Professor in the School of Health Policy and Management MA and PhD(Critical Disability Studies) as well as the Director of the York Institute of Health Research.  She also teaches a core course in the newly inaugurated PhD (Critical Disability Studies) at the University of Zagreb, Croatia. With Bengt Lindqvist, she is the co-Director of Disability Rights Promotion International, a multi-year project to monitor disability rights nationally and internationally. Professor Rioux’s research includes health and human rights, universal education, international monitoring of disability rights, the impact of globalization on welfare policy, literacy policy, disability policy, and social inclusion.   Dr. Rioux has lectured throughout the Americas, Europe, Africa and Asia. She has been an advisor to federal and provincial commissions, parliamentary committees, and international NGO's as well as United Nations agencies. She has edited a number of collected volumes and nearly 70 book chapters and articles on disability rights.  She has just completed an appointment as a Distinguished Visiting Fellow at the Institute for Advanced Study at LaTrobe University in Melbourne, Australia.  Her PhD is in Jurisprudence and Social Policy from Boalt Hall Law School at the University of California, Berkeley.  </p>
 </section>
 
 <section class="idi-person">
@@ -292,8 +290,7 @@ Fusce at sodales leo. Aliquam eros velit, tempus non condimentum ac, luctus ut d
 	<div class="idi-people-org"><a href="http://www.ikit.org/">Institute for Knowledge Innovation and Technology</a></div>
 </div>
 <p>
-Fusce at sodales leo. Aliquam eros velit, tempus non condimentum ac, luctus ut diam. Sed vel arcu diam. Fusce ac tellus at sapien dignissim mattis posuere vitae elit. Donec tortor leo, lobortis in posuere sit amet, lacinia non neque. Praesent leo metus, gravida a elementum ac, blandit in ipsum. Nullam nulla lacus, luctus eget tincidunt eu, rutrum quis turpis.
-</p>
+Marlene Scardamalia holds the Presidents' Chair in Education and Knowledge Technologies at OISE/University of Toronto and directs IKIT, the Institute for Knowledge Innovation and Technology—a worldwide network of innovators working to advance the frontiers of knowledge building in various sectors. "Knowledge building," a term now widely used in education and knowledge management, originated with the CSILE/Knowledge Building project. Marlene led the team that created CSILE (Computer Supported Intentional Learning Environments), which was the first networked knowledge building environment for education. The second generation version of this technology, Knowledge Forum®, is in use in countries worldwide, in education, health, business, and professional organizations. Knowledge building theories, models, practices and technologies have been developed in partnership with Carl Bereiter and team members.</p>
 </section>
 
 <section class="idi-person">
@@ -305,20 +302,29 @@ Fusce at sodales leo. Aliquam eros velit, tempus non condimentum ac, luctus ut d
 	<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
 </div>
 <p>
-Fusce at sodales leo. Aliquam eros velit, tempus non condimentum ac, luctus ut diam. Sed vel arcu diam. Fusce ac tellus at sapien dignissim mattis posuere vitae elit. Donec tortor leo, lobortis in posuere sit amet, lacinia non neque. Praesent leo metus, gravida a elementum ac, blandit in ipsum. Nullam nulla lacus, luctus eget tincidunt eu, rutrum quis turpis.
+Jim Slotta is a cognitive scientist and Associate Professor of Education at the Ontario Institute for Studies in Education (OISE) at the University of Toronto. 
+</p>
+<p>
+In 2006, he was named Canada Research Chair in the area of Education and Technology.  He also received the 2006 World Technology Award in the category of education. 
+</p>
+<p>
+Professor Slotta’s current research explores new models of technology-enhanced learning for “smart classrooms.”  His designs employ cutting edge technologies such as peer-to-peer networks, geographic information systems, multi-user virtual environments, probeware and cell phone systems in order to scaffold complex curriculum structures and patterns of interactions between students.   In order to deliver on the promise of open source and open content materials for education, he has helped to organize a dynamic international community of researchers and technologists who are designing common technology frameworks and exchanging tools and materials. Professor Slotta has published and presented widely concerning the opportunities, challenges and llimitations of technology-based environments.
 </p>
 </section>
 
 <section class="idi-person">
 <a id="Smith"></a>
 <div class="idi-person-intro">
-	<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Smith.jpg"/>
+	<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/CantwellSmith.jpg"/>
 	<h3>Brian Cantwell Smith</h3>
 	<div class="idi-people-position">Professor & Director, <a href="http://www.ischool.utoronto.ca/">Faculty of Information</a></div>
 	<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
 </div>
 <p>
-Fusce at sodales leo. Aliquam eros velit, tempus non condimentum ac, luctus ut diam. Sed vel arcu diam. Fusce ac tellus at sapien dignissim mattis posuere vitae elit. Donec tortor leo, lobortis in posuere sit amet, lacinia non neque. Praesent leo metus, gravida a elementum ac, blandit in ipsum. Nullam nulla lacus, luctus eget tincidunt eu, rutrum quis turpis.
+Brian Cantwell Smith is Dean of the Faculty of Information Studies at University of Toronto, Professor in the departments of Philosophy and Computer Science, and Canada Research Chair in the Foundations of Information.
+</p>
+<p>
+Smith's research focuses on the conceptual foundations of computation, information, and cognitive science, and on the use of computational metaphors in such fields as biology, physics, and art. These investigations have increasingly led him into metaphysics -- specifically, to an attempt to lay out a systematic metaphysics that aims (i) to steer a path between realism and constructivism, (ii) to account for the integrated emergence of subject and object, and (iii) to reconcile our causal and normative understandings of the world ("matter" and "mattering"). A first cut at this project was first described in On the Origin of Objects (MIT, 1996). A multi-volume study of the foundations of computing, The Age of Significance, is being simultaneously published by MIT Press and serially, on the web, over a period of five or six years (at www.ageofsig.org).
 </p>
 </section>
 
@@ -331,8 +337,7 @@ Fusce at sodales leo. Aliquam eros velit, tempus non condimentum ac, luctus ut d
 	<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
 </div>
 <p>
-Fusce at sodales leo. Aliquam eros velit, tempus non condimentum ac, luctus ut diam. Sed vel arcu diam. Fusce ac tellus at sapien dignissim mattis posuere vitae elit. Donec tortor leo, lobortis in posuere sit amet, lacinia non neque. Praesent leo metus, gravida a elementum ac, blandit in ipsum. Nullam nulla lacus, luctus eget tincidunt eu, rutrum quis turpis.
-</p>
+Dubbed the “Official Statistician of the Creative Class”, Kevin Stolarick, PhD, combines a depth of knowledge with an appreciation of the importance of finding and sharing the knowledge or “pearls of wisdom” gained from his comprehensive understanding of the Creative Class and the Creative Economy.  He has held faculty positions at the College of Humanities and Social Sciences and the H. John Heinz III School of Public Policy and Management, Carnegie Mellon University, Pittsburgh, Pennsylvania, USA and for over a decade worked with technology in the insurance industry as a manager of strategic projects.  He holds a PhD in Business Administration and an MBA from the Tepper School of Management, Carnegie Mellon University and a BS in Honors in Applied Computer Science from Illinois State University.</p>
 </section>
 
 

@@ -5,20 +5,22 @@
 
 <div class="idi-contact-info">
 	<h3>Contact</h3>
-	<div class="idi-mailing-address">
-		Centre for Learning Technologies<br/>
-		Ted Rogers School of Information Technology Management<br/>
-		<a href="http://g.co/maps/5y57b">
-			55 Dundas Street West</a><br/>
-		Toronto, ON M5B 2K3<br/>
-		Canada
-	</div>
-	<div class="idi-phone">
-		416-979-5000 ext. 2523
-	</div>
-	<div class="idi-email">
-		<a href="mailto:lcopelan@ryerson.ca">lcopelan@ryerson.ca</a>
-	</div>
+	<address>
+		<div class="idi-mailing-address">
+			Centre for Learning Technologies<br/>
+			Ted Rogers School of Information Technology Management<br/>
+			<a href="http://g.co/maps/5y57b">
+				55 Dundas Street West</a><br/>
+			Toronto, ON M5B 2K3<br/>
+			Canada
+		</div>
+		<div class="idi-phone">
+			416-979-5000 ext. 2523
+		</div>
+		<div class="idi-email">
+			<a href="mailto:lcopelan@ryerson.ca">lcopelan@ryerson.ca</a>
+		</div>
+	</address>
 </div>
 
 <h3>Leads</h3>
