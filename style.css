@@ -1276,6 +1276,12 @@ a.idi-project-link {
     text-shadow: 1px 1px 0px #ffffff;
     padding-left: 1em;
 }
+.fl-theme-uio-yb .idi-research-item h2,
+.fl-theme-uio-wb .idi-research-item h2,
+.fl-theme-uio-bw .idi-research-item h2,
+.fl-theme-uio-by .idi-research-item h2 {
+    text-shadow: none;
+}
 .idi-research-item h2,
 .idi-research-item p {
     margin-bottom: 0.2em;
