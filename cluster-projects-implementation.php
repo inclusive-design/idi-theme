@@ -2,7 +2,7 @@
 			<div class="fl-col">
 				<section class="idi-project fl-col-mixed">
 					<div class="idi-project-logo fl-col-fixed fl-force-left">
-						<a href="http://seasr.org/"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/seasr-logo.png"/></a>
+						<a href="http://seasr.org/"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/seasr-logo.png" title="Seasr project logo" alt="Seasr project logo" /></a>
 					</div>
 					<div class="fl-col-flex">
 						<h3><a href="http://seasr.org/">SEASR</a></h3>
@@ -11,7 +11,7 @@
 				</section>
 				<section class="idi-project fl-col-mixed">
 					<div class="idi-project-logo fl-col-fixed fl-force-left">
-						<a href="http://www.projectbamboo.org/"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png"/></a>
+						<a href="http://www.projectbamboo.org/"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Bamboo project logo" alt="Bamboo project logo" /></a>
 					</div>
 					<div class="fl-col-flex">
 						<h3><a href="http://www.projectbamboo.org/">Project Bamboo</a></h3>
@@ -22,7 +22,7 @@
 			<div class="fl-col">
 				<section class="idi-project fl-col-mixed">
 					<div class="idi-project-logo fl-col-fixed fl-force-left">
-						<a href=""><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/peptalk.png"/></a>
+						<a href=""><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/peptalk.png" title="Peptalk project logo" alt="Peptalk project logo" /></a>
 					</div>
 					<div class="fl-col-flex">
 						<h3><a href="">PEPTalk</a></h3>
@@ -31,7 +31,7 @@
 				</section>
 				<section class="idi-project fl-col-mixed">
 					<div class="idi-project-logo fl-col-fixed fl-force-left">
-						<a href="http://www.cdnexperience.ca/"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png"/></a>
+						<a href="http://www.cdnexperience.ca/"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Canadian experience project logo" alt="Canadian experience project logo" /></a>
 					</div>
 					<div class="fl-col-flex">
 						<h3><a href="http://www.cdnexperience.ca/">The Canadian Experience</a></h3>

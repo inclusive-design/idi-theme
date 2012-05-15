@@ -11,7 +11,7 @@ Template Name: Research Page
 		<?php get_sidebar('research'); ?>
 	</aside>
 
-	<div class="fl-col-flex idi-one-column idi-research">
+	<div id="content" class="fl-col-flex idi-one-column idi-research">
 		<ul class="fl-grid">
 			<li>
 				<section>
@@ -105,4 +105,10 @@ Template Name: Research Page
 
 </div>
 
-<?php get_footer(); ?>
+<?php 
+// Remove the id="content" attribute that is inherited from the parent theme "wordpress-fss-theme".
+// This attribute/value pair is re-defined in this page.
+remove_parent_contentID();
+
+get_footer(); 
+?>

@@ -1095,6 +1095,7 @@ img.idi-about-person {
     width: 12em;
     margin-left: 0;
     text-align: right;
+    min-height:1px;
 }
 .idi-infra .fl-col-flex4 .idi-3cols {
     width: 72%;
