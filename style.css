@@ -112,7 +112,8 @@ h3,
     margin-bottom: 0.625em;
     font-style: italic;
 }
-.idi-box .idi-box-text {
+.idi-box .idi-box-text,
+.idi-box.idi-box-text {
     padding: 20px;
 }
 .idi-highlight-box {
