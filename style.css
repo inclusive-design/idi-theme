@@ -827,7 +827,7 @@ a.anchor {
 
 /* Institution List on front page */
 .idi-institutions, .idi-contact-info {
-    padding: .3em 1em 0em 1em;
+    padding: .3em 0em;
 }
 .idi-institutions p {
     font-style: italic;
