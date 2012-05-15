@@ -1267,20 +1267,21 @@ a.idi-project-link {
     text-decoration: none;
 }
 .idi-research-item {
-    max-width: 220px;
+    max-width: 240px;
 }
 .idi-research-item h2 {
     font-size: 1.3em;
     color: #3FB66C;
     font-style: italic;
     text-shadow: 1px 1px 0px #ffffff;
+    padding-left: 1em;
 }
 .idi-research-item h2,
 .idi-research-item p {
     margin-bottom: 0.2em;
 }
-.idi-research-item h2 {
-    padding-left: 1em;
+.idi-research-item h2:hover {
+    text-decoration: underline;
 }
 .idi-research-item p {
     padding-left: 1.25em;
