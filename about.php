@@ -14,7 +14,7 @@ Template Name: About Page
 		<?php get_sidebar('about'); ?>
 	</div>
 
-    <div class="fl-col-flex idi-two-column idi-about-people">
+    <div id="content" class="fl-col-flex idi-two-column idi-about-people">
 		<a id="whoweare"></a>
 		<h2>Who We Are</h2>
 		<p>
