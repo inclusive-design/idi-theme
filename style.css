@@ -855,17 +855,14 @@ a.anchor {
 .fl-theme-uio-by .idi-login-form .idi-login-extra,
 .fl-theme-uio-bw .idi-login-form .idi-login-extra { background-image: url('images/arrows/arrow-black.gif'); }
 
-/* Institution List on front page */
-.idi-institutions, .idi-contact-info {
-    padding: .3em 1em 0em 1em;
-}
+/* Institution List */
 .idi-institutions p {
     font-style: italic;
     margin-bottom: 0.625em;
 }
 ul.idi-institution-list {
     margin-left: 0;
-    padding-bottom: 1.25em;
+    padding: .3em 1em 1.25em 1em;
 }
 ul.idi-institution-list li {
     color: #0076B0;
@@ -1292,7 +1289,7 @@ a.idi-project-lead-name {
 .fl-theme-uio-by .idi-external-link:hover { background-image: url('images/externalpage-black-hover.gif'); }
 
 .idi-project-list h4 {
-    font-size: 1.3em;
+    font-size: 1.125em;
     color: #0076B0;
     padding-bottom: 0.2em;
 }
@@ -1302,10 +1299,31 @@ a.idi-project-lead-name {
 a.idi-project-link {
     text-decoration: none;
 }
+.idi-research-item {
+    max-width: 240px;
+}
 .idi-research-item h2 {
     font-size: 1.3em;
     color: #3FB66C;
     font-style: italic;
+    text-shadow: 1px 1px 0px #ffffff;
+    padding-left: 1em;
+}
+.fl-theme-uio-yb .idi-research-item h2,
+.fl-theme-uio-wb .idi-research-item h2,
+.fl-theme-uio-bw .idi-research-item h2,
+.fl-theme-uio-by .idi-research-item h2 {
+    text-shadow: none;
+}
+.idi-research-item h2,
+.idi-research-item p {
+    margin-bottom: 0.2em;
+}
+.idi-research-item h2:hover {
+    text-decoration: underline;
+}
+.idi-research-item p {
+    padding-left: 1.25em;
 }
 .idi-research li {
     width: 45%;
