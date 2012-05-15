@@ -122,6 +122,9 @@ var idi = idi || {};
     idi.keyboardA11y = function () {
         // Pull the circle links out of tab order
         $(".idi-cluster-circle-link").attr("tabindex", "-1");
+        
+        // Pull the project logos out of tab order
+        $(".idi-project-logo").attr("tabindex", "-1");
     };
     
     $(document).ready(function () {
