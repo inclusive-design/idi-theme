@@ -118,6 +118,9 @@ h3,
 .idi-box.idi-box-text {
     padding: 20px;
 }
+.idi-box-text h2 .fl-text-larger {
+    font-size: 1em !important;
+}
 .idi-highlight-box {
     background-color: #ffffff;
     margin-bottom: 1.25em;
@@ -474,6 +477,12 @@ h3,
 }
 .idi-cluster-circle-link, .idi-cluster-name {
     z-index: 3;
+}
+.idi-cluster-name.fl-text-larger {
+    font-size: 1.5em !important;
+}
+.idi-design-cluster-name.fl-text-larger {
+    font-size: 1.75em !important;    
 }
 .idi-research-clusters .idi-cluster-name {
     font-style: italic;
