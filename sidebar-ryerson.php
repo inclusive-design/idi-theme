@@ -1,5 +1,5 @@
 <div class="idi-inst-site-links">
-	<p><a class="idi-external-link" href="http://ryerson.ca/clt/">visit CLT site</a></p>
+	<p><a class="idi-external-link" href="http://imdc.ca/">visit IMDC site</a></p>
 	<p><a class="idi-external-link" href="http://ryerson.ca">visit Ryerson site</a></p>
 </div>
 
