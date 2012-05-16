@@ -719,29 +719,12 @@ h3,
 }
 
 /* Twitter widget */
-.twitter-feed-group h2 {
-    background-image: url("images/twitter_bird.png");
-    background-repeat: no-repeat;
-    background-position: 0 50%;
-    padding-left: 2em;
-    display: inline-block;
-    font-weight: normal;
-    color: #f4be3d;
-    text-transform: lowercase;
-    font-style: italic;
-}
 .twitter-feed-group .tweet-container {
     padding: 1em;
 }
 .twitter-feed-group {
     margin-bottom: 1em;
 }
-/* right now, these hc icons don't work because of a background color; don't know why */
-.fl-theme-uio-yb .twitter-feed-group { background-image: url('images/news-tweet/tweet-yellow.png'); }
-.fl-theme-uio-wb .twitter-feed-group { background-image: url('images/news-tweet/tweet-white.png'); }
-.fl-theme-uio-by .twitter-feed-group,
-.fl-theme-uio-bw .twitter-feed-group { background-image: url('images/news-tweet/tweet-black.png'); }
-
 .twitter-feed-group a.twitter-follow-button {
     display: block;
     font-size: 1.2em;
@@ -754,7 +737,14 @@ h3,
     background-size: 1.6em auto;
     background-position: 100% 20%;
 }
-.twitter-feed-group a.twitter-follow-button:hover, .twitter-feed-group a.twitter-follow-button:focus { background-image: url('images/news-tweet/tweet-hover.png'); }
+.twitter-feed-group a.twitter-follow-button:hover, .twitter-feed-group a.twitter-follow-button:focus {
+    background-image: url('images/news-tweet/tweet-hover.png');
+}
+.fl-theme-uio-yb .twitter-feed-group a.twitter-follow-button { background-image: url('images/news-tweet/tweet-yellow.png'); }
+.fl-theme-uio-wb .twitter-feed-group a.twitter-follow-button { background-image: url('images/news-tweet/tweet-white.png'); }
+.fl-theme-uio-by .twitter-feed-group a.twitter-follow-button,
+.fl-theme-uio-bw .twitter-feed-group a.twitter-follow-button { background-image: url('images/news-tweet/tweet-black.png'); }
+
 .twitter-feed-group ul {
     margin: 0px;
 }
