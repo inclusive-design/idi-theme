@@ -1,41 +1,41 @@
 		<div class="fl-col-flex2">
 			<div class="fl-col">
 				<section class="idi-project fl-col-mixed">
-					<div class="fl-col-fixed fl-force-left">
-						<a href="http://floeproject.org"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/floe-logo.png"/></a>
+					<div class="idi-project-logo fl-col-fixed fl-force-left">
+						<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
 					</div>
 					<div class="fl-col-flex">
-						<h3><a href="http://floeproject.org">Floe Project</a></h3>
-						Through the Open Education Resources community, Floe makes tools that help transform, augment, and personalize the learning experience.
+						<h3><a href="http://imdc.ca/">Alternative Audio Description</a></h3>
+						Alternative audio description focuses on making the process of creating audio description inclusive from the beginning of the design process.
 					</div>
 				</section>
 				<section class="idi-project fl-col-mixed">
-					<div class="fl-col-fixed fl-force-left">
-						<a href="http://gpii.net"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/gpii_logo.png"/></a>
+					<div class="idi-project-logo fl-col-fixed fl-force-left">
+						<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
 					</div>
 					<div class="fl-col-flex">
-							<h3><a href="http://gpii.net">GPII</a></h3>
-						The Global Public Inclusive Infrastructure will combine cloud computing with web and platform services to make accessibility available everywhere.
+						<h3><a href="http://irlt.yorku.ca/">Which Hand?</a></h3>
+						Many students with different needs have trouble with judging handedness; they don't know left from right. This project will design a game that reinforces the concepts of left/right that is fun and accessible to readers and non-readers.
 					</div>
 				</section>
 			</div>
 			<div class="fl-col">
 				<section class="idi-project fl-col-mixed">
-					<div class="fl-col-fixed fl-force-left">
-						<a href="http://fluidproject.org"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/fluid_logo.png"/></a>
+					<div class="idi-project-logo fl-col-fixed fl-force-left">
+						<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
 					</div>
 					<div class="fl-col-flex">
-							<h3><a href="http://fluidproject.org">Fluid</a></h3>
-						Fluid is an open-source software community that designs user interfaces, builds Web tools, teaches inclusive design and integrates interface components into open source applications .
+						<h3><a href="http://abelearn.ca/">Accessible Video Conferencing and Streamed Video</a></h3>
+						This project will research and evaluate accessible video conferencing and streamed video, identifying online learning barriers and working with experts and practitioners to overcome them and improve accessibility.
 					</div>
 				</section>
 				<section class="idi-project fl-col-mixed">
-					<div class="fl-col-fixed fl-force-left">
-						<a href="http://aegis.idrc.ocad.ca/"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/aegis_logo.png"/></a>
+					<div class="idi-project-logo fl-col-fixed fl-force-left">
+						<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
 					</div>
 					<div class="fl-col-flex">
-							<h3><a href="http://aegis.idrc.ocad.ca/">AEGIS</a></h3>
-						ÆGIS (Ontario) is preparing Ontario's ICT businesses to meet the growing global demand for products and services that provide accessibility to people of all abilities.
+						<h3><a href="http://imdc.ca/">EnACT</a></h3>
+						EnACT (Enhanced and Affective Captioning Tool) is an open source captioning tool that allows users to create custom kinetic captions with colors that indicate emotions.
 					</div>
 				</section>
 			</div>

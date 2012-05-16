@@ -5,18 +5,20 @@
 
 <div class="idi-contact-info">
 	<h3>Contact</h3>
-	<div class="idi-mailing-address">
-		Office of Research and Innovation<br/>
-		George Brown College<br/>
-		<a href="http://g.co/maps/39unq">
-			160 Kendal Avenue</a><br/>
-		Room C302<br/>
-		Toronto, ON M5T 2T9<br/>
-		Canada
-	</div>
-	<div class="idi-phone">
-		(416) 415-5000, x6082
-	</div>
+	<address>
+		<div class="idi-mailing-address">
+			Office of Research and Innovation<br/>
+			George Brown College<br/>
+			<a href="http://g.co/maps/39unq">
+				160 Kendal Avenue</a><br/>
+			Room C302<br/>
+			Toronto, ON M5T 2T9<br/>
+			Canada
+		</div>
+		<div class="idi-phone">
+			(416) 415-5000, x6082
+		</div>
+	</address>
 </div>
 
 <h3>Leads</h3>

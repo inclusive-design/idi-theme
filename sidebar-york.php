@@ -5,16 +5,18 @@
 
 <div class="idi-contact-info">
 	<h3>Contact</h3>
-	<div class="idi-mailing-address">
-1029 TEL Building<br/>
-York University<br/>
-<a href="http://g.co/maps/6cyr7">4700 Keele Street</a><br/>
-Toronto, ON M3J 1P3<br/>
-		Canada
-	</div>
-	<div class="idi-phone">
-		(416) 736-5019 
-	</div>
+	<address>
+		<div class="idi-mailing-address">
+			1029 TEL Building<br/>
+			York University<br/>
+			<a href="http://g.co/maps/6cyr7">4700 Keele Street</a><br/>
+			Toronto, ON M3J 1P3<br/>
+			Canada
+		</div>
+		<div class="idi-phone">
+			(416) 736-5019 
+		</div>
+	</address>
 </div>
 
 <h3>Leads</h3>

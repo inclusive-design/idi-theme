@@ -68,13 +68,11 @@ body.fl-theme-uio-yb, body.fl-theme-uio-wb,
 body.fl-theme-uio-bw, body.fl-theme-uio-wb { background-image: none; }
 
 .fl-site-wrapper,
-.fl-uiOptions-fatPanel,
-.idi-loginOut-fatPanel,
 .fl-site-header,
 .fl-site-nav-main.sticky ul,
 .fl-site-main-body,
 .fl-site-footer {
-    max-width: 1024px;
+    max-width: 64em;
     min-width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -88,8 +86,12 @@ a {
     color: #0076B0;
 }
 a:hover,
+a:focus,
 .twitter-feed-group a.twitter-follow-button:hover,
-.fl-site-link:hover .fl-site-name {
+.twitter-feed-group a.twitter-follow-button:focus,
+.fl-site-link:hover a,
+.fl-site-link a:focus,
+.idi-map-link:focus h2 {
     color: #00ADE4;
 }
 h1 {
@@ -112,17 +114,18 @@ h3,
     margin-bottom: 0.625em;
     font-style: italic;
 }
-.idi-box .idi-box-text {
+.idi-box .idi-box-text,
+.idi-box.idi-box-text {
     padding: 20px;
 }
 .idi-highlight-box {
     background-color: #ffffff;
     margin-bottom: 1.25em;
-/*
-These shadow styles are still being decided on by the designers
-    box-shadow: 0px 0px 4px 1px #CCCCCC;
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.1);
     margin-top: 5px;
-*/
+}
+.idi-highlight-box:hover {
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.25);
 }
 
 /* Front Page styles */
@@ -148,7 +151,8 @@ These shadow styles are still being decided on by the designers
     font-weight: 700;
     text-decoration: none;
 }
-.post h2 a:hover {
+.post h2 a:hover,
+.post h2 a:focus {
     color: #0EB0E6;
 }
 /* Background of main content */
@@ -157,22 +161,30 @@ These shadow styles are still being decided on by the designers
     margin-left: auto;
     margin-right: auto;
 }
-.fl-site-logo {
+.fl-site-link a {
     background-repeat: no-repeat;
     background-image: url('images/logos/logo.png');
-    height: 85px;
-    width: 118px;
-    display: block;
+    background-position: 2.7em 0;
     margin-left: auto;
     margin-right: auto;
+    height: 4.3em;
 }
-.fl-site-link:hover .fl-site-logo {
+.fl-site-link span {
+    top: 84px;
+}
+.fl-site-link:hover a, .fl-site-link a:focus {
     background-image: url('images/logos/logo-hover.gif');
 }
-.fl-theme-uio-yb .fl-site-logo, .fl-theme-uio-yb .fl-site-link:hover .fl-site-logo { background-image: url('images/logos/logo-yellow.png'); }
-.fl-theme-uio-wb .fl-site-logo, .fl-theme-uio-wb .fl-site-link:hover .fl-site-logo { background-image: url('images/logos/logo-white.png'); }
-.fl-theme-uio-by .fl-site-logo, .fl-theme-uio-by .fl-site-link:hover .fl-site-logo,
-.fl-theme-uio-bw .fl-site-logo, .fl-theme-uio-bw .fl-site-link:hover .fl-site-logo { background-image: url('images/logos/logo-black.png'); }
+.fl-theme-uio-yb .fl-site-link a, .fl-theme-uio-yb .fl-site-link:hover a, .fl-theme-uio-yb .fl-site-link a:focus { 
+    background-image: url('images/logos/logo-yellow.png'); 
+}
+.fl-theme-uio-wb .fl-site-link a, .fl-theme-uio-wb .fl-site-link:hover a, .fl-theme-uio-wb .fl-site-link a:focus { 
+    background-image: url('images/logos/logo-white.png'); 
+}
+.fl-theme-uio-by .fl-site-link a, .fl-theme-uio-by .fl-site-link:hover a, .fl-theme-uio-by .fl-site-link a:focus,
+.fl-theme-uio-bw .fl-site-link a, .fl-theme-uio-bw .fl-site-link:hover a, .fl-theme-uio-bw .fl-site-link a:focus { 
+    background-image: url('images/logos/logo-black.png'); 
+}
 
 .fl-theme-uio-yb .fl-site-link a,
 .fl-theme-uio-by .fl-site-link a,
@@ -180,7 +192,7 @@ These shadow styles are still being decided on by the designers
 .fl-theme-uio-bw .fl-site-link a {
     font-weight: 300;
 }
-.fl-site-name {
+.fl-site-link a {
     margin-bottom: 0.25em;
     text-transform: lowercase;
     text-align: center;
@@ -240,12 +252,16 @@ These shadow styles are still being decided on by the designers
     border: 2px solid transparent !important;
 }
 .fl-theme-yb .fl-site-nav-main a:hover,
+.fl-theme-yb .fl-site-nav-main a:focus,
 .fl-theme-yb .fl-site-nav-main a:active { border: 2px solid #FFFF00 !important; }
 .fl-theme-wb .fl-site-nav-main a:hover,
+.fl-theme-wb .fl-site-nav-main a:focus,
 .fl-theme-wb .fl-site-nav-main a:active { border: 2px solid #FFFFFF !important; }
 .fl-theme-by .fl-site-nav-main a:hover,
+.fl-theme-by .fl-site-nav-main a:focus,
 .fl-theme-by .fl-site-nav-main a:active,
 .fl-theme-bw .fl-site-nav-main a:hover,
+.fl-theme-bw .fl-site-nav-main a:focus,
 .fl-theme-bw .fl-site-nav-main a:active { border: 2px solid #000000 !important; }
 
 /* high-contrast current-link colours */
@@ -274,104 +290,140 @@ These shadow styles are still being decided on by the designers
     background-image: url('images/navigation/home.png');
     padding-left: 2.3em;
 }
-.fl-site-nav-main a.idi-nav-home:hover {
+.fl-site-nav-main a.idi-nav-home:hover,
+.fl-site-nav-main a.idi-nav-home:focus {
     background-image: url('images/navigation/home-hover.png');
 }
 .fl-site-nav-main a.idi-nav-about {
     background-image: url('images/navigation/about.png');
     padding-left: 1.3em;
 }
-.fl-site-nav-main a.idi-nav-about:hover {
+.fl-site-nav-main a.idi-nav-about:hover,
+.fl-site-nav-main a.idi-nav-about:focus {
     background-image: url('images/navigation/about-hover.png');
 }
 .fl-site-nav-main a.idi-nav-news {
     background-image: url('images/navigation/news.png');
     padding-left: 2.3em;
 }
-.fl-site-nav-main a.idi-nav-news:hover {
+.fl-site-nav-main a.idi-nav-news:hover,
+.fl-site-nav-main a.idi-nav-news:focus {
     background-image: url('images/navigation/news-hover.png');
 }
 .fl-site-nav-main a.idi-nav-research {
     background-image: url('images/navigation/research.png');
     padding-left: 1.8em;
 }
-.fl-site-nav-main a.idi-nav-research:hover {
+.fl-site-nav-main a.idi-nav-research:hover,
+.fl-site-nav-main a.idi-nav-research:focus {
     background-image: url('images/navigation/research-hover.png');
 }
 .fl-site-nav-main a.idi-nav-infrastructure {
     background-image: url('images/navigation/infrastructure.png');
     padding-left: 1.8em;
 }
-.fl-site-nav-main a.idi-nav-infrastructure:hover {
+.fl-site-nav-main a.idi-nav-infrastructure:hover,
+.fl-site-nav-main a.idi-nav-infrastructure:focus {
     background-image: url('images/navigation/infrastructure-hover.png');
 }
 
 /* high-contrast images for main nav links */
-.fl-site-nav-main .current_page_item.idi-nav-home,
-.fl-site-nav-main .current_page_item.idi-nav-home:hover,
-.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-home,
-.fl-theme-uio-wb .fl-site-nav-main .idi-nav-home { background-image: url('images/navigation/home-white.png'); }
-.fl-theme-uio-by .fl-site-nav-main .idi-nav-home,
-.fl-theme-uio-bw .fl-site-nav-main .idi-nav-home,
-.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-home,
-.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-home { background-image: url('images/navigation/home-black.png'); }
-.fl-theme-uio-yb .fl-site-nav-main .idi-nav-home,
-.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-home { background-image: url('images/navigation/home-yellow.png'); }
+.fl-site-nav-main .current_page_item.idi-nav-home, .fl-site-nav-main .current_page_item.idi-nav-home:hover, .fl-site-nav-main .current_page_item.idi-nav-home:focus,
+.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-home, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-home:hover, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-home:focus,
+.fl-theme-uio-wb .fl-site-nav-main .idi-nav-home, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-home:hover, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-home:focus { 
+    background-image: url('images/navigation/home-white.png'); 
+}
+.fl-theme-uio-bw .fl-site-nav-main .idi-nav-home, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-home:hover, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-home:focus,
+.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-home, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-home:hover, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-home:focus,
+.fl-theme-uio-by .fl-site-nav-main .idi-nav-home, .fl-theme-uio-by .fl-site-nav-main .idi-nav-home:hover, .fl-theme-uio-by .fl-site-nav-main .idi-nav-home:focus,
+.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-home, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-home:hover, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-home:focus { 
+    background-image: url('images/navigation/home-black.png'); 
+}
+.fl-theme-uio-yb .fl-site-nav-main .idi-nav-home, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-home:hover, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-home:focus,
+.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-home, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-home:hover, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-home:focus { 
+    background-image: url('images/navigation/home-yellow.png'); 
+}
 
-.fl-site-nav-main .current_page_item.idi-nav-about,
-.fl-site-nav-main .current_page_item.idi-nav-about:hover,
-.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-about,
-.fl-theme-uio-wb .fl-site-nav-main .idi-nav-about { background-image: url('images/navigation/about-white.png'); }
-.fl-theme-uio-by .fl-site-nav-main .idi-nav-about,
-.fl-theme-uio-bw .fl-site-nav-main .idi-nav-about,
-.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-about,
-.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-about { background-image: url('images/navigation/about-black.png'); }
-.fl-theme-uio-yb .fl-site-nav-main .idi-nav-about,
-.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-about { background-image: url('images/navigation/about-yellow.png'); }
+.fl-site-nav-main .current_page_item.idi-nav-about, .fl-site-nav-main .current_page_item.idi-nav-about:hover, .fl-site-nav-main .current_page_item.idi-nav-about:focus,
+.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-about, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-about:hover, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-about:focus,
+.fl-theme-uio-wb .fl-site-nav-main .idi-nav-about, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-about:hover, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-about:focus { 
+    background-image: url('images/navigation/about-white.png'); 
+}
+.fl-theme-uio-bw .fl-site-nav-main .idi-nav-about, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-about:hover, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-about:focus,
+.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-about, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-about:hover,
+.fl-theme-uio-by .fl-site-nav-main .idi-nav-about, .fl-theme-uio-by .fl-site-nav-main .idi-nav-about:hover, .fl-theme-uio-by .fl-site-nav-main .idi-nav-about:focus,
+.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-about, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-about:hover,
+ .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-about:focus { 
+    background-image: url('images/navigation/about-black.png'); 
+}
+.fl-theme-uio-yb .fl-site-nav-main .idi-nav-about, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-about:hover, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-about:focus,
+.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-about, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-about:hover { 
+    background-image: url('images/navigation/about-yellow.png'); 
+}
 
-.fl-site-nav-main .current_page_item.idi-nav-news,
-.fl-site-nav-main .current_page_item.idi-nav-news:hover,
-.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-news,
-.fl-theme-uio-wb .fl-site-nav-main .idi-nav-news { background-image: url('images/navigation/news-white.png'); }
-.fl-theme-uio-by .fl-site-nav-main .idi-nav-news,
-.fl-theme-uio-bw .fl-site-nav-main .idi-nav-news,
-.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-news,
-.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-news { background-image: url('images/navigation/news-black.png'); }
-.fl-theme-uio-yb .fl-site-nav-main .idi-nav-news,
-.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-news { background-image: url('images/navigation/news-yellow.png'); }
+.fl-site-nav-main .current_page_item.idi-nav-news, .fl-site-nav-main .current_page_item.idi-nav-news:hover, .fl-site-nav-main .current_page_item.idi-nav-news:focus,
+.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-news, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-news:hover, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-news:focus,
+.fl-theme-uio-wb .fl-site-nav-main .idi-nav-news, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-news:hover, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-news:focus { 
+    background-image: url('images/navigation/news-white.png'); 
+}
+.fl-theme-uio-bw .fl-site-nav-main .idi-nav-news, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-news:hover, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-news:focus,
+.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-news, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-news:hover, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-news:focus,
+.fl-theme-uio-by .fl-site-nav-main .idi-nav-news, .fl-theme-uio-by .fl-site-nav-main .idi-nav-news:hover, .fl-theme-uio-by .fl-site-nav-main .idi-nav-news:focus,
+.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-news, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-news:hover, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-news:focus { 
+    background-image: url('images/navigation/news-black.png'); 
+}
+.fl-theme-uio-yb .fl-site-nav-main .idi-nav-news, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-news:hover, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-news:focus,
+.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-news, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-news:hover, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-news:focus { 
+    background-image: url('images/navigation/news-yellow.png'); 
+}
 
-.fl-site-nav-main .current_page_item.idi-nav-education,
-.fl-site-nav-main .current_page_item.idi-nav-education:hover,
-.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-education,
-.fl-theme-uio-wb .fl-site-nav-main .idi-nav-education { background-image: url('images/navigation/education-white.png'); }
-.fl-theme-uio-by .fl-site-nav-main .idi-nav-education,
-.fl-theme-uio-bw .fl-site-nav-main .idi-nav-education,
-.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-education,
-.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-education { background-image: url('images/navigation/education-black.png'); }
-.fl-theme-uio-yb .fl-site-nav-main .idi-nav-education,
-.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-education { background-image: url('images/navigation/education-yellow.png'); }
+.fl-site-nav-main .current_page_item.idi-nav-education, .fl-site-nav-main .current_page_item.idi-nav-education:hover, .fl-site-nav-main .current_page_item.idi-nav-education:focus,
+.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-education, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-education:hover, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-education:focus,
+.fl-theme-uio-wb .fl-site-nav-main .idi-nav-education, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-education:hover, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-education:focus { 
+    background-image: url('images/navigation/education-white.png'); 
+}
+.fl-theme-uio-bw .fl-site-nav-main .idi-nav-education, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-education:hover, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-education:focus,
+.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-education, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-education:hover, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-education:focus,
+.fl-theme-uio-by .fl-site-nav-main .idi-nav-education, .fl-theme-uio-by .fl-site-nav-main .idi-nav-education:hover, .fl-theme-uio-by .fl-site-nav-main .idi-nav-education:focus,
+.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-education, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-education:hover, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-education:focus { 
+    background-image: url('images/navigation/education-black.png'); 
+}
+.fl-theme-uio-yb .fl-site-nav-main .idi-nav-education, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-education:hover, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-education:focus,
+.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-education, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-education:hover , .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-education:focus { 
+    background-image: url('images/navigation/education-yellow.png'); 
+}
 
-.fl-site-nav-main .current_page_item.idi-nav-research,
-.fl-site-nav-main .current_page_item.idi-nav-research:hover,
-.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-research,
-.fl-theme-uio-wb .fl-site-nav-main .idi-nav-research { background-image: url('images/navigation/research-white.png'); }
-.fl-theme-uio-by .fl-site-nav-main .idi-nav-research,
-.fl-theme-uio-bw .fl-site-nav-main .idi-nav-research,
-.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-research,
-.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-research { background-image: url('images/navigation/research-black.png'); }
-.fl-theme-uio-yb .fl-site-nav-main .idi-nav-research,
-.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-research { background-image: url('images/navigation/research-yellow.png'); }
+.fl-site-nav-main .current_page_item.idi-nav-research, .fl-site-nav-main .current_page_item.idi-nav-research:hover, .fl-site-nav-main .current_page_item.idi-nav-research:focus,
+.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-research, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-research:hover, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-research:focus,
+.fl-theme-uio-wb .fl-site-nav-main .idi-nav-research, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-research:hover, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-research:focus { 
+    background-image: url('images/navigation/research-white.png'); 
+}
+.fl-theme-uio-bw .fl-site-nav-main .idi-nav-research, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-research:hover, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-research:focus,
+.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-research, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-research:hover, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-research:focus,
+.fl-theme-uio-by .fl-site-nav-main .idi-nav-research, .fl-theme-uio-by .fl-site-nav-main .idi-nav-research:hover, .fl-theme-uio-by .fl-site-nav-main .idi-nav-research:focus,
+.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-research, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-research:hover, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-research:focus { 
+    background-image: url('images/navigation/research-black.png'); 
+}
+.fl-theme-uio-yb .fl-site-nav-main .idi-nav-research, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-research:hover, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-research:focus,
+.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-research, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-research:hover, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-research:focus { 
+    background-image: url('images/navigation/research-yellow.png'); 
+}
 
-.fl-site-nav-main .current_page_item.idi-nav-infrastructure,
-.fl-site-nav-main .current_page_item.idi-nav-infrastructure:hover,
-.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-infrastructure,
-.fl-theme-uio-wb .fl-site-nav-main .idi-nav-infrastructure { background-image: url('images/navigation/infrastructure-white.png'); }
-.fl-theme-uio-by .fl-site-nav-main .idi-nav-infrastructure,
-.fl-theme-uio-bw .fl-site-nav-main .idi-nav-infrastructure,
-.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-infrastructure,
-.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-infrastructure { background-image: url('images/navigation/infrastructure-black.png'); }
-.fl-theme-uio-yb .fl-site-nav-main .idi-nav-infrastructure,
-.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-infrastructure { background-image: url('images/navigation/infrastructure-yellow.png'); }
+.fl-site-nav-main .current_page_item.idi-nav-infrastructure, .fl-site-nav-main .current_page_item.idi-nav-infrastructure:hover, .fl-site-nav-main .current_page_item.idi-nav-infrastructure:focus,
+.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-infrastructure, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-infrastructure:hover, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-infrastructure:focus,
+.fl-theme-uio-wb .fl-site-nav-main .idi-nav-infrastructure, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-infrastructure:hover, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-infrastructure:focus { 
+    background-image: url('images/navigation/infrastructure-white.png'); 
+}
+.fl-theme-uio-bw .fl-site-nav-main .idi-nav-infrastructure, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-infrastructure:hover, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-infrastructure:focus,
+.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-infrastructure, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-infrastructure:hover, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-infrastructure:focus,
+.fl-theme-uio-by .fl-site-nav-main .idi-nav-infrastructure, .fl-theme-uio-by .fl-site-nav-main .idi-nav-infrastructure:hover, .fl-theme-uio-by .fl-site-nav-main .idi-nav-infrastructure:focus,
+.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-infrastructure, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-infrastructure:hover, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-infrastructure:focus { 
+    background-image: url('images/navigation/infrastructure-black.png'); 
+}
+.fl-theme-uio-yb .fl-site-nav-main .idi-nav-infrastructure, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-infrastructure:hover, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-infrastructure:focus,
+.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-infrastructure, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-infrastructure:hover, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-infrastructure:focus { 
+    background-image: url('images/navigation/infrastructure-yellow.png'); 
+}
 
 /* Ensure nav elements stick to top of screen */
 .fl-spacer-el {
@@ -402,7 +454,7 @@ These shadow styles are still being decided on by the designers
 
 /* general to all circles */
 .idi-research-clusters {
-    max-width: 1024px;
+    max-width: 64em;
     position: relative;
     height: 575px;
 }
@@ -431,6 +483,9 @@ These shadow styles are still being decided on by the designers
     text-decoration: none;
     text-transform: lowercase;
 }
+.idi-research-clusters .idi-cluster-name:hover {
+    text-decoration: underline;
+}
 .idi-cluster-arrow {
     height: 20px;
     width: 30px;
@@ -447,20 +502,26 @@ These shadow styles are still being decided on by the designers
     border-radius: 70px;
     border-radius: 70px;
 }
+.idi-design-link:hover ~ .idi-design-cluster-circle {
+    top: 193px;
+    left: 87px;
+    width: 147px;
+    height: 147px;
+    border-radius: 73px;
+    border-radius: 73px;
+}
 .idi-design-cluster-circle-colour {
     background-color: #16B36C;
 }
 .idi-design-cluster-name {
     top: 250px;
     left: 280px;
-    color: #16B36C;
     font-size: 1.75em;
     width: 8em;
 }
-.idi-design-link:hover ~ .idi-design-cluster-circle {
-/* waiting for designs for hover styling
-    border: 2px solid yellow;
-*/
+.idi-design-cluster-name,
+.idi-design-cluster-name:hover {
+    color: #16B36C;
 }
 .idi-design-cluster-arrow {
     background-image:  url("images/arrows/arrowresearch-green.png");
@@ -477,20 +538,26 @@ These shadow styles are still being decided on by the designers
     border-radius: 35px;
     border-radius: 35px;
 }
+.idi-policies-link:hover ~ .idi-policies-cluster-circle {
+    top: 402px;
+    left: 227px;
+    width: 76px;
+    height: 76px;
+    border-radius: 38px;
+    border-radius: 38px;
+}
 .idi-policies-cluster-circle-colour {
     background-color: #EE5B24;
 }
 .idi-policies-cluster-name {
     top: 417px;
     left: 342px;
-    color: #EE5B24;
     font-size: 1.5em;
     width: 12em;
 }
-.idi-policies-link:hover ~ .idi-policies-cluster-circle {
-/*
-    border: 2px solid yellow;
-*/
+.idi-policies-cluster-name,
+.idi-policies-cluster-name:hover {
+    color: #EE5B24;
 }
 .idi-policies-cluster-arrow {
     background-image:  url("images/arrows/arrowresearch-red.png");
@@ -507,21 +574,27 @@ These shadow styles are still being decided on by the designers
     border-radius: 80px;
     border-radius: 80px;
 }
+.idi-implementation-link:hover ~ .idi-implementation-cluster-circle {
+    top: 52px;
+    right: 167px;
+    width: 166px;
+    height: 166px;
+    border-radius: 83px;
+    border-radius: 83px;
+}
 .idi-implementation-cluster-circle-colour {
     background-color: #FFCC00;
 }
 .idi-implementation-cluster-name {
     top: 94px;
     right: 392px;
-    color: #FFCC00;
     font-size: 1.5em;
     width: 10em;
     text-align: right;
 }
-.idi-implementation-link:hover ~ .idi-implementation-cluster-circle {
-/*
-    border: 2px solid yellow;
-*/
+.idi-implementation-cluster-name,
+.idi-implementation-cluster-name:hover {
+    color: #FFCC00;
 }
 .idi-implementation-cluster-arrow {
     background-image:  url("images/arrows/arrowresearch-orange.png");
@@ -539,20 +612,26 @@ These shadow styles are still being decided on by the designers
     border-radius: 50px;
     opacity: 0.45;
 }
+.idi-mobile-link:hover ~ .idi-mobile-cluster-circle {
+    top: 140px;
+    left: 637px;
+    width: 106px;
+    height: 106px;
+    border-radius: 53px;
+    border-radius: 53px;
+}
 .idi-mobile-cluster-circle-colour {
     background-color: #00ADE4;
 }
 .idi-mobile-cluster-name {
     top: 217px;
     left: 772px;
-    color: #00ADE4;
     font-size: 1.3125em;
     width: 7em; 
 }
-.idi-mobile-link:hover ~ .idi-mobile-cluster-circle {
-/*
-    border: 2px solid yellow;
-*/
+.idi-mobile-cluster-name,
+.idi-mobile-cluster-name:hover {
+    color: #00ADE4;
 }
 .idi-mobile-cluster-arrow {
     background-image:  url("images/arrows/arrowresearch-blue.png");
@@ -662,7 +741,7 @@ These shadow styles are still being decided on by the designers
     background-size: 1.6em auto;
     background-position: 100% 20%;
 }
-.twitter-feed-group a.twitter-follow-button:hover { background-image: url('images/news-tweet/tweet-hover.png'); }
+.twitter-feed-group a.twitter-follow-button:hover, .twitter-feed-group a.twitter-follow-button:focus { background-image: url('images/news-tweet/tweet-hover.png'); }
 .twitter-feed-group ul {
     margin: 0px;
 }
@@ -1023,7 +1102,7 @@ a.idi-breadcrumbs {
 }
 .idi-about-nav,
 .idi-about-sidebar {
-    margin-top: 2em;
+    margin-top: 13.2em;
 }
 .idi-about-people h3 {
     color: #202020;
@@ -1092,6 +1171,7 @@ img.idi-about-person {
     width: 12em;
     margin-left: 0;
     text-align: right;
+    min-height:1px;
 }
 .idi-infra .fl-col-flex4 .idi-3cols {
     width: 72%;
@@ -1138,7 +1218,8 @@ img.idi-about-person {
     padding-right: 1.5em;
     text-decoration: none;
 }
-.idi-more:hover {
+.idi-more:hover,
+.idi-more:focus {
     background-image: url("images/arrows/arrow-hover.gif");
 }
 .fl-theme-uio-yb .idi-infra-bookit,
@@ -1149,6 +1230,11 @@ img.idi-about-person {
 .fl-theme-uio-bw .idi-infra-bookit,
 .fl-theme-uio-by .idi-more,
 .fl-theme-uio-bw .idi-more { background-image: url("images/arrows/arrow-black.gif"); }
+
+.fl-theme-uio-yb .idi-more:hover { background-image: url("images/arrows/arrow-hover-yellow.gif"); }
+.fl-theme-uio-wb .idi-more:hover { background-image: url("images/arrows/arrow-hover-white.gif"); }
+.fl-theme-uio-by .idi-more:hover,
+.fl-theme-uio-bw .idi-more:hover { background-image: url("images/arrows/arrow-hover-black.gif"); }
 
 .idi-infra p.coming-soon {
     font-style: italic;
@@ -1240,7 +1326,7 @@ a.idi-project-lead-name {
     font-style: italic;
     font-weight: bold;
 }
-.idi-external-link:hover {
+.idi-external-link:hover, .idi-external-link:focus {
     background-image: url('images/externalpage-hover.gif');
 }
 .fl-theme-uio-yb .idi-external-link { background-image: url('images/externalpage-yellow.gif'); }
@@ -1253,7 +1339,7 @@ a.idi-project-lead-name {
 .fl-theme-uio-by .idi-external-link:hover { background-image: url('images/externalpage-black-hover.gif'); }
 
 .idi-project-list h4 {
-    font-size: 1.3em;
+    font-size: 1.125em;
     color: #0076B0;
     padding-bottom: 0.2em;
 }
@@ -1263,10 +1349,31 @@ a.idi-project-lead-name {
 a.idi-project-link {
     text-decoration: none;
 }
+.idi-research-item {
+    max-width: 15em;
+}
 .idi-research-item h2 {
     font-size: 1.3em;
     color: #3FB66C;
     font-style: italic;
+    text-shadow: 1px 1px 0px #ffffff;
+    padding-left: 1em;
+}
+.fl-theme-uio-yb .idi-research-item h2,
+.fl-theme-uio-wb .idi-research-item h2,
+.fl-theme-uio-bw .idi-research-item h2,
+.fl-theme-uio-by .idi-research-item h2 {
+    text-shadow: none;
+}
+.idi-research-item h2,
+.idi-research-item p {
+    margin-bottom: 0.2em;
+}
+.idi-research-item h2:hover, .idi-research-item a:focus h2 {
+    text-decoration: underline;
+}
+.idi-research-item p {
+    padding-left: 1.25em;
 }
 .idi-research li {
     width: 45%;
@@ -1308,7 +1415,7 @@ a.idi-project-link {
     -o-transition-property: opacity;
     -o-transition-duration: 0.5s;
 }
-.idi-cluster-hover-overlay:hover {
+.idi-cluster-hover-overlay:hover, .idi-research-item a:focus .idi-cluster-hover-overlay {
     opacity: 1;
     -moz-transition-property: opacity;
     -moz-transition-duration: 1s;
@@ -1317,7 +1424,6 @@ a.idi-project-link {
     -o-transition-property: opacity;
     -o-transition-duration: 1s;
 }
-
 .idi-cluster-design {  background-image: url('images/clusters/design&development.png'); }
 .idi-cluster-design-hover { background-image: url('images/clusters/design&development-hover.png'); }
 .idi-cluster-policies { background-image: url('images/clusters/businesscase.png'); }

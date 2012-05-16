@@ -81,4 +81,18 @@ function idi_generate_top_nav() {
 
 	echo $out;
 }
+
+/**
+ *  Removed the attribute id="content" that's inherited from the parent theme "wordpress-fss-theme"
+ *  if the idi-theme template needs to have "skip to content" link leads to a more specific content
+ *  section.
+ */
+function remove_parent_contentID() {
+	echo '<script type="text/javascript">' . "\n";
+    echo '$(document).ready(function () {' . "\n";
+    echo '	$(".fl-site-main-body[id=\'content\']").removeAttr("id");' . "\n";
+    echo '});' . "\n";
+	echo '</script>' . "\n";
+}
+
 ?>
