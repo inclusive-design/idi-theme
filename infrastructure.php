@@ -40,68 +40,60 @@ Template Name: Infrastructure
 				<h2>205 Richmond St. W.<br />Toronto, Canada</h2>
 			</a>
 			
-			<div class="idi-infra-item">
-				<h3>Collaboration room</h3>
+			<section class="idi-infra-item">
+				<h3>Collaboration Room</h3>
 <!--   Removed until functionality available
 				<a class="idi-infra-bookit" href="#">Book it</a>
 -->
 				<p class="coming-soon">Booking coming soon</p>
-				<p>The hub of the distributed collaboration network. Enables distributed participation by research team members, supporting resource sharing, collaborative development and both ongoing casual and scheduled communication in multiple modalities.</p>
-			</div>
+				<p>The hub of the Distributed Collaboration Network, enabling distributed participation by research team members, supporting resource sharing, collaborative development and both ongoing casual and scheduled communication in multiple modalities.</p>
+			</section>
 		
-			<div class="idi-infra-item">
-				<h3>Testing and usability lab</h3>
+			<section class="idi-infra-item">
+				<h3>Networked usability and accessibility labs</h3>
 <!--   Removed until functionality available
 				<a class="idi-infra-bookit" href="#">Book it</a>
 -->
 				<p class="coming-soon">Booking coming soon</p>
-				<p>The description for the testing and usability lab.</p>
-			</div>
+				<p>A lab offering a full set of assistive technologies and sophisticated synthesis and analysis tools. It is networked to similar facilities at the other 8 institutions as well as to VULab for remote usability testing in real life contexts.</p>
+			</section>
 		</section>
 		<section class="fl-col">
 			<a class="idi-map-link" href="http://g.co/maps/rzxfr">
 				<h2>230 Richmond St. W.<br />Toronto, Canada</h2>
 			</a>
-			<div class="idi-infra-item">
-				<h3>Captioning lab</h3>
+			<section class="idi-infra-item">
+				<h3>Sensory Mode Translation and Media Access Facility</h3>
 <!--   Removed until functionality available
 				<a class="idi-infra-bookit" href="#">Book it</a>
 -->
 				<p class="coming-soon">Booking coming soon</p>
-				<p>An audio/video recording suite enabling research in captioning and description; Supports both post-production and real time captioning and description.</p>
-			</div>
+				<p>An audio/video recording suite enabling research in captioning and description: Supports both post-production and real time captioning and description.</p>
+			</section>
 		
-			<div class="idi-infra-item">
-				<h3>Boardroom</h3>
+			<section class="idi-infra-item">
+				<h3>Experimental Inclusive Meeting Facility</h3>
 <!--   Removed until functionality available
 				<a class="idi-infra-bookit" href="#">Book it</a>
 -->
 				<p class="coming-soon">Booking coming soon</p>
 				<p>An optimally accessible meeting room that supports remote and on-site multi-lingual translation, real time captioning and description, sign language interpretation and a variety of assistive listening devices.</p>
-			</div>
+			</section>
 		</section>
 		<section class="fl-col">
 			<a class="idi-map-link" href="http://g.co/maps/mr7ar">
 				<h2>49 McCaul St.<br />Toronto, Canada</h2>
 			</a>
 			
-			<div class="idi-infra-item">
-				<h3>Blackbox theatre</h3>
+			<section class="idi-infra-item">
+				<h3>Ubiquitous Web Facility</h3>
 <!--   Removed until functionality available
 				<a class="idi-infra-bookit" href="#">Book it</a>
 -->
 				<p class="coming-soon">Booking coming soon</p>
-				<p>The description for the blackbox theatre.</p>
-			</div>
+				<p>A facility housing the Mobile and Pervasive Computing research platform, which includes sensors, receivers, transmitters, and a range of both open source or uniquely innovative mobile hardware kits and devices.</p>
+			</section>
 		
-			<div class="idi-infra-item">
-				<h3>Research space</h3>
-<!--   Removed until functionality available
-				<a class="idi-infra-bookit" href="#">Book it</a>
--->
-				<p class="coming-soon">Booking coming soon</p>
-				<p>The description for the research space.</p>
-			</div>
 		</section>
 	</section>
 
@@ -119,55 +111,31 @@ Template Name: Infrastructure
 				<a class="idi-infra-bookit" href="#">Book it</a>
 -->
 				<p class="coming-soon">Booking coming soon</p>
-				<p>Equipment to add remote and in-situ real-time captioning, description, sign translation and fm listening assistance to an existing architecturally accessible performance space.</p>
+				<p>Equiptment that Enables accessible live performance, allowing users to to add remote and in-situ real-time captioning, description, sign translation and fm listening assistance to an existing architecturally accessible performance space.</p>
 			</section>
 		
-			<section class="idi-infra-item">
-				<h3>Equipment 1B</h3>
-<!--   Removed until functionality available
-				<a class="idi-infra-bookit" href="#">Book it</a>
--->
-				<p class="coming-soon">Booking coming soon</p>
-				<p>The description for Equipment 1B.</p>
-			</section>
 		</div>
 		<div class="fl-col">
 			<section class="idi-infra-item">
-				<h3>Equipment 2A</h3>
+				<h3>Accessible Gaming Platform</h3>
 <!--   Removed until functionality available
 				<a class="idi-infra-bookit" href="#">Book it</a>
 -->
 				<p class="coming-soon">Booking coming soon</p>
-				<p>The description for Equipment 2A.</p>
+				<p>A range of gaming consoles and peripherals to support researchers in exploring how gaming interfaces can be repurposed to provide more affordable alternative access for individuals with mobility impairments.</p>
 			</section>
 		
-			<section class="idi-infra-item">
-				<h3>Equipment 2B</h3>
-<!--   Removed until functionality available
-				<a class="idi-infra-bookit" href="#">Book it</a>
--->
-				<p class="coming-soon">Booking coming soon</p>
-				<p>The description for Equipment 2B.</p>
-			</section>
 		</div>
 		<div class="fl-col">
 			<section class="idi-infra-item">
-				<h3>Equipment 3A</h3>
+				<h3>Alternative Input Hardware</h3>
 <!--   Removed until functionality available
 				<a class="idi-infra-bookit" href="#">Book it</a>
 -->
 				<p class="coming-soon">Booking coming soon</p>
-				<p>The description for Equipment 3A.</p>
+				<p>Various alternative input devices such as touch screens, enhanced keyboards, key guards, specialized pointing devices, tablets, switch interfaces and joysticks.</p>
 			</section>
 		
-			<section class="idi-infra-item">
-				<h3>Equipment 3B</h3>
-<!--   Removed until functionality available
-				<a class="idi-infra-bookit" href="#">Book it</a>
--->
-				<p class="coming-soon">Booking coming soon</p>
-				<p>The description for Equipment 3B.</p>
-			</section>
 		</div>
 	</section>
 
