@@ -91,6 +91,7 @@ a:focus,
 .twitter-feed-group a.twitter-follow-button:focus,
 .fl-site-link:hover a,
 .fl-site-link a:focus,
+.idi-map-link h2:hover,
 .idi-map-link:focus h2 {
     color: #00ADE4;
 }
@@ -117,6 +118,9 @@ h3,
 .idi-box .idi-box-text,
 .idi-box.idi-box-text {
     padding: 20px;
+}
+.idi-box-text h2 .fl-text-larger {
+    font-size: 1em !important;
 }
 .idi-highlight-box {
     background-color: #ffffff;
@@ -157,14 +161,14 @@ h3,
 }
 /* Background of main content */
 .fl-site-link {
-    width: 17em;
+    width: 22em;
     margin-left: auto;
     margin-right: auto;
 }
 .fl-site-link a {
     background-repeat: no-repeat;
     background-image: url('images/logos/logo.png');
-    background-position: 2.7em 0;
+    background-position: 4.1em 0;
     margin-left: auto;
     margin-right: auto;
     height: 4.3em;
@@ -202,6 +206,9 @@ h3,
 }
 .fl-site-header a {
     text-decoration: none;
+}
+.fl-site-link .fl-text-larger {
+    font-size: 1.75em !important;
 }
 
 /* Main site navigation */
@@ -476,6 +483,12 @@ h3,
 }
 .idi-cluster-circle-link, .idi-cluster-name {
     z-index: 3;
+}
+.idi-cluster-name.fl-text-larger {
+    font-size: 1.5em !important;
+}
+.idi-design-cluster-name.fl-text-larger {
+    font-size: 1.75em !important;    
 }
 .idi-research-clusters .idi-cluster-name {
     font-style: italic;
@@ -915,6 +928,7 @@ ul.idi-institution-list {
 }
 ul.idi-institution-list li {
     color: #0076B0;
+    padding-bottom: .22em;
 }
 .fl-theme-uio-yb ul.idi-institution-list li:before { color: #FFFF00; }
 .fl-theme-uio-wb ul.idi-institution-list li:before { color: #FFFFFF; }
