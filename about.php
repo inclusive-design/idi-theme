@@ -15,6 +15,7 @@ Template Name: About Page
 	</div>
 
     <div id="content" class="fl-col-flex idi-two-column idi-about-people">
+		<div class="idi-about-tagline">Designing for the full range of human diversity</div>
 		<a id="whoweare"></a>
 		<h2>Who We Are</h2>
 		<p>
@@ -332,6 +333,24 @@ Template Name: About Page
 		</div>
 		<p>
 		Dubbed the “Official Statistician of the Creative Class”, Kevin Stolarick, PhD, combines a depth of knowledge with an appreciation of the importance of finding and sharing the knowledge or “pearls of wisdom” gained from his comprehensive understanding of the Creative Class and the Creative Economy.  He has held faculty positions at the College of Humanities and Social Sciences and the H. John Heinz III School of Public Policy and Management, Carnegie Mellon University, Pittsburgh, Pennsylvania, USA and for over a decade worked with technology in the insurance industry as a manager of strategic projects.  He holds a PhD in Business Administration and an MBA from the Tepper School of Management, Carnegie Mellon University and a BS in Honors in Applied Computer Science from Illinois State University.</p>
+		</section>
+
+		<section class="idi-person">
+		<a id="Treviranus"></a>
+		<div class="idi-person-intro">
+			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Treviranus.jpg"/>
+			<h3>Jutta Treviranus</h3>
+			<div class="idi-people-position">Director of the <a href="http://idrc.ocad.ca/">Inclusive Design Research Centre</a></div>
+			<div class="idi-people-org"><a href="http://ocadu.ca">OCAD University</a></div>
+		</div>
+		<p>Jutta Treviranus is the Director of the Inclusive Design Research Centre (IDRC) and professor at OCAD University in Toronto,
+		formerly the Adaptive Technology Resource Centre. The IDRC conducts proactive research and development in the inclusive design
+		of emerging information and communication technology and practices. Jutta also heads the Inclusive Design Institute a multi-university
+		regional centre of expertise on inclusive design. Jutta has led many international multi-partner research networks that have
+		created broadly implemented technical innovations that support inclusion. These include the Fluid Project, Fluid Engage,
+		CulturAll, Stretch, FLOE and many others. Jutta and her team have pioneered personalization as an approach to accessibility
+		in the digital domain. She has played a leading role in developing accessibility legislation, standards and specification
+		internationally (including ISO 24751 , and AODA Information and Communication).</p>
 		</section>
 
 
