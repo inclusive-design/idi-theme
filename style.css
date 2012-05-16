@@ -203,6 +203,9 @@ h3,
 .fl-site-header a {
     text-decoration: none;
 }
+.fl-site-link .fl-text-larger {
+    font-size: 1.75em !important;
+}
 
 /* Main site navigation */
 .fl-site-nav-main {
@@ -910,6 +913,7 @@ ul.idi-institution-list {
 }
 ul.idi-institution-list li {
     color: #0076B0;
+    padding-bottom: .22em;
 }
 .fl-theme-uio-yb ul.idi-institution-list li:before { color: #FFFF00; }
 .fl-theme-uio-wb ul.idi-institution-list li:before { color: #FFFFFF; }
