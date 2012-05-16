@@ -56,6 +56,25 @@ Template Name: About Page
 		</section>
 		
 		<section class="idi-person">
+		<a id="Desjardins"></a>
+		<div class="idi-person-intro">
+			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Desjardins.jpg"/>
+			<h3>Francois Desjardins</h3>
+			<div class="idi-people-position">Founding Director, <a href="http://www.eilab.ca/">Educational Informatics Lab</a></div>
+			<div class="idi-people-org"><a href="http://uoit.ca">Univ. of Ontario Institute of Technology</a></div>
+		</div>
+		<p>
+		Dr Desjardins’ academic career has been focused on the study of the role technology can play in the learning process at different levels.  In the past few years, that interest has moved towards mobile-learning and it’s potential to alter our thinking about pedagogy.
+		</p>
+		<p>
+		As the former Associate Dean of Education (UOIT), Dr Desjardins was responsible for launching the Masters in Education and Digital Technology as well as the BA program in Adult Education and Digital Technology, both entirely offered online with regular face-to-face meetings in a desktop videoconferencing system.
+		</p>
+		<p>
+		He is also the founding director of the Educational Informatics Lab at the Faculty of Education at UOIT, with projects focused on the study of the user experience with digital technology for learning, including work on adaptive technologies.  So far this has lead him to develop an epistemological model of Human-Computer-Human Interaction that served as the framework for the development of COLE (Collaborative Online Learning environment), a prototype designed to study student online preferences and interactions.  These and other projects in the EILab’s can offer the possibilities of examining how learners and their instructors interact not only with each other but with any other resources in real time and with a multitude of data collection systems.
+		</p>
+		</section>
+
+		<section class="idi-person">
 		<a id="Diamond"></a>
 		<div class="idi-person-intro">
 			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Diamond.jpg"/>
@@ -174,34 +193,6 @@ Template Name: About Page
 		<p>
 		Rhonda McEwen is an Assistant Professor at the University of Toronto Mississauga where she teaches and conducts research on New Media. She spends most of her time at the Institute of Communication, Culture and Information Technology at UTM where she works with bright undergraduates, and she works with stellar graduate students at the iSchool (Faculty of Information) on the St. George campus. Her research and teaching centre around information practices involving new media technologies. She actively engages with questions on how we use, seek, share, and create information by using devices to talk, text, tweet, collect images, message via Facebook, LinkedIn, and other IM, at work and play. She also examines the ways that we perform identities in both 'real' and virtual worlds through avatars; how we integrate location awareness in our interactions; and she considers the consequences of the uses of technologies on our communication, sociality, and humanity.</p>
 		</section>
-		
-		<!--
-		<section class="idi-person">
-		<a id="Desjardins"></a>
-		<div class="idi-person-intro">
-			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Francois-Desjardins.jpg"/>
-			<h3>Francois Desjardins</h3>
-			<div class="idi-people-position">position</div>
-			<div class="idi-people-org">organization</div>
-		</div>
-		<p>
-		In tempor nibh accumsan mauris cursus sodales. Fusce quis laoreet tortor. Vestibulum vel turpis sit amet sapien ultrices porta. Vestibulum ultrices scelerisque urna ac malesuada. Suspendisse molestie, nibh at interdum mollis, quam quam vulputate arcu, et venenatis massa diam a lorem. Cras posuere diam feugiat felis egestas non dignissim odio tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In eget tortor sit amet dolor dapibus ullamcorper. Vestibulum eget enim sapien. Nullam libero arcu, venenatis vel gravida a, pulvinar sit amet ipsum. Phasellus id libero non velit ultricies lobortis sit amet vel lorem. Sed et pulvinar dolor.
-		</p>
-		</section>
-		
-		<section class="idi-person">
-		<a id="Lawless"></a>
-		<div class="idi-person-intro">
-			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Darren-Lawless.jpg"/>
-			<h3>Darren Lawless</h3>
-			<div class="idi-people-position">position</div>
-			<div class="idi-people-org">organization</div>
-		</div>
-		<p>
-		Etiam fringilla tempor est, nec consequat tortor tincidunt id. Vivamus a consequat libero. Aenean et ipsum vitae tellus fringilla sagittis vitae quis lacus. Nunc aliquet aliquam varius. Cras nec arcu et nisl tempus ullamcorper sed a nulla. Aliquam fringilla nulla id justo posuere volutpat. Quisque dictum, nisl quis scelerisque scelerisque, lacus orci ullamcorper mi, vel consectetur nisi felis ac nulla.
-		</p>
-		</section>
-		-->
 		
 		<section class="idi-person">
 		<a id="Mercer"></a>

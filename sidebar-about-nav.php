@@ -6,6 +6,7 @@
 	<ul>
 	    <li><a href="#Baecker">Ron Baecker</a></li>
 	    <li><a href="#Church">Kathryn Church</a></li>
+	    <li><a href="#Desjardins">Francois Desjardins</a></li>
 	    <li><a href="#Diamond">Sara Diamond</a></li>
 	    <li><a href="#Fels">Deborah Fels</a></li>
 	    <li><a href="#Florida">Richard Florida</a></li>
