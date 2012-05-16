@@ -177,6 +177,12 @@ h3,
     margin-left: auto;
     margin-right: auto;
     height: 4.3em;
+    margin-bottom: 0.25em;
+    text-transform: lowercase;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.75em;
+    color: #999999;
 }
 .fl-site-link span {
     top: 84px;
@@ -200,14 +206,6 @@ h3,
 .fl-theme-uio-wb .fl-site-link a,
 .fl-theme-uio-bw .fl-site-link a {
     font-weight: 300;
-}
-.fl-site-link a {
-    margin-bottom: 0.25em;
-    text-transform: lowercase;
-    text-align: center;
-    font-style: italic;
-    font-size: 1.75em;
-    color: #999999;
 }
 .fl-site-header a {
     text-decoration: none;
@@ -501,7 +499,7 @@ h3,
     text-decoration: none;
     text-transform: lowercase;
 }
-.idi-research-clusters .idi-cluster-name:hover {
+.idi-research-clusters .idi-cluster-name:hover, .idi-research-clusters .idi-cluster-name:focus {
     text-decoration: underline;
 }
 .idi-cluster-arrow {
