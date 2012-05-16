@@ -45,6 +45,11 @@ Version: 1.0
   src: local('Lato Black'), local('Lato-Black'), url('fonts/Lato-Black.woff') format('woff');
 }
 
+:focus,
+.fl-site-nav-main a:focus,
+.fl-uiOptions-fatPanel .fl-toggleButton:focus  {
+    border: 5px solid #FFCC00;
+}
 .aligncenter {
     margin-left: auto;
     margin-right: auto;
@@ -607,7 +612,7 @@ h3,
 }
 .idi-implementation-cluster-name,
 .idi-implementation-cluster-name:hover {
-    color: #FFCC00;
+    color: #F9A31C;
 }
 .idi-implementation-cluster-arrow {
     background-image:  url("images/arrows/arrowresearch-orange.png");
@@ -930,6 +935,9 @@ ul.idi-institution-list li {
     color: #0076B0;
     padding-bottom: .22em;
 }
+ul.idi-institution-list li a {
+    display: block;
+}
 .fl-theme-uio-yb ul.idi-institution-list li:before { color: #FFFF00; }
 .fl-theme-uio-wb ul.idi-institution-list li:before { color: #FFFFFF; }
 .fl-theme-uio-by ul.idi-institution-list li:before,
@@ -1032,6 +1040,9 @@ form#idiMailingListSignup input {
 .idi-article-list ul li {
     list-style-type: none;
     margin-bottom: 0.5em;
+}
+.idi-article-list ul li a {
+    display: block;
 }
 .idi-news-article,
 .idi-news-article.idi-breadcrumbs {
@@ -1218,6 +1229,7 @@ img.idi-about-person {
 
 .idi-infra a.idi-map-link {
     text-decoration: none;
+    display:block;
 }
 .idi-infra-bookit {
     color: #0076B0;
