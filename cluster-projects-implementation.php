@@ -5,7 +5,7 @@
 						<a class="idi-project-logo" href=""><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" /></a>
 					</div>
 					<div class="fl-col-flex">
-						<h3><a href="http://openvulab.org/">Open Virtual Usability Project</a></h3>
+						<h3><a href="http://openvulab.org/">Open Virtual Usability Lab</a></h3>
 						OpenVULab is an open source tool designed for remote accessibility and usability testing. The tool is designed to capture remote users’ interactions with their computer screens as well as their microphone audio.
 					</div>
 				</section>

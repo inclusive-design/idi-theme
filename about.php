@@ -15,6 +15,7 @@ Template Name: About Page
 	</div>
 
     <div id="content" class="fl-col-flex idi-two-column idi-about-people">
+		<div class="idi-about-tagline">Designing for the full range of human diversity</div>
 		<a id="whoweare"></a>
 		<h2>Who We Are</h2>
 		<p>
@@ -54,6 +55,25 @@ Template Name: About Page
 		Kathryn Church studied Psychology at the University of Regina, Saskatchewan (Masters 1983) and Sociology at OISE/University of Toronto (PhD 1993) during radical periods in the history of these departments. But it was psychiatric survivors who truly politicized her as she encountered them, their stories, and their activism while she was employed as an organizer in the mid-80s. These relationships propelled her into a decade of post-doctoral engagement as a “freelance” researcher working for and with psychiatric survivor organizations. Then, in 2002 she was drawn into Ryerson by the challenge of building a research program for the School of Disability Studies that would resonate with issues and debates in this emergent field.  </p>
 		</section>
 		
+		<section class="idi-person">
+		<a id="Desjardins"></a>
+		<div class="idi-person-intro">
+			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Desjardins.jpg"/>
+			<h3>Francois Desjardins</h3>
+			<div class="idi-people-position">Founding Director, <a href="http://www.eilab.ca/">Educational Informatics Lab</a></div>
+			<div class="idi-people-org"><a href="http://uoit.ca">Univ. of Ontario Institute of Technology</a></div>
+		</div>
+		<p>
+		Dr Desjardins’ academic career has been focused on the study of the role technology can play in the learning process at different levels.  In the past few years, that interest has moved towards mobile-learning and it’s potential to alter our thinking about pedagogy.
+		</p>
+		<p>
+		As the former Associate Dean of Education (UOIT), Dr Desjardins was responsible for launching the Masters in Education and Digital Technology as well as the BA program in Adult Education and Digital Technology, both entirely offered online with regular face-to-face meetings in a desktop videoconferencing system.
+		</p>
+		<p>
+		He is also the founding director of the Educational Informatics Lab at the Faculty of Education at UOIT, with projects focused on the study of the user experience with digital technology for learning, including work on adaptive technologies.  So far this has lead him to develop an epistemological model of Human-Computer-Human Interaction that served as the framework for the development of COLE (Collaborative Online Learning environment), a prototype designed to study student online preferences and interactions.  These and other projects in the EILab’s can offer the possibilities of examining how learners and their instructors interact not only with each other but with any other resources in real time and with a multitude of data collection systems.
+		</p>
+		</section>
+
 		<section class="idi-person">
 		<a id="Diamond"></a>
 		<div class="idi-person-intro">
@@ -173,34 +193,6 @@ Template Name: About Page
 		<p>
 		Rhonda McEwen is an Assistant Professor at the University of Toronto Mississauga where she teaches and conducts research on New Media. She spends most of her time at the Institute of Communication, Culture and Information Technology at UTM where she works with bright undergraduates, and she works with stellar graduate students at the iSchool (Faculty of Information) on the St. George campus. Her research and teaching centre around information practices involving new media technologies. She actively engages with questions on how we use, seek, share, and create information by using devices to talk, text, tweet, collect images, message via Facebook, LinkedIn, and other IM, at work and play. She also examines the ways that we perform identities in both 'real' and virtual worlds through avatars; how we integrate location awareness in our interactions; and she considers the consequences of the uses of technologies on our communication, sociality, and humanity.</p>
 		</section>
-		
-		<!--
-		<section class="idi-person">
-		<a id="Desjardins"></a>
-		<div class="idi-person-intro">
-			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Francois-Desjardins.jpg"/>
-			<h3>Francois Desjardins</h3>
-			<div class="idi-people-position">position</div>
-			<div class="idi-people-org">organization</div>
-		</div>
-		<p>
-		In tempor nibh accumsan mauris cursus sodales. Fusce quis laoreet tortor. Vestibulum vel turpis sit amet sapien ultrices porta. Vestibulum ultrices scelerisque urna ac malesuada. Suspendisse molestie, nibh at interdum mollis, quam quam vulputate arcu, et venenatis massa diam a lorem. Cras posuere diam feugiat felis egestas non dignissim odio tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In eget tortor sit amet dolor dapibus ullamcorper. Vestibulum eget enim sapien. Nullam libero arcu, venenatis vel gravida a, pulvinar sit amet ipsum. Phasellus id libero non velit ultricies lobortis sit amet vel lorem. Sed et pulvinar dolor.
-		</p>
-		</section>
-		
-		<section class="idi-person">
-		<a id="Lawless"></a>
-		<div class="idi-person-intro">
-			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Darren-Lawless.jpg"/>
-			<h3>Darren Lawless</h3>
-			<div class="idi-people-position">position</div>
-			<div class="idi-people-org">organization</div>
-		</div>
-		<p>
-		Etiam fringilla tempor est, nec consequat tortor tincidunt id. Vivamus a consequat libero. Aenean et ipsum vitae tellus fringilla sagittis vitae quis lacus. Nunc aliquet aliquam varius. Cras nec arcu et nisl tempus ullamcorper sed a nulla. Aliquam fringilla nulla id justo posuere volutpat. Quisque dictum, nisl quis scelerisque scelerisque, lacus orci ullamcorper mi, vel consectetur nisi felis ac nulla.
-		</p>
-		</section>
-		-->
 		
 		<section class="idi-person">
 		<a id="Mercer"></a>
@@ -332,6 +324,24 @@ Template Name: About Page
 		</div>
 		<p>
 		Dubbed the “Official Statistician of the Creative Class”, Kevin Stolarick, PhD, combines a depth of knowledge with an appreciation of the importance of finding and sharing the knowledge or “pearls of wisdom” gained from his comprehensive understanding of the Creative Class and the Creative Economy.  He has held faculty positions at the College of Humanities and Social Sciences and the H. John Heinz III School of Public Policy and Management, Carnegie Mellon University, Pittsburgh, Pennsylvania, USA and for over a decade worked with technology in the insurance industry as a manager of strategic projects.  He holds a PhD in Business Administration and an MBA from the Tepper School of Management, Carnegie Mellon University and a BS in Honors in Applied Computer Science from Illinois State University.</p>
+		</section>
+
+		<section class="idi-person">
+		<a id="Treviranus"></a>
+		<div class="idi-person-intro">
+			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Treviranus.jpg"/>
+			<h3>Jutta Treviranus</h3>
+			<div class="idi-people-position">Director of the <a href="http://idrc.ocad.ca/">Inclusive Design Research Centre</a></div>
+			<div class="idi-people-org"><a href="http://ocadu.ca">OCAD University</a></div>
+		</div>
+		<p>Jutta Treviranus is the Director of the Inclusive Design Research Centre (IDRC) and professor at OCAD University in Toronto,
+		formerly the Adaptive Technology Resource Centre. The IDRC conducts proactive research and development in the inclusive design
+		of emerging information and communication technology and practices. Jutta also heads the Inclusive Design Institute a multi-university
+		regional centre of expertise on inclusive design. Jutta has led many international multi-partner research networks that have
+		created broadly implemented technical innovations that support inclusion. These include the Fluid Project, Fluid Engage,
+		CulturAll, Stretch, FLOE and many others. Jutta and her team have pioneered personalization as an approach to accessibility
+		in the digital domain. She has played a leading role in developing accessibility legislation, standards and specification
+		internationally (including ISO 24751 , and AODA Information and Communication).</p>
 		</section>
 
 
