@@ -11,7 +11,7 @@ Template Name: Research Page
 		<?php get_sidebar('research'); ?>
 	</aside>
 
-	<div class="fl-col-flex idi-one-column idi-research">
+	<div id="content" class="fl-col-flex idi-one-column idi-research">
 		<ul class="fl-grid">
 			<li>
 				<section>
@@ -27,7 +27,9 @@ Template Name: Research Page
 									</div>
 								</div>
 							</a>
-							<h2>Design &amp; Development</h2>
+							<a href="design">
+								<h2>Design &amp; Development</h2>
+							</a>
 						</head>
 						<p>Creating tools, strategies, resources and exemplars that address all stages of ICT production and use</p>
 						<p><a class="idi-more" href="design">learn more</a></p>
@@ -49,9 +51,11 @@ Template Name: Research Page
 									</div>
 								</div>
 							</a>
-							<h2>Business Case, Policies, Standards &amp; Legislation</h2>
+							<a href="policies">
+								<h2>Business Case, Policies, Standards &amp; Legislation</h2>
+							</a>
 						</head>
-						<p>Engaging legislators, specifications bodies, advocacy grops and consumer communities in inclusive design research</p>
+						<p>Engaging legislators, specifications bodies, advocacy groups and consumer communities in inclusive design research</p>
 						<p><a class="idi-more" href="policies">learn more</a></p>
 					</div>
 				</section>
@@ -71,9 +75,11 @@ Template Name: Research Page
 									</div>
 								</div>
 							</a>
-							<h2>Mobile &amp; Pervasive Computing</h2>
+							<a href="mobile">
+								<h2>Mobile &amp; Pervasive Computing</h2>
+							</a>
 						</head>
-						<p>Focusing on mobile, context-aware and location-aware technologies, ubiquitous web application, pervasive computing and ambient intelligence</p>
+						<p>Focusing on mobile, context-aware and location-aware technologies, ubiquitous web applications, pervasive computing and ambient intelligence</p>
 						<p><a class="idi-more" href="mobile">learn more</a></p>
 					</div>
 				</section>
@@ -93,9 +99,11 @@ Template Name: Research Page
 									</div>
 								</div>
 							</a>
-							<h2>Implementation &amp; Information Practices</h2>
+							<a href="implementation">
+								<h2>Implementation &amp; Information Practices</h2>
+							</a>
 						</head>
-						<p>Examining the role of ICT and inclusive design in education, health, cultur and civic engagement</p>
+						<p>Examining the role of ICT and inclusive design in education, health, culture and civic engagement</p>
 						<p><a class="idi-more" href="implementation">learn more</a></p>
 					</div>
 				</section>
@@ -105,4 +113,10 @@ Template Name: Research Page
 
 </div>
 
-<?php get_footer(); ?>
+<?php 
+// Remove the id="content" attribute that is inherited from the parent theme "wordpress-fss-theme".
+// This attribute/value pair is re-defined in this page.
+remove_parent_contentID();
+
+get_footer(); 
+?>

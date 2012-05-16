@@ -7,7 +7,7 @@ Template Name: Infrastructure
 
 <div class="fl-centered fl-col-mixed fl-site-wrapper idi-infra">
 	<div class="fl-container-flex fl-col-flex4">
-		<div class="fl-col">&nbsp;</div>
+		<div class="fl-col"></div>
 		<div class="fl-col idi-3cols">
 			<h1>Equipment and space booking, calendering, and more coming soon.</h1>
 		</div>

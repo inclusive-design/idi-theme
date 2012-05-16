@@ -4,14 +4,16 @@
 
 <div class="idi-contact-info">
 	<h3>Contact</h3>
-	<div class="idi-mailing-address">
-		Faculty of Information<br/>
-		University of Toronto<br/>
-		<a href="http://g.co/maps/2zua7">
-			140 St. George St</a><br/>
-		Toronto, ON M5S 3G6<br/>
-		Canada
-	</div>
+	<address>
+		<div class="idi-mailing-address">
+			Faculty of Information<br/>
+			University of Toronto<br/>
+			<a href="http://g.co/maps/2zua7">
+				140 St. George St</a><br/>
+			Toronto, ON M5S 3G6<br/>
+			Canada
+		</div>
+	</address>
 </div>
 
 <h3>Leads</h3>

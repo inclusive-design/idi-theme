@@ -15,18 +15,27 @@ Template Name: Research Cluster
 
     <section class="fl-col-flex idi-one-column">
     	<div class="idi-breadcrumbs">
-			<a href="/research">Back to Research Clusters</a>
+			<a href="<?php echo get_home_url(); ?>/research">Back to Research Clusters</a>
     	</div>
 
-		<h2><?php the_title(); ?></h2>
-
-		<?php get_template_part("cluster-projects", $post->post_name); ?>
-
-		<div class="idi-cluster-description">
-			<?php get_template_part("cluster-description", $post->post_name); ?>
+		<div id="content">
+			<h2><?php the_title(); ?></h2>
+	
+			<?php get_template_part("cluster-projects", $post->post_name); ?>
+	
+			<div class="idi-cluster-description">
+				<?php get_template_part("cluster-description", $post->post_name); ?>
+			</div>
 		</div>
 	</section>
 
 </div>
 		
-<?php get_footer(); ?>
+<?php 
+// Remove the id="content" attribute that is inherited from the parent theme "wordpress-fss-theme".
+// This attribute/value pair is re-defined in this page.
+remove_parent_contentID();
+
+get_footer(); 
+?>
+

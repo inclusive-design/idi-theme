@@ -1,3 +1,3 @@
 <p>The IDI is developing the business case for inclusive design through market and labour trend research and the study of the relationship between inclusive design and innovation.
 	We are bringing together consumers and researchers with disabilities, alternative language and cultural needs and industry leaders to engage legislators, specifications bodies,
-	advocacy grops and consumer communities in inclusive design research.</p>
+	advocacy groups and consumer communities in inclusive design research.</p>

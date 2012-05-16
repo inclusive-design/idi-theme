@@ -5,16 +5,18 @@
 
 <div class="idi-contact-info">
 	<h3>Contact</h3>
-	<div class="idi-mailing-address">
-		University of Ontario Institute of Technology<br/>
-		<a href="http://g.co/maps/tgw7d">
-		2000 Simcoe Street North</a><br/>
-		Oshawa, ON L1H 7K4<br/>
-		Canada
-	</div>
-	<div class="idi-phone">
-		(905) 721-8668
-	</div>
+	<address>
+		<div class="idi-mailing-address">
+			University of Ontario Institute of Technology<br/>
+			<a href="http://g.co/maps/tgw7d">
+			2000 Simcoe Street North</a><br/>
+			Oshawa, ON L1H 7K4<br/>
+			Canada
+		</div>
+		<div class="idi-phone">
+			(905) 721-8668
+		</div>
+	</address>
 </div>
 
 <h3>Leads</h3>
