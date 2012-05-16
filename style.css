@@ -480,6 +480,9 @@ h3,
     text-decoration: none;
     text-transform: lowercase;
 }
+.idi-research-clusters .idi-cluster-name:hover {
+    text-decoration: underline;
+}
 .idi-cluster-arrow {
     height: 20px;
     width: 30px;
@@ -496,20 +499,26 @@ h3,
     border-radius: 70px;
     border-radius: 70px;
 }
+.idi-design-link:hover ~ .idi-design-cluster-circle {
+    top: 193px;
+    left: 87px;
+    width: 147px;
+    height: 147px;
+    border-radius: 73px;
+    border-radius: 73px;
+}
 .idi-design-cluster-circle-colour {
     background-color: #16B36C;
 }
 .idi-design-cluster-name {
     top: 250px;
     left: 280px;
-    color: #16B36C;
     font-size: 1.75em;
     width: 8em;
 }
-.idi-design-link:hover ~ .idi-design-cluster-circle {
-/* waiting for designs for hover styling
-    border: 2px solid yellow;
-*/
+.idi-design-cluster-name,
+.idi-design-cluster-name:hover {
+    color: #16B36C;
 }
 .idi-design-cluster-arrow {
     background-image:  url("images/arrows/arrowresearch-green.png");
@@ -526,20 +535,26 @@ h3,
     border-radius: 35px;
     border-radius: 35px;
 }
+.idi-policies-link:hover ~ .idi-policies-cluster-circle {
+    top: 402px;
+    left: 227px;
+    width: 76px;
+    height: 76px;
+    border-radius: 38px;
+    border-radius: 38px;
+}
 .idi-policies-cluster-circle-colour {
     background-color: #EE5B24;
 }
 .idi-policies-cluster-name {
     top: 417px;
     left: 342px;
-    color: #EE5B24;
     font-size: 1.5em;
     width: 12em;
 }
-.idi-policies-link:hover ~ .idi-policies-cluster-circle {
-/*
-    border: 2px solid yellow;
-*/
+.idi-policies-cluster-name,
+.idi-policies-cluster-name:hover {
+    color: #EE5B24;
 }
 .idi-policies-cluster-arrow {
     background-image:  url("images/arrows/arrowresearch-red.png");
@@ -556,21 +571,27 @@ h3,
     border-radius: 80px;
     border-radius: 80px;
 }
+.idi-implementation-link:hover ~ .idi-implementation-cluster-circle {
+    top: 52px;
+    right: 167px;
+    width: 166px;
+    height: 166px;
+    border-radius: 83px;
+    border-radius: 83px;
+}
 .idi-implementation-cluster-circle-colour {
     background-color: #FFCC00;
 }
 .idi-implementation-cluster-name {
     top: 94px;
     right: 392px;
-    color: #FFCC00;
     font-size: 1.5em;
     width: 10em;
     text-align: right;
 }
-.idi-implementation-link:hover ~ .idi-implementation-cluster-circle {
-/*
-    border: 2px solid yellow;
-*/
+.idi-implementation-cluster-name,
+.idi-implementation-cluster-name:hover {
+    color: #FFCC00;
 }
 .idi-implementation-cluster-arrow {
     background-image:  url("images/arrows/arrowresearch-orange.png");
@@ -588,20 +609,26 @@ h3,
     border-radius: 50px;
     opacity: 0.45;
 }
+.idi-mobile-link:hover ~ .idi-mobile-cluster-circle {
+    top: 140px;
+    left: 637px;
+    width: 106px;
+    height: 106px;
+    border-radius: 53px;
+    border-radius: 53px;
+}
 .idi-mobile-cluster-circle-colour {
     background-color: #00ADE4;
 }
 .idi-mobile-cluster-name {
     top: 217px;
     left: 772px;
-    color: #00ADE4;
     font-size: 1.3125em;
     width: 7em; 
 }
-.idi-mobile-link:hover ~ .idi-mobile-cluster-circle {
-/*
-    border: 2px solid yellow;
-*/
+.idi-mobile-cluster-name,
+.idi-mobile-cluster-name:hover {
+    color: #00ADE4;
 }
 .idi-mobile-cluster-arrow {
     background-image:  url("images/arrows/arrowresearch-blue.png");
