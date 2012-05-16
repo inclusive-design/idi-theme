@@ -157,14 +157,14 @@ h3,
 }
 /* Background of main content */
 .fl-site-link {
-    width: 17em;
+    width: 22em;
     margin-left: auto;
     margin-right: auto;
 }
 .fl-site-link a {
     background-repeat: no-repeat;
     background-image: url('images/logos/logo.png');
-    background-position: 2.7em 0;
+    background-position: 4.1em 0;
     margin-left: auto;
     margin-right: auto;
     height: 4.3em;
