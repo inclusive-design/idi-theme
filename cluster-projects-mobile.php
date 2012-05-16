@@ -20,5 +20,14 @@
 						This project will develop a platform to deliver interactive health information and education which will function across diverse mobile devices.
 					</div>
 				</section>
+				<section class="idi-project fl-col-mixed">
+					<div class="fl-col-fixed fl-force-left">
+						<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
+					</div>
+					<div class="fl-col-flex">
+						<h3><a href="http://eilab.ca">EILab</a></h3>
+						The Educational Informatics Lab at the University of Ontario Institute of Technology is specifically designed to examine interactions in a learning relationship when it happens through any form of digital interface.
+					</div>
+				</section>
 			</div>
 		</div>

@@ -21,7 +21,7 @@
 
 <h3>Leads</h3>
 <div class="idi-project-lead">	
-	<span class="idi-project-lead-name">Ron Owsten</span>
+	<span class="idi-project-lead-name">Ron Owston</span>
 	<div class="idi-project-lead-blurb">Director of the Institute for Research in Learning Technologies</div>
 </div>
 
