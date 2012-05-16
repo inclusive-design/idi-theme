@@ -91,6 +91,7 @@ a:focus,
 .twitter-feed-group a.twitter-follow-button:focus,
 .fl-site-link:hover a,
 .fl-site-link a:focus,
+.idi-map-link h2:hover,
 .idi-map-link:focus h2 {
     color: #00ADE4;
 }
