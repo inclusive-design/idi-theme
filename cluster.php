@@ -9,7 +9,7 @@ Template Name: Research Cluster
 	<div class="idi-underlay idi-<?php echo $post->post_name; ?>-underlay"></div>
 
 	<aside class="idi-project-leads fl-col-fixed fl-force-left">
-		<h3>Project leads</h3>
+		<h3>Cluster leads</h3>
 		<?php get_template_part("cluster-leads", $post->post_name); ?>
 	</aside>
 
