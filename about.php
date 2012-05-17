@@ -64,7 +64,7 @@ Template Name: About Page
 			<div class="idi-people-org"><a href="http://uoit.ca">Univ. of Ontario Institute of Technology</a></div>
 		</div>
 		<p>
-		Dr Desjardins’ academic career has been focused on the study of the role technology can play in the learning process at different levels.  In the past few years, that interest has moved towards mobile-learning and it’s potential to alter our thinking about pedagogy.
+		Dr <span lang="fr">Desjardins'</span> academic career has been focused on the study of the role technology can play in the learning process at different levels.  In the past few years, that interest has moved towards mobile-learning and it’s potential to alter our thinking about pedagogy.
 		</p>
 		<p>
 		As the former Associate Dean of Education (UOIT), Dr Desjardins was responsible for launching the Masters in Education and Digital Technology as well as the BA program in Adult Education and Digital Technology, both entirely offered online with regular face-to-face meetings in a desktop videoconferencing system.
@@ -145,13 +145,13 @@ Template Name: About Page
 		<section class="idi-person">
 		<a id="Jadad"></a>
 		<div class="idi-person-intro">
-			<img class="idi-about-person" title="Alejandro (Alex) Jadad" alt="Alejandro (Alex) Jadad" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Jadad.jpg"/>
-			<h3>Alejandro (Alex) Jadad</h3>
+			<img class="idi-about-person" title="Alejandro (Alex) Jadad" alt="Alejandro (Alex) Jadad" lang="es" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Jadad.jpg"/>
+			<h3 lang="es">Alejandro (Alex) Jadad</h3>
 			<div class="idi-people-position">Chief Innovator and Founder, <a href="http://www.ehealthinnovation.org/">Centre for Global eHealth Innovation</a></div>
 			<div class="idi-people-org"><a href="http://www.uhn.ca">University Health Network</a></div>
 		</div>
 		<p>
-		Dr. Jadad is a physician, educator, researcher and public advocate, whose mission is to help improve health and wellness for all, thorough information and communication technologies (ICTs).
+		Dr. <span lang="es">Jadad</span> is a physician, educator, researcher and public advocate, whose mission is to help improve health and wellness for all, thorough information and communication technologies (ICTs).
 		</p>
 		<p>
 		He has been called a «human Internet», as his research and innovation work seeks to identify and connect the best minds, the best knowledge and the best tools across traditional boundaries to eliminate unnecessary suffering. Such work focuses on a radical 'glocal' innovation model designed to improve the capacity of humans to imagine, create and promote new and better approaches to living, healing, working and learning across the world. Powered by social networks and other leading-edge telecommunication tools, his projects attempt to anticipate and respond to major public health threats (e.g., multiple chronic conditions, pandemics) through strong and sustainable international collaboration, and to enable the public (particularly young people) to shape the health system and society.
@@ -317,12 +317,12 @@ Template Name: About Page
 		<section class="idi-person">
 		<a id="Treviranus"></a>
 		<div class="idi-person-intro">
-			<img class="idi-about-person" title="Jutta Treviranus" alt="Jutta Treviranus" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Treviranus.jpg"/>
-			<h3>Jutta Treviranus</h3>
+			<img class="idi-about-person" title="Jutta Treviranus" alt="Jutta Treviranus" lang="de" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Treviranus.jpg"/>
+			<h3 lang="de">Jutta Treviranus</h3>
 			<div class="idi-people-position">Director of the <a href="http://idrc.ocad.ca/">Inclusive Design Research Centre</a></div>
 			<div class="idi-people-org"><a href="http://ocadu.ca">OCAD University</a></div>
 		</div>
-		<p>Jutta Treviranus is the Director of the Inclusive Design Research Centre (IDRC) and professor at OCAD University in Toronto,
+		<p><span lang="de">Jutta Treviranus</span> is the Director of the Inclusive Design Research Centre (IDRC) and professor at OCAD University in Toronto,
 		formerly the Adaptive Technology Resource Centre. The IDRC conducts proactive research and development in the inclusive design
 		of emerging information and communication technology and practices. Jutta also heads the Inclusive Design Institute a multi-university
 		regional centre of expertise on inclusive design. Jutta has led many international multi-partner research networks that have
