@@ -1,7 +1,7 @@
 		<div class="fl-col-flex2">
 			<div class="fl-col">
 				<section class="idi-project fl-col-mixed">
-					<div class="fl-col-fixed fl-force-left">
+					<div class="idi-project-logo fl-col-fixed fl-force-left">
 						<a class="idi-project-logo" href="http://floeproject.org"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/floe-logo.png" title="Floe Project logo" alt="Floe Project logo" /></a>
 					</div>
 					<div class="fl-col-flex">
@@ -10,7 +10,7 @@
 					</div>
 				</section>
 				<section class="idi-project fl-col-mixed">
-					<div class="fl-col-fixed fl-force-left">
+					<div class="idi-project-logo fl-col-fixed fl-force-left">
 						<a class="idi-project-logo" href="http://fluidproject.org"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/fluid_logo.png" title="Fluid Project logo" alt="Fluid Project logo" /></a>
 					</div>
 					<div class="fl-col-flex">
@@ -21,8 +21,8 @@
 			</div>
 			<div class="fl-col">
 				<section class="idi-project fl-col-mixed">
-					<div class="fl-col-fixed fl-force-left">
-						<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
+					<div class="idi-project-logo fl-col-fixed fl-force-left">
+						<img class="idi-logo-placeholder" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
 					</div>
 					<div class="fl-col-flex">
 						<h3><a href="http://cdot.senecac.on.ca/">Technologies and Tools for the Open Web</a></h3>
