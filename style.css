@@ -477,6 +477,11 @@ h3,
 .fl-site-nav-main.sticky .idi-nav-links {
     background: url("images/bg.png") repeat scroll center center transparent;
 }
+.fl-theme-uio-yb .fl-site-nav-main.sticky .idi-nav-links, .fl-theme-uio-wb .fl-site-nav-main.sticky .idi-nav-links,
+.fl-theme-uio-by .fl-site-nav-main.sticky .idi-nav-links, .fl-theme-uio-bw .fl-site-nav-main.sticky .idi-nav-links {
+    background: none;
+}
+
 .fl-site-nav-main.sticky .idi-nav-links-buffer {
     background: url("images/divider-stickynav.png") no-repeat scroll center bottom transparent;
     height: 40px;
@@ -484,6 +489,20 @@ h3,
 .idi-about-nav.sticky {
     position: fixed;
     top: 3em;
+}
+
+.fl-theme-uio-yb .fl-site-nav-main.sticky .idi-nav-links-buffer {
+    background: none;
+    border-top: 1px solid #FFFF00;
+}
+.fl-theme-uio-wb .fl-site-nav-main.sticky .idi-nav-links-buffer {
+    background: none;
+    border-top: 1px solid #FFFFFF;
+}
+.fl-theme-uio-by .fl-site-nav-main.sticky .idi-nav-links-buffer,
+.fl-theme-uio-bw .fl-site-nav-main.sticky .idi-nav-links-buffer {
+    background: none;
+    border-top: 1px solid #000000;
 }
 
 /**
@@ -727,6 +746,20 @@ h3,
     background-repeat: no-repeat;
     background-position: center top;
 }
+.fl-theme-uio-yb .fl-site-footer {
+    background-image: none;
+    border-top: 1px solid #FFFF00;
+}
+.fl-theme-uio-wb .fl-site-footer {
+    background-image: none;
+    border-top: 1px solid #FFFFFF;
+}
+.fl-theme-uio-by .fl-site-footer,
+.fl-theme-uio-bw .fl-site-footer {
+    background-image: none;
+    border-top: 1px solid #000000;
+}
+
 .fl-site-footer .idi-cfi {
     margin-top: 1em;
     font-size: 1.2em;
