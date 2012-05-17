@@ -24,7 +24,7 @@ add_action('wp_head', 'add_idi_files');
  */
 function idi_excerpt_more($more) {
 	global $post;
-	return '<p><a class="idi-more" href="'. get_permalink($post->ID) . '">read article</a></p>';
+	return '<p><a class="idi-more" title="'. $post->post_title .'" href="'. get_permalink($post->ID) . '">read article</a></p>';
 
 }
 add_filter('excerpt_more', 'idi_excerpt_more');
