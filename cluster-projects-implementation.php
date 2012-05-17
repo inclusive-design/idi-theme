@@ -2,7 +2,7 @@
 			<div class="fl-col">
 				<section class="idi-project fl-col-mixed">
 					<div class="idi-project-logo fl-col-fixed fl-force-left">
-						<a class="idi-project-logo" href=""><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" /></a>
+						<img class="idi-logo-placeholder" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
 					</div>
 					<div class="fl-col-flex">
 						<h3><a href="http://openvulab.org/">Open Virtual Usability Lab</a></h3>
@@ -11,7 +11,7 @@
 				</section>
 				<section class="idi-project fl-col-mixed">
 					<div class="idi-project-logo fl-col-fixed fl-force-left">
-						<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
+						<img class="idi-logo-placeholder" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
 					</div>
 					<div class="fl-col-flex">
 						<h3><a href="http://irlt.yorku.ca/">Compareware</a></h3>
@@ -22,7 +22,7 @@
 			<div class="fl-col">
 				<section class="idi-project fl-col-mixed">
 					<div class="idi-project-logo fl-col-fixed fl-force-left">
-						<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
+						<img class="idi-logo-placeholder" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
 					</div>
 					<div class="fl-col-flex">
 						<h3><a href="http://www.livedescribe.com/">LiveDescribe</a></h3>

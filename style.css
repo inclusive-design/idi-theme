@@ -1637,3 +1637,22 @@ a.idi-project-link {
     text-shadow: none;
     box-shadow: none;
 }
+
+
+/* High-contrast versions of project logo placeholder (which is <img>, not background image) */
+.fl-theme-uio-yb .idi-logo-placeholder,
+.fl-theme-uio-wb .idi-logo-placeholder,
+.fl-theme-uio-by .idi-logo-placeholder,
+.fl-theme-uio-bw .idi-logo-placeholder {
+    visibility: hidden;
+}
+.fl-theme-uio-yb .idi-project-logo {
+    background: url('images/logoplaceholder/logoplaceholder-yellow.png') no-repeat left center;
+}
+.fl-theme-uio-wb .idi-project-logo {
+    background: url('images/logoplaceholder/logoplaceholder-white.png') no-repeat left center;
+}
+.fl-theme-uio-by .idi-project-logo,
+.fl-theme-uio-bw .idi-project-logo {
+    background: url('images/logoplaceholder/logoplaceholder-black.png') no-repeat left center;
+}
