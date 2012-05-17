@@ -47,8 +47,14 @@ Version: 1.0
 
 :focus,
 .fl-site-nav-main a:focus,
-.fl-uiOptions-fatPanel .fl-toggleButton:focus  {
+.fl-uiOptions-fatPanel .fl-toggleButton:focus,
+.idi-article-list ul li a:focus,
+ul.idi-institution-list li a:focus  {
     border: 5px solid #FFCC00;
+}
+
+:active {
+    border: none;
 }
 
 .idi-no-tab-focus:focus {
@@ -94,7 +100,9 @@ body.fl-theme-uio-bw, body.fl-theme-uio-wb { background-image: none; }
 }
 a {
     color: #0076B0;
+    border: 5px solid transparent; 
 }
+
 a:hover,
 a:focus,
 .twitter-feed-group a.twitter-follow-button:hover,
@@ -993,10 +1001,10 @@ ul.idi-institution-list {
 }
 ul.idi-institution-list li {
     color: #0076B0;
-    padding-bottom: .22em;
 }
 ul.idi-institution-list li a {
     display: block;
+    border-width: 2px 0px;
 }
 .fl-theme-uio-yb ul.idi-institution-list li:before { color: #FFFF00; }
 .fl-theme-uio-wb ul.idi-institution-list li:before { color: #FFFFFF; }
@@ -1099,10 +1107,10 @@ form#idiMailingListSignup input {
 }
 .idi-article-list ul li {
     list-style-type: none;
-    margin-bottom: 0.5em;
 }
 .idi-article-list ul li a {
     display: block;
+    border-width: 5px 0px;
 }
 .idi-news-article,
 .idi-news-article.idi-breadcrumbs {
@@ -1361,6 +1369,9 @@ img.idi-about-person {
 .idi-project h3 {
     font-style: normal;
     margin-bottom: 0.3em;
+}
+.idi-project h3 a {
+    display: block;
 }
 .idi-project-leads {
     margin-left: 0.5em;
