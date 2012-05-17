@@ -45,6 +45,11 @@ Version: 1.0
   src: local('Lato Black'), local('Lato-Black'), url('fonts/Lato-Black.woff') format('woff');
 }
 
+:focus,
+.fl-site-nav-main a:focus,
+.fl-uiOptions-fatPanel .fl-toggleButton:focus  {
+    border: 5px solid #FFCC00;
+}
 .aligncenter {
     margin-left: auto;
     margin-right: auto;
@@ -95,6 +100,31 @@ a:focus,
 .idi-map-link:focus h2 {
     color: #00ADE4;
 }
+/* Link hover style: inverse */
+.fl-theme-uio-yb a:hover, .fl-theme-uio-yb a:focus,
+.fl-theme-uio-yb a.idi-cluster-name:hover,
+.fl-theme-uio-yb a.idi-cluster-name:focus { background-color: #FFFF00 !important; color: #000000 !important; text-decoration: none; }
+.fl-theme-uio-wb a:hover, .fl-theme-uio-wb a:focus,
+.fl-theme-uio-wb a.idi-cluster-name:hover,
+.fl-theme-uio-wb a.idi-cluster-name:focus { background-color: #FFFFFF !important; color: #000000 !important; text-decoration: none; }
+.fl-theme-uio-by a:hover, .fl-theme-uio-by a:focus,
+.fl-theme-uio-by a.idi-cluster-name:hover,
+.fl-theme-uio-by a.idi-cluster-name:focus { background-color: #000000 !important; color: #FFFF00 !important; text-decoration: none; }
+.fl-theme-uio-bw a:hover, .fl-theme-uio-bw a:focus,
+.fl-theme-uio-bw a.idi-cluster-name:hover,
+.fl-theme-uio-bw a.idi-cluster-name:focus { background-color: #000000 !important; color: #FFFFFF !important; text-decoration: none; }
+
+/* No inverse on logo and main nav */
+.fl-theme-uio-yb .fl-site-link a:hover, .fl-theme-uio-wb .fl-site-link a:hover,
+.fl-theme-uio-by .fl-site-link a:hover, .fl-theme-uio-bw .fl-site-link a:hover,
+.fl-theme-uio-yb .fl-site-nav-main a:hover, .fl-theme-uio-wb .fl-site-nav-main a:hover,
+.fl-theme-uio-by .fl-site-nav-main a:hover, .fl-theme-uio-bw .fl-site-nav-main a:hover,
+.fl-theme-uio-yb .fl-site-link a:focus, .fl-theme-uio-wb .fl-site-link a:focus,
+.fl-theme-uio-by .fl-site-link a:focus, .fl-theme-uio-bw .fl-site-link a:focus,
+.fl-theme-uio-yb .fl-site-nav-main a:focus, .fl-theme-uio-wb .fl-site-nav-main a:focus,
+.fl-theme-uio-by .fl-site-nav-main a:focus, .fl-theme-uio-bw .fl-site-nav-main a:focus
+    { background-color: inherit !important; color: inherit !important; }
+
 h1 {
     font-size: 3em;
     margin-top: 0.5em;
@@ -172,6 +202,12 @@ h3,
     margin-left: auto;
     margin-right: auto;
     height: 4.3em;
+    margin-bottom: 0.25em;
+    text-transform: lowercase;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.75em;
+    color: #999999;
 }
 .fl-site-link span {
     top: 84px;
@@ -195,14 +231,6 @@ h3,
 .fl-theme-uio-wb .fl-site-link a,
 .fl-theme-uio-bw .fl-site-link a {
     font-weight: 300;
-}
-.fl-site-link a {
-    margin-bottom: 0.25em;
-    text-transform: lowercase;
-    text-align: center;
-    font-style: italic;
-    font-size: 1.75em;
-    color: #999999;
 }
 .fl-site-header a {
     text-decoration: none;
@@ -272,24 +300,30 @@ h3,
 .fl-theme-bw .fl-site-nav-main a:active { border: 2px solid #000000 !important; }
 
 /* high-contrast current-link colours */
-.fl-theme-uio-yb a.current_page_item,
-.fl-theme-uio-wb a.current_page_item {
+.fl-theme-uio-yb a.current_page_item, .fl-theme-uio-wb a.current_page_item,
+.fl-theme-uio-yb a.current_page_item:hover, .fl-theme-uio-wb a.current_page_item:hover,
+.fl-theme-uio-yb a.current_page_item:focus, .fl-theme-uio-wb a.current_page_item:focus {
     color: #000000 !important;
 }
-.fl-theme-uio-yb a.current_page_item {
+.fl-theme-uio-yb a.current_page_item, .fl-theme-uio-yb a.current_page_item:hover,
+.fl-theme-uio-yb a.current_page_item:focus {
     background-color: #FFFF00 !important;
 }
-.fl-theme-uio-wb a.current_page_item {
+.fl-theme-uio-wb a.current_page_item, .fl-theme-uio-wb a.current_page_item:hover,
+.fl-theme-uio-wb a.current_page_item:focus {
     background-color: #FFFFFF !important;
 }
-.fl-theme-uio-by a.current_page_item {
+.fl-theme-uio-by a.current_page_item, .fl-theme-uio-by a.current_page_item:hover,
+.fl-theme-uio-by a.current_page_item:focus {
     color: #FFFF00 !important;
 }
-.fl-theme-uio-by a.current_page_item,
-.fl-theme-uio-bw a.current_page_item {
+.fl-theme-uio-by a.current_page_item, .fl-theme-uio-bw a.current_page_item,
+.fl-theme-uio-by a.current_page_item:hover, .fl-theme-uio-bw a.current_page_item:hover,
+.fl-theme-uio-by a.current_page_item:focus, .fl-theme-uio-bw a.current_page_item:focus {
     background-color: #000000 !important;
 }
-.fl-theme-uio-bw a.current_page_item {
+.fl-theme-uio-bw a.current_page_item, .fl-theme-uio-bw a.current_page_item:hover,
+.fl-theme-uio-bw a.current_page_item:focus {
     color: #FFFFFF !important;
 }
 /* custom icons for each main nav link */
@@ -446,6 +480,11 @@ h3,
 .fl-site-nav-main.sticky .idi-nav-links {
     background: url("images/bg.png") repeat scroll center center transparent;
 }
+.fl-theme-uio-yb .fl-site-nav-main.sticky .idi-nav-links, .fl-theme-uio-wb .fl-site-nav-main.sticky .idi-nav-links,
+.fl-theme-uio-by .fl-site-nav-main.sticky .idi-nav-links, .fl-theme-uio-bw .fl-site-nav-main.sticky .idi-nav-links {
+    background: none;
+}
+
 .fl-site-nav-main.sticky .idi-nav-links-buffer {
     background: url("images/divider-stickynav.png") no-repeat scroll center bottom transparent;
     height: 40px;
@@ -453,6 +492,20 @@ h3,
 .idi-about-nav.sticky {
     position: fixed;
     top: 3em;
+}
+
+.fl-theme-uio-yb .fl-site-nav-main.sticky .idi-nav-links-buffer {
+    background: none;
+    border-top: 1px solid #FFFF00;
+}
+.fl-theme-uio-wb .fl-site-nav-main.sticky .idi-nav-links-buffer {
+    background: none;
+    border-top: 1px solid #FFFFFF;
+}
+.fl-theme-uio-by .fl-site-nav-main.sticky .idi-nav-links-buffer,
+.fl-theme-uio-bw .fl-site-nav-main.sticky .idi-nav-links-buffer {
+    background: none;
+    border-top: 1px solid #000000;
 }
 
 /**
@@ -496,7 +549,7 @@ h3,
     text-decoration: none;
     text-transform: lowercase;
 }
-.idi-research-clusters .idi-cluster-name:hover {
+.idi-research-clusters .idi-cluster-name:hover, .idi-research-clusters .idi-cluster-name:focus {
     text-decoration: underline;
 }
 .idi-cluster-arrow {
@@ -607,7 +660,7 @@ h3,
 }
 .idi-implementation-cluster-name,
 .idi-implementation-cluster-name:hover {
-    color: #FFCC00;
+    color: #F9A31C;
 }
 .idi-implementation-cluster-arrow {
     background-image:  url("images/arrows/arrowresearch-orange.png");
@@ -696,6 +749,20 @@ h3,
     background-repeat: no-repeat;
     background-position: center top;
 }
+.fl-theme-uio-yb .fl-site-footer {
+    background-image: none;
+    border-top: 1px solid #FFFF00;
+}
+.fl-theme-uio-wb .fl-site-footer {
+    background-image: none;
+    border-top: 1px solid #FFFFFF;
+}
+.fl-theme-uio-by .fl-site-footer,
+.fl-theme-uio-bw .fl-site-footer {
+    background-image: none;
+    border-top: 1px solid #000000;
+}
+
 .fl-site-footer .idi-cfi {
     margin-top: 1em;
     font-size: 1.2em;
@@ -719,29 +786,12 @@ h3,
 }
 
 /* Twitter widget */
-.twitter-feed-group h2 {
-    background-image: url("images/twitter_bird.png");
-    background-repeat: no-repeat;
-    background-position: 0 50%;
-    padding-left: 2em;
-    display: inline-block;
-    font-weight: normal;
-    color: #f4be3d;
-    text-transform: lowercase;
-    font-style: italic;
-}
 .twitter-feed-group .tweet-container {
     padding: 1em;
 }
 .twitter-feed-group {
     margin-bottom: 1em;
 }
-/* right now, these hc icons don't work because of a background color; don't know why */
-.fl-theme-uio-yb .twitter-feed-group { background-image: url('images/news-tweet/tweet-yellow.png'); }
-.fl-theme-uio-wb .twitter-feed-group { background-image: url('images/news-tweet/tweet-white.png'); }
-.fl-theme-uio-by .twitter-feed-group,
-.fl-theme-uio-bw .twitter-feed-group { background-image: url('images/news-tweet/tweet-black.png'); }
-
 .twitter-feed-group a.twitter-follow-button {
     display: block;
     font-size: 1.2em;
@@ -754,7 +804,14 @@ h3,
     background-size: 1.6em auto;
     background-position: 100% 20%;
 }
-.twitter-feed-group a.twitter-follow-button:hover, .twitter-feed-group a.twitter-follow-button:focus { background-image: url('images/news-tweet/tweet-hover.png'); }
+.twitter-feed-group a.twitter-follow-button:hover, .twitter-feed-group a.twitter-follow-button:focus {
+    background-image: url('images/news-tweet/tweet-hover.png');
+}
+.fl-theme-uio-yb .twitter-feed-group a.twitter-follow-button { background-image: url('images/news-tweet/tweet-yellow.png'); }
+.fl-theme-uio-wb .twitter-feed-group a.twitter-follow-button { background-image: url('images/news-tweet/tweet-white.png'); }
+.fl-theme-uio-by .twitter-feed-group a.twitter-follow-button,
+.fl-theme-uio-bw .twitter-feed-group a.twitter-follow-button { background-image: url('images/news-tweet/tweet-black.png'); }
+
 .twitter-feed-group ul {
     margin: 0px;
 }
@@ -930,6 +987,9 @@ ul.idi-institution-list li {
     color: #0076B0;
     padding-bottom: .22em;
 }
+ul.idi-institution-list li a {
+    display: block;
+}
 .fl-theme-uio-yb ul.idi-institution-list li:before { color: #FFFF00; }
 .fl-theme-uio-wb ul.idi-institution-list li:before { color: #FFFFFF; }
 .fl-theme-uio-by ul.idi-institution-list li:before,
@@ -1032,6 +1092,9 @@ form#idiMailingListSignup input {
 .idi-article-list ul li {
     list-style-type: none;
     margin-bottom: 0.5em;
+}
+.idi-article-list ul li a {
+    display: block;
 }
 .idi-news-article,
 .idi-news-article.idi-breadcrumbs {
@@ -1216,8 +1279,12 @@ img.idi-about-person {
 .fl-theme-uio-by .idi-infra h2,
 .fl-theme-uio-bw .idi-infra h2 { background-image: url("images/contact/location-black.png"); }
 
+.fl-theme-uio-yb .idi-infra .idi-summary-title, .fl-theme-uio-wb .idi-infra .idi-summary-title,
+.fl-theme-uio-by .idi-infra .idi-summary-title, .fl-theme-uio-bw .idi-infra .idi-summary-title { background-image: none; }
+
 .idi-infra a.idi-map-link {
     text-decoration: none;
+    display:block;
 }
 .idi-infra-bookit {
     color: #0076B0;
