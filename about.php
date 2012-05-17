@@ -143,6 +143,19 @@ Template Name: About Page
 		</section>
 		
 		<section class="idi-person">
+		<a id="Grimes"></a>
+		<div class="idi-person-intro">
+			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Grimes.jpg"/>
+			<h3>Sara M. Grimes</h3>
+			<div class="idi-people-position">Assistant Professor, <a href="http://www.ischool.utoronto.ca/">Faculty of Information</a></div>
+			<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
+		</div>
+		<p>
+		Dr. Sara M. Grimes is an Assistant Professor of Children's Literature and New Media at the Faculty of Information, University of Toronto, and Visiting Professor at the University of St. Michael’s College. She researches and teaches primarily in the areas of children's digital media culture(s), play studies and critical theories of technology, with a special focus on digital games. Sara's work has appeared in journals such as New Media & Society, The Information Society, The International Journal of Media & Cultural Politics, and Communication, Culture & Critique. Her published work includes explorations of children's virtual worlds and online communities, examinations of online marketing targeted to children, the articulation of a critical theory of digital game play, and discussions of the legal and ethical dimensions of virtual property in online games. In addition to her own research on child-generated content in digital games, Sara is currently collaborating on a number of play-related projects. She is associate director of the Inclusive Design Institute UofT Mobile and Pervasive Computing Cluster, heading the Adaptive Gaming and Inclusive Play research area. She is co-applicant on a recently awarded Partnership Development Grant on Digital Economy Trading Zones, leading a reference project on Play. Sara is on the advisory boards of the Media Awareness Network’s Young Canadians in a Wired World Phase 3, TIFF Nexus New Media Literacy, and Atmosphere Industries' "Privacy: The Game!."
+		</p>
+		</section>
+		
+		<section class="idi-person">
 		<a id="Jadad"></a>
 		<div class="idi-person-intro">
 			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Jadad.jpg"/>
@@ -176,10 +189,11 @@ Template Name: About Page
 			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/McEwen.jpg"/>
 			<h3>Rhonda McEwen</h3>
 			<div class="idi-people-position">Assistant Professor</div>
-			<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
+			<div class="idi-people-org"><a href="http://www.utm.utoronto.ca/">University of Toronto Mississauga</a></div>
 		</div>
 		<p>
-		Rhonda McEwen is an Assistant Professor at the University of Toronto Mississauga where she teaches and conducts research on New Media. She spends most of her time at the Institute of Communication, Culture and Information Technology at UTM where she works with bright undergraduates, and she works with stellar graduate students at the iSchool (Faculty of Information) on the St. George campus. Her research and teaching centre around information practices involving new media technologies. She actively engages with questions on how we use, seek, share, and create information by using devices to talk, text, tweet, collect images, message via Facebook, LinkedIn, and other IM, at work and play. She also examines the ways that we perform identities in both 'real' and virtual worlds through avatars; how we integrate location awareness in our interactions; and she considers the consequences of the uses of technologies on our communication, sociality, and humanity.</p>
+			Rhonda McEwen is an Assistant Professor at the Institute of Communication, Culture, and Information Technology at the University of Toronto in Mississauga. She holds an MBA in Information Technology from City University in London, England, an MSc in Telecommunications from the University of Colorado, and a PhD in Information from University of Toronto. Dr. McEwen's research and teaching centre around information practices involving new media technologies, with an emphasis on mobile & tablet applications, social media design, and youth. She has designed and researched digital communications media for 15 years, both in companies providing services, and in management consulting to those companies. Dr. McEwen is currently researching the use of tablet devices by non-verbal autistic children for communication and sociality in two Toronto school settings.
+		</p>
 		</section>
 		
 		<section class="idi-person">
@@ -232,6 +246,19 @@ Template Name: About Page
 		</section>
 		
 		<section class="idi-person">
+		<a id="Pennefather"></a>
+		<div class="idi-person-intro">
+			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Pennefather.jpg"/>
+			<h3>Peter Pennefather</h3>
+			<div class="idi-people-position">Professor, <a href="http://pharmacy.utoronto.ca">Leslie Dan Faculty of Pharmacy</a></div>
+			<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
+		</div>
+		<p>
+			Rhonda McEwen is an Assistant Professor at the Institute of Communication, Culture, and Information Technology at the University of Toronto in Mississauga. She holds an MBA in Information Technology from City University in London, England, an MSc in Telecommunications from the University of Colorado, and a PhD in Information from University of Toronto. Dr. McEwen's research and teaching centre around information practices involving new media technologies, with an emphasis on mobile & tablet applications, social media design, and youth. She has designed and researched digital communications media for 15 years, both in companies providing services, and in management consulting to those companies. Dr. McEwen is currently researching the use of tablet devices by non-verbal autistic children for communication and sociality in two Toronto school settings.
+		</p>
+		</section>
+		
+		<section class="idi-person">
 		<a id="Ratto"></a>
 		<div class="idi-person-intro">
 			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Ratto.jpg"/>
@@ -240,7 +267,14 @@ Template Name: About Page
 			<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
 		</div>
 		<p>
-		Professor Ratto is developing critical making methodologies that blend scholarly reflection on critical information issues with hands-on material work. His SSHRC-funded project examines changing notions of labour and expertise in relation to 3D printing and rapid prototyping technologies. His work on the materialization of information has been awarded a grant from the Canadian Foundation of Information and the Ontario Research Fund. He is Director of the Critical Making Laboratory at the iSchool.</p>
+		Matt Ratto received his PhD from the University of California, San Diego in 2003, writing his dissertation on the social organization of the Linux development community. Following this, he completed a 2 year post-doc at the Netherlands Institute for Scientific Information (NIWI) and in 2005 helped create the Virtual Knowledge Studio for the Humanities and Social Sciences in Amsterdam (VKS-KNAW). In 2005, he was awarded a Netherlands Science Foundation (NWO) grant to study the use of computer simulation and modeling technologies in Archaeology and in 2007 was given a 1 year fellowship in the HUMlab, an innovative digital humanities laboratory located at the University of Umea, Sweden. He moved to the University of Toronto in 2008.
+		</p>
+		<p>
+		Matt is the director of the Critical Making lab at the University of Toronto. This facility provides students and faculty researchers with basic electrical, craft, and computing equipment that can be used to design, develop, and explore material fabrication and technical prototyping.
+		</p>
+		<p>
+		Matt is also the director of the ThingTank Lab, a private-public-academic consortium interested in investigating, exploring, and building capacity around new developments in tangible interfaces, smart objects, and digital infrastructures. Departing from the traditional model of the hackerspace, ThingTank is a “digital economy trading zone”, a virtual and physical space where Ontario companies, academic institutions, and community organizations can leverage their joint knowledge and skills in order to support each other in doing novel research, creating innovative products and services, and fostering creative and engaging work in the Internet of Things.
+		</p>
 		</section>
 		
 		<section class="idi-person">
