@@ -50,6 +50,11 @@ Version: 1.0
 .fl-uiOptions-fatPanel .fl-toggleButton:focus  {
     border: 5px solid #FFCC00;
 }
+
+.idi-no-tab-focus:focus {
+    border: none;
+}
+
 .aligncenter {
     margin-left: auto;
     margin-right: auto;
