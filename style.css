@@ -1270,6 +1270,9 @@ img.idi-about-person {
 .fl-theme-uio-by .idi-infra h2,
 .fl-theme-uio-bw .idi-infra h2 { background-image: url("images/contact/location-black.png"); }
 
+.fl-theme-uio-yb .idi-infra .idi-summary-title, .fl-theme-uio-wb .idi-infra .idi-summary-title,
+.fl-theme-uio-by .idi-infra .idi-summary-title, .fl-theme-uio-bw .idi-infra .idi-summary-title { background-image: none; }
+
 .idi-infra a.idi-map-link {
     text-decoration: none;
 }
