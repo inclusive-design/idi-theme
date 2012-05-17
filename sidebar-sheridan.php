@@ -1,5 +1,5 @@
 <div class="idi-inst-site-links">
-	<p><a class="idi-external-link" href="http://www.sheridancollege.ca/about%20sheridan/sheridan%20research/centres/vdi.aspx/">visit VDI site</a></p>
+	<p><a class="idi-external-link" href="http://www.sheridancollege.ca/Services/Sheridan%20Research.aspx">visit ARI site</a></p>
 	<p><a class="idi-external-link" href="http://www.sheridancollege.ca/">visit Sheridan site</a></p>
 </div>
 
@@ -7,7 +7,7 @@
 	<h3>Contact</h3>
 	<address>
 		<div class="idi-mailing-address">
-			Visualization Design Institute<br/>
+			Applied Research and Innovation<br/>
 			Sheridan College<br/>
 			<a href="http://g.co/maps/exr7d">
 			1430 Trafalgar Road</a><br/>

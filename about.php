@@ -40,9 +40,26 @@ Template Name: About Page
 			<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
 		</div>
 		<p>
-		Ronald Baecker is Professor of Computer Science, Bell Universities Laboratories Chair in Human-Computer Interaction, and Director of the Technologies for Aging Gracefully lab (TAGlab) at the University of Toronto. He has been named one of the 60 Pioneers of Computer Graphics by ACM SIGGRAPH, has been elected to the CHI (Computers and Human Interaction) Academy by ACM SIGCHI, and has been given the Canadian Human Computer Communications Society Achievement Award.</p>
+		Ronald Baecker is Professor of Computer Science, Bell Universities Laboratories Chair in Human-Computer Interaction, and Director of the Technologies for Aging Gracefully lab (TAGlab) at the University of Toronto. He has been named one of the 60 Pioneers of Computer Graphics by ACMSIGGRAPH, has been elected to the CHI (Computers and Human Interaction) Academy by ACMSIGCHI, and has been given the Canadian Human Computer Communications Society Achievement Award.
+		</p>
 		</section>
 		
+		<section class="idi-person">
+		<a id="Chau"></a>
+		<div class="idi-person-intro">
+			<img class="idi-about-person" title="Tom Chau" alt="Tom Chau" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Chau.jpg"/>
+			<h3>Tom Chau</h3>
+			<div class="idi-people-position">Associate Professor, <a href="http://ibbme.utoronto.ca/">Institute of Biomaterials & Biomedical Engineering</a></div>
+			<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
+		</div>
+		<p>
+		Tom Chau, Ph.D., P.Eng., received his education at the Universities of Toronto (BASc, MASc) and Waterloo (PhD). From 1996-97, he worked on a number of consulting contracts with KPMG Management Consulting and subsequently joined IBM Canada as a consultant in the Enterprise Resource Planning practice (1997-1999). In 1998, he was awarded an IBM Special Achievement Award as one of the highest grossing technical consultants in the Canadian practice. In 2000, Tom received the Duncan L. Gordon post-doctoral fellowship from the Hospital for Sick Children Foundation. He was appointed Canada Research Chair in Paediatric Rehabilitation Engineering at the University of Toronto in 2004 and a Scientist and Theme Leader at the Bloorview Research Institute in 2005.
+		</p>
+		<p>
+		Tom occupies his time with a combination of research, teaching, advocacy and fund raising. He draws motivation from witnessing the courage and tenacity of children with disabilities and their families. Tom cherishes the multidisciplinary milieu of health and allied health professions at Bloorview and within the University of Toronto community. In particular, he is inspired daily by the passion of his graduate students to make a difference through excellence in applied science and engineering.
+		</p>
+		</section>
+
 		<section class="idi-person">
 		<a id="Church"></a>
 		<div class="idi-person-intro">
@@ -107,14 +124,14 @@ Template Name: About Page
 		<div class="idi-person-intro">
 			<img class="idi-about-person" title="Richard Florida" alt="Richard Florida" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Florida.jpg"/>
 			<h3>Richard Florida</h3>
-			<div class="idi-people-position">Director and Professor of Business and Creativity, <a href="http://martinprosperity.org/">The Martin Prosperity Institute</a></div>
+			<div class="idi-people-position">Director, <a href="http://martinprosperity.org/">The Martin Prosperity Institute</a></div>
 			<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
 		</div>
 		<p>
-		In addition to his role as Director of the Martin Prosperity Institute, Dr. Florida is professor of Business and Creativity at the Rotman School. He is the founder of the Creative Class Group , a global think tank based in Washington, DC.
+		In addition to his role as Director of the Martin Prosperity Institute, Dr. Florida is professor of Business and Creativity at the Rotman School. He is the founder of the <a href="http://www.creativeclass.com/">Creative Class Group</a>, a global think tank based in Washington, DC.
 		</p>
 		<p>
-		Prior to joining the Rotman School he was the Hirst Professor of Public Policy at George Mason University and a senior scientist with the Gallup Organization. Prof. Florida taught for nearly two decades at Carnegie Mellon University and has been a visiting professor at MIT and Harvard University’s Kennedy School of Government. He earned his bachelor’s from Rutgers College and his Ph.D. from Columbia University. His books include three best sellers: The Rise of the Creative Class (Basic Books, 2002), The Flight of the Creative Class (Harper Collins, 2005) and Who’s Your City (Basic Books, 2008).
+		Prior to joining the Rotman School he was the Hirst Professor of Public Policy at George Mason University and a senior scientist with the Gallup Organization. Prof. Florida taught for nearly two decades at Carnegie Mellon University and has been a visiting professor at MIT and Harvard University’s Kennedy School of Government. He earned his bachelor’s from Rutgers College and his Ph.D. from Columbia University. His books include three best sellers: <a href="http://books.google.ca/books?id=4AcGvt3oX6IC">The Rise of the Creative Class</a> (Basic Books, 2002), <a href="http://books.google.ca/books?id=99CgGwAACAAJ">The Flight of the Creative Class</a> (Harper Collins, 2005) and <a href="http://www.creativeclass.com/_v3/whos_your_city/">Who’s Your City</a> (Basic Books, 2008).
 		</p>
 		</section>
 		
@@ -143,10 +160,23 @@ Template Name: About Page
 		</section>
 		
 		<section class="idi-person">
+		<a id="Grimes"></a>
+		<div class="idi-person-intro">
+			<img class="idi-about-person" title="Sara M. Grimes" alt="Sara M. Grimes" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Grimes.jpg"/>
+			<h3>Sara M. Grimes</h3>
+			<div class="idi-people-position">Assistant Professor, <a href="http://www.ischool.utoronto.ca/">Faculty of Information</a></div>
+			<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
+		</div>
+		<p>
+		Dr. Sara M. Grimes is an Assistant Professor of Children's Literature and New Media at the Faculty of Information, University of Toronto, and Visiting Professor at the University of St. Michael’s College. She researches and teaches primarily in the areas of children's digital media culture(s), play studies and critical theories of technology, with a special focus on digital games. Sara's work has appeared in journals such as New Media & Society, The Information Society, The International Journal of Media & Cultural Politics, and Communication, Culture & Critique. Her published work includes explorations of children's virtual worlds and online communities, examinations of online marketing targeted to children, the articulation of a critical theory of digital game play, and discussions of the legal and ethical dimensions of virtual property in online games. In addition to her own research on child-generated content in digital games, Sara is currently collaborating on a number of play-related projects. She is associate director of the Inclusive Design Institute UofT Mobile and Pervasive Computing Cluster, heading the Adaptive Gaming and Inclusive Play research area. She is co-applicant on a recently awarded Partnership Development Grant on Digital Economy Trading Zones, leading a reference project on Play. Sara is on the advisory boards of the Media Awareness Network’s Young Canadians in a Wired World Phase 3, TIFF Nexus New Media Literacy, and Atmosphere Industries' "Privacy: The Game!."
+		</p>
+		</section>
+		
+		<section class="idi-person">
 		<a id="Jadad"></a>
 		<div class="idi-person-intro">
 			<img class="idi-about-person" title="Alejandro (Alex) Jadad" alt="Alejandro (Alex) Jadad" lang="es" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Jadad.jpg"/>
-			<h3 lang="es">Alejandro (Alex) Jadad</h3>
+			<h3 lang="es">Alejandro (Alex) R. Jadad</h3>
 			<div class="idi-people-position">Chief Innovator and Founder, <a href="http://www.ehealthinnovation.org/">Centre for Global eHealth Innovation</a></div>
 			<div class="idi-people-org"><a href="http://www.uhn.ca">University Health Network</a></div>
 		</div>
@@ -176,10 +206,11 @@ Template Name: About Page
 			<img class="idi-about-person" title="Rhonda McEwen" alt="Rhonda McEwen" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/McEwen.jpg"/>
 			<h3>Rhonda McEwen</h3>
 			<div class="idi-people-position">Assistant Professor</div>
-			<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
+			<div class="idi-people-org"><a href="http://www.utm.utoronto.ca/">University of Toronto Mississauga</a></div>
 		</div>
 		<p>
-		Rhonda McEwen is an Assistant Professor at the University of Toronto Mississauga where she teaches and conducts research on New Media. She spends most of her time at the Institute of Communication, Culture and Information Technology at UTM where she works with bright undergraduates, and she works with stellar graduate students at the iSchool (Faculty of Information) on the St. George campus. Her research and teaching centre around information practices involving new media technologies. She actively engages with questions on how we use, seek, share, and create information by using devices to talk, text, tweet, collect images, message via Facebook, LinkedIn, and other IM, at work and play. She also examines the ways that we perform identities in both 'real' and virtual worlds through avatars; how we integrate location awareness in our interactions; and she considers the consequences of the uses of technologies on our communication, sociality, and humanity.</p>
+			Rhonda McEwen is an Assistant Professor at the Institute of Communication, Culture, and Information Technology at the University of Toronto in Mississauga. She holds an MBA in Information Technology from City University in London, England, an MSc in Telecommunications from the University of Colorado, and a PhD in Information from University of Toronto. Dr. McEwen's research and teaching centre around information practices involving new media technologies, with an emphasis on mobile & tablet applications, social media design, and youth. She has designed and researched digital communications media for 15 years, both in companies providing services, and in management consulting to those companies. Dr. McEwen is currently researching the use of tablet devices by non-verbal autistic children for communication and sociality in two Toronto school settings.
+		</p>
 		</section>
 		
 		<section class="idi-person">
@@ -196,15 +227,29 @@ Template Name: About Page
 		</section>
 		
 		<section class="idi-person">
+		<a id="Michalko"></a>
+		<div class="idi-person-intro">
+			<img class="idi-about-person" title="Rod Michalko" alt="Rod Michalko" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Michalko.jpg"/>
+			<h3>Rod Michalko</h3>
+			<div class="idi-people-position">Associate Professor, <a href="http://www.newcollege.utoronto.ca/academics/new-college-academic-programs/equity-studies/">Equity Studies</a></div>
+			<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
+		</div>
+		<p>
+		Rod Michalko, PhD, Associate Professor of Equity Studies, New College at the University of Toronto teaches disability studies in the Department of Equity Studies, New College, University of Toronto.  He is also adjunct professor of Disability Studies in the Critical Disability Studies program at York University. Rod is author of numerous articles and three books, the most recent, The Difference that Disability Makes(Temple UP 2002).  He is currently in the final stages of completing his forth book, Double Trouble: Disability and Disability Studies.  All of Rod’s work is committed to the exploration of disability as a cultural phenomenon and his starting point is his own blindness experience.
+		</p>
+		</section>
+		
+		<section class="idi-person">
 		<a id="Mihailidis"></a>
 		<div class="idi-person-intro">
 			<img class="idi-about-person" title="Alex Mihailidis" alt="Alex Mihailidis" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Mihailidis.jpg"/>
 			<h3>Alex Mihailidis</h3>
-			<div class="idi-people-position">Assistant Professor, <a href="http://www.ot.utoronto.ca/">Occupational Therapy</a></div>
+			<div class="idi-people-position">Associate Professor, <a href="http://www.ot.utoronto.ca/">Occupational Science and Occupational Therapy</a></div>
 			<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
 		</div>
 		<p>
-		Alex Mihailidis, Ph.D., P.Eng., is the Barbara G. Stymiest Research Chair in Rehabilitation Technology at the University of Toronto and Toronto Rehab Institute. He is an Associate Professor in the Department of Occupational Science and Occupational Therapy (U of T) and in the Institute of Biomaterials and Biomedical Engineering (U of T), with a cross appointment in the Department of Computer Science (U of T). He has been conducting research in the field of pervasive computing and intelligent systems in health for the past 13 years, having published over 100 journal papers, conference papers, and abstracts in this field. He has specifically focused on the development of intelligent home systems for elder care and wellness, technology for children with autism, and adaptive tools for nurses and clinical applications.</p>
+		Alex Mihailidis, Ph.D., P.Eng., is the Barbara G. Stymiest Research Chair in Rehabilitation Technology at the University of Toronto and Toronto Rehab Institute.  He is also the Graduate Coordinator for the Clinical Engineering Program.  He is an Associate Professor in the Department of Occupational Science and Occupational Therapy (U of T) and in the Institute of Biomaterials and Biomedical Engineering (U of T), with a cross appointment in the Department of Computer Science (U of T).   He has been conducting research in the field of pervasive computing and intelligent systems in health for the past 13 years, having published over 150 journal papers, conference papers, and abstracts in this field.  He has specifically focused on the development of intelligent home systems for elder care and wellness, technology for children with autism, and adaptive tools for nurses and clinical applications.  He currently holds several major research grants from internationally recognized funding agencies to support this work (including both the Canadian and American Alzheimer Associations, NSERC, and CIHR).  He is also a CIHR New Investigator.  His research has been completed through collaborations with other researchers in this field from Canada, the United Kingdom, and the United States, and with various industrial partners.  Dr. Mihailidis has also co-edited two books: one from CRC Press entitled “Pervasive computing in healthcare”, and the other from IOS Press entitled “Technology and Aging”, which resulted from him being the conference chair for the 2nd International Conference on Technology and Aging.  Dr. Mihailidis is also very active in the rehabilitation engineering profession, currently as the President-Elect for RESNA (Rehabilitation Engineering and Assistive Technology Society of North America).
+		</p>
 		</section>
 		
 		<section class="idi-person">
@@ -232,6 +277,19 @@ Template Name: About Page
 		</section>
 		
 		<section class="idi-person">
+		<a id="Pennefather"></a>
+		<div class="idi-person-intro">
+			<img class="idi-about-person" title="Peter Pennefather" alt="Peter Pennefather" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Pennefather.jpg"/>
+			<h3>Peter Pennefather</h3>
+			<div class="idi-people-position">Professor, <a href="http://pharmacy.utoronto.ca">Leslie Dan Faculty of Pharmacy</a></div>
+			<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
+		</div>
+		<p>
+		Professor Pennefather is academic director of the <a href="http://www.lcd.utoronto.ca">Laboratory for Collaborative Diagnostics</a>.  Current research focuses on the process of collaborative diagnostics and data sharing infrastructure used in health systems. His particular focus is on digital machine and internet assisted mapping and formating of physical signature data and information associated with human ascribed attributes and qualities of biological systems, medicinal products, and therapeutic outcomes. He is outreach director for the UofT <a href="http://www.kmdi.utoronto.ca">Knowledge Media and Design Institute</a> and a member of the Institute of Medical Science and department of Physiology graduate departments. Outside of UofT he is president of <a href="http://www.gdial.ca">gDial Inc.</a>.
+		</p>
+		</section>
+		
+		<section class="idi-person">
 		<a id="Ratto"></a>
 		<div class="idi-person-intro">
 			<img class="idi-about-person" title="Matt Ratto" alt="Matt Ratto" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Ratto.jpg"/>
@@ -240,7 +298,14 @@ Template Name: About Page
 			<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
 		</div>
 		<p>
-		Professor Ratto is developing critical making methodologies that blend scholarly reflection on critical information issues with hands-on material work. His SSHRC-funded project examines changing notions of labour and expertise in relation to 3D printing and rapid prototyping technologies. His work on the materialization of information has been awarded a grant from the Canadian Foundation of Information and the Ontario Research Fund. He is Director of the Critical Making Laboratory at the iSchool.</p>
+		Matt Ratto received his PhD from the University of California, San Diego in 2003, writing his dissertation on the social organization of the Linux development community. Following this, he completed a 2 year post-doc at the Netherlands Institute for Scientific Information (NIWI) and in 2005 helped create the Virtual Knowledge Studio for the Humanities and Social Sciences in Amsterdam (VKS-KNAW). In 2005, he was awarded a Netherlands Science Foundation (NWO) grant to study the use of computer simulation and modeling technologies in Archaeology and in 2007 was given a 1 year fellowship in the HUMlab, an innovative digital humanities laboratory located at the University of Umea, Sweden. He moved to the University of Toronto in 2008.
+		</p>
+		<p>
+		Matt is the director of the Critical Making lab at the University of Toronto. This facility provides students and faculty researchers with basic electrical, craft, and computing equipment that can be used to design, develop, and explore material fabrication and technical prototyping.
+		</p>
+		<p>
+		Matt is also the director of the ThingTank Lab, a private-public-academic consortium interested in investigating, exploring, and building capacity around new developments in tangible interfaces, smart objects, and digital infrastructures. Departing from the traditional model of the hackerspace, ThingTank is a “digital economy trading zone”, a virtual and physical space where Ontario companies, academic institutions, and community organizations can leverage their joint knowledge and skills in order to support each other in doing novel research, creating innovative products and services, and fostering creative and engaging work in the Internet of Things.
+		</p>
 		</section>
 		
 		<section class="idi-person">
@@ -264,7 +329,8 @@ Template Name: About Page
 			<div class="idi-people-org"><a href="http://www.ikit.org/">Institute for Knowledge Innovation and Technology</a></div>
 		</div>
 		<p>
-		Marlene Scardamalia holds the Presidents' Chair in Education and Knowledge Technologies at OISE/University of Toronto and directs IKIT, the Institute for Knowledge Innovation and Technology—a worldwide network of innovators working to advance the frontiers of knowledge building in various sectors. "Knowledge building," a term now widely used in education and knowledge management, originated with the CSILE/Knowledge Building project. Marlene led the team that created CSILE (Computer Supported Intentional Learning Environments), which was the first networked knowledge building environment for education. The second generation version of this technology, Knowledge Forum®, is in use in countries worldwide, in education, health, business, and professional organizations. Knowledge building theories, models, practices and technologies have been developed in partnership with Carl Bereiter and team members.</p>
+		Marlene Scardamalia holds the Presidents' Chair in Education and Knowledge Technologies at OISE/University of Toronto and directs IKIT, the Institute for Knowledge Innovation and Technology—a worldwide network of innovators working to advance the frontiers of knowledge building in various sectors. "Knowledge building," a term now widely used in education and knowledge management, originated with the CSILE/Knowledge Building project. Marlene led the team that created CSILE (Computer Supported Intentional Learning Environments), which was the first networked knowledge building environment for education. The second generation version of this technology, <a href="http://www.knowledgeforum.com/">Knowledge Forum®</a>, is in use in countries worldwide, in education, health, business, and professional organizations. Knowledge building theories, models, practices and technologies have been developed in partnership with Carl Bereiter and team members.
+		</p>
 		</section>
 		
 		<section class="idi-person">
@@ -272,17 +338,11 @@ Template Name: About Page
 		<div class="idi-person-intro">
 			<img class="idi-about-person" title="Jim Slotta" alt="Jim Slotta" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Slotta.jpg"/>
 			<h3>Jim Slotta</h3>
-			<div class="idi-people-position">Associate Professor, Center for Technology in Learning</div>
+			<div class="idi-people-position">Associate Professor, <a href="http://www.oise.utoronto.ca/">Ontario Institute for Studies in Education</a></div>
 			<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
 		</div>
 		<p>
-		Jim Slotta is a cognitive scientist and Associate Professor of Education at the Ontario Institute for Studies in Education (OISE) at the University of Toronto. 
-		</p>
-		<p>
-		In 2006, he was named Canada Research Chair in the area of Education and Technology.  He also received the 2006 World Technology Award in the category of education. 
-		</p>
-		<p>
-		Professor Slotta’s current research explores new models of technology-enhanced learning for “smart classrooms.”  His designs employ cutting edge technologies such as peer-to-peer networks, geographic information systems, multi-user virtual environments, probeware and cell phone systems in order to scaffold complex curriculum structures and patterns of interactions between students.   In order to deliver on the promise of open source and open content materials for education, he has helped to organize a dynamic international community of researchers and technologists who are designing common technology frameworks and exchanging tools and materials. Professor Slotta has published and presented widely concerning the opportunities, challenges and llimitations of technology-based environments.
+		Jim Slotta is an associate professor of education in the Ontario Institute for Studies in Education (OISE) at The University of Toronto, where he holds the Canada Research Chair in Education and Technology.  In 2006, he established the <a href="http://encorelab.org">ENCORE lab</a>, a talented team of students, designers and developers who investigate collaborative inquiry learning in formal (K-12) and informal (home, field and museum) settings. In collaboration with researchers from Oslo, Chicago and Berkeley, Slotta and his team have developed the Scalable Architecture for Interactive Learning (SAIL), as well as a framework for smart classroom research called SAIL Smart Space.  Recent funded projects have examined the use of embedded phenomena in elementary classrooms, distributed and ubiquitous learning in high school physics, and an immersive rainforest simulation for high school biology.  Together, these projects have advanced a theoretical model known as Knowledge Community and Inquiry (KCI).  Professor Slotta and his team have published their work widely, with more than 50 papers presented at major conferences in the past three years.  Taken together, this work examines how students can become a knowledge community, supported by technology, to enable inclusive participation and promote the growth of ideas.
 		</p>
 		</section>
 		
@@ -291,14 +351,14 @@ Template Name: About Page
 		<div class="idi-person-intro">
 			<img class="idi-about-person" title="Brian Cantwell Smith" alt="Brian Cantwell Smith" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/CantwellSmith.jpg"/>
 			<h3>Brian Cantwell Smith</h3>
-			<div class="idi-people-position">Professor & Director, <a href="http://www.ischool.utoronto.ca/">Faculty of Information</a></div>
+			<div class="idi-people-position">Professor<a href="http://www.ischool.utoronto.ca/">Faculty of Information</a></div>
 			<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
 		</div>
 		<p>
-		Brian Cantwell Smith is Dean of the Faculty of Information Studies at University of Toronto, Professor in the departments of Philosophy and Computer Science, and Canada Research Chair in the Foundations of Information.
+		Brian Cantwell Smith is a Professor in the Faculty of Information Studies at the University of Toronto. Dr. Smith recently served as the Dean of the Faculty; holds a Canada Research Chair in the Foundations of Information; and is cross-appointed as Professor in the departments of Philosophy and Computer Science and in the Program in Communication, Culture and Technology at University of Toronto at Mississauga. He is also a senior fellow at Massey College, a fellow of University College, and a member of the Trinity College Senior Common Room.
 		</p>
 		<p>
-		Smith's research focuses on the conceptual foundations of computation, information, and cognitive science, and on the use of computational metaphors in such fields as biology, physics, and art. These investigations have increasingly led him into metaphysics -- specifically, to an attempt to lay out a systematic metaphysics that aims (i) to steer a path between realism and constructivism, (ii) to account for the integrated emergence of subject and object, and (iii) to reconcile our causal and normative understandings of the world ("matter" and "mattering"). A first cut at this project was first described in On the Origin of Objects (MIT, 1996). A multi-volume study of the foundations of computing, The Age of Significance, is being simultaneously published by MIT Press and serially, on the web, over a period of five or six years (at www.ageofsig.org).
+		Dr. Smith received his B.S., M.S., and Ph.D. from the Massachusetts Institute of Technology in Computer Science and Artificial Intelligence. After receiving his doctorate, he held senior research and administrative positions at the Xerox Palo Alto Research Centre (PARC) in California, and was an adjunct associate professor in the Philosophy and Computer Science departments at Stanford University. He was a founder and principal investigator of the Stanford-based Centre for the Study of Language and Information, and was a founder and first President of Computer Professionals for Social Responsibility.  In 1996, he moved to the Indiana University at Bloomington, where he was professor of cognitive science, computer science, philosophy, and informatics, and a fellow of the Center for Social Informatics in the School of Library and Information Sciences. He then moved to Duke University, as the Kimberly J. Jenkins University Professor of Philosophy and New Technologies, and professor of Philosophy and Computer Science.
 		</p>
 		</section>
 		
@@ -307,11 +367,31 @@ Template Name: About Page
 		<div class="idi-person-intro">
 			<img class="idi-about-person" title="Kevin Stolarick" alt="Kevin Stolarick" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Stolarick.jpg"/>
 			<h3>Kevin Stolarick</h3>
-			<div class="idi-people-position">Research Director, <a href="http://www.rotman.utoronto.ca/">Rotman School of Management</a></div>
+			<div class="idi-people-position">Associate Director and Research Associate, <a href="http://martinprosperity.org/">Martin Prosperity Institute</a></div>
 			<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
 		</div>
 		<p>
-		Dubbed the “Official Statistician of the Creative Class”, Kevin Stolarick, PhD, combines a depth of knowledge with an appreciation of the importance of finding and sharing the knowledge or “pearls of wisdom” gained from his comprehensive understanding of the Creative Class and the Creative Economy.  He has held faculty positions at the College of Humanities and Social Sciences and the H. John Heinz III School of Public Policy and Management, Carnegie Mellon University, Pittsburgh, Pennsylvania, USA and for over a decade worked with technology in the insurance industry as a manager of strategic projects.  He holds a PhD in Business Administration and an MBA from the Tepper School of Management, Carnegie Mellon University and a BS in Honors in Applied Computer Science from Illinois State University.</p>
+		Kevin Stolarick, PhD is the Associate Director and Research Associate at The Martin Prosperity Institute at the Rotman School of Management, University of Toronto.  He has held faculty positions at the College of Humanities and Social Sciences and the H. John Heinz III School of Public Policy and Management, Carnegie Mellon University, Pittsburgh, Pennsylvania, USA and for over a decade worked with technology in the insurance industry as a manager of strategic projects.  He holds a PhD in Business Administration and an MBA from the Tepper School of Management, Carnegie Mellon University and a BS in Honors in Applied Computer Science from Illinois State University.  He has taught numerous courses in statistical analysis, Information Systems and in Regional Economic Development.  His research interests include the relationship between firm performance and information technology and the impacts of technology, tolerance, talent, and quality of place on regional growth and prosperity.  Kevin provided quantitative research and analytical support for Richard Florida during the development of his books The Rise of the Creative Class, The Flight of the Creative Class and Who’s Your City?.  He continues in collaboration with Richard and others researchers.  This research includes primary development of measures, indicators, and benchmarking approaches with significant impact on theory growth and development related the Creative Class theory.   He developed all updated indicators and measures for the paperback version of the book, and continues to work on theoretical and measurement-based advances associated with the Creative Economy.  One of the few statistical analysts who has the complete works of Edward Tufte and Donald Norman on his shelves, Kevin presents informative, accessible and entertaining insights into the Creative Economy and the role of the Creative Class in increasing regional growth and prosperity.
+		</p>
+		</section>
+
+		<section class="idi-person">
+		<a id="Titchkosky"></a>
+		<div class="idi-person-intro">
+			<img class="idi-about-person" title="Tanya Titchkosky" alt="Tanya Titchkosky" lang="de" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Titchkosky.jpg"/>
+			<h3 lang="de">Tanya Titchkosky</h3>
+			<div class="idi-people-position">Associate Professor <a href="http://www.oise.utoronto.ca/sese/">Sociology and Equity Studies in Education, OISE</a></div>
+			<div class="idi-people-org"><a href="http://utoronto.ca">University of Toronto</a></div>
+		</div>
+		<p>
+		Tanya Titchkosky pursues research and teaching in Disability Studies (DS). She does this work from her perspective as dyslexic and with an interpretive sociological approach informed by phenomenology; hermeneutics; critical disability, race, and queer theory. Along with being a full member of School of Graduate Studies (SGS), and part of the Women and Gender Studies Institute, U of T, she is also an Honorary Research Associate at the University of New Brunswick.
+		</p>
+		<p>
+		All of her work in disability studies aims to explore the social meaning of embodiment as it is made manifest between people situated in world orders not of our own choosing.  Disability studies is then a place of critical inquiry where the meaning of our intersecting lives as bodies, minds, senses, emotions within complex webs of power and interpretations of normalcy can be explored and understood in new ways.
+		</p>
+		<p>
+		Through both teaching and research, Tanya aims to examine how everyday life and social theory exclude and include disability within the politically charged interpretive milieu of social differences and desires, conflicts and commitments. As Principal Investigator of a standard SSHRC research grant, “The Cultural Production of Disability as an Excludable Type in University Life,” with co-investigator Dr. Rod Michalko, she is examining the ways in which educational contexts continue to include disability as an excludable type and how this relation is represented by images, texts, policy and programs that aim to fix, control, contain or manage disability within educational contexts.    
+		</p>
 		</section>
 
 		<section class="idi-person">

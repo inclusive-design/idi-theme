@@ -22,6 +22,8 @@ Template Name: Institution
 				echo apply_filters('the_content', $page_data->post_content);
 			?>
 		</div>
+	</div>
+
 </div>
 
 <?php 
