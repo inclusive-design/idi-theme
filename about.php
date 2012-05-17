@@ -324,8 +324,8 @@ Template Name: About Page
 		</div>
 		<p><span lang="de">Jutta Treviranus</span> is the Director of the Inclusive Design Research Centre (IDRC) and professor at OCAD University in Toronto,
 		formerly the Adaptive Technology Resource Centre. The IDRC conducts proactive research and development in the inclusive design
-		of emerging information and communication technology and practices. Jutta also heads the Inclusive Design Institute a multi-university
-		regional centre of expertise on inclusive design. Jutta has led many international multi-partner research networks that have
+		of emerging information and communication technology and practices. <span lang="de">Jutta</span> also heads the Inclusive Design Institute a multi-university
+		regional centre of expertise on inclusive design. <span lang="de">Jutta</span> has led many international multi-partner research networks that have
 		created broadly implemented technical innovations that support inclusion. These include the Fluid Project, Fluid Engage,
 		CulturAll, Stretch, FLOE and many others. Jutta and her team have pioneered personalization as an approach to accessibility
 		in the digital domain. She has played a leading role in developing accessibility legislation, standards and specification
