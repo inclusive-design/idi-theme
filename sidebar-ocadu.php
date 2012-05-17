@@ -25,7 +25,7 @@
 
 <h3>Leads</h3>
 <div class="idi-project-lead">
-	<span class="idi-project-lead-name">Jutta Treviranus</span>
+	<span class="idi-project-lead-name" lang="de">Jutta Treviranus</span>
 	<div class="idi-project-lead-blurb">Director of the Inclusive Design Research Centre</div>
 </div>
 
