@@ -4,7 +4,7 @@
 		<div class="idi-mailing-address">
 			Inclusive Design Institute<br/>
 			<a href="http://g.co/maps/a5tua">
-				205 Richmond Street West</a><br/>
+				205 Richmond St. West</a><br/>
 			2nd Floor<br/>
 			Toronto, ON M5V 1V3<br/>
 			Canada
