@@ -97,17 +97,17 @@ a:focus,
 }
 /* Link hover style: inverse */
 .fl-theme-uio-yb a:hover, .fl-theme-uio-yb a:focus,
-.fl-theme-uio-yb .idi-research-clusters a.idi-cluster-name:hover,
-.fl-theme-uio-yb .idi-research-clusters a.idi-cluster-name:focus { background-color: #FFFF00 !important; color: #000000 !important; }
+.fl-theme-uio-yb a.idi-cluster-name:hover,
+.fl-theme-uio-yb a.idi-cluster-name:focus { background-color: #FFFF00 !important; color: #000000 !important; text-decoration: none; }
 .fl-theme-uio-wb a:hover, .fl-theme-uio-wb a:focus,
-.fl-theme-uio-wb .idi-research-clusters a.idi-cluster-name:hover,
-.fl-theme-uio-wb .idi-research-clusters a.idi-cluster-name:focus { background-color: #FFFFFF !important; color: #000000 !important; }
+.fl-theme-uio-wb a.idi-cluster-name:hover,
+.fl-theme-uio-wb a.idi-cluster-name:focus { background-color: #FFFFFF !important; color: #000000 !important; text-decoration: none; }
 .fl-theme-uio-by a:hover, .fl-theme-uio-by a:focus,
-.fl-theme-uio-by .idi-research-clusters a.idi-cluster-name:hover,
-.fl-theme-uio-by .idi-research-clusters a.idi-cluster-name:focus { background-color: #000000 !important; color: #FFFF00 !important; }
+.fl-theme-uio-by a.idi-cluster-name:hover,
+.fl-theme-uio-by a.idi-cluster-name:focus { background-color: #000000 !important; color: #FFFF00 !important; text-decoration: none; }
 .fl-theme-uio-bw a:hover, .fl-theme-uio-bw a:focus,
-.fl-theme-uio-bw .idi-research-clusters a.idi-cluster-name:hover,
-.fl-theme-uio-bw .idi-research-clusters a.idi-cluster-name:focus { background-color: #000000 !important; color: #FFFFFF !important; }
+.fl-theme-uio-bw a.idi-cluster-name:hover,
+.fl-theme-uio-bw a.idi-cluster-name:focus { background-color: #000000 !important; color: #FFFFFF !important; text-decoration: none; }
 
 /* No inverse on logo and main nav */
 .fl-theme-uio-yb .fl-site-link a:hover, .fl-theme-uio-wb .fl-site-link a:hover,
