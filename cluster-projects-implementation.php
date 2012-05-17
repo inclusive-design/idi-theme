@@ -2,7 +2,7 @@
 			<div class="fl-col">
 				<section class="idi-project fl-col-mixed">
 					<div class="idi-project-logo fl-col-fixed fl-force-left">
-						<a class="idi-project-logo" href=""><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" /></a>
+						<a class="idi-project-logo idi-no-tab-focus" href=""><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" /></a>
 					</div>
 					<div class="fl-col-flex">
 						<h3><a href="http://openvulab.org/">Open Virtual Usability Lab</a></h3>
@@ -31,7 +31,7 @@
 				</section>
 				<section class="idi-project fl-col-mixed">
 					<div class="idi-project-logo fl-col-fixed fl-force-left">
-						<a class="idi-project-logo" href="http://gpii.net"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/gpii_logo.png" title="GPII logo" alt="GPII logo"/></a>
+						<a class="idi-project-logo idi-no-tab-focus" href="http://gpii.net"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/gpii_logo.png" title="GPII logo" alt="GPII logo"/></a>
 					</div>
 					<div class="fl-col-flex">
 						<h3><a href="http://gpii.net">GPII</a></h3>

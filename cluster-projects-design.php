@@ -1,7 +1,7 @@
 		<div class="fl-col-flex2">
 			<div class="fl-col">
 				<section class="idi-project fl-col-mixed">
-					<div class="idi-project-logo fl-col-fixed fl-force-left">
+					<div class="idi-project-logo idi-no-tab-focus fl-col-fixed fl-force-left">
 						<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
 					</div>
 					<div class="fl-col-flex">
@@ -10,7 +10,7 @@
 					</div>
 				</section>
 				<section class="idi-project fl-col-mixed">
-					<div class="idi-project-logo fl-col-fixed fl-force-left">
+					<div class="idi-project-logo idi-no-tab-focus fl-col-fixed fl-force-left">
 						<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
 					</div>
 					<div class="fl-col-flex">
@@ -21,7 +21,7 @@
 			</div>
 			<div class="fl-col">
 				<section class="idi-project fl-col-mixed">
-					<div class="idi-project-logo fl-col-fixed fl-force-left">
+					<div class="idi-project-logo idi-no-tab-focus fl-col-fixed fl-force-left">
 						<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
 					</div>
 					<div class="fl-col-flex">
@@ -30,7 +30,7 @@
 					</div>
 				</section>
 				<section class="idi-project fl-col-mixed">
-					<div class="idi-project-logo fl-col-fixed fl-force-left">
+					<div class="idi-project-logo idi-no-tab-focus fl-col-fixed fl-force-left">
 						<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
 					</div>
 					<div class="fl-col-flex">

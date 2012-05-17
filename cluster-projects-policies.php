@@ -2,7 +2,7 @@
 			<div class="fl-col">
 				<section class="idi-project fl-col-mixed">
 					<div class="fl-col-fixed fl-force-left">
-						<a class="idi-project-logo" href="http://floeproject.org"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/floe-logo.png" title="Floe Project logo" alt="Floe Project logo" /></a>
+						<a class="idi-project-logo idi-no-tab-focus" href="http://floeproject.org"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/floe-logo.png" title="Floe Project logo" alt="Floe Project logo" /></a>
 					</div>
 					<div class="fl-col-flex">
 						<h3><a href="http://floeproject.org">Floe Project</a></h3>
@@ -11,7 +11,7 @@
 				</section>
 				<section class="idi-project fl-col-mixed">
 					<div class="fl-col-fixed fl-force-left">
-						<a class="idi-project-logo" href="http://fluidproject.org"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/fluid_logo.png" title="Fluid Project logo" alt="Fluid Project logo" /></a>
+						<a class="idi-project-logo idi-no-tab-focus" href="http://fluidproject.org"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/fluid_logo.png" title="Fluid Project logo" alt="Fluid Project logo" /></a>
 					</div>
 					<div class="fl-col-flex">
 							<h3><a href="http://fluidproject.org">Fluid</a></h3>
