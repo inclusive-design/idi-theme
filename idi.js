@@ -121,13 +121,8 @@ var idi = idi || {};
 
     idi.keyboardA11y = function () {
         // Pull repetitive links out of the tab order. 
-        // Each of these has another link adjacent to it that goes to the same place.
-        $(".idi-cluster-circle-link").attr("tabindex", "-1");
-        $(".idi-project-logo").attr("tabindex", "-1");
-        $(".idi-article-title").attr("tabindex", "-1");
-        $(".idi-project-link").attr("tabindex", "-1");
-        $(".idi-cluster-icon-link").attr("tabindex", "-1");
-        $(".idi-cluster-name-link").attr("tabindex", "-1");        
+        // Each of these links has another link adjacent to it that goes to the same place.
+        $(".idi-no-tab-focus").attr("tabindex", "-1");
     };
     
     $(document).ready(function () {
