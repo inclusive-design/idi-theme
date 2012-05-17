@@ -131,18 +131,6 @@ Template Name: About Page
 		</section>
 		
 		<section class="idi-person">
-		<a id="Hockema"></a>
-		<div class="idi-person-intro">
-			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Hockema.jpg"/>
-			<h3>Stephen Hockema</h3>
-			<div class="idi-people-position">Senior Engineer and Co-Founder</div>
-			<div class="idi-people-org"><a href="http://www.branchfire.com/">Branchfire</a></div>
-		</div>
-		<p>
-		Prior to joining the Branchfire team, Stephen Hockema was a professor in the Faculty of Information at the University of Toronto, where he conducted research and taught courses on design, impact, and social shaping of information technologies. His development experience includes work in the telecommunications industry and at Intel Corp. Steve holds a joint Ph.D. in Computer and Cognitive Science from Indiana University, where he specialized in perceptual and linguistic development and learning, and a BSCEE and MSEE from Purdue University.</p>
-		</section>
-		
-		<section class="idi-person">
 		<a id="Humphrey"></a>
 		<div class="idi-person-intro">
 			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Humphrey.jpg"/>

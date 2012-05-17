@@ -11,7 +11,6 @@
 	    <li><a href="#Fels">Deborah Fels</a></li>
 	    <li><a href="#Florida">Richard Florida</a></li>
 	    <li><a href="#Frazee">Catherine Frazee</a></li>
-	    <li><a href="#Hockema">Stephen Hockema</a></li>
 	    <li><a href="#Humphrey">David Humphrey</a></li>
 	    <li><a href="#Jadad">Alejandro (Alex) Jadad</a></li>
 	    <li><a href="#Luke">Robert Luke</a></li>
