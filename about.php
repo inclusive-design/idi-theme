@@ -34,7 +34,7 @@ Template Name: About Page
 		<section class="idi-person">
 		<a id="Baecker"></a>
 		<div class="idi-person-intro">
-			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Baecker.gif"/>
+			<img class="idi-about-person" title="Ron Baecker" alt="Ron Baecker" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Baecker.gif"/>
 			<h3>Ron Baecker</h3>
 			<div class="idi-people-position">Director, <a href="http://taglab.utoronto.ca/">Technologies for Aging Gracefully Lab (TAGlab)</a></div>
 			<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
@@ -46,7 +46,7 @@ Template Name: About Page
 		<section class="idi-person">
 		<a id="Church"></a>
 		<div class="idi-person-intro">
-			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Church.jpg"/>
+			<img class="idi-about-person" title="Kathryn Church" alt="Kathryn Church" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Church.jpg"/>
 			<h3>Kathryn Church</h3>
 			<div class="idi-people-position">Director, <a href="http://www.ryerson.ca/ds/">School of Disability Studies</a></div>
 			<div class="idi-people-org"><a href="http://ryerson.ca">Ryerson University</a></div>
@@ -58,13 +58,13 @@ Template Name: About Page
 		<section class="idi-person">
 		<a id="Desjardins"></a>
 		<div class="idi-person-intro">
-			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Desjardins.jpg"/>
-			<h3>Francois Desjardins</h3>
+			<img class="idi-about-person" lang="fr" title="Francois Desjardins" alt="Francois Desjardins" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Desjardins.jpg"/>
+			<h3 lang="fr">Francois Desjardins</h3>
 			<div class="idi-people-position">Founding Director, <a href="http://www.eilab.ca/">Educational Informatics Lab</a></div>
 			<div class="idi-people-org"><a href="http://uoit.ca">Univ. of Ontario Institute of Technology</a></div>
 		</div>
 		<p>
-		Dr Desjardins’ academic career has been focused on the study of the role technology can play in the learning process at different levels.  In the past few years, that interest has moved towards mobile-learning and it’s potential to alter our thinking about pedagogy.
+		Dr <span lang="fr">Desjardins'</span> academic career has been focused on the study of the role technology can play in the learning process at different levels.  In the past few years, that interest has moved towards mobile-learning and it’s potential to alter our thinking about pedagogy.
 		</p>
 		<p>
 		As the former Associate Dean of Education (UOIT), Dr Desjardins was responsible for launching the Masters in Education and Digital Technology as well as the BA program in Adult Education and Digital Technology, both entirely offered online with regular face-to-face meetings in a desktop videoconferencing system.
@@ -77,7 +77,7 @@ Template Name: About Page
 		<section class="idi-person">
 		<a id="Diamond"></a>
 		<div class="idi-person-intro">
-			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Diamond.jpg"/>
+			<img class="idi-about-person" title="Sara Diamond" alt="Sara Diamond" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Diamond.jpg"/>
 			<h3>Sara Diamond</h3>
 			<div class="idi-people-position">President</div>
 			<div class="idi-people-org"><a href="http://ocadu.ca">OCAD University</a></div>
@@ -89,7 +89,7 @@ Template Name: About Page
 		<section class="idi-person">
 		<a id="Fels"></a>
 		<div class="idi-person-intro">
-			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Fels.jpg"/>
+			<img class="idi-about-person" title="Deborah Fels" alt="Deborah Fels" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Fels.jpg"/>
 			<h3>Deborah Fels</h3>
 			<div class="idi-people-position">Associate Professor, <a href="http://www.ryerson.ca/itm/">Information Technology Management</a></div>
 			<div class="idi-people-org"><a href="http://ryerson.ca">Ryerson University</a></div>
@@ -105,7 +105,7 @@ Template Name: About Page
 		<section class="idi-person">
 		<a id="Florida"></a>
 		<div class="idi-person-intro">
-			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Florida.jpg"/>
+			<img class="idi-about-person" title="Richard Florida" alt="Richard Florida" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Florida.jpg"/>
 			<h3>Richard Florida</h3>
 			<div class="idi-people-position">Director and Professor of Business and Creativity, <a href="http://martinprosperity.org/">The Martin Prosperity Institute</a></div>
 			<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
@@ -121,7 +121,7 @@ Template Name: About Page
 		<section class="idi-person">
 		<a id="Frazee"></a>
 		<div class="idi-person-intro">
-			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Frazee.jpg"/>
+			<img class="idi-about-person" title="Catherine Frazee" alt="Catherine Frazee" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Frazee.jpg"/>
 			<h3>Catherine Frazee</h3>
 			<div class="idi-people-position">Professor of Distinction, <a href="http://www.ryerson.ca/ds/">School of Disability Studies</a></div>
 			<div class="idi-people-org"><a href="http://ryerson.ca">Ryerson University</a></div>
@@ -133,7 +133,7 @@ Template Name: About Page
 		<section class="idi-person">
 		<a id="Humphrey"></a>
 		<div class="idi-person-intro">
-			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Humphrey.jpg"/>
+			<img class="idi-about-person" title="David Humphrey" alt="David Humphrey" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Humphrey.jpg"/>
 			<h3>David Humphrey</h3>
 			<div class="idi-people-position">Professor, <a href="http://cdot.senecac.on.ca/">Centre for Development of Open Technology (CDOT)</a></div>
 			<div class="idi-people-org"><a href="http://www.senecacollege.ca/">Seneca College</a></div>
@@ -145,13 +145,13 @@ Template Name: About Page
 		<section class="idi-person">
 		<a id="Jadad"></a>
 		<div class="idi-person-intro">
-			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Jadad.jpg"/>
-			<h3>Alejandro (Alex) Jadad</h3>
+			<img class="idi-about-person" title="Alejandro (Alex) Jadad" alt="Alejandro (Alex) Jadad" lang="es" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Jadad.jpg"/>
+			<h3 lang="es">Alejandro (Alex) Jadad</h3>
 			<div class="idi-people-position">Chief Innovator and Founder, <a href="http://www.ehealthinnovation.org/">Centre for Global eHealth Innovation</a></div>
 			<div class="idi-people-org"><a href="http://www.uhn.ca">University Health Network</a></div>
 		</div>
 		<p>
-		Dr. Jadad is a physician, educator, researcher and public advocate, whose mission is to help improve health and wellness for all, thorough information and communication technologies (ICTs).
+		Dr. <span lang="es">Jadad</span> is a physician, educator, researcher and public advocate, whose mission is to help improve health and wellness for all, thorough information and communication technologies (ICTs).
 		</p>
 		<p>
 		He has been called a «human Internet», as his research and innovation work seeks to identify and connect the best minds, the best knowledge and the best tools across traditional boundaries to eliminate unnecessary suffering. Such work focuses on a radical 'glocal' innovation model designed to improve the capacity of humans to imagine, create and promote new and better approaches to living, healing, working and learning across the world. Powered by social networks and other leading-edge telecommunication tools, his projects attempt to anticipate and respond to major public health threats (e.g., multiple chronic conditions, pandemics) through strong and sustainable international collaboration, and to enable the public (particularly young people) to shape the health system and society.
@@ -161,7 +161,7 @@ Template Name: About Page
 		<section class="idi-person">
 		<a id="Luke"></a>
 		<div class="idi-person-intro">
-			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Luke.jpg"/>
+			<img class="idi-about-person" title="Robert Luke" alt="Robert Luke" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Luke.jpg"/>
 			<h3>Robert Luke, PhD</h3>
 			<div class="idi-people-position">Assistant Vice President, <a href="http://www.georgebrown.ca/research/">Research and Innovation</a></div>
 			<div class="idi-people-org"><a href="http://www.georgebrown.ca/">George Brown College</a></div>
@@ -173,7 +173,7 @@ Template Name: About Page
 		<section class="idi-person">
 		<a id="McEwen"></a>
 		<div class="idi-person-intro">
-			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/McEwen.jpg"/>
+			<img class="idi-about-person" title="Rhonda McEwen" alt="Rhonda McEwen" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/McEwen.jpg"/>
 			<h3>Rhonda McEwen</h3>
 			<div class="idi-people-position">Assistant Professor</div>
 			<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
@@ -185,7 +185,7 @@ Template Name: About Page
 		<section class="idi-person">
 		<a id="Mercer"></a>
 		<div class="idi-person-intro">
-			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Mercer.jpg"/>
+			<img class="idi-about-person" title="Dawn Mercer" alt="Dawn Mercer" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Mercer.jpg"/>
 			<h3>Dawn Mercer</h3>
 			<div class="idi-people-position"><a href="http://www.senecac.on.ca/ori/">Office of Research and Innovation</a></div>
 			<div class="idi-people-org"><a href="http://www.senecacollege.ca/">Seneca College</a></div>
@@ -198,7 +198,7 @@ Template Name: About Page
 		<section class="idi-person">
 		<a id="Mihailidis"></a>
 		<div class="idi-person-intro">
-			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Mihailidis.jpg"/>
+			<img class="idi-about-person" title="Alex Mihailidis" alt="Alex Mihailidis" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Mihailidis.jpg"/>
 			<h3>Alex Mihailidis</h3>
 			<div class="idi-people-position">Assistant Professor, <a href="http://www.ot.utoronto.ca/">Occupational Therapy</a></div>
 			<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
@@ -210,7 +210,7 @@ Template Name: About Page
 		<section class="idi-person">
 		<a id="Muirhead"></a>
 		<div class="idi-person-intro">
-			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Muirhead.jpg"/>
+			<img class="idi-about-person" title="Bill Muirhead" alt="Bill Muirhead" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Muirhead.jpg"/>
 			<h3>Bill Muirhead</h3>
 			<div class="idi-people-position">Associate Provost, Academic and Information Technology</div>
 			<div class="idi-people-org"><a href="http://www.uoit.ca/">Univ. of Ontario Institute of Technology</a></div>
@@ -222,7 +222,7 @@ Template Name: About Page
 		<section class="idi-person">
 		<a id="Owston"></a>
 		<div class="idi-person-intro">
-			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Owston.jpg"/>
+			<img class="idi-about-person" title="Ron Owston" alt="Ron Owston" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Owston.jpg"/>
 			<h3>Ron Owston</h3>
 			<div class="idi-people-position">Director, <a href="http://www.yorku.ca/irlt/">Institute for Research in Learning Technologies (IRLT)</a></div>
 			<div class="idi-people-org"><a href="http://www.yorku.ca">York University</a></div>
@@ -234,7 +234,7 @@ Template Name: About Page
 		<section class="idi-person">
 		<a id="Ratto"></a>
 		<div class="idi-person-intro">
-			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Ratto.jpg"/>
+			<img class="idi-about-person" title="Matt Ratto" alt="Matt Ratto" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Ratto.jpg"/>
 			<h3>Matt Ratto</h3>
 			<div class="idi-people-position">Professor, <a href="http://www.ischool.utoronto.ca/">Faculty of Information</a></div>
 			<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
@@ -246,7 +246,7 @@ Template Name: About Page
 		<section class="idi-person">
 		<a id="Rioux"></a>
 		<div class="idi-person-intro">
-			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Rioux.jpg"/>
+			<img class="idi-about-person" title="Marcia Rioux" alt="Marcia Rioux" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Rioux.jpg"/>
 			<h3>Marcia Rioux</h3>
 			<div class="idi-people-position">Chair &amp; Professor, <a href="http://www.yorku.ca/health/shpm/">School of Health Policy &amp; Management</a></div>
 			<div class="idi-people-org"><a href="http://www.yorku.ca">York University</a></div>
@@ -258,7 +258,7 @@ Template Name: About Page
 		<section class="idi-person">
 		<a id="Scardemalia"></a>
 		<div class="idi-person-intro">
-			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Scardemalia.jpg"/>
+			<img class="idi-about-person" title="Marlene Scardemalia" alt="Marlene Scardemalia" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Scardemalia.jpg"/>
 			<h3>Marlene Scardemalia</h3>
 			<div class="idi-people-position">Director</div>
 			<div class="idi-people-org"><a href="http://www.ikit.org/">Institute for Knowledge Innovation and Technology</a></div>
@@ -270,7 +270,7 @@ Template Name: About Page
 		<section class="idi-person">
 		<a id="Slotta"></a>
 		<div class="idi-person-intro">
-			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Slotta.jpg"/>
+			<img class="idi-about-person" title="Jim Slotta" alt="Jim Slotta" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Slotta.jpg"/>
 			<h3>Jim Slotta</h3>
 			<div class="idi-people-position">Associate Professor, Center for Technology in Learning</div>
 			<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
@@ -289,7 +289,7 @@ Template Name: About Page
 		<section class="idi-person">
 		<a id="Smith"></a>
 		<div class="idi-person-intro">
-			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/CantwellSmith.jpg"/>
+			<img class="idi-about-person" title="Brian Cantwell Smith" alt="Brian Cantwell Smith" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/CantwellSmith.jpg"/>
 			<h3>Brian Cantwell Smith</h3>
 			<div class="idi-people-position">Professor & Director, <a href="http://www.ischool.utoronto.ca/">Faculty of Information</a></div>
 			<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
@@ -305,7 +305,7 @@ Template Name: About Page
 		<section class="idi-person">
 		<a id="Stolarick"></a>
 		<div class="idi-person-intro">
-			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Stolarick.jpg"/>
+			<img class="idi-about-person" title="Kevin Stolarick" alt="Kevin Stolarick" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Stolarick.jpg"/>
 			<h3>Kevin Stolarick</h3>
 			<div class="idi-people-position">Research Director, <a href="http://www.rotman.utoronto.ca/">Rotman School of Management</a></div>
 			<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
@@ -317,15 +317,15 @@ Template Name: About Page
 		<section class="idi-person">
 		<a id="Treviranus"></a>
 		<div class="idi-person-intro">
-			<img class="idi-about-person" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Treviranus.jpg"/>
-			<h3>Jutta Treviranus</h3>
+			<img class="idi-about-person" title="Jutta Treviranus" alt="Jutta Treviranus" lang="de" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Treviranus.jpg"/>
+			<h3 lang="de">Jutta Treviranus</h3>
 			<div class="idi-people-position">Director of the <a href="http://idrc.ocad.ca/">Inclusive Design Research Centre</a></div>
 			<div class="idi-people-org"><a href="http://ocadu.ca">OCAD University</a></div>
 		</div>
-		<p>Jutta Treviranus is the Director of the Inclusive Design Research Centre (IDRC) and professor at OCAD University in Toronto,
+		<p><span lang="de">Jutta Treviranus</span> is the Director of the Inclusive Design Research Centre (IDRC) and professor at OCAD University in Toronto,
 		formerly the Adaptive Technology Resource Centre. The IDRC conducts proactive research and development in the inclusive design
-		of emerging information and communication technology and practices. Jutta also heads the Inclusive Design Institute a multi-university
-		regional centre of expertise on inclusive design. Jutta has led many international multi-partner research networks that have
+		of emerging information and communication technology and practices. <span lang="de">Jutta</span> also heads the Inclusive Design Institute a multi-university
+		regional centre of expertise on inclusive design. <span lang="de">Jutta</span> has led many international multi-partner research networks that have
 		created broadly implemented technical innovations that support inclusion. These include the Fluid Project, Fluid Engage,
 		CulturAll, Stretch, FLOE and many others. Jutta and her team have pioneered personalization as an approach to accessibility
 		in the digital domain. She has played a leading role in developing accessibility legislation, standards and specification

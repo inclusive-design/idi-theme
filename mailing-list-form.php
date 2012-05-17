@@ -3,7 +3,7 @@
 			<h3>Stay updated,<br/>join our mailing list:</h3>
 			<form id="idiMailingListSignup" method="post" action="<?php bloginfo('stylesheet_directory'); ?>/mailinglist.php" onsubmit="return idi.mailingListSignup()">
 				<div class="idi-invalid-email-warning" style="display: none;">Please enter a valid email address.</div>
-				<input type="email" name="listEmail" id="listEmail" placeholder="Your email address" required />
+				<input type="email" name="listEmail" id="listEmail" placeholder="Your email address" title="Please type your email address here and press enter to join our mailing list." required />
 			</form>
 		</div>
 		<div class="idi-loading"></div>
