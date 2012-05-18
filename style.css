@@ -51,6 +51,7 @@ Version: 1.0
 .idi-article-list ul li a:focus,
 ul.idi-institution-list li a:focus  {
     border: 5px solid #FFCC00;
+    outline: none;
 }
 
 :active {
@@ -101,6 +102,10 @@ body.fl-theme-uio-bw, body.fl-theme-uio-wb { background-image: none; }
 a {
     color: #0076B0;
     border: 5px solid transparent; 
+}
+
+.fl-theme-uio-bw a, .fl-theme-uio-wb a, .fl-theme-uio-by a, .fl-theme-uio-yb a {
+    border-width: 0px;
 }
 
 a:hover,
@@ -1004,7 +1009,6 @@ ul.idi-institution-list li {
 }
 ul.idi-institution-list li a {
     display: block;
-    border-width: 2px 0px;
 }
 .fl-theme-uio-yb ul.idi-institution-list li:before { color: #FFFF00; }
 .fl-theme-uio-wb ul.idi-institution-list li:before { color: #FFFFFF; }
@@ -1110,7 +1114,6 @@ form#idiMailingListSignup input {
 }
 .idi-article-list ul li a {
     display: block;
-    border-width: 5px 0px;
 }
 .idi-news-article,
 .idi-news-article.idi-breadcrumbs {
