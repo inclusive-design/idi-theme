@@ -34,6 +34,8 @@
 	    <li><a href="#Stolarick">Kevin Stolarick</a></li>
 	    <li><a href="#Titchkosky" lang="de">Tanya Titchkosky</a></li>
 	    <li><a href="#Treviranus" lang="de">Jutta Treviranus</a></li>
+	    <li><a href="#Tyler" lang="de">Chris Tyler</a></li>
+	    <li><a href="#Weaver" lang="de">Evan Weaver</a></li>
 	</ul>
 </nav>
 
