@@ -1,5 +1,5 @@
 <div class="idi-project-lead">
-	<a href="<?php echo get_home_url(); ?>/about/#Rioux" class="idi-project-lead-name">Marcia Rioux</a>
+	<a href="<?php echo get_home_url(); ?>/about/#Rioux" class="idi-project-lead-name" lang="fr">Marcia Rioux</a>
 	<a href="<?php echo get_home_url(); ?>/research/york" class="idi-project-lead-org">York University</a>
 	<div class="idi-project-lead-blurb">Chair and Professor, School of Health Policy and Management</div>
 </div>

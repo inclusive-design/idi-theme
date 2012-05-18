@@ -24,7 +24,7 @@
 	    <li><a href="#Owston">Ronald Owston</a></li>
 	    <li><a href="#Pennefather">Peter Pennefather</a></li>
 	    <li><a href="#Ratto">Matt Ratto</a></li>
-	    <li><a href="#Rioux">Marcia Rioux</a></li>
+	    <li><a href="#Rioux" lang="fr">Marcia Rioux</a></li>
 	    <li><a href="#Scardemalia">Marlene Scardemalia</a></li>
 	    <li><a href="#Slotta">Jim Slotta</a></li>
 	    <li><a href="#Cantwell-Smith">Brian Cantwell Smith</a></li>

@@ -18,7 +18,7 @@ Template Name: News
 				<div class="idi-box idi-highlight-box post">
 					<?php the_post_thumbnail(); ?>
 					<div class="idi-box-text">
-						<h2><a class="idi-article-title idi-no-tab-focus" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+						<h2><a class="idi-article-title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 						<div class="idi-date"><?php the_time('F jS, Y') ?></div>
 						<div class="entry">
 							<?php the_excerpt(); ?>
