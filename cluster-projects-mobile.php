@@ -2,6 +2,17 @@
 			<div class="fl-col">
 				<section class="idi-project fl-col-mixed">
 					<div class="idi-project-logo fl-col-fixed fl-force-left">
+						<a class="idi-no-tab-focus" href="https://www.zotero.org/groups/digital_economy_trading_zones">
+							<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/DETZ.png" title="DETZ project logo" alt="DETZ project logo" />
+						</a>
+					</div>
+					<div class="fl-col-flex">
+						<h3><a href="https://www.zotero.org/groups/digital_economy_trading_zones">Digital Economy Trading Zones</a></h3>
+						This Research Project examines novel forms of cross-disciplinary and cross-sector partnerships necessary for creating world class academic research on digital media. It also intends to provide novel insight for private industry and for commercialization, as well as new venues for the innovative work of artistic and cultural organizations.
+					</div>
+				</section>
+				<section class="idi-project fl-col-mixed">
+					<div class="idi-project-logo fl-col-fixed fl-force-left">
 						<img class="idi-logo-placeholder" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
 					</div>
 					<div class="fl-col-flex">
@@ -11,6 +22,17 @@
 				</section>
 			</div>
 			<div class="fl-col">
+				<section class="idi-project fl-col-mixed">
+					<div class="idi-project-logo fl-col-fixed fl-force-left">
+						<a class="idi-no-tab-focus" href="http://thingtanklab.com">
+							<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/ThingTank.png" title="ThingTank project logo" alt="ThingTank project logo" />
+						</a>
+					</div>
+					<div class="fl-col-flex">
+						<h3><a href="http://thingtanklab.com">ThingTank Lab</a></h3>
+						The ThingTank Lab is an open, community based collaborative ideation lab: a place where the exploration, experimentation, and exchange of ideas are developed towards the building of internet enabled “things”.
+					</div>
+				</section>
 				<section class="idi-project fl-col-mixed">
 					<div class="idi-project-logo fl-col-fixed fl-force-left">
 						<img class="idi-logo-placeholder" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
