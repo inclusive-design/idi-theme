@@ -93,7 +93,7 @@ Template Name: About Page
 			<img class="idi-about-person" lang="fr" title="Francois Desjardins" alt="Francois Desjardins" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Desjardins.jpg"/>
 			<h3 lang="fr">Francois Desjardins</h3>
 			<div class="idi-people-position">Founding Director, <a href="http://www.eilab.ca/">Educational Informatics Lab</a></div>
-			<div class="idi-people-org"><a href="http://uoit.ca">Univ. of Ontario Institute of Technology</a></div>
+			<div class="idi-people-org"><a href="http://uoit.ca">University of Ontario Institute of Technology</a></div>
 		</div>
 		<p>
 		Dr <span lang="fr">Desjardins'</span> academic career has been focused on the study of the role technology can play in the learning process at different levels.  In the past few years, that interest has moved towards mobile-learning and it’s potential to alter our thinking about pedagogy.
@@ -303,7 +303,7 @@ Template Name: About Page
 			<img class="idi-about-person" title="Bill Muirhead" alt="Bill Muirhead" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Muirhead.jpg"/>
 			<h3>Bill Muirhead</h3>
 			<div class="idi-people-position">Associate Provost, Academic and Information Technology</div>
-			<div class="idi-people-org"><a href="http://www.uoit.ca/">Univ. of Ontario Institute of Technology</a></div>
+			<div class="idi-people-org"><a href="http://www.uoit.ca/">University of Ontario Institute of Technology</a></div>
 		</div>
 		<p>
 		Bill Muirhead is currently the Associate Provost, Academic and Information Technology at the University of Ontario, Institute of Technology (UOIT) located in Oshawa, Ontario. Prior to relocating to the Greater Toronto Area, Bill was the founding Executive Director of the Alberta Online Consortium (AOC) and served as a senior advisor to Alberta Learning in areas of e-learning, professional development, and policy areas involving information and communications technologies (ICT) on K-1 and postsecondary education. Bill has extensive experience in teacher training, online education, policy development and e-learning. His research interests include professional practices in online education; design of hybrid teaching-learning environments; policy support for learning object repositories; and implementation issues surrounding the use of ICT in postsecondary institutions. An internationally recognized speaker, Bill is the recipient of numerous awards for leadership and innovation in e-learning. </p>
