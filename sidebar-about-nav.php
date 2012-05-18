@@ -29,8 +29,8 @@
 	    <li><a href="#Slotta">Jim Slotta</a></li>
 	    <li><a href="#Cantwell-Smith">Brian Cantwell Smith</a></li>
 	    <li><a href="#Stolarick">Kevin Stolarick</a></li>
-	    <li><a href="#Treviranus" lang="de">Jutta Treviranus</a></li>
 	    <li><a href="#Titchkosky" lang="de">Tanya Titchkosky</a></li>
+	    <li><a href="#Treviranus" lang="de">Jutta Treviranus</a></li>
 	</ul>
 </nav>
 

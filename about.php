@@ -36,11 +36,11 @@ Template Name: About Page
 		<div class="idi-person-intro">
 			<img class="idi-about-person" title="Ron Baecker" alt="Ron Baecker" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Baecker.gif"/>
 			<h3>Ron Baecker</h3>
-			<div class="idi-people-position">Director, <a href="http://taglab.utoronto.ca/">Technologies for Aging Gracefully Lab (TAGlab)</a></div>
+			<div class="idi-people-position">Professor of Computer Science and Director, <a href="http://taglab.utoronto.ca/">Technologies for Aging Gracefully Lab (TAGlab)</a></div>
 			<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
 		</div>
 		<p>
-		Ronald Baecker is Professor of Computer Science, Bell Universities Laboratories Chair in Human-Computer Interaction, and Director of the Technologies for Aging Gracefully lab (TAGlab) at the University of Toronto. He has been named one of the 60 Pioneers of Computer Graphics by ACMSIGGRAPH, has been elected to the CHI (Computers and Human Interaction) Academy by ACMSIGCHI, and has been given the Canadian Human Computer Communications Society Achievement Award.
+		Ronald Baecker is Professor of Computer Science, Bell Universities Laboratories Chair in Human-Computer Interaction, and Director of the Technologies for Aging Gracefully lab (TAGlab) at the University of Toronto. An ACM Fellow, he has been named one of the 60 Pioneers of Computer Graphics by ACM SIGGRAPH, has been elected to the CHI (Computers and Human Interaction) Academy by ACM SIGCHI, and has been given the Canadian Human Computer Communications Society Achievement Award. 
 		</p>
 		</section>
 		
@@ -384,10 +384,10 @@ Template Name: About Page
 			<div class="idi-people-org"><a href="http://utoronto.ca">University of Toronto</a></div>
 		</div>
 		<p>
-		Tanya Titchkosky pursues research and teaching in Disability Studies (DS). She does this work from her perspective as dyslexic and with an interpretive sociological approach informed by phenomenology; hermeneutics; critical disability, race, and queer theory. Along with being a full member of School of Graduate Studies (SGS), and part of the Women and Gender Studies Institute, U of T, she is also an Honorary Research Associate at the University of New Brunswick.
+		Tanya Titchkosky pursues research and teaching in Disability Studies (DS). She does this work from her perspective as dyslexic and with an interpretive sociological approach informed by phenomenology; hermeneutics; critical disability, race, and queer theory. Along with being a full member of School of Graduate Studies (SGS), and part of the Women and Gender Studies Institute, U of T, she is also an Honorary Research Associate at the University of New Brunswick.     
 		</p>
 		<p>
-		All of her work in disability studies aims to explore the social meaning of embodiment as it is made manifest between people situated in world orders not of our own choosing.  Disability studies is then a place of critical inquiry where the meaning of our intersecting lives as bodies, minds, senses, emotions within complex webs of power and interpretations of normalcy can be explored and understood in new ways.
+		All of her work in disability studies aims to explore the social meaning of embodiment as it is made manifest between people situated in world orders not of our own choosing.  Disability studies is then a place of critical inquiry where the meaning of our intersecting lives as bodies, minds, senses, emotions within complex webs of power and interpretations of normalcy can be explored and understood in new ways.   
 		</p>
 		<p>
 		Through both teaching and research, Tanya aims to examine how everyday life and social theory exclude and include disability within the politically charged interpretive milieu of social differences and desires, conflicts and commitments. As Principal Investigator of a standard SSHRC research grant, “The Cultural Production of Disability as an Excludable Type in University Life,” with co-investigator Dr. Rod Michalko, she is examining the ways in which educational contexts continue to include disability as an excludable type and how this relation is represented by images, texts, policy and programs that aim to fix, control, contain or manage disability within educational contexts.    
