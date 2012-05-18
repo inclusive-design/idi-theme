@@ -1486,6 +1486,14 @@ a.idi-project-link {
 .idi-research-item h2:hover, .idi-research-item a:focus h2 {
     text-decoration: underline;
 }
+.fl-theme-uio-yb .idi-research-item h2:hover, .fl-theme-uio-yb .idi-research-item a:focus h2,
+.fl-theme-uio-wb .idi-research-item h2:hover, .fl-theme-uio-wb .idi-research-item a:focus h2,
+.fl-theme-uio-bw .idi-research-item h2:hover, .fl-theme-uio-bw .idi-research-item a:focus h2,
+.fl-theme-uio-by .idi-research-item h2:hover, .fl-theme-uio-by .idi-research-item a:focus h2 {
+    text-decoration: none;
+    background-color: inherit !important;
+    color: inherit !important;
+}
 .idi-research-item p {
     padding-left: 1.25em;
 }
