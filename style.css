@@ -91,7 +91,7 @@ body.fl-theme-uio-bw, body.fl-theme-uio-wb { background-image: none; }
 .fl-site-main-body,
 .fl-site-footer {
     max-width: 64em;
-    min-width: 800px;
+    min-width: 50em;
     margin-left: auto;
     margin-right: auto;
 }
@@ -880,6 +880,11 @@ h3,
 .fl-theme-uio-wb .fl-uiOptions-fatPanel .fl-toggleButton:focus,
 .fl-theme-uio-by .fl-uiOptions-fatPanel .fl-toggleButton:focus,
 .fl-theme-uio-bw .fl-uiOptions-fatPanel .fl-toggleButton:focus { border-width: 5px;}
+
+.fl-theme-uio-yb .fl-uiOptions-fatPanel { border-bottom: 1px solid yellow;}
+.fl-theme-uio-wb .fl-uiOptions-fatPanel { border-bottom: 1px solid white;}
+.fl-theme-uio-by .fl-uiOptions-fatPanel,
+.fl-theme-uio-bw .fl-uiOptions-fatPanel { border-bottom: 1px solid black;}
 
 .idi-uio-button {
     background-image: url("images/loginandpreferences/preferences.png");
