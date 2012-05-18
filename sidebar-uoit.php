@@ -21,7 +21,7 @@
 
 <h3>Leads</h3>
 <div class="idi-project-lead">
-	<span class="idi-project-lead-name">Francois Desjardins</span>
+	<span class="idi-project-lead-name" lang="fr">Francois Desjardins</span>
 	<div class="idi-project-lead-blurb">Associate Dean of the University of Ontario Institute of Technology</div>
 </div>
 
