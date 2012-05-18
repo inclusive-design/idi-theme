@@ -49,7 +49,7 @@ Version: 1.0
 .fl-site-link a:focus,
 .fl-site-nav-main a:focus,
 .fl-uiOptions-fatPanel .fl-toggleButton:focus {
-    border-width: 5px solid #FFCC00;
+    border: 5px solid #FFCC00;
     outline: none;
 }
 :active,
