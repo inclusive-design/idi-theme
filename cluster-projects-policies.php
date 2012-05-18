@@ -29,5 +29,16 @@
 						This project is working with the Mozilla Foundation to develop technologies that will expand the inclusiveness of the open web, and to develop tools to enable a broad range of developers to utilize these technologies.
 					</div>
 				</section>
+				<section class="idi-project fl-col-mixed">
+					<div class="idi-project-logo fl-col-fixed fl-force-left">
+						<a class="idi-no-tab-focus" href="http://aegis.idrc.ocad.ca/">
+							<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/aegis_logo.png" title="ÆGIS project logo" alt="ÆGIS project logo"/>
+						</a>
+					</div>
+					<div class="fl-col-flex">
+						<h3><a href="http://aegis.idrc.ocad.ca/">ÆGIS (Ontario)</a></h3>
+						The ÆGIS (Ontario) project will explore inclusive design approaches to develop an Open Accessibility Framework to address the design, development and deployment of sustainable, needs-based, accessible mainstream ICT.
+					</div>
+				</section>
 			</div>
 		</div>
