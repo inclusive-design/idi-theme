@@ -1341,10 +1341,10 @@ img.idi-about-person {
 .fl-theme-uio-by .idi-more,
 .fl-theme-uio-bw .idi-more { background-image: url("images/arrows/arrow-black.gif"); }
 
-.fl-theme-uio-yb .idi-more:hover { background-image: url("images/arrows/arrow-hover-yellow.gif"); }
-.fl-theme-uio-wb .idi-more:hover { background-image: url("images/arrows/arrow-hover-white.gif"); }
-.fl-theme-uio-by .idi-more:hover,
-.fl-theme-uio-bw .idi-more:hover { background-image: url("images/arrows/arrow-hover-black.gif"); }
+.fl-theme-uio-by .idi-more:hover { background-image: url("images/arrows/arrow-hover-yellow.gif"); }
+.fl-theme-uio-bw .idi-more:hover { background-image: url("images/arrows/arrow-hover-white.gif"); }
+.fl-theme-uio-yb .idi-more:hover,
+.fl-theme-uio-wb .idi-more:hover { background-image: url("images/arrows/arrow-hover-black.gif"); }
 
 .idi-infra p.coming-soon {
     font-style: italic;
@@ -1446,10 +1446,10 @@ a.idi-project-lead-name {
 .fl-theme-uio-wb .idi-external-link { background-image: url('images/externalpage-white.gif'); }
 .fl-theme-uio-bw .idi-external-link,
 .fl-theme-uio-by .idi-external-link { background-image: url('images/externalpage-black.gif'); }
-.fl-theme-uio-yb .idi-external-link:hover { background-image: url('images/externalpage-yellow-hover.gif'); }
-.fl-theme-uio-wb .idi-external-link:hover { background-image: url('images/externalpage-white-hover.gif'); }
-.fl-theme-uio-bw .idi-external-link:hover,
-.fl-theme-uio-by .idi-external-link:hover { background-image: url('images/externalpage-black-hover.gif'); }
+.fl-theme-uio-by .idi-external-link:hover { background-image: url('images/externalpage-yellow-hover.gif'); }
+.fl-theme-uio-bw .idi-external-link:hover { background-image: url('images/externalpage-white-hover.gif'); }
+.fl-theme-uio-wb .idi-external-link:hover,
+.fl-theme-uio-yb .idi-external-link:hover { background-image: url('images/externalpage-black-hover.gif'); }
 
 .idi-project-list h4 {
     font-size: 1.125em;
