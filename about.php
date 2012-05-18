@@ -366,10 +366,10 @@ Template Name: About Page
 		</section>
 		
 		<section class="idi-person">
-		<a id="Scardemalia"></a>
+		<a id="Scardamalia"></a>
 		<div class="idi-person-intro">
-			<img class="idi-about-person" title="Marlene Scardemalia" alt="Marlene Scardemalia" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Scardemalia.jpg"/>
-			<h3>Marlene Scardemalia</h3>
+			<img class="idi-about-person" title="Marlene Scardamalia" alt="Marlene Scardamalia" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Scardamalia.jpg"/>
+			<h3>Marlene Scardamalia</h3>
 			<div class="idi-people-position">Director</div>
 			<div class="idi-people-org"><a href="http://www.ikit.org/">Institute for Knowledge Innovation and Technology</a></div>
 		</div>
@@ -400,10 +400,13 @@ Template Name: About Page
 			<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
 		</div>
 		<p>
-		Brian Cantwell Smith is a Professor in the Faculty of Information Studies at the University of Toronto. Dr. Smith recently served as the Dean of the Faculty; holds a Canada Research Chair in the Foundations of Information; and is cross-appointed as Professor in the departments of Philosophy and Computer Science and in the Program in Communication, Culture and Technology at University of Toronto at Mississauga. He is also a senior fellow at Massey College, a fellow of University College, and a member of the Trinity College Senior Common Room.
+		Brian Cantwell Smith is a Professor in the Faculty of Information at the University of Toronto, with additional appointments in Philosophy, Computer Science, and the Program in Communication, Culture and Technology. Dr. Smith served as the Dean of the Faculty from 2003-2008, where he also held a Canada Research Chair in the Foundations of Information. He is a senior fellow at Massey College, and a member of the Research Council of the Canadian Institute for Advanced Research.
 		</p>
 		<p>
-		Dr. Smith received his B.S., M.S., and Ph.D. from the Massachusetts Institute of Technology in Computer Science and Artificial Intelligence. After receiving his doctorate, he held senior research and administrative positions at the Xerox Palo Alto Research Centre (PARC) in California, and was an adjunct associate professor in the Philosophy and Computer Science departments at Stanford University. He was a founder and principal investigator of the Stanford-based Centre for the Study of Language and Information, and was a founder and first President of Computer Professionals for Social Responsibility.  In 1996, he moved to the Indiana University at Bloomington, where he was professor of cognitive science, computer science, philosophy, and informatics, and a fellow of the Center for Social Informatics in the School of Library and Information Sciences. He then moved to Duke University, as the Kimberly J. Jenkins University Professor of Philosophy and New Technologies, and professor of Philosophy and Computer Science.
+		Dr. Smith received his B.S., M.S., and Ph.D. from the Massachusetts Institute of Technology in Computer Science and Artificial Intelligence. In the 1980s and 1990s he held senior research and administrative positions at the Xerox Palo Alto Research Centre (PARC) in California, was an adjunct professor in the Philosophy and Computer Science departments at Stanford University, was a founder and principal investigator of the Stanford-based Centre for the Study of Language and Information (CSLI), and was a founder and first President of Computer Professionals for Social Responsibility (CPSR). In 1996 he moved to the Indiana University at Bloomington as professor of cognitive science, computer science, philosophy, and informatics, and a fellow of the Center for Social Informatics in the School of Library and Information Sciences. From 2001 to 2003 he held the Kimberly J. Jenkins University Professorship of Philosophy and New Technologies at Duke University, with appointments in Philosophy and Computer Science.
+		</p>
+		<p>
+		Dr Smith's research focuses on the conceptual foundations of computation and information, and on new forms of metaphysics, ontology, and epistemology. He is the author of On the Origin of Objects (MIT, 1996) and two volumes of papers forthcoming from Harvard University Press entitled "Indiscrete Affairs".  A seven volume series entitled "The Age of Significance: An Essay on the Origins of Computation and Intentionality" is being published simultaneously online and on paper by the MIT Press.
 		</p>
 		</section>
 		
