@@ -1016,6 +1016,7 @@ ul.idi-institution-list {
 }
 ul.idi-institution-list li {
     color: #0076B0;
+    padding-bottom: .33em;
 }
 ul.idi-institution-list li a {
     display: block;
@@ -1121,6 +1122,7 @@ form#idiMailingListSignup input {
 }
 .idi-article-list ul li {
     list-style-type: none;
+    padding-bottom: .33em;
 }
 .idi-article-title,
 .idi-article-list a {
