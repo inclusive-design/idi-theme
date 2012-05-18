@@ -46,22 +46,23 @@ Version: 1.0
 }
 
 :focus,
+.fl-site-link a:focus,
 .fl-site-nav-main a:focus,
-.fl-uiOptions-fatPanel .fl-toggleButton:focus,
-.idi-article-list ul li a:focus,
-ul.idi-institution-list li a:focus  {
-    border: 5px solid #FFCC00;
+.fl-uiOptions-fatPanel .fl-toggleButton:focus {
+    border-width: 5px solid #FFCC00;
     outline: none;
 }
-
-:active {
-    border: none;
-}
-
+:active,
 .idi-no-tab-focus:focus {
     border: none;
 }
 
+.fl-site-link a {
+    border: 5px solid transparent;
+}
+.fl-theme-uio-bw .fl-site-link a, .fl-theme-uio-wb .fl-site-link a, .fl-theme-uio-by .fl-site-link a, .fl-theme-uio-yb .fl-site-link a {
+     border-width: 0px;
+}
 .aligncenter {
     margin-left: auto;
     margin-right: auto;
@@ -101,13 +102,7 @@ body.fl-theme-uio-bw, body.fl-theme-uio-wb { background-image: none; }
 }
 a {
     color: #0076B0;
-    border: 5px solid transparent; 
 }
-
-.fl-theme-uio-bw a, .fl-theme-uio-wb a, .fl-theme-uio-by a, .fl-theme-uio-yb a {
-    border-width: 0px;
-}
-
 a:hover,
 a:focus,
 .twitter-feed-group a.twitter-follow-button:hover,
@@ -141,7 +136,7 @@ a:focus,
 .fl-theme-uio-by .fl-site-link a:focus, .fl-theme-uio-bw .fl-site-link a:focus,
 .fl-theme-uio-yb .fl-site-nav-main a:focus, .fl-theme-uio-wb .fl-site-nav-main a:focus,
 .fl-theme-uio-by .fl-site-nav-main a:focus, .fl-theme-uio-bw .fl-site-nav-main a:focus
-    { background-color: inherit !important; color: inherit !important; }
+    { background-color: inherit !important; color: inherit !important; border-width: 5px;}
 
 h1 {
     font-size: 3em;
@@ -604,7 +599,8 @@ h3,
     width: 8em;
 }
 .idi-design-cluster-name,
-.idi-design-cluster-name:hover {
+.idi-design-cluster-name:hover,
+.idi-design-cluster-name:focus {
     color: #16B36C;
 }
 .idi-design-cluster-arrow {
@@ -640,7 +636,8 @@ h3,
     width: 12em;
 }
 .idi-policies-cluster-name,
-.idi-policies-cluster-name:hover {
+.idi-policies-cluster-name:hover,
+.idi-policies-cluster-name:focus {
     color: #EE5B24;
 }
 .idi-policies-cluster-arrow {
@@ -677,7 +674,8 @@ h3,
     text-align: right;
 }
 .idi-implementation-cluster-name,
-.idi-implementation-cluster-name:hover {
+.idi-implementation-cluster-name:hover,
+.idi-implementation-cluster-name:focus {
     color: #F9A31C;
 }
 .idi-implementation-cluster-arrow {
@@ -714,7 +712,8 @@ h3,
     width: 7em; 
 }
 .idi-mobile-cluster-name,
-.idi-mobile-cluster-name:hover {
+.idi-mobile-cluster-name:hover,
+.idi-mobile-cluster-name:focus {
     color: #00ADE4;
 }
 .idi-mobile-cluster-arrow {
@@ -876,6 +875,11 @@ h3,
 .fl-theme-uio-wb .fl-uiOptions-fatPanel .fl-toggleButton { border: 1px solid white;  }
 .fl-theme-uio-by .fl-uiOptions-fatPanel .fl-toggleButton,
 .fl-theme-uio-bw .fl-uiOptions-fatPanel .fl-toggleButton { border: 1px solid black;  }
+
+.fl-theme-uio-yb .fl-uiOptions-fatPanel .fl-toggleButton:focus,
+.fl-theme-uio-wb .fl-uiOptions-fatPanel .fl-toggleButton:focus,
+.fl-theme-uio-by .fl-uiOptions-fatPanel .fl-toggleButton:focus,
+.fl-theme-uio-bw .fl-uiOptions-fatPanel .fl-toggleButton:focus { border-width: 5px;}
 
 .idi-uio-button {
     background-image: url("images/loginandpreferences/preferences.png");
@@ -1112,7 +1116,8 @@ form#idiMailingListSignup input {
 .idi-article-list ul li {
     list-style-type: none;
 }
-.idi-article-list ul li a {
+.idi-article-title,
+.idi-article-list a {
     display: block;
 }
 .idi-news-article,
@@ -1451,6 +1456,7 @@ a.idi-project-lead-name {
 }
 a.idi-project-link {
     text-decoration: none;
+    display: block;
 }
 .idi-research-item {
     max-width: 15em;
@@ -1503,6 +1509,9 @@ a.idi-project-link {
     width: 4.5em;
     position: relative;
     top: 46%;
+}
+.idi-cluster-name-link {
+    display: block;
 }
 .fl-theme-uio-yb .idi-cluster-icon-text,
 .fl-theme-uio-wb .idi-cluster-icon-text,
