@@ -45,6 +45,21 @@ Template Name: About Page
 		</section>
 		
 		<section class="idi-person">
+		<a id="Carroll"></a>
+		<div class="idi-person-intro">
+			<img class="idi-about-person" title="Mary Jane Carroll" alt="Mary Jane Carroll" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Carroll.jpg"/>
+			<h3>Mary Jane Carroll</h3>
+			<div class="idi-people-position">Professor, Interior Design</div>
+			<div class="idi-people-org"><a href="http://www.sheridancollege.ca/">Sheridan College</a></div>
+		</div>
+		<p>
+		Mary Jane Carroll has a Master of Architecture (Inclusive Design) from the State University of New York at Buffalo, and a Master of Fine Arts from the Ohio State University in Columbus, Ohio. She is currently employed as a professor in the Sheridan College ITAL Bachelor of Applied Arts (Interior Design) program, and has a cross-appointment in the CCIT program at the University of Toronto at Mississauga to teach universal design.  Additionally, she is a Research Associate at the Inclusive Design and Environmental Access (IDeA) Center at UB, and is the author of  “Universal Design and the Interior Environment”, a chapter in the recently released “Universal Design: Creating Inclusive Environments” book by Dr. Ed Steinfeld and Jordana Maisel. Mary Jane has been teaching and researching person-environment fit for the past 12 years and has delivered conference papers both in Canada and abroad. She has had papers published in the US, India and Canada. 
+		</p>
+		<p>
+		Current research projects include inclusive design and public housing, with a particular focus on accessibility; the development of federal standards for the home modifications industry in the US, in conjunction with the IDeA Center; and an aging in place certificate program for working professionals.
+		</p>
+		</section>
+		<section class="idi-person">
 		<a id="Chau"></a>
 		<div class="idi-person-intro">
 			<img class="idi-about-person" title="Tom Chau" alt="Tom Chau" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Chau.jpg"/>
@@ -148,18 +163,6 @@ Template Name: About Page
 		</section>
 		
 		<section class="idi-person">
-		<a id="Humphrey"></a>
-		<div class="idi-person-intro">
-			<img class="idi-about-person" title="David Humphrey" alt="David Humphrey" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Humphrey.jpg"/>
-			<h3>David Humphrey</h3>
-			<div class="idi-people-position">Professor, <a href="http://cdot.senecac.on.ca/">Centre for Development of Open Technology (CDOT)</a></div>
-			<div class="idi-people-org"><a href="http://www.senecacollege.ca/">Seneca College</a></div>
-		</div>
-		<p>
-		David Humphrey is a professor in the Centre for Development of Open Technology (CDOT) at Seneca College. His teaching and research focus on open web standards, web browser architecture, and open source  development practices, with a special focus on the development and  creation of multimedia web standards and technologies.  He is also a  long time contributor and developer with the Mozilla project, working on  the Firefox web browser. David works closely with the Mozilla Foundation on educational projects, and is the Foundation's Educational Liaison.</p>
-		</section>
-		
-		<section class="idi-person">
 		<a id="Grimes"></a>
 		<div class="idi-person-intro">
 			<img class="idi-about-person" title="Sara M. Grimes" alt="Sara M. Grimes" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Grimes.jpg"/>
@@ -169,6 +172,35 @@ Template Name: About Page
 		</div>
 		<p>
 		Dr. Sara M. Grimes is an Assistant Professor of Children's Literature and New Media at the Faculty of Information, University of Toronto, and Visiting Professor at the University of St. Michael’s College. She researches and teaches primarily in the areas of children's digital media culture(s), play studies and critical theories of technology, with a special focus on digital games. Sara's work has appeared in journals such as New Media & Society, The Information Society, The International Journal of Media & Cultural Politics, and Communication, Culture & Critique. Her published work includes explorations of children's virtual worlds and online communities, examinations of online marketing targeted to children, the articulation of a critical theory of digital game play, and discussions of the legal and ethical dimensions of virtual property in online games. In addition to her own research on child-generated content in digital games, Sara is currently collaborating on a number of play-related projects. She is associate director of the Inclusive Design Institute UofT Mobile and Pervasive Computing Cluster, heading the Adaptive Gaming and Inclusive Play research area. She is co-applicant on a recently awarded Partnership Development Grant on Digital Economy Trading Zones, leading a reference project on Play. Sara is on the advisory boards of the Media Awareness Network’s Young Canadians in a Wired World Phase 3, TIFF Nexus New Media Literacy, and Atmosphere Industries' "Privacy: The Game!."
+		</p>
+		</section>
+		
+		<section class="idi-person">
+		<a id="Helliker"></a>
+		<div class="idi-person-intro">
+			<img class="idi-about-person" title="John Helliker" alt="John Helliker" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Helliker.jpg"/>
+			<h3>John Helliker</h3>
+			<div class="idi-people-position">Professor and Director, Screen Industries Research and Training Centre </div>
+			<div class="idi-people-org"><a href="http://www.sheridancollege.ca/">Sheridan College</a></div>
+		</div>
+		<p>
+		Before joining Sheridan College as a faculty member in 2005, John worked for over twenty years as a freelance director, production manager, and writer within the Canadian film and television industry. His credits include production management for children’s series television such as Degrassi and OWLTV; multiple series as a writer for TVOntario; and directing of independent shorts, children’s television and a feature film.
+		</p>
+		<p>
+		At Sheridan John has taught directing, visual effects and previsualization, a new course he developed that is jointly taken by directing, cinematography, and production design students. He is principal researcher and initial Director of the Screen Industries Research and Training Centre established by Sheridan College in conjunction with industry partners at Pinewood Toronto Studios. This studio and post-production facility serves as a collaborative workspace for integration of new production and post-production technologies within the film, television, gaming, and interactive industries. Most recently, John was presented with the ORION 2012 Leadership Award for Higher Education, recognizing his innovative work within the Screen Industries Research and Training Centre.
+		</p>
+		</section>
+		
+		<section class="idi-person">
+		<a id="Humphrey"></a>
+		<div class="idi-person-intro">
+			<img class="idi-about-person" title="David Humphrey" alt="David Humphrey" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Humphrey.jpg"/>
+			<h3>David Humphrey</h3>
+			<div class="idi-people-position">Professor, <a href="http://cdot.senecac.on.ca/">Centre for Development of Open Technology (CDOT)</a></div>
+			<div class="idi-people-org"><a href="http://www.senecacollege.ca/">Seneca College</a></div>
+		</div>
+		<p>
+		David Humphrey is a professor in the Centre for Development of Open Technology (CDOT) at Seneca College. His teaching and research focus on open web standards, web browser architecture, and open source  development practices, with a special focus on the development and  creation of multimedia web standards and technologies.  He is also a  long time contributor and developer with the Mozilla project, working on  the Firefox web browser. David works closely with the Mozilla Foundation on educational projects, and is the Foundation's Educational Liaison.
 		</p>
 		</section>
 		
@@ -185,6 +217,19 @@ Template Name: About Page
 		</p>
 		<p>
 		He has been called a «human Internet», as his research and innovation work seeks to identify and connect the best minds, the best knowledge and the best tools across traditional boundaries to eliminate unnecessary suffering. Such work focuses on a radical 'glocal' innovation model designed to improve the capacity of humans to imagine, create and promote new and better approaches to living, healing, working and learning across the world. Powered by social networks and other leading-edge telecommunication tools, his projects attempt to anticipate and respond to major public health threats (e.g., multiple chronic conditions, pandemics) through strong and sustainable international collaboration, and to enable the public (particularly young people) to shape the health system and society.
+		</p>
+		</section>
+		
+		<section class="idi-person">
+		<a id="Katzman"></a>
+		<div class="idi-person-intro">
+			<img class="idi-about-person" title="Avrim Katzman" alt="Avrim Katzman" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Katzman.jpg"/>
+			<h3>Avrim Katzman</h3>
+			<div class="idi-people-position">Professor</div>
+			<div class="idi-people-org"><a href="http://www.sheridancollege.ca/">Sheridan College</a></div>
+		</div>
+		<p>In his over 25 years at Sheridan College Institute of Technology and Advanced 
+		Learning Avrim Katzman has been the senior professor in the internationally renowned Computer Animation Program as well as the founding Director and principal investigator of Sheridan’s first research institute, the Visualization Design Institute. His research has been supported by significant grants from the Canada Foundation for Innovation, the Ontario Research and Development Challenge Fund, the Ontario Innovations Trust, NSERC, and the Ontario Centres of Excellence, as well as numerous private sector contracts. He is the architect of Sheridan’s Bachelor of Applied Arts degree in Game Design and serves as the Coordinator of Game Design Programs in the Faculty of Animation Arts and Design. His current research interests are in inclusive game design, and the applications of game technologies in transmedia production.
 		</p>
 		</section>
 		

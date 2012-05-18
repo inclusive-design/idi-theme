@@ -5,6 +5,7 @@
 	<a class="idi-about-nav-header" href="#people">People</a>
 	<ul>
 	    <li><a href="#Baecker">Ron Baecker</a></li>
+	    <li><a href="#Carroll">Mary Jane Carroll</a></li>
 	    <li><a href="#Chau">Tom Chau</a></li>
 	    <li><a href="#Church">Kathryn Church</a></li>
 	    <li><a href="#Desjardins" lang="fr">Francois Desjardins</a></li>
@@ -12,9 +13,11 @@
 	    <li><a href="#Fels">Deborah Fels</a></li>
 	    <li><a href="#Florida">Richard Florida</a></li>
 	    <li><a href="#Frazee">Catherine Frazee</a></li>
-	    <li><a href="#Humphrey">David Humphrey</a></li>
 	    <li><a href="#Grimes">Sara M. Grimes</a></li>
+	    <li><a href="#Helliker">John Helliker</a></li>
+	    <li><a href="#Humphrey">David Humphrey</a></li>
 	    <li><a href="#Jadad" lang="es">Alejandro (Alex) Jadad</a></li>
+	    <li><a href="#Katzman">Avrim Katzman</a></li>
 	    <li><a href="#Luke">Robert Luke</a></li>
 	    <li><a href="#McEwen">Rhonda McEwen</a></li>
 	    <li><a href="#Mercer">Dawn Mercer</a></li>
