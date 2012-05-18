@@ -102,6 +102,7 @@ body.fl-theme-uio-bw, body.fl-theme-uio-wb { background-image: none; }
 }
 a {
     color: #0076B0;
+    display: inline-block;
 }
 a:hover,
 a:focus,
