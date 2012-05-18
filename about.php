@@ -457,6 +457,31 @@ Template Name: About Page
 		internationally (including ISO 24751 , and AODA Information and Communication).</p>
 		</section>
 
+		<section class="idi-person">
+		<a id="Tyler"></a>
+		<div class="idi-person-intro">
+			<img class="idi-about-person" title="Chris Tyler" alt="Chris Tyler" lang="de" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Tyler.jpg"/>
+			<h3 lang="de">Chris Tyler</h3>
+			<div class="idi-people-position">Research Coordinator in the <a href="http://cdot.senecac.on.ca/">Centre for Development of Open Technology</a></div>
+			<div class="idi-people-org"><a href="http://senecac.on.ca">Seneca College</a></div>
+		</div>
+		<p>
+		Chris Tyler is a faculty member in the Seneca College School of ICT and a researcher in the Seneca Centre for Development of Open Technology. He focuses on open source technology, particularly Linux on emerging platforms. Chris is the author of two O'Reilly books, Fedora Linux and X Power Tools. His current research is centered on building Fedora Linux for ARM low-energy computing devices, including investigations into the role that these devices may play in inclusive pervasive computing.
+		</p>
+		</section>
+
+		<section class="idi-person">
+		<a id="Weaver"></a>
+		<div class="idi-person-intro">
+			<img class="idi-about-person" title="Evan Weaver" alt="Evan Weaver" lang="de" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Weaver.jpg"/>
+			<h3 lang="de">Evan Weaver</h3>
+			<div class="idi-people-position">Chair, <a href="https://scs.senecac.on.ca//">School of Information and Communications Technology</a></div>
+			<div class="idi-people-org"><a href="http://senecac.on.ca">Seneca College</a></div>
+		</div>
+		<p>
+		Evan Weaver is a Chair of the School of Information and Communications Technology at Seneca College. He is one of the co-founders of Seneca's Centre for Development of Open Technology, and is the administrator of  record for research projects taking place in the Centre. Under his  guidance, the Centre has grown from an association of like-minded faculty to a formal research facility with significant industry involvement and funding from agencies such as NSERC, Canadian Heritage,  FedDev and OCE.
+		</p>
+		</section>
 
 	</div>
 
