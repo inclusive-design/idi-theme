@@ -1703,3 +1703,9 @@ a.idi-project-link {
 .fl-theme-uio-bw .idi-project-logo {
     background: url('images/logoplaceholder/logoplaceholder-black.png') no-repeat left center;
 }
+.fl-theme-uio-yb a.idi-project-logo,
+.fl-theme-uio-wb a.idi-project-logo,
+.fl-theme-uio-by a.idi-project-logo,
+.fl-theme-uio-bw a.idi-project-logo {
+    background-image: none;
+}
