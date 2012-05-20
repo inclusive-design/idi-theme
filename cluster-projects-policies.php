@@ -18,6 +18,13 @@
 						Fluid is an open-source software community that designs user interfaces, builds Web tools, teaches inclusive design and integrates interface components into open source applications .
 					</div>
 				</section>
+				<section class="idi-project fl-col-mixed">
+						<div class="idi-project-logo idi-no-tab-focus fl-col-fixed fl-force-left"><img alt="" class="idi-logo-placeholder" height="60" src="http://dev.inclusivedesign.ca/wp-content/uploads/2012/04/logoplaceholder.png" title="Project logo placeholder" width="60" /></div>
+					<div class="fl-col-flex">
+						<h3><a href="http://atutor.ca/">AChecker</a></h3>
+						<p>This tool checks single HTML pages for conformance with accessibility standards to ensure the content can be accessed by everyone.</p>
+					</div>
+				</section>
 			</div>
 			<div class="fl-col">
 				<section class="idi-project fl-col-mixed">
