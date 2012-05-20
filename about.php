@@ -276,6 +276,19 @@ Template Name: About Page
 		</section>
 		
 		<section class="idi-person">
+		<a id="McIntyre"></a>
+		<div class="idi-person-intro">
+			<img class="idi-about-person" title="Jamie McIntyre" alt="Jamie McIntyre" lang="es" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/McIntyre.jpg"/>
+			<h3 lang="es">Jamie McIntyre</h3>
+			<div class="idi-people-position">Innovation Coordinator, CCET</div>
+			<div class="idi-people-org"><a href="http://georgebrown.ca">George Brown College</a></div>
+		</div>
+		<p>
+		McIntyre has been a member of faculty since 2000 in microelectronics, mechanical and electro-mechanical programs, with teaching experience in math, physics, electronics, manufacturing and project design. McIntyre is the Innovation Coordinator for CCET, having lead responsibility for faculty engagement in applied research, business development and project intake. McIntrye’s expertise in new product development is widely utilized across the college in all areas, particularly health technology. His role as lead investigator for I-PORTAL will be to continue capacity development and industry innovation activities.
+		</p>
+		</section>
+		
+		<section class="idi-person">
 		<a id="Mercer"></a>
 		<div class="idi-person-intro">
 			<img class="idi-about-person" title="Dawn Mercer" alt="Dawn Mercer" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Mercer.jpg"/>
