@@ -91,7 +91,7 @@ body.fl-theme-uio-bw, body.fl-theme-uio-wb { background-image: none; }
 .fl-site-main-body,
 .fl-site-footer {
     max-width: 64em;
-    min-width: 800px;
+    min-width: 50em;
     margin-left: auto;
     margin-right: auto;
 }
@@ -102,6 +102,7 @@ body.fl-theme-uio-bw, body.fl-theme-uio-wb { background-image: none; }
 }
 a {
     color: #0076B0;
+    display: inline-block;
 }
 a:hover,
 a:focus,
@@ -881,6 +882,11 @@ h3,
 .fl-theme-uio-by .fl-uiOptions-fatPanel .fl-toggleButton:focus,
 .fl-theme-uio-bw .fl-uiOptions-fatPanel .fl-toggleButton:focus { border-width: 5px;}
 
+.fl-theme-uio-yb .fl-uiOptions-fatPanel { border-bottom: 1px solid yellow;}
+.fl-theme-uio-wb .fl-uiOptions-fatPanel { border-bottom: 1px solid white;}
+.fl-theme-uio-by .fl-uiOptions-fatPanel,
+.fl-theme-uio-bw .fl-uiOptions-fatPanel { border-bottom: 1px solid black;}
+
 .idi-uio-button {
     background-image: url("images/loginandpreferences/preferences.png");
 }
@@ -1010,6 +1016,7 @@ ul.idi-institution-list {
 }
 ul.idi-institution-list li {
     color: #0076B0;
+    padding-bottom: .33em;
 }
 ul.idi-institution-list li a {
     display: block;
@@ -1115,6 +1122,7 @@ form#idiMailingListSignup input {
 }
 .idi-article-list ul li {
     list-style-type: none;
+    padding-bottom: .33em;
 }
 .idi-article-title,
 .idi-article-list a {
@@ -1336,10 +1344,10 @@ img.idi-about-person {
 .fl-theme-uio-by .idi-more,
 .fl-theme-uio-bw .idi-more { background-image: url("images/arrows/arrow-black.gif"); }
 
-.fl-theme-uio-yb .idi-more:hover { background-image: url("images/arrows/arrow-hover-yellow.gif"); }
-.fl-theme-uio-wb .idi-more:hover { background-image: url("images/arrows/arrow-hover-white.gif"); }
-.fl-theme-uio-by .idi-more:hover,
-.fl-theme-uio-bw .idi-more:hover { background-image: url("images/arrows/arrow-hover-black.gif"); }
+.fl-theme-uio-by .idi-more:hover { background-image: url("images/arrows/arrow-hover-yellow.gif"); }
+.fl-theme-uio-bw .idi-more:hover { background-image: url("images/arrows/arrow-hover-white.gif"); }
+.fl-theme-uio-yb .idi-more:hover,
+.fl-theme-uio-wb .idi-more:hover { background-image: url("images/arrows/arrow-hover-black.gif"); }
 
 .idi-infra p.coming-soon {
     font-style: italic;
@@ -1441,10 +1449,10 @@ a.idi-project-lead-name {
 .fl-theme-uio-wb .idi-external-link { background-image: url('images/externalpage-white.gif'); }
 .fl-theme-uio-bw .idi-external-link,
 .fl-theme-uio-by .idi-external-link { background-image: url('images/externalpage-black.gif'); }
-.fl-theme-uio-yb .idi-external-link:hover { background-image: url('images/externalpage-yellow-hover.gif'); }
-.fl-theme-uio-wb .idi-external-link:hover { background-image: url('images/externalpage-white-hover.gif'); }
-.fl-theme-uio-bw .idi-external-link:hover,
-.fl-theme-uio-by .idi-external-link:hover { background-image: url('images/externalpage-black-hover.gif'); }
+.fl-theme-uio-by .idi-external-link:hover { background-image: url('images/externalpage-yellow-hover.gif'); }
+.fl-theme-uio-bw .idi-external-link:hover { background-image: url('images/externalpage-white-hover.gif'); }
+.fl-theme-uio-wb .idi-external-link:hover,
+.fl-theme-uio-yb .idi-external-link:hover { background-image: url('images/externalpage-black-hover.gif'); }
 
 .idi-project-list h4 {
     font-size: 1.125em;
@@ -1480,6 +1488,14 @@ a.idi-project-link {
 }
 .idi-research-item h2:hover, .idi-research-item a:focus h2 {
     text-decoration: underline;
+}
+.fl-theme-uio-yb .idi-research-item h2:hover, .fl-theme-uio-yb .idi-research-item a:focus h2,
+.fl-theme-uio-wb .idi-research-item h2:hover, .fl-theme-uio-wb .idi-research-item a:focus h2,
+.fl-theme-uio-bw .idi-research-item h2:hover, .fl-theme-uio-bw .idi-research-item a:focus h2,
+.fl-theme-uio-by .idi-research-item h2:hover, .fl-theme-uio-by .idi-research-item a:focus h2 {
+    text-decoration: none;
+    background-color: inherit !important;
+    color: inherit !important;
 }
 .idi-research-item p {
     padding-left: 1.25em;
