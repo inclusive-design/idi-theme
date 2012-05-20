@@ -3,7 +3,7 @@
 		<h3>Featured Projects</h3>
 		<section class="idi-project-item">
 			<h4><a class="idi-project-link" href="http://zenit.senecac.on.ca/wiki/index.php/Fedora_ARM_Secondary_Architecture/">Pervasive Computing and Intelligent Device Control using ARM Devices</a></h4>
-			<div>Big Blue Button is an open source web conferencing system developed primarily for distance education. This project will apply inclusive design in Big Blue Button as HTML5 features are added.</div>
+			<div>ARM systems are extremely popular, cost-effective, and very energy-efficient computers. These systems help realize the vision of pervasive computing, through connected mobile, embedded, and back-end cloud systems. </div>
 			<a class="idi-external-link idi-no-tab-focus" title="Pervasive Computing and Intelligent Device Control using ARM Devices" href="http://zenit.senecac.on.ca/wiki/index.php/Fedora_ARM_Secondary_Architecture/">visit project site</a>
 		</section>
 
