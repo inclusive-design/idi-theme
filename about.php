@@ -221,6 +221,19 @@ Template Name: About Page
 		</section>
 		
 		<section class="idi-person">
+		<a id="Jones"></a>
+		<div class="idi-person-intro">
+			<img class="idi-about-person" title="Erin Jones" alt="Erin Jones" lang="es" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Jones.jpg"/>
+			<h3 lang="es">Erin Jones</h3>
+			<div class="idi-people-position">Research Project Management, Office of Applied Research</div>
+			<div class="idi-people-org"><a href="http://georgebrown.ca">George Brown College</a></div>
+		</div>
+		<p>
+		Erin Jones holds a Master’s in Information Studies, and has extensive experience working in research methodology design and analysis, as well as conducting usability studies and user centred design research. Currently, she holds a Research Project Management role within the Office of Applied Research that positions her well to oversee and coordinate the planning, design, and execution of research projects conducted through the ARO in the new lab facilities of I-PORTAL, and to assist in the training and instruction of faculty conducting usability and design research in the labs.
+		</p>
+		</section>
+		
+		<section class="idi-person">
 		<a id="Katzman"></a>
 		<div class="idi-person-intro">
 			<img class="idi-about-person" title="Avrim Katzman" alt="Avrim Katzman" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Katzman.jpg"/>
@@ -259,6 +272,19 @@ Template Name: About Page
 		</div>
 		<p>
 			Rhonda McEwen is an Assistant Professor at the Institute of Communication, Culture, and Information Technology at the University of Toronto in Mississauga. She holds an MBA in Information Technology from City University in London, England, an MSc in Telecommunications from the University of Colorado, and a PhD in Information from University of Toronto. Dr. McEwen's research and teaching centre around information practices involving new media technologies, with an emphasis on mobile & tablet applications, social media design, and youth. She has designed and researched digital communications media for 15 years, both in companies providing services, and in management consulting to those companies. Dr. McEwen is currently researching the use of tablet devices by non-verbal autistic children for communication and sociality in two Toronto school settings.
+		</p>
+		</section>
+		
+		<section class="idi-person">
+		<a id="McIntyre"></a>
+		<div class="idi-person-intro">
+			<img class="idi-about-person" title="Jamie McIntyre" alt="Jamie McIntyre" lang="es" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/McIntyre.jpg"/>
+			<h3 lang="es">Jamie McIntyre</h3>
+			<div class="idi-people-position">Innovation Coordinator, CCET</div>
+			<div class="idi-people-org"><a href="http://georgebrown.ca">George Brown College</a></div>
+		</div>
+		<p>
+		McIntyre has been a member of faculty since 2000 in microelectronics, mechanical and electro-mechanical programs, with teaching experience in math, physics, electronics, manufacturing and project design. McIntyre is the Innovation Coordinator for CCET, having lead responsibility for faculty engagement in applied research, business development and project intake. McIntrye’s expertise in new product development is widely utilized across the college in all areas, particularly health technology. His role as lead investigator for I-PORTAL will be to continue capacity development and industry innovation activities.
 		</p>
 		</section>
 		

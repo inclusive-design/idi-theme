@@ -17,9 +17,11 @@
 	    <li><a href="#Helliker">John Helliker</a></li>
 	    <li><a href="#Humphrey">David Humphrey</a></li>
 	    <li><a href="#Jadad" lang="es">Alejandro (Alex) Jadad</a></li>
+	    <li><a href="#Jones">Erin Jones</a></li>
 	    <li><a href="#Katzman">Avrim Katzman</a></li>
 	    <li><a href="#Luke">Robert Luke</a></li>
 	    <li><a href="#McEwen">Rhonda McEwen</a></li>
+	    <li><a href="#McIntyre">Jamie McIntyre</a></li>
 	    <li><a href="#Mercer">Dawn Mercer</a></li>
 	    <li><a href="#Michalko">Rod Michalko</a></li>
 	    <li><a href="#Mihailidis">Alex Mihailidis</a></li>
