@@ -221,6 +221,19 @@ Template Name: About Page
 		</section>
 		
 		<section class="idi-person">
+		<a id="Jones"></a>
+		<div class="idi-person-intro">
+			<img class="idi-about-person" title="Erin Jones" alt="Erin Jones" lang="es" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Jones.jpg"/>
+			<h3 lang="es">Erin Jones</h3>
+			<div class="idi-people-position">Research Project Management, Office of Applied Research</div>
+			<div class="idi-people-org"><a href="http://georgebrown.ca">George Brown College</a></div>
+		</div>
+		<p>
+		Erin Jones holds a Master’s in Information Studies, and has extensive experience working in research methodology design and analysis, as well as conducting usability studies and user centred design research. Currently, she holds a Research Project Management role within the Office of Applied Research that positions her well to oversee and coordinate the planning, design, and execution of research projects conducted through the ARO in the new lab facilities of I-PORTAL, and to assist in the training and instruction of faculty conducting usability and design research in the labs.
+		</p>
+		</section>
+		
+		<section class="idi-person">
 		<a id="Katzman"></a>
 		<div class="idi-person-intro">
 			<img class="idi-about-person" title="Avrim Katzman" alt="Avrim Katzman" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Katzman.jpg"/>
