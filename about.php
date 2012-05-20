@@ -36,14 +36,29 @@ Template Name: About Page
 		<div class="idi-person-intro">
 			<img class="idi-about-person" title="Ron Baecker" alt="Ron Baecker" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Baecker.gif"/>
 			<h3>Ron Baecker</h3>
-			<div class="idi-people-position">Director, <a href="http://taglab.utoronto.ca/">Technologies for Aging Gracefully Lab (TAGlab)</a></div>
+			<div class="idi-people-position">Professor of Computer Science and Director, <a href="http://taglab.utoronto.ca/">Technologies for Aging Gracefully Lab (TAGlab)</a></div>
 			<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
 		</div>
 		<p>
-		Ronald Baecker is Professor of Computer Science, Bell Universities Laboratories Chair in Human-Computer Interaction, and Director of the Technologies for Aging Gracefully lab (TAGlab) at the University of Toronto. He has been named one of the 60 Pioneers of Computer Graphics by ACMSIGGRAPH, has been elected to the CHI (Computers and Human Interaction) Academy by ACMSIGCHI, and has been given the Canadian Human Computer Communications Society Achievement Award.
+		Ronald Baecker is Professor of Computer Science, Bell Universities Laboratories Chair in Human-Computer Interaction, and Director of the Technologies for Aging Gracefully lab (TAGlab) at the University of Toronto. An ACM Fellow, he has been named one of the 60 Pioneers of Computer Graphics by ACM SIGGRAPH, has been elected to the CHI (Computers and Human Interaction) Academy by ACM SIGCHI, and has been given the Canadian Human Computer Communications Society Achievement Award. 
 		</p>
 		</section>
 		
+		<section class="idi-person">
+		<a id="Carroll"></a>
+		<div class="idi-person-intro">
+			<img class="idi-about-person" title="Mary Jane Carroll" alt="Mary Jane Carroll" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Carroll.jpg"/>
+			<h3>Mary Jane Carroll</h3>
+			<div class="idi-people-position">Professor, Interior Design</div>
+			<div class="idi-people-org"><a href="http://www.sheridancollege.ca/">Sheridan College</a></div>
+		</div>
+		<p>
+		Mary Jane Carroll has a Master of Architecture (Inclusive Design) from the State University of New York at Buffalo, and a Master of Fine Arts from the Ohio State University in Columbus, Ohio. She is currently employed as a professor in the Sheridan College ITAL Bachelor of Applied Arts (Interior Design) program, and has a cross-appointment in the CCIT program at the University of Toronto at Mississauga to teach universal design.  Additionally, she is a Research Associate at the Inclusive Design and Environmental Access (IDeA) Center at UB, and is the author of  “Universal Design and the Interior Environment”, a chapter in the recently released “Universal Design: Creating Inclusive Environments” book by Dr. Ed Steinfeld and Jordana Maisel. Mary Jane has been teaching and researching person-environment fit for the past 12 years and has delivered conference papers both in Canada and abroad. She has had papers published in the US, India and Canada. 
+		</p>
+		<p>
+		Current research projects include inclusive design and public housing, with a particular focus on accessibility; the development of federal standards for the home modifications industry in the US, in conjunction with the IDeA Center; and an aging in place certificate program for working professionals.
+		</p>
+		</section>
 		<section class="idi-person">
 		<a id="Chau"></a>
 		<div class="idi-person-intro">
@@ -78,7 +93,7 @@ Template Name: About Page
 			<img class="idi-about-person" lang="fr" title="Francois Desjardins" alt="Francois Desjardins" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Desjardins.jpg"/>
 			<h3 lang="fr">Francois Desjardins</h3>
 			<div class="idi-people-position">Founding Director, <a href="http://www.eilab.ca/">Educational Informatics Lab</a></div>
-			<div class="idi-people-org"><a href="http://uoit.ca">Univ. of Ontario Institute of Technology</a></div>
+			<div class="idi-people-org"><a href="http://uoit.ca">University of Ontario Institute of Technology</a></div>
 		</div>
 		<p>
 		Dr <span lang="fr">Desjardins'</span> academic career has been focused on the study of the role technology can play in the learning process at different levels.  In the past few years, that interest has moved towards mobile-learning and it’s potential to alter our thinking about pedagogy.
@@ -148,18 +163,6 @@ Template Name: About Page
 		</section>
 		
 		<section class="idi-person">
-		<a id="Humphrey"></a>
-		<div class="idi-person-intro">
-			<img class="idi-about-person" title="David Humphrey" alt="David Humphrey" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Humphrey.jpg"/>
-			<h3>David Humphrey</h3>
-			<div class="idi-people-position">Professor, <a href="http://cdot.senecac.on.ca/">Centre for Development of Open Technology (CDOT)</a></div>
-			<div class="idi-people-org"><a href="http://www.senecacollege.ca/">Seneca College</a></div>
-		</div>
-		<p>
-		David Humphrey is a professor in the Centre for Development of Open Technology (CDOT) at Seneca College. His teaching and research focus on open web standards, web browser architecture, and open source  development practices, with a special focus on the development and  creation of multimedia web standards and technologies.  He is also a  long time contributor and developer with the Mozilla project, working on  the Firefox web browser. David works closely with the Mozilla Foundation on educational projects, and is the Foundation's Educational Liaison.</p>
-		</section>
-		
-		<section class="idi-person">
 		<a id="Grimes"></a>
 		<div class="idi-person-intro">
 			<img class="idi-about-person" title="Sara M. Grimes" alt="Sara M. Grimes" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Grimes.jpg"/>
@@ -169,6 +172,35 @@ Template Name: About Page
 		</div>
 		<p>
 		Dr. Sara M. Grimes is an Assistant Professor of Children's Literature and New Media at the Faculty of Information, University of Toronto, and Visiting Professor at the University of St. Michael’s College. She researches and teaches primarily in the areas of children's digital media culture(s), play studies and critical theories of technology, with a special focus on digital games. Sara's work has appeared in journals such as New Media & Society, The Information Society, The International Journal of Media & Cultural Politics, and Communication, Culture & Critique. Her published work includes explorations of children's virtual worlds and online communities, examinations of online marketing targeted to children, the articulation of a critical theory of digital game play, and discussions of the legal and ethical dimensions of virtual property in online games. In addition to her own research on child-generated content in digital games, Sara is currently collaborating on a number of play-related projects. She is associate director of the Inclusive Design Institute UofT Mobile and Pervasive Computing Cluster, heading the Adaptive Gaming and Inclusive Play research area. She is co-applicant on a recently awarded Partnership Development Grant on Digital Economy Trading Zones, leading a reference project on Play. Sara is on the advisory boards of the Media Awareness Network’s Young Canadians in a Wired World Phase 3, TIFF Nexus New Media Literacy, and Atmosphere Industries' "Privacy: The Game!."
+		</p>
+		</section>
+		
+		<section class="idi-person">
+		<a id="Helliker"></a>
+		<div class="idi-person-intro">
+			<img class="idi-about-person" title="John Helliker" alt="John Helliker" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Helliker.jpg"/>
+			<h3>John Helliker</h3>
+			<div class="idi-people-position">Professor and Director, Screen Industries Research and Training Centre </div>
+			<div class="idi-people-org"><a href="http://www.sheridancollege.ca/">Sheridan College</a></div>
+		</div>
+		<p>
+		Before joining Sheridan College as a faculty member in 2005, John worked for over twenty years as a freelance director, production manager, and writer within the Canadian film and television industry. His credits include production management for children’s series television such as Degrassi and OWLTV; multiple series as a writer for TVOntario; and directing of independent shorts, children’s television and a feature film.
+		</p>
+		<p>
+		At Sheridan John has taught directing, visual effects and previsualization, a new course he developed that is jointly taken by directing, cinematography, and production design students. He is principal researcher and initial Director of the Screen Industries Research and Training Centre established by Sheridan College in conjunction with industry partners at Pinewood Toronto Studios. This studio and post-production facility serves as a collaborative workspace for integration of new production and post-production technologies within the film, television, gaming, and interactive industries. Most recently, John was presented with the ORION 2012 Leadership Award for Higher Education, recognizing his innovative work within the Screen Industries Research and Training Centre.
+		</p>
+		</section>
+		
+		<section class="idi-person">
+		<a id="Humphrey"></a>
+		<div class="idi-person-intro">
+			<img class="idi-about-person" title="David Humphrey" alt="David Humphrey" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Humphrey.jpg"/>
+			<h3>David Humphrey</h3>
+			<div class="idi-people-position">Professor, <a href="http://cdot.senecac.on.ca/">Centre for Development of Open Technology (CDOT)</a></div>
+			<div class="idi-people-org"><a href="http://www.senecacollege.ca/">Seneca College</a></div>
+		</div>
+		<p>
+		David Humphrey is a professor in the Centre for Development of Open Technology (CDOT) at Seneca College. His teaching and research focus on open web standards, web browser architecture, and open source  development practices, with a special focus on the development and  creation of multimedia web standards and technologies.  He is also a  long time contributor and developer with the Mozilla project, working on  the Firefox web browser. David works closely with the Mozilla Foundation on educational projects, and is the Foundation's Educational Liaison.
 		</p>
 		</section>
 		
@@ -185,6 +217,19 @@ Template Name: About Page
 		</p>
 		<p>
 		He has been called a «human Internet», as his research and innovation work seeks to identify and connect the best minds, the best knowledge and the best tools across traditional boundaries to eliminate unnecessary suffering. Such work focuses on a radical 'glocal' innovation model designed to improve the capacity of humans to imagine, create and promote new and better approaches to living, healing, working and learning across the world. Powered by social networks and other leading-edge telecommunication tools, his projects attempt to anticipate and respond to major public health threats (e.g., multiple chronic conditions, pandemics) through strong and sustainable international collaboration, and to enable the public (particularly young people) to shape the health system and society.
+		</p>
+		</section>
+		
+		<section class="idi-person">
+		<a id="Katzman"></a>
+		<div class="idi-person-intro">
+			<img class="idi-about-person" title="Avrim Katzman" alt="Avrim Katzman" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Katzman.jpg"/>
+			<h3>Avrim Katzman</h3>
+			<div class="idi-people-position">Professor</div>
+			<div class="idi-people-org"><a href="http://www.sheridancollege.ca/">Sheridan College</a></div>
+		</div>
+		<p>In his over 25 years at Sheridan College Institute of Technology and Advanced 
+		Learning Avrim Katzman has been the senior professor in the internationally renowned Computer Animation Program as well as the founding Director and principal investigator of Sheridan’s first research institute, the Visualization Design Institute. His research has been supported by significant grants from the Canada Foundation for Innovation, the Ontario Research and Development Challenge Fund, the Ontario Innovations Trust, NSERC, and the Ontario Centres of Excellence, as well as numerous private sector contracts. He is the architect of Sheridan’s Bachelor of Applied Arts degree in Game Design and serves as the Coordinator of Game Design Programs in the Faculty of Animation Arts and Design. His current research interests are in inclusive game design, and the applications of game technologies in transmedia production.
 		</p>
 		</section>
 		
@@ -258,7 +303,7 @@ Template Name: About Page
 			<img class="idi-about-person" title="Bill Muirhead" alt="Bill Muirhead" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Muirhead.jpg"/>
 			<h3>Bill Muirhead</h3>
 			<div class="idi-people-position">Associate Provost, Academic and Information Technology</div>
-			<div class="idi-people-org"><a href="http://www.uoit.ca/">Univ. of Ontario Institute of Technology</a></div>
+			<div class="idi-people-org"><a href="http://www.uoit.ca/">University of Ontario Institute of Technology</a></div>
 		</div>
 		<p>
 		Bill Muirhead is currently the Associate Provost, Academic and Information Technology at the University of Ontario, Institute of Technology (UOIT) located in Oshawa, Ontario. Prior to relocating to the Greater Toronto Area, Bill was the founding Executive Director of the Alberta Online Consortium (AOC) and served as a senior advisor to Alberta Learning in areas of e-learning, professional development, and policy areas involving information and communications technologies (ICT) on K-1 and postsecondary education. Bill has extensive experience in teacher training, online education, policy development and e-learning. His research interests include professional practices in online education; design of hybrid teaching-learning environments; policy support for learning object repositories; and implementation issues surrounding the use of ICT in postsecondary institutions. An internationally recognized speaker, Bill is the recipient of numerous awards for leadership and innovation in e-learning. </p>
@@ -321,10 +366,10 @@ Template Name: About Page
 		</section>
 		
 		<section class="idi-person">
-		<a id="Scardemalia"></a>
+		<a id="Scardamalia"></a>
 		<div class="idi-person-intro">
-			<img class="idi-about-person" title="Marlene Scardemalia" alt="Marlene Scardemalia" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Scardemalia.jpg"/>
-			<h3>Marlene Scardemalia</h3>
+			<img class="idi-about-person" title="Marlene Scardamalia" alt="Marlene Scardamalia" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Scardamalia.jpg"/>
+			<h3>Marlene Scardamalia</h3>
 			<div class="idi-people-position">Director</div>
 			<div class="idi-people-org"><a href="http://www.ikit.org/">Institute for Knowledge Innovation and Technology</a></div>
 		</div>
@@ -355,10 +400,13 @@ Template Name: About Page
 			<div class="idi-people-org"><a href="http://www.utoronto.ca/">University of Toronto</a></div>
 		</div>
 		<p>
-		Brian Cantwell Smith is a Professor in the Faculty of Information Studies at the University of Toronto. Dr. Smith recently served as the Dean of the Faculty; holds a Canada Research Chair in the Foundations of Information; and is cross-appointed as Professor in the departments of Philosophy and Computer Science and in the Program in Communication, Culture and Technology at University of Toronto at Mississauga. He is also a senior fellow at Massey College, a fellow of University College, and a member of the Trinity College Senior Common Room.
+		Brian Cantwell Smith is a Professor in the Faculty of Information at the University of Toronto, with additional appointments in Philosophy, Computer Science, and the Program in Communication, Culture and Technology. Dr. Smith served as the Dean of the Faculty from 2003-2008, where he also held a Canada Research Chair in the Foundations of Information. He is a senior fellow at Massey College, and a member of the Research Council of the Canadian Institute for Advanced Research.
 		</p>
 		<p>
-		Dr. Smith received his B.S., M.S., and Ph.D. from the Massachusetts Institute of Technology in Computer Science and Artificial Intelligence. After receiving his doctorate, he held senior research and administrative positions at the Xerox Palo Alto Research Centre (PARC) in California, and was an adjunct associate professor in the Philosophy and Computer Science departments at Stanford University. He was a founder and principal investigator of the Stanford-based Centre for the Study of Language and Information, and was a founder and first President of Computer Professionals for Social Responsibility.  In 1996, he moved to the Indiana University at Bloomington, where he was professor of cognitive science, computer science, philosophy, and informatics, and a fellow of the Center for Social Informatics in the School of Library and Information Sciences. He then moved to Duke University, as the Kimberly J. Jenkins University Professor of Philosophy and New Technologies, and professor of Philosophy and Computer Science.
+		Dr. Smith received his B.S., M.S., and Ph.D. from the Massachusetts Institute of Technology in Computer Science and Artificial Intelligence. In the 1980s and 1990s he held senior research and administrative positions at the Xerox Palo Alto Research Centre (PARC) in California, was an adjunct professor in the Philosophy and Computer Science departments at Stanford University, was a founder and principal investigator of the Stanford-based Centre for the Study of Language and Information (CSLI), and was a founder and first President of Computer Professionals for Social Responsibility (CPSR). In 1996 he moved to the Indiana University at Bloomington as professor of cognitive science, computer science, philosophy, and informatics, and a fellow of the Center for Social Informatics in the School of Library and Information Sciences. From 2001 to 2003 he held the Kimberly J. Jenkins University Professorship of Philosophy and New Technologies at Duke University, with appointments in Philosophy and Computer Science.
+		</p>
+		<p>
+		Dr Smith's research focuses on the conceptual foundations of computation and information, and on new forms of metaphysics, ontology, and epistemology. He is the author of On the Origin of Objects (MIT, 1996) and two volumes of papers forthcoming from Harvard University Press entitled "Indiscrete Affairs".  A seven volume series entitled "The Age of Significance: An Essay on the Origins of Computation and Intentionality" is being published simultaneously online and on paper by the MIT Press.
 		</p>
 		</section>
 		
@@ -384,10 +432,10 @@ Template Name: About Page
 			<div class="idi-people-org"><a href="http://utoronto.ca">University of Toronto</a></div>
 		</div>
 		<p>
-		Tanya Titchkosky pursues research and teaching in Disability Studies (DS). She does this work from her perspective as dyslexic and with an interpretive sociological approach informed by phenomenology; hermeneutics; critical disability, race, and queer theory. Along with being a full member of School of Graduate Studies (SGS), and part of the Women and Gender Studies Institute, U of T, she is also an Honorary Research Associate at the University of New Brunswick.
+		Tanya Titchkosky pursues research and teaching in Disability Studies (DS). She does this work from her perspective as dyslexic and with an interpretive sociological approach informed by phenomenology; hermeneutics; critical disability, race, and queer theory. Along with being a full member of School of Graduate Studies (SGS), and part of the Women and Gender Studies Institute, U of T, she is also an Honorary Research Associate at the University of New Brunswick.     
 		</p>
 		<p>
-		All of her work in disability studies aims to explore the social meaning of embodiment as it is made manifest between people situated in world orders not of our own choosing.  Disability studies is then a place of critical inquiry where the meaning of our intersecting lives as bodies, minds, senses, emotions within complex webs of power and interpretations of normalcy can be explored and understood in new ways.
+		All of her work in disability studies aims to explore the social meaning of embodiment as it is made manifest between people situated in world orders not of our own choosing.  Disability studies is then a place of critical inquiry where the meaning of our intersecting lives as bodies, minds, senses, emotions within complex webs of power and interpretations of normalcy can be explored and understood in new ways.   
 		</p>
 		<p>
 		Through both teaching and research, Tanya aims to examine how everyday life and social theory exclude and include disability within the politically charged interpretive milieu of social differences and desires, conflicts and commitments. As Principal Investigator of a standard SSHRC research grant, “The Cultural Production of Disability as an Excludable Type in University Life,” with co-investigator Dr. Rod Michalko, she is examining the ways in which educational contexts continue to include disability as an excludable type and how this relation is represented by images, texts, policy and programs that aim to fix, control, contain or manage disability within educational contexts.    
@@ -412,6 +460,31 @@ Template Name: About Page
 		internationally (including ISO 24751 , and AODA Information and Communication).</p>
 		</section>
 
+		<section class="idi-person">
+		<a id="Tyler"></a>
+		<div class="idi-person-intro">
+			<img class="idi-about-person" title="Chris Tyler" alt="Chris Tyler" lang="de" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Tyler.jpg"/>
+			<h3 lang="de">Chris Tyler</h3>
+			<div class="idi-people-position">Research Coordinator in the <a href="http://cdot.senecac.on.ca/">Centre for Development of Open Technology</a></div>
+			<div class="idi-people-org"><a href="http://senecac.on.ca">Seneca College</a></div>
+		</div>
+		<p>
+		Chris Tyler is a faculty member in the Seneca College School of ICT and a researcher in the Seneca Centre for Development of Open Technology. He focuses on open source technology, particularly Linux on emerging platforms. Chris is the author of two O'Reilly books, Fedora Linux and X Power Tools. His current research is centered on building Fedora Linux for ARM low-energy computing devices, including investigations into the role that these devices may play in inclusive pervasive computing.
+		</p>
+		</section>
+
+		<section class="idi-person">
+		<a id="Weaver"></a>
+		<div class="idi-person-intro">
+			<img class="idi-about-person" title="Evan Weaver" alt="Evan Weaver" lang="de" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/Weaver.jpg"/>
+			<h3 lang="de">Evan Weaver</h3>
+			<div class="idi-people-position">Chair, <a href="https://scs.senecac.on.ca//">School of Information and Communications Technology</a></div>
+			<div class="idi-people-org"><a href="http://senecac.on.ca">Seneca College</a></div>
+		</div>
+		<p>
+		Evan Weaver is a Chair of the School of Information and Communications Technology at Seneca College. He is one of the co-founders of Seneca's Centre for Development of Open Technology, and is the administrator of  record for research projects taking place in the Centre. Under his  guidance, the Centre has grown from an association of like-minded faculty to a formal research facility with significant industry involvement and funding from agencies such as NSERC, Canadian Heritage,  FedDev and OCE.
+		</p>
+		</section>
 
 	</div>
 

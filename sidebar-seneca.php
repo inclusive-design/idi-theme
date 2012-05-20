@@ -24,4 +24,9 @@
 	<div class="idi-project-lead-blurb">Research Coordinator in the Centre for Development of Open Technology</div>
 </div>
 
+<div class="idi-project-lead">
+	<span class="idi-project-lead-name">Chris Tyler</span>
+	<div class="idi-project-lead-blurb">Research Coordinator in the Centre for Development of Open Technology</div>
+</div>
+
 <?php get_template_part("institution-list"); ?>

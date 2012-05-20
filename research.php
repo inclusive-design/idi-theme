@@ -27,12 +27,12 @@ Template Name: Research Page
 									</div>
 								</div>
 							</a>
-							<a class="idi-cluster-name-link idi-no-tab-focus" href="design">
+							<a class="idi-cluster-name-link" href="design">
 								<h2>Design &amp; Development</h2>
 							</a>
 						</head>
 						<p>Creating tools, strategies, resources and exemplars that address all stages of ICT production and use</p>
-						<p><a class="idi-more" title="Design and Development research cluster" href="design">learn more</a></p>
+						<p><a class="idi-more idi-no-tab-focus" title="Design and Development research cluster" href="design">learn more</a></p>
 					</div>
 				</section>
 			</li>
@@ -51,12 +51,12 @@ Template Name: Research Page
 									</div>
 								</div>
 							</a>
-							<a class="idi-cluster-name-link idi-no-tab-focus" href="policies">
+							<a class="idi-cluster-name-link" href="policies">
 								<h2>Business Case, Policies, Standards &amp; Legislation</h2>
 							</a>
 						</head>
 						<p>Engaging legislators, specifications bodies, advocacy groups and consumer communities in inclusive design research</p>
-						<p><a class="idi-more" title="Business Case, Policies, Standards and Legislation research cluster" href="policies">learn more</a></p>
+						<p><a class="idi-more idi-no-tab-focus" title="Business Case, Policies, Standards and Legislation research cluster" href="policies">learn more</a></p>
 					</div>
 				</section>
 			</li>
@@ -75,12 +75,12 @@ Template Name: Research Page
 									</div>
 								</div>
 							</a>
-							<a class="idi-cluster-name-link idi-no-tab-focus" href="mobile">
+							<a class="idi-cluster-name-link" href="mobile">
 								<h2>Mobile &amp; Pervasive Computing</h2>
 							</a>
 						</head>
 						<p>Focusing on mobile, context-aware and location-aware technologies, ubiquitous web applications, pervasive computing and ambient intelligence</p>
-						<p><a class="idi-more" title="Mobile and Pervasive Computing research cluster" href="mobile">learn more</a></p>
+						<p><a class="idi-more idi-no-tab-focus" title="Mobile and Pervasive Computing research cluster" href="mobile">learn more</a></p>
 					</div>
 				</section>
 			</li>
@@ -99,12 +99,12 @@ Template Name: Research Page
 									</div>
 								</div>
 							</a>
-							<a class="idi-cluster-name-link idi-no-tab-focus" href="implementation">
+							<a class="idi-cluster-name-link" href="implementation">
 								<h2>Implementation &amp; Information Practices</h2>
 							</a>
 						</head>
 						<p>Examining the role of ICT and inclusive design in education, health, culture and civic engagement</p>
-						<p><a class="idi-more" title="Implementation and Information Practices research cluster" href="implementation">learn more</a></p>
+						<p><a class="idi-more idi-no-tab-focus" title="Implementation and Information Practices research cluster" href="implementation">learn more</a></p>
 					</div>
 				</section>
 			</li>

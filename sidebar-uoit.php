@@ -1,6 +1,6 @@
 <div class="idi-inst-site-links">
 	<p><a class="idi-external-link" href="http://eilab.ca">visit EILab site</a></p>
-	<p><a class="idi-external-link" href="http://UOIT.ca">visit UIOT site</a></p>
+	<p><a class="idi-external-link" href="http://UOIT.ca">visit UOIT site</a></p>
 </div>
 
 <div class="idi-contact-info">

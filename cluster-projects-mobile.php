@@ -20,6 +20,16 @@
 						ARM systems are extremely popular, cost-effective, and very energy-efficient computers. These systems help realize the vision of pervasive computing, through connected mobile, embedded, and back-end cloud systems.
 					</div>
 				</section>
+				<section class="idi-project fl-col-mixed">
+					<div class="idi-project-logo fl-col-fixed fl-force-left">
+						<a class="idi-no-tab-focus" href="http://komodoopenlab.com/tecla/">
+							<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/tecla_logo_h48.png" title="Tecla project logo" alt="Tecla project logo" />
+						</a>
+					</div>
+					<div class="fl-col-flex">
+						<h3><a href="http://komodoopenlab.com/tecla/">Tecla</a></h3>
+						Tecla is a set of open software and hardware tools that facilitate switch access to electronic devices for people with mobility impairments.					</div>
+				</section>
 			</div>
 			<div class="fl-col">
 				<section class="idi-project fl-col-mixed">
