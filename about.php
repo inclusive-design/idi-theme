@@ -241,8 +241,12 @@ Template Name: About Page
 			<div class="idi-people-position">Assistant Vice President, <a href="http://www.georgebrown.ca/research/">Research and Innovation</a></div>
 			<div class="idi-people-org"><a href="http://www.georgebrown.ca/">George Brown College</a></div>
 		</div>
-		<p>Robert Luke, Ph.D., is Assistant Vice-President of Research and Innovation for George Brown College. He is also Chair of the Research
-		Group of Polytechnics Canada. Dr. Luke is an experienced researcher and expert at working effectively with diverse groups. His research focuses on the application of innovative technologies in healthcare and education, and the evaluation of outcomes associated with new technology development, adoption and adaptation.</p>
+		<p>
+		Robert Luke is Assistant Vice President of Research and Innovation for George Brown College where he works with industry and community partners to address business and social innovation. Dr. Luke is also responsible for institutional research including corporate planning and strategy, and educational quality measurement and improvement.
+		</p>
+		<p>
+		Maintaining an active research program in participatory innovation design and the application of innovative technologies in healthcare and education, Dr. Luke’s current research investigates the role of students in applied research and graduates with innovation literacy fostering innovation and productivity in firms. He is chair of the Polytechnics Canada Research Group, a member of the Toronto Community Foundation Toronto Vital Signs Advisory Group, a member of the George Brown College Board of Governors, and a member of the Programs and Quality Committee of the Social Sciences and Humanities Research Council of Canada.
+		</p>
 		</section>
 		
 		<section class="idi-person">
