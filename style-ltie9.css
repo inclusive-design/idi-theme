@@ -126,3 +126,13 @@
 .idi-policies-underlay { background-image: url('images/clusters/businesscase-bg-ltie9.png'); }
 .idi-mobile-underlay { background-image: url('images/clusters/mobile-bg-ltie9.png'); }
 .idi-implementation-underlay { background-image: url('images/clusters/implementation-bg-ltie9.png'); }
+
+.idi-clusters-overlay {
+    background-image: url('images/clusters/researchclusters-bg.png');
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    height: 575px;
+    width: 1024px;
+    position: absolute;
+    z-index: 2;
+}
