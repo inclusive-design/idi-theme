@@ -1202,13 +1202,24 @@ a.idi-breadcrumbs {
 ol.letters li {
     list-style-type: lower-alpha;
 }
+.idi-about-sidebar li.idi-nav-top-level {
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+.idi-about-sidebar li {
+    font-weight: 400;
+    font-size: 83.33%;
+}
 
 /* People page styles */
 .idi-people h2,
+.idi-about h2,
 .idi-cluster h2 {
     font-style: italic;
     color: #3FB66C;
 }
+.idi-about h2,
 .idi-people h2 {
     margin-bottom: .5em;    
 }
