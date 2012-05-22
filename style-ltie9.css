@@ -223,3 +223,23 @@
 .fl-theme-uio-wb .idi-research-clusters .idi-cluster-circle,
 .fl-theme-uio-by .idi-research-clusters .idi-cluster-circle,
 .fl-theme-uio-bw .idi-research-clusters .idi-cluster-circle { background-color: transparent !important; }
+
+.fl-theme-uio-yb .idi-mobile-cluster-circle,
+.fl-theme-uio-wb .idi-mobile-cluster-circle,
+.fl-theme-uio-by .idi-mobile-cluster-circle,
+.fl-theme-uio-bw .idi-mobile-cluster-circle { border: none !important; }
+
+.fl-theme-uio-yb .idi-implementation-cluster-circle,
+.fl-theme-uio-wb .idi-implementation-cluster-circle,
+.fl-theme-uio-by .idi-implementation-cluster-circle,
+.fl-theme-uio-bw .idi-implementation-cluster-circle { border: none !important; }
+
+.fl-theme-uio-yb .idi-design-cluster-circle,
+.fl-theme-uio-wb .idi-design-cluster-circle,
+.fl-theme-uio-by .idi-design-cluster-circle,
+.fl-theme-uio-bw .idi-design-cluster-circle { border: none !important; }
+
+.fl-theme-uio-yb .idi-policies-cluster-circle,
+.fl-theme-uio-wb .idi-policies-cluster-circle,
+.fl-theme-uio-by .idi-policies-cluster-circle,
+.fl-theme-uio-bw .idi-policies-cluster-circle { border: none !important; }
