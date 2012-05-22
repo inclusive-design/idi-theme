@@ -1694,14 +1694,14 @@ a.idi-project-link {
     visibility: hidden;
 }
 .fl-theme-uio-yb .idi-project-logo {
-    background: url('images/logoplaceholder/logoplaceholder-yellow.png') no-repeat left center;
+    background: url('images/logoplaceholder/logoplaceholder-yellow.png') no-repeat left top;
 }
 .fl-theme-uio-wb .idi-project-logo {
-    background: url('images/logoplaceholder/logoplaceholder-white.png') no-repeat left center;
+    background: url('images/logoplaceholder/logoplaceholder-white.png') no-repeat left top;
 }
 .fl-theme-uio-by .idi-project-logo,
 .fl-theme-uio-bw .idi-project-logo {
-    background: url('images/logoplaceholder/logoplaceholder-black.png') no-repeat left center;
+    background: url('images/logoplaceholder/logoplaceholder-black.png') no-repeat left top;
 }
 .fl-theme-uio-yb a.idi-project-logo,
 .fl-theme-uio-wb a.idi-project-logo,
