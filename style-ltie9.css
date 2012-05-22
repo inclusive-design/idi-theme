@@ -121,3 +121,8 @@
 .fl-theme-uio-wb .idi-cluster-mobile { background-image: url('images/clusters-small/mobile-white.png'); }
 .fl-theme-uio-by .idi-cluster-mobile,
 .fl-theme-uio-bw .idi-cluster-mobile { background-image: url('images/clusters-small/mobile-black.png'); }
+
+.idi-design-underlay { background-image: url('images/clusters/design&development-bg-ltie9.png'); }
+.idi-policies-underlay { background-image: url('images/clusters/businesscase-bg-ltie9.png'); }
+.idi-mobile-underlay { background-image: url('images/clusters/mobile-bg-ltie9.png'); }
+.idi-implementation-underlay { background-image: url('images/clusters/implementation-bg-ltie9.png'); }
