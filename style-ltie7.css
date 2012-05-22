@@ -1,0 +1,56 @@
+body {
+    width: 80em;
+    margin: auto;
+}
+
+.fl-site-link a, .fl-site-nav-main a {
+    border: none;
+}
+
+.fl-site-link a {
+    background-image: url('images/logos/logo.gif');
+}
+.fl-theme-uio-yb .fl-site-link a { 
+    background-image: url('images/logos/logo-yellow.gif'); 
+}
+.fl-theme-uio-wb .fl-site-link a { 
+    background-image: url('images/logos/logo-white.gif'); 
+}
+.fl-theme-uio-by .fl-site-link a,
+.fl-theme-uio-bw .fl-site-link a { 
+    background-image: url('images/logos/logo-black.gif'); 
+}
+
+/* Strip out address icons */
+.idi-mailing-address, .idi-phone, .idi-email,
+.fl-theme-uio-yb .idi-mailing-address,
+.fl-theme-uio-yb .idi-phone,
+.fl-theme-uio-yb .idi-email,
+.fl-theme-uio-wb .idi-mailing-address,
+.fl-theme-uio-wb .idi-phone,
+.fl-theme-uio-wb .idi-email,
+.fl-theme-uio-by .idi-mailing-address,
+.fl-theme-uio-by .idi-phone,
+.fl-theme-uio-by .idi-email,
+.fl-theme-uio-bw .idi-mailing-address,
+.fl-theme-uio-bw .idi-phone,
+.fl-theme-uio-bw .idi-email
+ { background-image: none; }
+
+.twitter-feed-group a.twitter-follow-button,
+.fl-theme-uio-yb .twitter-feed-group a.twitter-follow-button,
+.fl-theme-uio-wb .twitter-feed-group a.twitter-follow-button,
+.fl-theme-uio-by .twitter-feed-group a.twitter-follow-button,
+.fl-theme-uio-bw .twitter-feed-group a.twitter-follow-button
+ { background-image: none; }
+ 
+.fl-site-nav-main.sticky .idi-nav-links-buffer {
+    background-image: none;
+}
+.fl-site-nav-main.sticky .idi-nav-links {
+    border-bottom: 1px solid #333333;
+}
+.fl-site-footer {
+    background-image: none;
+    border-top: 1px solid #333333;
+}
