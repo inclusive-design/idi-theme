@@ -870,6 +870,8 @@ h3,
     width: 8em;
     margin-top: 0px;
     font-weight: 400;
+    position: absolute;
+    left: 875px;  /* Temporary fix for IDI-57: Prefs button getting pushed offscreen when text size is maxed out.  */
 }
 /* these should not be necessary, but defaults not working? */
 .fl-theme-uio-yb .fl-uiOptions-fatPanel .fl-toggleButton { border: 1px solid yellow;  }
@@ -1694,12 +1696,18 @@ a.idi-project-link {
     visibility: hidden;
 }
 .fl-theme-uio-yb .idi-project-logo {
-    background: url('images/logoplaceholder/logoplaceholder-yellow.png') no-repeat left center;
+    background: url('images/logoplaceholder/logoplaceholder-yellow.png') no-repeat left top;
 }
 .fl-theme-uio-wb .idi-project-logo {
-    background: url('images/logoplaceholder/logoplaceholder-white.png') no-repeat left center;
+    background: url('images/logoplaceholder/logoplaceholder-white.png') no-repeat left top;
 }
 .fl-theme-uio-by .idi-project-logo,
 .fl-theme-uio-bw .idi-project-logo {
-    background: url('images/logoplaceholder/logoplaceholder-black.png') no-repeat left center;
+    background: url('images/logoplaceholder/logoplaceholder-black.png') no-repeat left top;
+}
+.fl-theme-uio-yb a.idi-project-logo,
+.fl-theme-uio-wb a.idi-project-logo,
+.fl-theme-uio-by a.idi-project-logo,
+.fl-theme-uio-bw a.idi-project-logo {
+    background-image: none;
 }
