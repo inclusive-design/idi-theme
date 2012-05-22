@@ -96,8 +96,8 @@
 .idi-cluster-policies { background-image: url('images/clusters-small/businesscase.png');}
 .idi-cluster-policies:hover { background-image: url('images/clusters-small/businesscase-hover.png');}
 
-.idi-cluster-information { background-image: url('images/clusters-small/information.png');}
-.idi-cluster-information:hover { background-image: url('images/clusters-small/information-hover.png');}
+.idi-cluster-implementation { background-image: url('images/clusters-small/implementation.png');}
+.idi-cluster-implementation:hover { background-image: url('images/clusters-small/implementation-hover.png');}
 
 .idi-cluster-mobile { background-image: url('images/clusters-small/mobile.png');}
 .idi-cluster-mobile:hover { background-image: url('images/clusters-small/mobile-hover.png');}
@@ -112,10 +112,10 @@
 .fl-theme-uio-by .idi-cluster-policies,
 .fl-theme-uio-bw .idi-cluster-policies { background-image: url('images/clusters-small/businesscase-black.png'); }
 
-.fl-theme-uio-yb .idi-cluster-information { background-image: url('images/clusters-small/information-yellow.png'); }
-.fl-theme-uio-wb .idi-cluster-information { background-image: url('images/clusters-small/information-white.png'); }
-.fl-theme-uio-by .idi-cluster-information,
-.fl-theme-uio-bw .idi-cluster-information { background-image: url('images/clusters-small/information-black.png'); }
+.fl-theme-uio-yb .idi-cluster-implementation { background-image: url('images/clusters-small/implementation-yellow.png'); }
+.fl-theme-uio-wb .idi-cluster-implementation { background-image: url('images/clusters-small/implementation-white.png'); }
+.fl-theme-uio-by .idi-cluster-implementation,
+.fl-theme-uio-bw .idi-cluster-implementation { background-image: url('images/clusters-small/implementation-black.png'); }
 
 .fl-theme-uio-yb .idi-cluster-mobile { background-image: url('images/clusters-small/mobile-yellow.png'); }
 .fl-theme-uio-wb .idi-cluster-mobile { background-image: url('images/clusters-small/mobile-white.png'); }
