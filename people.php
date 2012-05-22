@@ -15,21 +15,11 @@ Template Name: People Page
 	</div>
 
     <div id="content" class="fl-col-flex idi-two-column idi-people-people">
-		<div class="idi-about-tagline">Designing for the full range of human diversity</div>
 		<a id="whoweare"></a>
 		<h2>Who We Are</h2>
 		<p>
-		The Inclusive Design Institute is a research community and regional research hub focusing on the inclusive design of emerging information and communication systems and practices.
-		</p>
-		<p>
-		IDI research addresses the full life cycle of information and communication systems and practices - from design to implementation to evaluation and policy.
-		</p>
-		<p>
 		IDI is a community that values collaboration, broad participation, transparency, and openness. IDI research projects engage a range of disciplines, sectors, and collaborating organizations from around the world.
 		</p>
-		
-		<a id="people"></a>
-		<h2>People</h2>
 		
 		<section class="idi-person">
 		<a id="Baecker"></a>

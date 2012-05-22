@@ -1194,6 +1194,14 @@ a.idi-breadcrumbs {
 }
 
 /* About page styles */
+.idi-about-sidebar {
+    margin-top: 11em;
+}
+ol.letters li {
+    list-style-type: lower-alpha;
+}
+
+/* People page styles */
 .idi-people h2,
 .idi-cluster h2 {
     font-style: italic;
@@ -1211,7 +1219,7 @@ a.idi-breadcrumbs {
 }
 .idi-people-nav,
 .idi-people-sidebar {
-    margin-top: 13.2em;
+    margin-top: 4em;
 }
 .idi-people-people h3 {
     color: #202020;
