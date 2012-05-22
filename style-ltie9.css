@@ -121,3 +121,66 @@
 .fl-theme-uio-wb .idi-cluster-mobile { background-image: url('images/clusters-small/mobile-white.png'); }
 .fl-theme-uio-by .idi-cluster-mobile,
 .fl-theme-uio-bw .idi-cluster-mobile { background-image: url('images/clusters-small/mobile-black.png'); }
+
+.idi-implementation-cluster-circle-colour {
+    background-color: transparent;
+    background-image: url('images/circles/circle-orange.png');
+    background-repeat: no-repeat;
+}
+.idi-implementation-link:hover ~ .idi-implementation-cluster-circle {
+    top: 52px;
+    right: 167px;
+    width: 166px;
+    height: 166px;
+    background-image: url('images/circles/circle-orange-hover.png');
+    background-repeat: no-repeat;
+}
+
+.idi-design-cluster-circle-colour {
+    background-color: transparent;
+    background-image: url('images/circles/circle-green.png');
+    background-repeat: no-repeat;
+}
+.idi-design-link:hover ~ .idi-design-cluster-circle {
+    top: 193px;
+    left: 87px;
+    width: 147px;
+    height: 147px;
+    background-image: url('images/circles/circle-green-hover.png');
+    background-repeat: no-repeat;
+}
+
+.idi-policies-cluster-circle-colour {
+    background-color: transparent;
+    background-image: url('images/circles/circle-red.png');
+    background-repeat: no-repeat;
+}
+.idi-policies-link:hover ~ .idi-policies-cluster-circle {
+    top: 402px;
+    left: 227px;
+    width: 76px;
+    height: 76px;
+    background-image: url('images/circles/circle-red-hover.png');
+    background-repeat: no-repeat;
+}
+
+.idi-mobile-cluster-circle-colour {
+    background-color: transparent;
+    background-image: url('images/circles/circle-blue.png');
+    background-repeat: no-repeat;
+}
+.idi-mobile-link:hover ~ .idi-mobile-cluster-circle {
+    top: 140px;
+    left: 637px;
+    width: 106px;
+    height: 106px;
+    background-image: url('images/circles/circle-blue-hover.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.fl-theme-uio-by .idi-mobile-cluster-circle-colour,
+.fl-theme-uio-bw .idi-mobile-cluster-circle-colour { background-image: url('images/circles/circle-black100.png'); }
+
+.fl-theme-uio-by .idi-mobile-link:hover ~ .idi-mobile-cluster-circle,
+.fl-theme-uio-bw .idi-mobile-link:hover ~ .idi-mobile-cluster-circle { background-image: url('images/circles/circle-black106.png'); }
