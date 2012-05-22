@@ -870,6 +870,8 @@ h3,
     width: 8em;
     margin-top: 0px;
     font-weight: 400;
+    position: absolute;
+    left: 875px;  /* Temporary fix for IDI-57: Prefs button getting pushed offscreen when text size is maxed out.  */
 }
 /* these should not be necessary, but defaults not working? */
 .fl-theme-uio-yb .fl-uiOptions-fatPanel .fl-toggleButton { border: 1px solid yellow;  }
