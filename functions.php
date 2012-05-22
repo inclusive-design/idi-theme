@@ -16,6 +16,10 @@ function add_idi_files() {
 	$baseurl = get_stylesheet_directory_uri();
 	echo '<script type="text/javascript" src="' . $baseurl . '/lib/parallax-scrolling.js" ></script>' . "\n";
 	echo '<script type="text/javascript" src="' . $baseurl . '/idi.js" ></script>' . "\n";	
+	echo '<!--[if lt IE 8]>'  . "\n";	
+	echo '<script type="text/javascript" src="' . $baseurl . '/idi-ltie8.js" ></script>' . "\n";	
+	echo '<![endif]-->'  . "\n";	
+	
 }
 add_action('wp_head', 'add_idi_files');
 
