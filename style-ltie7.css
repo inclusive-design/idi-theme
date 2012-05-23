@@ -21,7 +21,9 @@ body {
     background-image: url('images/logos/logo-black.gif'); 
 }
 .fl-site-nav-main a:hover,
-.fl-site-nav-main a:active {
+.fl-site-nav-main a:active,
+.fl-site-nav-main a.current_page_item:hover,
+.fl-site-nav-main a.current_page_item:active {
     border: none;
 }
 
@@ -167,9 +169,12 @@ body {
     width: 14em;
 }
 .idi-research li {
-    width: 30em;
+    margin-left: 5em;
+    width: 20em;
 }
 .idi-research-item {
-    width: 17em;
+    width: 16em;
 }
-
+.idi-news-summary {
+    width: 50em;
+}
