@@ -14,11 +14,19 @@ $twitter_feed_opts = ' followlink="no" num="1" linktotweet="no" tweetintent="no"
  */
 function add_idi_files() {
 	$baseurl = get_stylesheet_directory_uri();
+	
+	// The font fix for Chrome and Firefox on windows
+	// Lato font is too light to read with chrome on windows, use arial/helvetica instead
+	$userAgent = strtolower($_SERVER['HTTP_USER_AGENT']);
+	if (strpos($userAgent, "windows") && (strpos($userAgent, "chrome") || strpos($userAgent, "firefox"))) {
+		echo '<link rel="stylesheet" type="text/css" media="all" href="'. $baseurl. '/style-windows.css" />'. "\n";
+	}
+	
 	echo '<script type="text/javascript" src="' . $baseurl . '/lib/parallax-scrolling.js" ></script>' . "\n";
 	echo '<script type="text/javascript" src="' . $baseurl . '/idi.js" ></script>' . "\n";	
-	echo '<!--[if lt IE 8]>'  . "\n";	
-	echo '<script type="text/javascript" src="' . $baseurl . '/idi-ltie8.js" ></script>' . "\n";	
-	echo '<![endif]-->'  . "\n";	
+	echo '<!--[if lt IE 8]>'  . "\n";
+	echo '<script type="text/javascript" src="' . $baseurl . '/idi-ltie8.js" ></script>' . "\n";
+	echo '<![endif]-->'  . "\n";
 	
 }
 add_action('wp_head', 'add_idi_files');
