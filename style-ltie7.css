@@ -204,6 +204,11 @@ body {
     padding: 0;
 }
 
+/* clusters page: logo wrapping */
+.idi-cluster .idi-project-logo {
+    width: 4em;
+}
+
 /* Strip out the background images from the navigation menu in IE6 */
 .fl-site-nav-main a.idi-nav-home {
     background-image: none;
