@@ -178,3 +178,14 @@ body {
 .idi-news-summary {
     width: 50em;
 }
+.idi-inst-content .fl-col-flex2 {
+    width: 55em;
+}
+.idi-inst-content .fl-col-flex2 .fl-col {
+    width: 24em;
+}
+.idi-inst-content .fl-col-flex2 .fl-col .fl-col-fixed {
+    width: 2em;
+    margin: 0;
+    padding: 0;
+}
