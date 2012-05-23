@@ -108,7 +108,7 @@ Template Name: About Page
 		<p>The Inclusive Design Institute is committed to building a knowledge community that can address the important goal of digital inclusion within Ontario, throughout Canada and globally. There are several associated programs that help to develop the human capacity to sustain this important agenda:
 			<ul>
 				<li><a href="http://www.ocadu.ca/programs/graduate_studies/inclusive_design.htm">Masters of Design in Inclusive Design at OCAD University</a></li>
-				<li>Inclusive Design Workshops in Digital Inclusion</li>
+				<li><a href="workshops">Inclusive Design Institute Workshops</a></li>
 				<li><a href="http://groups.google.com/group/stsgrad/browse_thread/thread/33719c327a1e7ed8">Postdoctoral positions within the Inclusive Design Institute</a></li>
 			</ul>
 		</p>
