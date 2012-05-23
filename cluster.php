@@ -22,10 +22,14 @@ Template Name: Research Cluster
 			<div id="content">
 				<h2><?php the_title(); ?></h2>
 		
+				<div class="idi-cluster-description">
+					<?php get_template_part("cluster-description", $post->post_name); ?>
+				</div>
+
 				<?php get_template_part("cluster-projects", $post->post_name); ?>
 		
 				<div class="idi-cluster-description">
-					<?php get_template_part("cluster-description", $post->post_name); ?>
+					<?php get_template_part("cluster-description-extra", $post->post_name); ?>
 				</div>
 			</div>
 		</section>
