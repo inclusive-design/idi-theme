@@ -21,6 +21,10 @@ body {
     background-image: url('images/logos/logo-black.gif'); 
 }
 
+.fl-site-nav-main a:active {
+    border: none;
+}
+
 /* Strip out address icons */
 .idi-mailing-address, .idi-phone, .idi-email,
 .fl-theme-uio-yb .idi-mailing-address,
