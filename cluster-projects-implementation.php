@@ -3,17 +3,6 @@
 				<div class="idi-project fl-col-mixed">
 					<section>
 						<div class="idi-project-logo fl-col-fixed fl-force-left">
-							<img class="idi-logo-placeholder" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
-						</div>
-						<div class="fl-col-flex">
-							<h3><a href="http://openvulab.org/">Open Virtual Usability Lab</a></h3>
-							OpenVULab is an open source tool designed for remote accessibility and usability testing. The tool is designed to capture remote users’ interactions with their computer screens as well as their microphone audio.
-						</div>
-					</section>
-				</div>
-				<div class="idi-project fl-col-mixed">
-					<section>
-						<div class="idi-project-logo fl-col-fixed fl-force-left">
 							<a class="idi-no-tab-focus" href="http://sites.google.com/site/decapodproject/">
 								<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/Decapod.png" title="Decapod project logo" alt="Decapod project logo"/>
 							</a>
@@ -38,13 +27,44 @@
 				<div class="idi-project fl-col-mixed">
 					<section>
 						<div class="idi-project-logo fl-col-fixed fl-force-left">
-							<a class="idi-no-tab-focus" href="http://atutor.ca/">
-								<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/AT_Logo_1_sm.png" title="ATutor logo" alt="ATutor logo"/>
-							</a>
+							<a class="idi-no-tab-focus" href="http://collectionspace.org/"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/CollectionSpace.png" title="CollectionSpace logo" alt="CollectionSpace logo"/></a>
 						</div>
 						<div class="fl-col-flex">
-							<h3><a href="http://atutor.ca/">ATutor</a></h3>
-							ATutor is an Open Source Web-based Learning Management System (LMS) used to develop and deliver online courses.
+							<h3><a href="http://collectionspace.org/">CollectionSpace</a></h3>
+							CollectionSpace is an open-source collections management application that meets the needs of museums, historical societies, and other collection-holding organizations. CollectionSpace is designed to be configurable to each organization’s needs, serving as a gateway to digital and physical assets across an institution.
+						</div>
+					</section>
+				</div>
+				<div class="idi-project fl-col-mixed">
+					<section>
+						<div class="idi-project-logo idi-no-tab-focus fl-col-fixed fl-force-left">
+							<img class="idi-logo-placeholder" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
+						</div>
+						<div class="fl-col-flex">
+							<h3><a href="http://abelearn.ca/">Accessible Video Conferencing and Streamed Video</a></h3>
+							This project will research and evaluate accessible video conferencing and streamed video, identifying online learning barriers and working with experts and practitioners to overcome them and improve accessibility.
+						</div>
+					</section>
+				</div>
+				<div class="idi-project fl-col-mixed">
+					<section>
+						<div class="idi-project-logo idi-no-tab-focus fl-col-fixed fl-force-left">
+							<img class="idi-logo-placeholder" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
+						</div>
+						<div class="fl-col-flex">
+							<h3><a href="http://imdc.ca/">Alternative Audio Description</a></h3>
+							Alternative audio description focuses on making the process of creating audio description inclusive from the beginning of the design process.
+						</div>
+					</section>
+				</div>
+				<div class="idi-project fl-col-mixed">
+					<section>
+						<div class="idi-project-logo idi-no-tab-focus fl-col-fixed fl-force-left">
+							<img class="idi-logo-placeholder" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
+						</div>
+						<div class="fl-col-flex">
+							<h3><a href="http://imdc.ca/">Enhanced Captioning</a></h3>
+							Enhanced captioning focuses on improving upon the existing captioning standards, specifically including colour and kinetic text for television shows and movies.
 						</div>
 					</section>
 				</div>
@@ -63,6 +83,30 @@
 				</div>
 				<div class="idi-project fl-col-mixed">
 					<section>
+						<div class="idi-project-logo idi-no-tab-focus fl-col-fixed fl-force-left">
+							<img class="idi-logo-placeholder" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
+						</div>
+						<div class="fl-col-flex">
+							<h3><a href="http://imdc.ca/">EnACT</a></h3>
+							EnACT (Enhanced and Affective Captioning Tool) is an open source captioning tool that allows users to create custom kinetic captions with colors that indicate emotions.
+						</div>
+					</section>
+				</div>
+				<div class="idi-project fl-col-mixed">
+					<section>
+						<div class="idi-project-logo fl-col-fixed fl-force-left">
+							<a class="idi-no-tab-focus" href="http://atutor.ca/">
+								<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/AT_Logo_1_sm.png" title="ATutor logo" alt="ATutor logo"/>
+							</a>
+						</div>
+						<div class="fl-col-flex">
+							<h3><a href="http://atutor.ca/">ATutor</a></h3>
+							ATutor is an Open Source Web-based Learning Management System (LMS) used to develop and deliver online courses.
+						</div>
+					</section>
+				</div>
+				<div class="idi-project fl-col-mixed">
+					<section>
 						<div class="idi-project-logo fl-col-fixed fl-force-left">
 							<a class="idi-no-tab-focus" href="http://gpii.net"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/gpii_logo.png" title="GPII logo" alt="GPII logo"/></a>
 						</div>
@@ -74,12 +118,12 @@
 				</div>
 				<div class="idi-project fl-col-mixed">
 					<section>
-						<div class="idi-project-logo fl-col-fixed fl-force-left">
-							<a class="idi-no-tab-focus" href="http://collectionspace.org/"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/CollectionSpace.png" title="CollectionSpace logo" alt="CollectionSpace logo"/></a>
+						<div class="idi-project-logo idi-no-tab-focus fl-col-fixed fl-force-left">
+							<img class="idi-logo-placeholder" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
 						</div>
 						<div class="fl-col-flex">
-							<h3><a href="http://collectionspace.org/">CollectionSpace</a></h3>
-							CollectionSpace is an open-source collections management application that meets the needs of museums, historical societies, and other collection-holding organizations. CollectionSpace is designed to be configurable to each organization’s needs, serving as a gateway to digital and physical assets across an institution.
+							<h3><a href="http://irlt.yorku.ca/">Which Hand?</a></h3>
+							Many students with different needs have trouble with judging handedness; they don't know left from right. This project will design a game that reinforces the concepts of left/right that is fun and accessible to readers and non-readers.
 						</div>
 					</section>
 				</div>
