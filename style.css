@@ -1244,12 +1244,10 @@ ol.letters li {
 /* People page styles */
 .idi-people h2,
 .idi-about h2,
-.idi-cluster h2 {
+.idi-cluster h2,
+.idi-workshops h2 {
     font-style: italic;
     color: #3FB66C;
-}
-.idi-about h2,
-.idi-people h2 {
     margin-bottom: .5em;    
 }
 .idi-about-tagline {
@@ -1768,4 +1766,9 @@ a.idi-project-link {
 .fl-theme-uio-by a.idi-project-logo,
 .fl-theme-uio-bw a.idi-project-logo {
     background-image: none;
+}
+
+/* Workshops page */
+.idi-workshops-sidebar {
+    margin-top: 6em;
 }
