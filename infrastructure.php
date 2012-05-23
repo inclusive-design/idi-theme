@@ -121,15 +121,25 @@ Template Name: Infrastructure
 
 					<div class="idi-infra-item">
 						<section>
-							<h3>Blackbox Theatre</h3>
+							<h3>Accessible Performance Space</h3>
 			<!--   Removed until functionality available
 							<a class="idi-infra-bookit" href="#">Book it</a>
 			-->
 							<p class="coming-soon">Booking coming soon</p>
-							<p>A fully accessible performance space, designed for use with the Portable Accessible Performance Kit.</p>
+							<p>A fully accessible performance space, equipped to enable accessibe live performances. The space has support for real-time captioning, description, sign translation and fm listening assistance.</p>
 						</section>
 					</div>
 
+					<div class="idi-infra-item">
+						<section>
+							<h3>Participatory Inclusive Design Lab</h3>
+			<!--   Removed until functionality available
+							<a class="idi-infra-bookit" href="#">Book it</a>
+			-->
+							<p class="coming-soon">Booking coming soon</p>
+							<p>A lab that provides the collaborative technologies and applications needed to engage diverse design participants with a variety of accessibility needs.</p>
+						</section>
+					</div>
 				</section>
 			</div>
 		</section>
@@ -142,19 +152,6 @@ Template Name: Infrastructure
 	<!--
 				<img src="" alt="A picture of equipment." />
 	-->
-			</div>
-			<div class="fl-col">
-				<div class="idi-infra-item">
-					<section>
-						<h3>Portable Accessible Performance Kit</h3>
-		<!--   Removed until functionality available
-						<a class="idi-infra-bookit" href="#">Book it</a>
-		-->
-						<p class="coming-soon">Booking coming soon</p>
-						<p>Equiptment that Enables accessible live performance, allowing users to to add remote and in-situ real-time captioning, description, sign translation and fm listening assistance to an existing architecturally accessible performance space.</p>
-					</section>
-				</div>
-			
 			</div>
 			<div class="fl-col">
 				<div class="idi-infra-item">
