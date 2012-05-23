@@ -52,11 +52,19 @@
 }
 .fl-site-nav-main ul a.idi-nav-about {
     background-image: url('images/navigation-small/about.png');
-    padding-left: 20px;
+    padding-left: 25px;
 }
 .fl-site-nav-main a.idi-nav-about:hover,
 .fl-site-nav-main a.idi-nav-about:focus {
     background-image: url('images/navigation-small/about-hover.png');
+}
+.fl-site-nav-main ul a.idi-nav-people {
+    background-image: url('images/navigation-small/people.png');
+    padding-left: 25px;
+}
+.fl-site-nav-main a.idi-nav-people:hover,
+.fl-site-nav-main a.idi-nav-people:focus {
+    background-image: url('images/navigation-small/people-hover.png');
 }
 .fl-site-nav-main ul a.idi-nav-news {
     background-image: url('images/navigation-small/news.png');
@@ -108,6 +116,9 @@
     background-image: url('images/navigation-small/home-yellow.png'); 
 }
 
+
+
+
 .fl-site-nav-main .current_page_item.idi-nav-about, .fl-site-nav-main .current_page_item.idi-nav-about:hover, .fl-site-nav-main .current_page_item.idi-nav-about:focus,
 .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-about, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-about:hover, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-about:focus,
 .fl-theme-uio-wb .fl-site-nav-main .idi-nav-about, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-about:hover, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-about:focus { 
@@ -124,6 +135,26 @@
 .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-about, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-about:hover { 
     background-image: url('images/navigation-small/about-yellow.png'); 
 }
+
+
+.fl-site-nav-main .current_page_item.idi-nav-people, .fl-site-nav-main .current_page_item.idi-nav-people:hover, .fl-site-nav-main .current_page_item.idi-nav-people:focus,
+.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-people, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-people:hover, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-people:focus,
+.fl-theme-uio-wb .fl-site-nav-main .idi-nav-people, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-people:hover, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-people:focus { 
+    background-image: url('images/navigation-small/people-white.png'); 
+}
+.fl-theme-uio-bw .fl-site-nav-main .idi-nav-people, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-people:hover, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-people:focus,
+.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-people, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-people:hover,
+.fl-theme-uio-by .fl-site-nav-main .idi-nav-people, .fl-theme-uio-by .fl-site-nav-main .idi-nav-people:hover, .fl-theme-uio-by .fl-site-nav-main .idi-nav-people:focus,
+.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-people, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-people:hover,
+ .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-people:focus { 
+    background-image: url('images/navigation-small/people-black.png'); 
+}
+.fl-theme-uio-yb .fl-site-nav-main .idi-nav-people, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-people:hover, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-people:focus,
+.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-people, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-people:hover { 
+    background-image: url('images/navigation-small/people-yellow.png'); 
+}
+
+
 
 .fl-site-nav-main .current_page_item.idi-nav-news, .fl-site-nav-main .current_page_item.idi-nav-news:hover, .fl-site-nav-main .current_page_item.idi-nav-news:focus,
 .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-news, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-news:hover, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-news:focus,
@@ -282,3 +313,140 @@
 .fl-theme-uio-wb .twitter-feed-group a.twitter-follow-button { background-image: url('images/news-tweet-small/tweet-white.png'); }
 .fl-theme-uio-by .twitter-feed-group a.twitter-follow-button,
 .fl-theme-uio-bw .twitter-feed-group a.twitter-follow-button { background-image: url('images/news-tweet-small/tweet-black.png'); }
+
+.idi-implementation-cluster-circle-colour {
+    background-color: transparent;
+    background-image: url('images/circles/circle-orange.png');
+    background-repeat: no-repeat;
+}
+.idi-implementation-link:hover ~ .idi-implementation-cluster-circle {
+    top: 52px;
+    right: 167px;
+    width: 166px;
+    height: 166px;
+    background-image: url('images/circles/circle-orange-hover.png');
+    background-repeat: no-repeat;
+}
+
+.idi-design-cluster-circle-colour {
+    background-color: transparent;
+    background-image: url('images/circles/circle-green.png');
+    background-repeat: no-repeat;
+}
+.idi-design-link:hover ~ .idi-design-cluster-circle {
+    top: 193px;
+    left: 87px;
+    width: 147px;
+    height: 147px;
+    background-image: url('images/circles/circle-green-hover.png');
+    background-repeat: no-repeat;
+}
+
+.idi-policies-cluster-circle-colour {
+    background-color: transparent;
+    background-image: url('images/circles/circle-red.png');
+    background-repeat: no-repeat;
+}
+.idi-policies-link:hover ~ .idi-policies-cluster-circle {
+    top: 402px;
+    left: 227px;
+    width: 76px;
+    height: 76px;
+    background-image: url('images/circles/circle-red-hover.png');
+    background-repeat: no-repeat;
+}
+
+.idi-mobile-cluster-circle-colour {
+    background-color: transparent;
+    background-image: url('images/circles/circle-blue.png');
+    background-repeat: no-repeat;
+}
+.idi-mobile-link:hover ~ .idi-mobile-cluster-circle {
+    top: 140px;
+    left: 637px;
+    width: 106px;
+    height: 106px;
+    background-image: url('images/circles/circle-blue-hover.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.fl-theme-uio-by .idi-mobile-cluster-circle-colour,
+.fl-theme-uio-bw .idi-mobile-cluster-circle-colour { background-image: url('images/circles/circle-black100.png'); }
+.fl-theme-uio-yb .idi-mobile-cluster-circle-colour { background-image: url('images/circles/circle-yellow100.png'); }
+.fl-theme-uio-wb .idi-mobile-cluster-circle-colour { background-image: url('images/circles/circle-white100.png'); }
+
+.fl-theme-uio-by .idi-mobile-link:hover ~ .idi-mobile-cluster-circle,
+.fl-theme-uio-bw .idi-mobile-link:hover ~ .idi-mobile-cluster-circle { background-image: url('images/circles/circle-black106.png'); }
+.fl-theme-uio-yb .idi-mobile-link:hover ~ .idi-mobile-cluster-circle { background-image: url('images/circles/circle-yellow106.png'); }
+.fl-theme-uio-wb .idi-mobile-link:hover ~ .idi-mobile-cluster-circle { background-image: url('images/circles/circle-white106.png'); }
+
+.fl-theme-uio-by .idi-policies-cluster-circle-colour,
+.fl-theme-uio-bw .idi-policies-cluster-circle-colour { background-image: url('images/circles/circle-black70.png'); }
+.fl-theme-uio-yb .idi-policies-cluster-circle-colour { background-image: url('images/circles/circle-yellow70.png'); }
+.fl-theme-uio-wb .idi-policies-cluster-circle-colour { background-image: url('images/circles/circle-white70.png'); }
+
+.fl-theme-uio-by .idi-policies-link:hover ~ .idi-policies-cluster-circle,
+.fl-theme-uio-bw .idi-policies-link:hover ~ .idi-policies-cluster-circle { background-image: url('images/circles/circle-black76.png'); }
+.fl-theme-uio-yb .idi-policies-link:hover ~ .idi-policies-cluster-circle { background-image: url('images/circles/circle-yellow76.png'); }
+.fl-theme-uio-wb .idi-policies-link:hover ~ .idi-policies-cluster-circle { background-image: url('images/circles/circle-white76.png'); }
+
+.fl-theme-uio-by .idi-design-cluster-circle-colour,
+.fl-theme-uio-bw .idi-design-cluster-circle-colour { background-image: url('images/circles/circle-black140.png'); }
+.fl-theme-uio-yb .idi-design-cluster-circle-colour { background-image: url('images/circles/circle-yellow140.png'); }
+.fl-theme-uio-wb .idi-design-cluster-circle-colour { background-image: url('images/circles/circle-white140.png'); }
+
+.fl-theme-uio-by .idi-design-link:hover ~ .idi-design-cluster-circle,
+.fl-theme-uio-bw .idi-design-link:hover ~ .idi-design-cluster-circle { background-image: url('images/circles/circle-black147.png'); }
+.fl-theme-uio-yb .idi-design-link:hover ~ .idi-design-cluster-circle { background-image: url('images/circles/circle-yellow147.png'); }
+.fl-theme-uio-wb .idi-design-link:hover ~ .idi-design-cluster-circle { background-image: url('images/circles/circle-white147.png'); }
+
+.fl-theme-uio-by .idi-implementation-cluster-circle-colour,
+.fl-theme-uio-bw .idi-implementation-cluster-circle-colour { background-image: url('images/circles/circle-black160.png'); }
+.fl-theme-uio-yb .idi-implementation-cluster-circle-colour { background-image: url('images/circles/circle-yellow160.png'); }
+.fl-theme-uio-wb .idi-implementation-cluster-circle-colour { background-image: url('images/circles/circle-white160.png'); }
+
+.fl-theme-uio-by .idi-implementation-link:hover ~ .idi-implementation-cluster-circle,
+.fl-theme-uio-bw .idi-implementation-link:hover ~ .idi-implementation-cluster-circle { background-image: url('images/circles/circle-black166.png'); }
+.fl-theme-uio-yb .idi-implementation-link:hover ~ .idi-implementation-cluster-circle { background-image: url('images/circles/circle-yellow166.png'); }
+.fl-theme-uio-wb .idi-implementation-link:hover ~ .idi-implementation-cluster-circle { background-image: url('images/circles/circle-white166.png'); }
+
+.fl-theme-uio-yb .idi-research-clusters .idi-cluster-circle,
+.fl-theme-uio-wb .idi-research-clusters .idi-cluster-circle,
+.fl-theme-uio-by .idi-research-clusters .idi-cluster-circle,
+.fl-theme-uio-bw .idi-research-clusters .idi-cluster-circle { background-color: transparent !important; }
+
+.fl-theme-uio-yb .idi-mobile-cluster-circle,
+.fl-theme-uio-wb .idi-mobile-cluster-circle,
+.fl-theme-uio-by .idi-mobile-cluster-circle,
+.fl-theme-uio-bw .idi-mobile-cluster-circle { border: none !important; }
+
+.fl-theme-uio-yb .idi-implementation-cluster-circle,
+.fl-theme-uio-wb .idi-implementation-cluster-circle,
+.fl-theme-uio-by .idi-implementation-cluster-circle,
+.fl-theme-uio-bw .idi-implementation-cluster-circle { border: none !important; }
+
+.fl-theme-uio-yb .idi-design-cluster-circle,
+.fl-theme-uio-wb .idi-design-cluster-circle,
+.fl-theme-uio-by .idi-design-cluster-circle,
+.fl-theme-uio-bw .idi-design-cluster-circle { border: none !important; }
+
+.fl-theme-uio-yb .idi-policies-cluster-circle,
+.fl-theme-uio-wb .idi-policies-cluster-circle,
+.fl-theme-uio-by .idi-policies-cluster-circle,
+.fl-theme-uio-bw .idi-policies-cluster-circle { border: none !important; }
+
+.idi-design-underlay { background-image: url('images/clusters/design&development-bg-ltie9.png'); }
+.idi-policies-underlay { background-image: url('images/clusters/businesscase-bg-ltie9.png'); }
+.idi-mobile-underlay { background-image: url('images/clusters/mobile-bg-ltie9.png'); }
+.idi-implementation-underlay { background-image: url('images/clusters/implementation-bg-ltie9.png'); }
+
+.idi-clusters-overlay {
+    background-image: url('images/clusters/researchclusters-bg.png');
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    height: 575px;
+    width: 1024px;
+    position: absolute;
+    z-index: 2;
+}
