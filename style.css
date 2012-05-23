@@ -83,7 +83,7 @@ body {
     overflow: auto;
 }
 body.fl-theme-uio-yb, body.fl-theme-uio-wb,
-body.fl-theme-uio-bw, body.fl-theme-uio-wb { background-image: none; }
+body.fl-theme-uio-bw, body.fl-theme-uio-by { background-image: none; }
 
 .fl-site-wrapper,
 .fl-site-header,
