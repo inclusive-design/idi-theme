@@ -20,8 +20,10 @@ body {
 .fl-theme-uio-bw .fl-site-link a { 
     background-image: url('images/logos/logo-black.gif'); 
 }
-
-.fl-site-nav-main a:active {
+.fl-site-nav-main a:hover,
+.fl-site-nav-main a:active,
+.fl-site-nav-main a.current_page_item:hover,
+.fl-site-nav-main a.current_page_item:active {
     border: none;
 }
 
@@ -173,3 +175,31 @@ body {
 .fl-theme-uio-bw .idi-implementation-link:hover ~ .idi-implementation-cluster-circle { background-image: url('images/circles-gif/circle-black166.gif'); }
 .fl-theme-uio-yb .idi-implementation-link:hover ~ .idi-implementation-cluster-circle { background-image: url('images/circles-gif/circle-yellow166.gif'); }
 .fl-theme-uio-wb .idi-implementation-link:hover ~ .idi-implementation-cluster-circle { background-image: url('images/circles-gif/circle-white166.gif'); }
+
+/* Override column widths */
+.fl-col-mixed .fl-col-fixed {
+    padding: 1.5em;
+    padding-bottom: 4em;
+    width: 14em;
+}
+.idi-research li {
+    margin-left: 5em;
+    width: 20em;
+}
+.idi-research-item {
+    width: 16em;
+}
+.idi-news-summary {
+    width: 50em;
+}
+.idi-inst-content .fl-col-flex2 {
+    width: 55em;
+}
+.idi-inst-content .fl-col-flex2 .fl-col {
+    width: 24em;
+}
+.idi-inst-content .fl-col-flex2 .fl-col .fl-col-fixed {
+    width: 2em;
+    margin: 0;
+    padding: 0;
+}
