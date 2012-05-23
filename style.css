@@ -1286,7 +1286,6 @@ img.idi-people-person {
     width: 100px;
 }
 .idi-person-intro {
-    overflow: auto;
     width: 100%
     min-height: 4em;
 }
