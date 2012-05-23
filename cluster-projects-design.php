@@ -1,61 +1,46 @@
 		<div class="fl-col-flex2">
 			<div class="fl-col">
-				<div class="idi-project fl-col-mixed">
-					<section>
-						<div class="idi-project-logo idi-no-tab-focus fl-col-fixed fl-force-left">
-							<img class="idi-logo-placeholder" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
-						</div>
-						<div class="fl-col-flex">
-							<h3><a href="http://imdc.ca/">Alternative Audio Description</a></h3>
-							Alternative audio description focuses on making the process of creating audio description inclusive from the beginning of the design process.
-						</div>
-					</section>
-				</div>
-				<div class="idi-project fl-col-mixed">
-					<section>
-						<div class="idi-project-logo idi-no-tab-focus fl-col-fixed fl-force-left">
-							<img class="idi-logo-placeholder" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
-						</div>
-						<div class="fl-col-flex">
-							<h3><a href="http://irlt.yorku.ca/">Which Hand?</a></h3>
-							Many students with different needs have trouble with judging handedness; they don't know left from right. This project will design a game that reinforces the concepts of left/right that is fun and accessible to readers and non-readers.
-						</div>
-					</section>
-				</div>
-				<div class="idi-project fl-col-mixed">
-					<section>
-						<div class="idi-project-logo idi-no-tab-focus fl-col-fixed fl-force-left">
-							<img class="idi-logo-placeholder" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
-						</div>
-						<div class="fl-col-flex">
-							<h3><a href="http://imdc.ca/">Enhanced Captioning</a></h3>
-							Enhanced captioning focuses on improving upon the existing captioning standards, specifically including colour and kinetic text for television shows and movies.
-						</div>
-					</section>
-				</div>
+				<section class="idi-project fl-col-mixed">
+					<div class="idi-project-logo fl-col-fixed fl-force-left">
+						<a class="idi-no-tab-focus" href="http://fluidproject.org">
+							<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/fluid_logo.png" title="Fluid Project logo" alt="Fluid Project logo" />
+						</a>
+					</div>
+					<div class="fl-col-flex">
+							<h3><a href="http://fluidproject.org">Fluid</a></h3>
+						Fluid is an open-source software community that designs user interfaces, builds Web tools, teaches inclusive design and integrates interface components into open source applications .
+					</div>
+				</section>
+				<section class="idi-project fl-col-mixed">
+					<div class="idi-project-logo idi-no-tab-focus fl-col-fixed fl-force-left">
+						<img alt="" class="idi-logo-placeholder" height="60" src="http://dev.inclusivedesign.ca/wp-content/uploads/2012/04/logoplaceholder.png" title="Project logo placeholder" width="60" />
+					</div>
+					<div class="fl-col-flex">
+						<h3><a href="http://atutor.ca/">AChecker</a></h3>
+						<p>This tool checks single HTML pages for conformance with accessibility standards to ensure the content can be accessed by everyone.</p>
+					</div>
+				</section>
 			</div>
 			<div class="fl-col">
-				<div class="idi-project fl-col-mixed">
-					<section>
-						<div class="idi-project-logo idi-no-tab-focus fl-col-fixed fl-force-left">
-							<img class="idi-logo-placeholder" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
-						</div>
-						<div class="fl-col-flex">
-							<h3><a href="http://abelearn.ca/">Accessible Video Conferencing and Streamed Video</a></h3>
-							This project will research and evaluate accessible video conferencing and streamed video, identifying online learning barriers and working with experts and practitioners to overcome them and improve accessibility.
-						</div>
-					</section>
-				</div>
-				<div class="idi-project fl-col-mixed">
-					<section>
-						<div class="idi-project-logo idi-no-tab-focus fl-col-fixed fl-force-left">
-							<img class="idi-logo-placeholder" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
-						</div>
-						<div class="fl-col-flex">
-							<h3><a href="http://imdc.ca/">EnACT</a></h3>
-							EnACT (Enhanced and Affective Captioning Tool) is an open source captioning tool that allows users to create custom kinetic captions with colors that indicate emotions.
-						</div>
-					</section>
-				</div>
+				<section class="idi-project fl-col-mixed">
+					<div class="idi-project-logo fl-col-fixed fl-force-left">
+						<a class="idi-no-tab-focus" href="http://floeproject.org">
+							<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/projects/floe-logo.png" title="Floe Project logo" alt="Floe Project logo" />
+						</a>
+					</div>
+					<div class="fl-col-flex">
+						<h3><a href="http://floeproject.org">Floe Project</a></h3>
+						Through the Open Education Resources community, Floe makes tools that help transform, augment, and personalize the learning experience.
+					</div>
+				</section>
+				<section class="idi-project fl-col-mixed">
+					<div class="idi-project-logo fl-col-fixed fl-force-left">
+						<img class="idi-logo-placeholder" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logoplaceholder/logoplaceholder.png" title="Project logo placeholder" alt="Project logo placeholder" />
+					</div>
+					<div class="fl-col-flex">
+						<h3><a href="http://openvulab.org/">Open Virtual Usability Lab</a></h3>
+						OpenVULab is an open source tool designed for remote accessibility and usability testing. The tool is designed to capture remote users’ interactions with their computer screens as well as their microphone audio.
+					</div>
+				</section>
 			</div>
 		</div>

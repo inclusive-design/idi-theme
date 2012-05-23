@@ -80,6 +80,10 @@ body {
     background-image: url('images/bg.png');
     background-position: 0px 0px; /* horizontal vertical */
     background-repeat: repeat;
+    /* The following fix a gap at the top of the page created by tweaking overflow settings */
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 body.fl-theme-uio-yb, body.fl-theme-uio-wb,
 body.fl-theme-uio-bw, body.fl-theme-uio-by { background-image: none; }
