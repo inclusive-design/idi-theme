@@ -1,0 +1,8 @@
+/* 
+The font fix for Chrome and Firefox on windows
+IDI-59: Lato font is too light to read with chrome on windows, use arial/helvetica instead 
+*/
+
+html {
+    font-family: arial, helvetica;
+}
