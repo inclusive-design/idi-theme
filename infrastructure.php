@@ -97,8 +97,8 @@ Template Name: Infrastructure
 			
 			<div class="fl-col">
 				<section>
-					<a class="idi-map-link" href="http://g.co/maps/mr7ar">
-						<h2>49 McCaul St.<br />Toronto, Canada</h2>
+					<a class="idi-map-link" href="http://g.co/maps/b4ym4">
+						<h2>130 St. George St.<br />Toronto, Canada</h2>
 					</a>
 					
 					<div class="idi-infra-item">
@@ -112,6 +112,24 @@ Template Name: Infrastructure
 						</section>
 					</div>
 				
+				</section>
+
+				<section>
+					<a class="idi-map-link" href="http://g.co/maps/mr7ar">
+						<h2>49 McCaul St.<br />Toronto, Canada</h2>
+					</a>
+
+					<div class="idi-infra-item">
+						<section>
+							<h3>Blackbox Theatre</h3>
+			<!--   Removed until functionality available
+							<a class="idi-infra-bookit" href="#">Book it</a>
+			-->
+							<p class="coming-soon">Booking coming soon</p>
+							<p>A fully accessible performance space, designed for use with the Portable Accessible Performance Kit.</p>
+						</section>
+					</div>
+
 				</section>
 			</div>
 		</section>
