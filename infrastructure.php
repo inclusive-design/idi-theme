@@ -115,7 +115,7 @@ Template Name: Infrastructure
 						<a class="idi-infra-bookit" href="#">Book it</a>
 		-->
 						<p class="coming-soon">Booking coming soon</p>
-						<p>A fully accessible performance space, equipped to enable accessibe live performances. The space has support for real-time captioning, description, sign translation and fm listening assistance.</p>
+						<p>A fully accessible performance space, equipped to enable accessible live performances. The space has support for real-time captioning, description, sign translation and fm listening assistance.</p>
 					</section>
 
 					<section class="idi-infra-item">
