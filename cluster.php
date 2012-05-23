@@ -28,7 +28,7 @@ Template Name: Research Cluster
 
 				<?php get_template_part("cluster-projects", $post->post_name); ?>
 		
-				<div class="idi-cluster-description">
+				<div class="idi-cluster-description fl-push">
 					<?php get_template_part("cluster-description-extra", $post->post_name); ?>
 				</div>
 			</div>
