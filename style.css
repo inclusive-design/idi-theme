@@ -1338,13 +1338,13 @@ img.idi-people-person {
 /* infrastructure page */
 
 .idi-infra .fl-col-flex4 .fl-col {
-    width: 21%
+    width: 25%;
     min-width: 8em;
-    max-width: 15em;
-    margin-left: 1em;
+    max-width: 16em;
+    margin-left: 0;
 }
 .idi-infra .fl-col-flex4 .fl-col:first-child {
-    width: 12em;
+    width: 11em;
     margin-left: 0;
     text-align: right;
     min-height:1px;
