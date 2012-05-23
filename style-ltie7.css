@@ -62,6 +62,20 @@ body {
     background-image: none;
 }
 
+/* Strip out the background images from research cluster pages */
+.idi-design-underlay {
+    background-image: none;
+}
+.idi-policies-underlay {
+    background-image: none;
+}
+.idi-mobile-underlay {
+    background-image: none;
+}
+.idi-implementation-underlay {
+    background-image: none;
+}
+
 /* Gif versions of circles, for transparencies */
 .idi-implementation-cluster-circle-colour {
     background-color: transparent;
