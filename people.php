@@ -268,7 +268,7 @@ Template Name: People Page
 		<section class="idi-person">
 		<a id="McIntyre"></a>
 		<div class="idi-person-intro">
-			<img class="idi-people-person" title="Jamie McIntyre" alt="Jamie McIntyre" lang="es" src="<?php bloginfo('stylesheet_directory'); ?>/images/people/McIntyre.jpg"/>
+			<div class="idi-people-placeholder"></div>
 			<h3 lang="es">Jamie McIntyre</h3>
 			<div class="idi-people-position">Innovation Coordinator, CCET</div>
 			<div class="idi-people-org"><a href="http://georgebrown.ca">George Brown College</a></div>

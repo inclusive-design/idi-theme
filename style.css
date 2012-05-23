@@ -1288,6 +1288,17 @@ img.idi-people-person {
     list-style-type: none;
     margin-top: 0.5em;
 }
+.idi-people-placeholder {
+    float: right;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background: url('images/people/peopleplaceholder.png') no-repeat top left;
+}
+.fl-theme-uio-yb .idi-people-placeholder { background-image: url('images/people/peopleplaceholder-yellow.png'); }
+.fl-theme-uio-wb .idi-people-placeholder { background-image: url('images/people/peopleplaceholder-white.png'); }
+.fl-theme-uio-by .idi-people-placeholder,
+.fl-theme-uio-bw .idi-people-placeholder { background-image: url('images/people/peopleplaceholder-black.png'); }
 
 /* infrastructure page */
 

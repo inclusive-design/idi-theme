@@ -2,7 +2,6 @@
 	<a class="idi-people-nav-header" href="#whoweare">Who we are</a>
 </div>
 <nav>
-	<a class="idi-people-nav-header" href="#people">People</a>
 	<ul>
 	    <li><a href="#Baecker">Ron Baecker</a></li>
 	    <li><a href="#Carroll">Mary Jane Carroll</a></li>
