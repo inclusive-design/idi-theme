@@ -20,7 +20,7 @@ body {
 .fl-theme-uio-bw .fl-site-link a { 
     background-image: url('images/logos/logo-black.gif'); 
 }
-
+.fl-site-nav-main a:hover,
 .fl-site-nav-main a:active {
     border: none;
 }
@@ -159,3 +159,10 @@ body {
 .fl-theme-uio-bw .idi-implementation-link:hover ~ .idi-implementation-cluster-circle { background-image: url('images/circles-gif/circle-black166.gif'); }
 .fl-theme-uio-yb .idi-implementation-link:hover ~ .idi-implementation-cluster-circle { background-image: url('images/circles-gif/circle-yellow166.gif'); }
 .fl-theme-uio-wb .idi-implementation-link:hover ~ .idi-implementation-cluster-circle { background-image: url('images/circles-gif/circle-white166.gif'); }
+
+/* Override column widths */
+.fl-col-mixed .fl-col-fixed {
+    padding: 1.5em;
+    padding-bottom: 4em;
+    width: 14em;
+}
