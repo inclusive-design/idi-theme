@@ -45,20 +45,20 @@ Version: 1.0
   src: local('Lato Black'), local('Lato-Black'), url('fonts/Lato-Black.woff') format('woff');
 }
 
-:focus,
+a:focus,
 .fl-site-link a:focus,
 .fl-site-nav-main a:focus,
-.fl-uiOptions-fatPanel .fl-toggleButton:focus {
-    border: 5px solid #FFCC00;
+.fl-uiOptions-fatPanel .fl-toggleButton:focus, 
+.idi-cluster-name:focus {
+    border: 2px solid #FFCC00;
     outline: none;
 }
 :active,
 .idi-no-tab-focus:focus {
     border: none;
 }
-
-.fl-site-link a {
-    border: 5px solid transparent;
+.fl-site-link a, .idi-cluster-name, .idi-map-link, .idi-article-title, .twitter-follow-button {
+    border: 2px solid transparent;
 }
 .fl-theme-uio-bw .fl-site-link a, .fl-theme-uio-wb .fl-site-link a, .fl-theme-uio-by .fl-site-link a, .fl-theme-uio-yb .fl-site-link a {
      border-width: 0px;

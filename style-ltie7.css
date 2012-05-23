@@ -3,7 +3,7 @@ body {
     margin: auto;
 }
 
-.fl-site-link a, .fl-site-nav-main a {
+.fl-site-link a, .fl-site-nav-main a, .idi-cluster-name, .idi-map-link, .idi-article-title, .twitter-follow-button {
     border: none;
 }
 
