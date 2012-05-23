@@ -80,6 +80,7 @@ body {
     background-image: url('images/bg.png');
     background-position: 0px 0px; /* horizontal vertical */
     background-repeat: repeat;
+    overflow: auto;
 }
 body.fl-theme-uio-yb, body.fl-theme-uio-wb,
 body.fl-theme-uio-bw, body.fl-theme-uio-by { background-image: none; }
