@@ -85,6 +85,10 @@ body {
 body.fl-theme-uio-yb, body.fl-theme-uio-wb,
 body.fl-theme-uio-bw, body.fl-theme-uio-by { background-image: none; }
 
+.fl-col-mixed,
+.fl-col-mixed2,
+.fl-col-mixed3 {zoom:1; overflow:visible;}
+
 .fl-site-wrapper,
 .fl-site-header,
 .fl-site-nav-main.sticky ul,
