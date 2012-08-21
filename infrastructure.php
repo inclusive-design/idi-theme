@@ -6,12 +6,6 @@ Template Name: Infrastructure
 <?php get_header(); ?>
 
 <div class="fl-centered fl-col-mixed fl-site-wrapper idi-infra">
-	<div class="fl-container-flex fl-col-flex4">
-		<div class="fl-col"></div>
-		<div class="fl-col idi-3cols">
-			<h1>Equipment and space booking, calendaring, and more coming soon.</h1>
-		</div>
-	</div>
 	
 <!--
 	<div class="fl-container-flex fl-col-flex4 idi-infra-row">
@@ -27,7 +21,38 @@ Template Name: Infrastructure
 		</div>
 	</div>
 -->
-	
+	<div class="fl-container-flex fl-col-flex4 idi-infra-row">
+		<section>
+			<div class="fl-col">
+				<h2 class="idi-summary-title idi-booking-title">Book Equipment</h2>
+			</div>
+			<div class="fl-col idi-booking-step">
+				<div class="idi-booking-step-icon idi-booking-step-1"></div>
+				<h3>Get form:</h3>
+				<a class="idi-booking-download" href="../wp-content/themes/idi-theme/idi-booking-form.pdf">download <span class="fl-hidden-accessible">the equipment booking form</span></a>
+			</div>
+			<div class="fl-col idi-booking-step">
+				<div class="idi-booking-step-icon idi-booking-step-2"></div>
+				<h3>Complete</h3>
+				fill-out fields &amp; sign
+			</div>
+			<div class="fl-col idi-booking-step">
+				<div class="idi-booking-step-icon idi-booking-step-3"></div>
+				<h3>Return to:</h3>
+				<a class="idi-booking-email" href="mailto:idi@ocadu.ca" title="Equipment loan request"><span class="fl-hidden-accessible">return the form to</span> idi@ocadu.ca</a>
+			</div>
+		</section>
+	</div>
+	<div class="fl-container-flex fl-col-mixed">
+		<section>
+			<div class="fl-col-flex idi-booking-summary">
+				Partner institutions can borrow a range of hardware and software from the Inclusive Design Institute.
+				To request equipment, download the Equipment Booking form (an editable PDF), fill it out (either by hand or using the computer) and return it to the IDI (by mail, email, fax, or in person).
+				Equipment will be shipped to the borrower, or pick-up can be arranged. See the request form for more details.
+			</div>
+		</section>
+	</div>
+
 	<div class="fl-container-flex fl-col-flex4 idi-infra-row">
 		<section>
 			<div class="fl-col">
