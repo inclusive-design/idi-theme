@@ -48,7 +48,43 @@ Template Name: Infrastructure
 			<div class="fl-col-flex idi-booking-summary">
 				Partner institutions can borrow a range of hardware and software from the Inclusive Design Institute.
 				To request equipment, download the Equipment Booking form (an editable PDF), fill it out (either by hand or using the computer) and return it to the IDI (by mail, email, fax, or in person).
-				Equipment will be shipped to the borrower, or pick-up can be arranged. See the request form for more details.
+				<a class="idi-booking-faq-show-hide idi-booking-faq-show">frequently asked questions</a>
+				<section>
+					<div class="idi-booking-faq idi-booking-faq-hidden">
+						<div class="idi-booking-faq-item">
+							<div class="idi-booking-faq-question">What can I borrow?</div>
+							<div class="idi-booking-faq-answer">Lots of cool stuff.</div>
+						</div>
+						<div class="idi-boooking-faq-item">
+							<div class="idi-booking-faq-question">How long can I borrow it for?</div>
+							<div class="idi-booking-faq-answer">Equipment and software can be borrowed for up to three months.</div>
+						</div>
+						<div class="idi-booking-faq-item">
+							<div class="idi-booking-faq-question">How far in advance do I have to ask for it?</div>
+							<div class="idi-booking-faq-answer">We require a minimum of two days notice, to ensure availability. In exceptional circumstances, it is possible that even with two days notice, some items might not be available.</div>
+						</div>
+						<div class="idi-booking-faq-item">
+							<div class="idi-booking-faq-question">How will I get it?</div>
+							<div class="idi-booking-faq-answer">The IDI will ship it to you (at your expense). If you would like to pick it up yourself, please contact the IDI to arrange a time.</div>
+						</div>
+						<div class="idi-booking-faq-item">
+							<div class="idi-booking-faq-question">Where would I pick it up from?</div>
+							<div class="idi-booking-faq-answer">Somewhere nice.</div>
+						</div>
+						<div class="idi-booking-faq-item">
+							<div class="idi-booking-faq-question">How should I return it?</div>
+							<div class="idi-booking-faq-answer">You must ship the material using the same method it was delivered to you, or you can return it in person. If you will be returning it in person, please contact the IDI to arrange a time.</div>
+						</div>
+						<div class="idi-booking-faq-item">
+							<div class="idi-booking-faq-question">Can I make a copy of software?</div>
+							<div class="idi-booking-faq-answer">No. You must agree not to duplicate software, and to uninstall it from your computer once you return the original discs.</div>
+						</div>
+						<div class="idi-booking-faq-item">
+							<div class="idi-booking-faq-question">How should I uninstall software when I'm finished?</div>
+							<div class="idi-booking-faq-answer">Some software has requires a particular process to uninstall. You will receive instructions with the software.</div>
+						</div>
+					</div>
+				</section>
 			</div>
 		</section>
 	</div>

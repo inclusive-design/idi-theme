@@ -450,3 +450,7 @@
     position: absolute;
     z-index: 2;
 }
+
+.idi-booking-faq-show-hide {
+    width: 17em;
+}

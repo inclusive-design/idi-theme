@@ -17,6 +17,14 @@ https://github.com/fluid-project/infusion/raw/master/Infusion-LICENSE.txt
 var idi = idi || {};
 
 (function ($) {
+    idi.setUpBookingFaq = function () {
+        var faqShowHide = $('.idi-booking-faq-show-hide');
+        faqShowHide.click(function () {
+            $('.idi-booking-faq').toggleClass("idi-booking-faq-hidden").toggleClass("idi-booking-faq-shown");
+            faqShowHide.toggleClass("idi-booking-faq-show").toggleClass("idi-booking-faq-hide");
+        });
+    };
+
     idi.makeTopNavSticky = function () {
         var theWindow = $(window);
 
@@ -128,6 +136,7 @@ var idi = idi || {};
     $(document).ready(function () {
         idi.setUpLoginOutPanel();
         idi.makeTopNavSticky();
+        idi.setUpBookingFaq();
         idi.keyboardA11y();
     });
 
