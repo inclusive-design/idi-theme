@@ -6,12 +6,6 @@ Template Name: Infrastructure
 <?php get_header(); ?>
 
 <div class="fl-centered fl-col-mixed fl-site-wrapper idi-infra">
-	<div class="fl-container-flex fl-col-flex4">
-		<div class="fl-col"></div>
-		<div class="fl-col idi-3cols">
-			<h1>Equipment and space booking, calendaring, and more coming soon.</h1>
-		</div>
-	</div>
 	
 <!--
 	<div class="fl-container-flex fl-col-flex4 idi-infra-row">
@@ -27,7 +21,74 @@ Template Name: Infrastructure
 		</div>
 	</div>
 -->
-	
+	<div class="fl-container-flex fl-col-flex4 idi-infra-row">
+		<section>
+			<div class="fl-col">
+				<h2 class="idi-summary-title idi-booking-title">Book Equipment</h2>
+			</div>
+			<div class="fl-col idi-booking-step">
+				<div class="idi-booking-step-icon idi-booking-step-1"></div>
+				<h3>Get form:</h3>
+				<a class="idi-booking-download" href="../wp-content/themes/idi-theme/idi-booking-form.pdf">download <span class="fl-hidden-accessible">the equipment booking form</span></a>
+			</div>
+			<div class="fl-col idi-booking-step">
+				<div class="idi-booking-step-icon idi-booking-step-2"></div>
+				<h3>Complete</h3>
+				fill-out fields &amp; sign
+			</div>
+			<div class="fl-col idi-booking-step">
+				<div class="idi-booking-step-icon idi-booking-step-3"></div>
+				<h3>Return to:</h3>
+				<a class="idi-booking-email" href="mailto:idi@ocadu.ca" title="Equipment loan request"><span class="fl-hidden-accessible">return the form to</span> idi@ocadu.ca</a>
+			</div>
+		</section>
+	</div>
+	<div class="fl-container-flex fl-col-mixed">
+		<section>
+			<div class="fl-col-flex idi-booking-summary">
+				Partner institutions can borrow a range of hardware and software from the Inclusive Design Institute.
+				To request equipment, download the Equipment Booking form (an editable PDF), fill it out (either by hand or using the computer) and return it to the IDI (by mail, email, fax, or in person).
+				<a class="idi-booking-faq-show-hide idi-booking-faq-show">frequently asked questions</a>
+				<section>
+					<div class="idi-booking-faq idi-booking-faq-hidden">
+						<div class="idi-booking-faq-item">
+							<div class="idi-booking-faq-question">What can I borrow?</div>
+							<div class="idi-booking-faq-answer">Lots of cool stuff.</div>
+						</div>
+						<div class="idi-boooking-faq-item">
+							<div class="idi-booking-faq-question">How long can I borrow it for?</div>
+							<div class="idi-booking-faq-answer">Equipment and software can be borrowed for up to three months.</div>
+						</div>
+						<div class="idi-booking-faq-item">
+							<div class="idi-booking-faq-question">How far in advance do I have to ask for it?</div>
+							<div class="idi-booking-faq-answer">We require a minimum of two days notice, to ensure availability. In exceptional circumstances, it is possible that even with two days notice, some items might not be available.</div>
+						</div>
+						<div class="idi-booking-faq-item">
+							<div class="idi-booking-faq-question">How will I get it?</div>
+							<div class="idi-booking-faq-answer">The IDI will ship it to you (at your expense). If you would like to pick it up yourself, please contact the IDI to arrange a time.</div>
+						</div>
+						<div class="idi-booking-faq-item">
+							<div class="idi-booking-faq-question">Where would I pick it up from?</div>
+							<div class="idi-booking-faq-answer">Somewhere nice.</div>
+						</div>
+						<div class="idi-booking-faq-item">
+							<div class="idi-booking-faq-question">How should I return it?</div>
+							<div class="idi-booking-faq-answer">You must ship the material using the same method it was delivered to you, or you can return it in person. If you will be returning it in person, please contact the IDI to arrange a time.</div>
+						</div>
+						<div class="idi-booking-faq-item">
+							<div class="idi-booking-faq-question">Can I make a copy of software?</div>
+							<div class="idi-booking-faq-answer">No. You must agree not to duplicate software, and to uninstall it from your computer once you return the original discs.</div>
+						</div>
+						<div class="idi-booking-faq-item">
+							<div class="idi-booking-faq-question">How should I uninstall software when I'm finished?</div>
+							<div class="idi-booking-faq-answer">Some software has requires a particular process to uninstall. You will receive instructions with the software.</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</section>
+	</div>
+
 	<div class="fl-container-flex fl-col-flex4 idi-infra-row">
 		<section>
 			<div class="fl-col">

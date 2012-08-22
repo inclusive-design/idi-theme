@@ -49,7 +49,8 @@ a:focus,
 .fl-site-link a:focus,
 .fl-site-nav-main a:focus,
 .fl-uiOptions-fatPanel .fl-toggleButton:focus, 
-.idi-cluster-name:focus {
+.idi-cluster-name:focus,
+.idi-booking-step a.idi-booking-download:focus {
     border: 2px solid #FFCC00;
     outline: none;
 }
@@ -394,12 +395,12 @@ h3,
 .fl-site-nav-main a.idi-nav-research:focus {
     background-image: url('images/navigation/research-hover.png');
 }
-.fl-site-nav-main a.idi-nav-infrastructure {
+.fl-site-nav-main a.idi-nav-booking {
     background-image: url('images/navigation/infrastructure.png');
     padding-left: 1.8em;
 }
-.fl-site-nav-main a.idi-nav-infrastructure:hover,
-.fl-site-nav-main a.idi-nav-infrastructure:focus {
+.fl-site-nav-main a.idi-nav-booking:hover,
+.fl-site-nav-main a.idi-nav-booking:focus {
     background-image: url('images/navigation/infrastructure-hover.png');
 }
 
@@ -502,19 +503,19 @@ h3,
     background-image: url('images/navigation/research-yellow.png'); 
 }
 
-.fl-site-nav-main .current_page_item.idi-nav-infrastructure, .fl-site-nav-main .current_page_item.idi-nav-infrastructure:hover, .fl-site-nav-main .current_page_item.idi-nav-infrastructure:focus,
-.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-infrastructure, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-infrastructure:hover, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-infrastructure:focus,
-.fl-theme-uio-wb .fl-site-nav-main .idi-nav-infrastructure, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-infrastructure:hover, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-infrastructure:focus { 
+.fl-site-nav-main .current_page_item.idi-nav-booking, .fl-site-nav-main .current_page_item.idi-nav-booking:hover, .fl-site-nav-main .current_page_item.idi-nav-booking:focus,
+.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-booking, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-booking:hover, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-booking:focus,
+.fl-theme-uio-wb .fl-site-nav-main .idi-nav-booking, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-booking:hover, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-booking:focus { 
     background-image: url('images/navigation/infrastructure-white.png'); 
 }
-.fl-theme-uio-bw .fl-site-nav-main .idi-nav-infrastructure, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-infrastructure:hover, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-infrastructure:focus,
-.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-infrastructure, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-infrastructure:hover, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-infrastructure:focus,
-.fl-theme-uio-by .fl-site-nav-main .idi-nav-infrastructure, .fl-theme-uio-by .fl-site-nav-main .idi-nav-infrastructure:hover, .fl-theme-uio-by .fl-site-nav-main .idi-nav-infrastructure:focus,
-.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-infrastructure, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-infrastructure:hover, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-infrastructure:focus { 
+.fl-theme-uio-bw .fl-site-nav-main .idi-nav-booking, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-booking:hover, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-booking:focus,
+.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-booking, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-booking:hover, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-booking:focus,
+.fl-theme-uio-by .fl-site-nav-main .idi-nav-booking, .fl-theme-uio-by .fl-site-nav-main .idi-nav-booking:hover, .fl-theme-uio-by .fl-site-nav-main .idi-nav-booking:focus,
+.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-booking, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-booking:hover, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-booking:focus { 
     background-image: url('images/navigation/infrastructure-black.png'); 
 }
-.fl-theme-uio-yb .fl-site-nav-main .idi-nav-infrastructure, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-infrastructure:hover, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-infrastructure:focus,
-.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-infrastructure, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-infrastructure:hover, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-infrastructure:focus { 
+.fl-theme-uio-yb .fl-site-nav-main .idi-nav-booking, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-booking:hover, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-booking:focus,
+.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-booking, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-booking:hover, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-booking:focus { 
     background-image: url('images/navigation/infrastructure-yellow.png'); 
 }
 
@@ -1781,3 +1782,149 @@ a.idi-project-link {
 .idi-workshops-sidebar {
     margin-top: 6em;
 }
+
+/* Equipment booking process */
+.idi-infra .fl-col-flex4 .fl-col.idi-booking-step {
+    padding-left: 2em;
+    max-width: 13em;
+    margin-right: 1.5em;
+    font-style: italic;
+}
+.idi-booking-step-icon {
+    background: url('images/bookingsteps/bookingsteps.png') no-repeat left top;
+    width: 75px;
+    height: 75px;
+    float: left;
+}
+.idi-booking-step-2 {
+    background-position: -80px 0;
+}
+.idi-booking-step-3 {
+    background-position: -160px 0;
+}
+.idi-booking-step h3 {
+    margin-bottom: 0.2em;
+    margin-top: 0.5em;
+}
+.idi-booking-step .idi-booking-email {
+    text-decoration: none;
+    font-weight: bold;
+}
+.idi-booking-step .idi-booking-download {
+    background-color: #0075B0;
+    border: 1px solid #0075B0;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 0.1em 0.5em 0.2em;
+    background: -moz-linear-gradient(top, #0292CB, #0075B0);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0075B0), to(#0292CB));
+    background: -webkit-linear-gradient(top, #0292CB, #0075B0);
+    background: -ms-linear-gradient(top, #0292CB, #0075B0);
+    background: -o-linear-gradient(top, #0292CB, #0075B0);
+    box-shadow: 0px 0px 2px 0px #FFFFFF inset;
+    text-shadow: #000000 0 1px 1px;
+    text-decoration: none;
+    font-style: normal;
+}
+.idi-booking-step .idi-booking-download:hover {
+    background-color: #0292CB;
+    background: -moz-linear-gradient(top, #00ADE4, #0292CB);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0292CB), to(#00ADE4));
+    background: -webkit-linear-gradient(top, #00ADE4, #0292CB);
+    background: -ms-linear-gradient(top, #00ADE4, #0292CB);
+    background: -o-linear-gradient(top, #00ADE4, #0292CB);
+}
+.idi-booking-step .idi-booking-download:active {
+    color: #005A8C;
+    text-shadow: #FFFFFF 0 1px 1px;
+}
+.idi-booking-title {
+    margin-bottom: 0.5em;
+}
+.idi-booking-summary {
+    margin-bottom: 3em;
+}
+.fl-theme-uio-yb .idi-booking-step-icon {
+    background-image: url('images/bookingsteps/bookingsteps-yellow.png');
+}
+.fl-theme-uio-wb .idi-booking-step-icon {
+    background-image: url('images/bookingsteps/bookingsteps-white.png');
+}
+.fl-theme-uio-by .idi-booking-step-icon, .fl-theme-uio-bw .idi-booking-step-icon {
+    background-image: url('images/bookingsteps/bookingsteps-black.png');
+}
+.fl-theme-uio-yb .idi-booking-step .idi-booking-download,
+.fl-theme-uio-wb .idi-booking-step .idi-booking-download { background: #000000; text-shadow: none; }
+.fl-theme-uio-bw .idi-booking-step .idi-booking-download { background: #FFFFFF; text-shadow: none; }
+.fl-theme-uio-by .idi-booking-step .idi-booking-download { background: #FFFF00; text-shadow: none; }
+
+.idi-booking-faq-show-hide {
+    display: block;
+    font-weight: bold;
+    width: 15em;
+    font-style: italic;
+    margin-top: 1em;
+    background-repeat: no-repeat;
+    background-position: right 65%;
+    margin-bottom: 1em;
+}
+.idi-booking-faq-show-hide.idi-booking-faq-show:before {
+    content: "show ";
+}
+.idi-booking-faq-show-hide.idi-booking-faq-hide:before {
+    content: "hide ";
+}
+.idi-booking-faq-show-hide:hover {
+    cursor: pointer;
+}
+.idi-booking-faq-show {
+    background-image: url('images/arrows/arrow-down.png');
+}
+.idi-booking-faq-show:hover {
+    background-image: url('images/arrows/arrow-down-hover.png');
+}
+.idi-booking-faq-hide {
+    background-image: url('images/arrows/arrow-up.png');
+}
+.idi-booking-faq-hide:hover {
+    background-image: url('images/arrows/arrow-up-hover.png');
+}
+.idi-booking-faq-question {
+    font-weight: bold;
+}
+.idi-booking-faq-answer {
+    margin-bottom: 0.5em;
+}
+.idi-booking-faq {
+    margin-left: 2em;
+    overflow: hidden;
+    -moz-transition: height .5s;
+    -ms-transition: height .5s;
+    -o-transition: height .5s;
+    -webkit-transition: height .5s;
+    transition: height .5s;
+}
+.idi-booking-faq.idi-booking-faq-hidden {
+    height: 0;
+}
+.idi-booking-faq.idi-booking-faq-shown {
+    height: 28em;
+}
+.fl-theme-uio-yb .idi-booking-faq-show,
+.fl-theme-uio-by .idi-booking-faq-show:hover { background-image: url('images/arrows/arrow-down-yellow.png'); }
+.fl-theme-uio-yb .idi-booking-faq-hide,
+.fl-theme-uio-by .idi-booking-faq-hide:hover { background-image: url('images/arrows/arrow-up-yellow.png'); }
+
+.fl-theme-uio-bw .idi-booking-faq-show,
+.fl-theme-uio-yb .idi-booking-faq-show:hover,
+.fl-theme-uio-wb .idi-booking-faq-show:hover,
+.fl-theme-uio-by .idi-booking-faq-show  { background-image: url('images/arrows/arrow-down-black.png'); }
+.fl-theme-uio-bw .idi-booking-faq-hide,
+.fl-theme-uio-yb .idi-booking-faq-hide:hover,
+.fl-theme-uio-wb .idi-booking-faq-hide:hover,
+.fl-theme-uio-by .idi-booking-faq-hide { background-image: url('images/arrows/arrow-up-black.png'); }
+
+.fl-theme-uio-wb .idi-booking-faq-show,
+.fl-theme-uio-bw .idi-booking-faq-show:hover { background-image: url('images/arrows/arrow-down-white.png'); }
+.fl-theme-uio-wb .idi-booking-faq-hide,
+.fl-theme-uio-bw .idi-booking-faq-hide:hover { background-image: url('images/arrows/arrow-up-white.png'); }
