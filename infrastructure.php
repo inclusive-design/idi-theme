@@ -65,11 +65,11 @@ Template Name: Infrastructure
 						</div>
 						<div class="idi-booking-faq-item">
 							<div class="idi-booking-faq-question">How will I get it?</div>
-							<div class="idi-booking-faq-answer">The IDI will ship it to you (at your expense). If you would like to pick it up yourself, please contact the IDI to arrange a time.</div>
+							<div class="idi-booking-faq-answer">Equipment will be shipped via courier, billed to the borrower's account.</div>
 						</div>
 						<div class="idi-booking-faq-item">
 							<div class="idi-booking-faq-question">Where would I pick it up from?</div>
-							<div class="idi-booking-faq-answer">Somewhere nice.</div>
+							<div class="idi-booking-faq-answer">If you wish, you can arrange to pick the equipment up in person from 205 Richmond St. W. (2nd floor), Toronto.</div>
 						</div>
 						<div class="idi-booking-faq-item">
 							<div class="idi-booking-faq-question">How should I return it?</div>
