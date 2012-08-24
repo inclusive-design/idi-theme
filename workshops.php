@@ -23,7 +23,7 @@ Template Name: Workshops
 	<li>Understanding Web Accessibility – a practical primer in complying to the W3C Web Content Accessibility Guidelines 2.0</li>
 	<li>Accessible Web Applications – how to create accessible interactive applications</li>
 	<li>Accessible Mobile Applications – how to create accessible mobile applications on a variety of mobile platforms</li>
-	<li>Captioning – a primer in post-production and real-time captioning </li>
+	<li>Captioning – a primer in post-production captioning </li>
 	<li>Description – a primer in post-production and real-time description of video and other visual elements</li>
 	<li>Accessible Kiosks – how to develop accessible kiosks </li>
 	<li>Accessible Way-finding and Geolocation – creating accessible maps, wayfinding  and geolocation applications </li>
