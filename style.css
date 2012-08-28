@@ -1255,7 +1255,8 @@ ol.letters li {
 .idi-people h2,
 .idi-about h2,
 .idi-cluster h2,
-.idi-workshops h2 {
+.idi-workshops h2,
+.idi-equipment h2 {
     font-style: italic;
     color: #3FB66C;
     margin-bottom: .5em;    
@@ -1928,3 +1929,10 @@ a.idi-project-link {
 .fl-theme-uio-bw .idi-booking-faq-show:hover { background-image: url('images/arrows/arrow-down-white.png'); }
 .fl-theme-uio-wb .idi-booking-faq-hide,
 .fl-theme-uio-bw .idi-booking-faq-hide:hover { background-image: url('images/arrows/arrow-up-white.png'); }
+
+/* Equipment Page */
+.idi-equipment .fl-grid li {
+    width: 25%;
+}
+.idi-equipment .fl-grid li {
+}

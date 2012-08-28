@@ -53,7 +53,7 @@ Template Name: Infrastructure
 					<div class="idi-booking-faq idi-booking-faq-hidden">
 						<div class="idi-booking-faq-item">
 							<div class="idi-booking-faq-question">What can I borrow?</div>
-							<div class="idi-booking-faq-answer">Lots of cool stuff.</div>
+							<div class="idi-booking-faq-answer">See the <a href="<?php echo get_home_url(); ?>/booking/equipment">IDI Equipment list</a> for information.</div>
 						</div>
 						<div class="idi-boooking-faq-item">
 							<div class="idi-booking-faq-question">How long can I borrow it for?</div>
@@ -81,7 +81,7 @@ Template Name: Infrastructure
 						</div>
 						<div class="idi-booking-faq-item">
 							<div class="idi-booking-faq-question">How should I uninstall software when I'm finished?</div>
-							<div class="idi-booking-faq-answer">Some software has requires a particular process to uninstall. You will receive instructions with the software.</div>
+							<div class="idi-booking-faq-answer">Some software requires a particular process to uninstall. You will receive instructions with the software.</div>
 						</div>
 					</div>
 				</section>
