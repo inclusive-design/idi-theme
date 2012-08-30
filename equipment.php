@@ -15,8 +15,8 @@ Template Name: Equipment List
 			<li><a href="<?php echo get_home_url(); ?>/booking/equipment/keyboards"><img src="<?php bloginfo('stylesheet_directory');?>/images/people/peopleplaceholder.png"/>Keyboards</a></li>
 			<li><a href="<?php echo get_home_url(); ?>/booking/equipment/pointing-devices"><img src="<?php bloginfo('stylesheet_directory');?>/images/people/peopleplaceholder.png"/>Pointing devices</a></li>
 			<li><a href="<?php echo get_home_url(); ?>/booking/equipment/displays"><img src="<?php bloginfo('stylesheet_directory');?>/images/people/peopleplaceholder.png"/>Displays</a></li>
-			<li><img src="<?php bloginfo('stylesheet_directory');?>/idi-theme/images/people/peopleplaceholder.png"/>Magnifiers</li>
-			<li><img src="<?php bloginfo('stylesheet_directory');?>/idi-theme/images/people/peopleplaceholder.png"/>Cameras</li>
+			<li><img src="<?php bloginfo('stylesheet_directory');?>/images/people/peopleplaceholder.png"/>Magnifiers</li>
+			<li><img src="<?php bloginfo('stylesheet_directory');?>/images/people/peopleplaceholder.png"/>Cameras</li>
 		</ul>
 	</div>
 
