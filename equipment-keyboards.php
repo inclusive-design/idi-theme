@@ -15,20 +15,69 @@ Template Name: Equipment: Keyboards
 			<a href="<?php echo get_home_url(); ?>/booking/equipment">Back to Equipment</a>
     	</div>
 		<h2>Keyboards</h2>
-		<ul>
-			<li>A keyboard</li>
-			<li>A keyboard</li>
-			<li>A keyboard</li>
-			<li>A keyboard</li>
-			<li>A keyboard</li>
-			<li>A keyboard</li>
-			<li>A keyboard</li>
-			<li>A keyboard</li>
-			<li>A keyboard</li>
-			<li>A keyboard</li>
-			<li>A keyboard</li>
-			<li>A keyboard</li>
-		</ul>
+
+        <section class="idi-equipment-item">
+            <div class="idi-equipment-intro">
+                <img class="idi-equipment-image" title="the 'Big Keys LX' keyboard" alt="the 'Big Keys LX' keyboard" src="<?php bloginfo('stylesheet_directory');?>/images/people/peopleplaceholder.png"/>
+                <h3>Big Keys LX keyboard</h3>
+            </div>
+            <div class="idi-equipment-package-content">
+				Package contains:
+				<ul>
+					<li><span class="idi-equipment-brand">Big Keys LX</span> keyboard</li>
+					<li>Manual/info card</li>
+				</ul>
+            </div>
+        </section>
+
+        <section class="idi-equipment-item">
+            <div class="idi-equipment-intro">
+                <img class="idi-equipment-image" title="the 'Infogrip' keyboard for left hand" alt="the 'Infogrip' keyboard for left hand" src="<?php bloginfo('stylesheet_directory');?>/images/people/peopleplaceholder.png"/>
+                <h3>Infogrip keyboard for left hand</h3>
+            </div>
+            <div class="idi-equipment-package-content">
+				Package contains:
+				<ul>
+					<li><span class="idi-equipment-brand">Infogrip</span> keyboard for left hand</li>
+					<li>Reference card</li>
+					<li>Documentation CD</li>
+					<li>Installation instructions</li>
+					<li>USB cable</li>
+				</ul>
+            </div>
+        </section>
+
+        <section class="idi-equipment-item">
+            <div class="idi-equipment-intro">
+                <img class="idi-equipment-image" title="the 'Big Keys LX' keyboard" alt="the 'Big Keys LX' keyboard" src="<?php bloginfo('stylesheet_directory');?>/images/people/peopleplaceholder.png"/>
+                <h3>Big Keys LX keyboard</h3>
+            </div>
+            <div class="idi-equipment-package-content">
+				Package contains:
+				<ul>
+					<li><span class="idi-equipment-brand">Big Keys LX</span> keyboard</li>
+					<li>Manual/info card</li>
+				</ul>
+            </div>
+        </section>
+
+        <section class="idi-equipment-item">
+            <div class="idi-equipment-intro">
+                <img class="idi-equipment-image" title="the 'Infogrip' keyboard for left hand" alt="the 'Infogrip' keyboard for left hand" src="<?php bloginfo('stylesheet_directory');?>/images/people/peopleplaceholder.png"/>
+                <h3>Infogrip keyboard for left hand</h3>
+            </div>
+            <div class="idi-equipment-package-content">
+				Package contains:
+				<ul>
+					<li><span class="idi-equipment-brand">Infogrip</span> keyboard for left hand</li>
+					<li>Reference card</li>
+					<li>Documentation CD</li>
+					<li>Installation instructions</li>
+					<li>USB cable</li>
+				</ul>
+            </div>
+        </section>
+
 	</div>
 
 </div>

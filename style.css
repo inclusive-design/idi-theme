@@ -1280,7 +1280,8 @@ ol.letters li {
 .idi-person {
     margin-bottom: 2em;
 }
-.idi-person:after {
+.idi-person:after,
+.idi-equipment-item:after {
     content: "•";
     color: #999999;
     margin-left: 50%;
@@ -1293,7 +1294,8 @@ ol.letters li {
 .fl-theme-uio-wb .idi-person:after { color: #FFFFFF; }
 .fl-theme-uio-by .idi-person:after,
 .fl-theme-uio-bw .idi-person:after { color: #000000; }
-img.idi-people-person {
+img.idi-people-person,
+img.idi-equipment-image {
     float: right;
     margin: 5px;
     width: 100px;
@@ -1932,7 +1934,15 @@ a.idi-project-link {
 
 /* Equipment Page */
 .idi-equipment .fl-grid li {
-    width: 25%;
+    width: 32%;
+    text-align: center;
 }
-.idi-equipment .fl-grid li {
+.idi-equipment-categories {
+    margin-top: 4em;
+}
+.idi-equipment-categories li {
+    list-style: none;
+}
+.idi-equipment-brand {
+    font-style: italic;
 }
