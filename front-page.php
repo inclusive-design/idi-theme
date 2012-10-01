@@ -1,100 +1,82 @@
 <?php
-get_header();
+/*
+Template Name: Front Page
+*/
 ?>
-	
-	<script type="text/javascript">	
-		function submitForm() {
-			var listForm = $('#myForm');		
-			var listEmail = $('#listEmail').val();
-			
-			//validate for non-html5 browsers
-			var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
-		    if(reg.test(listEmail) == false) {						
-				alert("Invalid email");			//switch to accessible html?
-			} else {	
-				$.ajax({
-					url: listForm.attr('action'),					
-					type: listForm.attr('method'),
-					data: {email: listEmail},
-					success: function(email) {
-						$("#listForm").html("<p>Success! " + email + " has been added to the mailing list. You should receive a confirmation email shortly</p>"); 	
-					}
-				}); 
-				
-			}			
-			return false;
-		}
-	</script>
- 	<div id="carousel">
-		<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>		
-		<p><a href="research/" class="check-out">Check out our research</a></p>
- 	</div>
- 	
- 	<div id="list-wiki" class="fl-col-flex2">
- 		<div class="fl-col">
- 			<h2>Join the <abbr title="Inclusive Design Institute">IDI</abbr> mailing list</h2>
- 			<div id="listForm">
-				<form id="myForm" method="post" action="<?php bloginfo('template_url'); ?>/mailinglist.php" onsubmit="return submitForm()">
-					<input type="email" name="listEmail" id="listEmail" value="Your email address" /> 
-					<input type="submit" value="submit" />
-				</form>			
- 			</div>
- 		</div>
- 		<div class="fl-col">
- 			<h2>Visit our wiki space</h2>
-			<p class="fl-font-size-150"><a href="http://wiki.inclusivedesign.ca">wiki.inclusivedesign.ca</a></p>
- 		</div>
- 	</div>
- 	
-  	<div id="research-clusters" class="fl-clearfix">
-		<h2>Research Clusters</h2>
-		<nav role="navigation">
-		<ul id="menu-research-clusters" class="nav">
-			<li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33">
-				<a href="research#design">Design and Development</a>
-			</li>
-			<li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31">
-				<a href="research#implementation">Implementation and Information Practices</a>
-			</li>
-			<li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32">
-				<a href="research#business">Business Case, Policies, Standards and Legislation</a>
-			</li>
-			<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30">
-				<a href="research#mobile">Mobile and Pervasive Computing</a>
-			</li>
-		</ul>				
-		</nav>
- 	</div>
- 	
-	<div class="fl-col-flex3 front-cols">
-		<?php 
 
+<?php get_header(); ?>
+	
+<div class="fl-centered fl-col-mixed fl-site-wrapper">
+	<nav role="navigation" class="idi-research-clusters fl-centered fl-clearfix">
+		<div class="idi-clusters-overlay"></div>
+
+		<a class="idi-design-cluster-circle idi-cluster-circle-link idi-design-link idi-no-tab-focus" href="research/design" title="Design & Development"></a>
+		<div class="idi-cluster-circle idi-design-cluster-circle idi-design-cluster-circle-colour"></div>
+		<div class="idi-cluster-arrow idi-design-cluster-arrow"> </div>
+		<a class="idi-cluster-name idi-design-cluster-name" href="research/design">Design & Development</a>
+
+		<a class="idi-implementation-cluster-circle idi-implementation-link idi-cluster-circle-link idi-no-tab-focus" href="research/implementation" title="Implementation & Information Practices"></a>
+		<div class="idi-cluster-circle idi-implementation-cluster-circle idi-implementation-cluster-circle-colour"></div>
+		<div class="idi-cluster-arrow idi-implementation-cluster-arrow"> </div>
+		<a class="idi-cluster-name idi-implementation-cluster-name" href="research/implementation">Implementation & Information Practices</a>
+
+		<a class="idi-policies-cluster-circle idi-policies-link idi-cluster-circle-link idi-no-tab-focus" href="research/policies" title="Business Case, Policies, Standards & Legislation"></a>
+		<div class="idi-cluster-circle idi-policies-cluster-circle idi-policies-cluster-circle-colour"></div>
+		<div class="idi-cluster-arrow idi-policies-cluster-arrow"> </div>
+		<a class="idi-cluster-name idi-policies-cluster-name" href="research/policies">Business Case, Policies, Standards & Legislation</a>
+
+		<a class="idi-mobile-cluster-circle idi-mobile-link idi-cluster-circle-link idi-no-tab-focus" href="research/mobile" title="Mobile & Pervasive Computing"></a>
+		<div class="idi-cluster-circle idi-mobile-cluster-circle idi-mobile-cluster-circle-colour"></div>
+		<div class="idi-cluster-arrow idi-mobile-cluster-arrow"> </div>
+		<a class="idi-cluster-name idi-mobile-cluster-name" href="research/mobile">Mobile & Pervasive Computing</a>
+	</nav>
+
+	<div class="fl-col-flex4 front-cols">
+		<?php
 		$the_query = new WP_Query( array('posts_per_page'=>2) ); 
 		
 		while ($the_query->have_posts()): 
 			$the_query->the_post(); 		
 			global $more; 
 			$more = 0; 
-			
-			
-		?>
- 		<div class="fl-col post"> 						
-			<?php		
-			echo '<div class="date">';
-			the_time('F jS, Y');
-			echo '</div>';			
-			echo '<h2 class="fl-font-size-130">';
-			the_title();
-			echo '</h2>';	
-			remove_filter (�the_content�, �wpautop�); 
-			the_content("<span class='fl-site-read-more'>read more</span>");
 			?>
- 		</div>
+			<div class="fl-col">
+				<div class="idi-box idi-highlight-box post">
+					<?php if(has_post_thumbnail()) {
+						the_post_thumbnail();
+					} ?>
+					<div class="idi-box-text">
+					    <h2><a class="idi-article-title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+				        <div class="idi-date"><?php the_time('F jS, Y') ?></div>
+			            <div class="entry">
+			                <?php the_excerpt(); ?>
+			            </div>
+					</div>
+				</div>
+			</div>
  		<?php endwhile; ?>
 
- 		<div class="fl-col"> 	
- 			<?php get_sidebar('sidebar-1'); ?>
- 		</div>
+		<div class="fl-col">
+			<?php get_template_part('tweets', 'aegisprog') ?>
+			<?php get_template_part('tweets', 'SNOWocad') ?>
+
+		</div>
+
+		<div class="fl-col">
+			<?php get_template_part('tweets', 'FluidProject') ?>
+
+			<div class="idi-box">
+				<div class="idi-mailing-list">
+					<?php get_template_part("mailing-list-form"); ?>
+				</div>
+				<div class="idi-box idi-box-text">
+					<?php get_template_part("institution-list"); ?>
+					<?php get_template_part("contact-info"); ?>
+				</div>
+			</div>
+		</div>
+
  	</div> 	
- 	
+ </div>
+ 
 <?php get_footer(); ?>

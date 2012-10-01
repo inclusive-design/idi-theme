@@ -1,0 +1,384 @@
+body {
+    width: 80em;
+    margin: auto;
+}
+
+.fl-site-link a, .fl-site-nav-main a, .idi-cluster-name, .idi-map-link, .idi-article-title, .twitter-follow-button {
+    border: none;
+}
+
+.fl-site-link a {
+    background-image: url('images/logos/logo.gif');
+}
+.fl-theme-uio-yb .fl-site-link a { 
+    background-image: url('images/logos/logo-yellow.gif'); 
+}
+.fl-theme-uio-wb .fl-site-link a { 
+    background-image: url('images/logos/logo-white.gif'); 
+}
+.fl-theme-uio-by .fl-site-link a,
+.fl-theme-uio-bw .fl-site-link a { 
+    background-image: url('images/logos/logo-black.gif'); 
+}
+.fl-site-nav-main a:hover,
+.fl-site-nav-main a:active,
+.fl-site-nav-main a.current_page_item:hover,
+.fl-site-nav-main a.current_page_item:active {
+    border: none;
+}
+
+/* Strip out address icons */
+.idi-mailing-address, .idi-phone, .idi-email,
+.fl-theme-uio-yb .idi-mailing-address,
+.fl-theme-uio-yb .idi-phone,
+.fl-theme-uio-yb .idi-email,
+.fl-theme-uio-wb .idi-mailing-address,
+.fl-theme-uio-wb .idi-phone,
+.fl-theme-uio-wb .idi-email,
+.fl-theme-uio-by .idi-mailing-address,
+.fl-theme-uio-by .idi-phone,
+.fl-theme-uio-by .idi-email,
+.fl-theme-uio-bw .idi-mailing-address,
+.fl-theme-uio-bw .idi-phone,
+.fl-theme-uio-bw .idi-email
+ { background-image: none; }
+
+.twitter-feed-group a.twitter-follow-button,
+.fl-theme-uio-yb .twitter-feed-group a.twitter-follow-button,
+.fl-theme-uio-wb .twitter-feed-group a.twitter-follow-button,
+.fl-theme-uio-by .twitter-feed-group a.twitter-follow-button,
+.fl-theme-uio-bw .twitter-feed-group a.twitter-follow-button
+ { background-image: none; }
+ 
+.fl-site-nav-main.sticky .idi-nav-links-buffer {
+    background-image: none;
+}
+.fl-site-nav-main.sticky .idi-nav-links {
+    border-bottom: 1px solid #333333;
+}
+.fl-site-footer {
+    background-image: none;
+    border-top: 1px solid #333333;
+}
+.idi-clusters-overlay {
+    background-image: none;
+}
+
+/* Strip out the background images from research cluster pages */
+.idi-design-underlay {
+    background-image: none;
+}
+.idi-policies-underlay {
+    background-image: none;
+}
+.idi-mobile-underlay {
+    background-image: none;
+}
+.idi-implementation-underlay {
+    background-image: none;
+}
+
+/* Gif versions of circles, for transparencies */
+.idi-implementation-cluster-circle-colour {
+    background-color: transparent;
+    background-image: url('images/circles-gif/circle-orange.gif');
+    background-repeat: no-repeat;
+}
+.idi-implementation-link:hover ~ .idi-implementation-cluster-circle {
+    top: 52px;
+    right: 167px;
+    width: 166px;
+    height: 166px;
+    background-image: url('images/circles-gif/circle-orange-hover.gif');
+    background-repeat: no-repeat;
+}
+
+.idi-design-cluster-circle-colour {
+    background-color: transparent;
+    background-image: url('images/circles-gif/circle-green.gif');
+    background-repeat: no-repeat;
+}
+.idi-design-link:hover ~ .idi-design-cluster-circle {
+    top: 193px;
+    left: 87px;
+    width: 147px;
+    height: 147px;
+    background-image: url('images/circles-gif/circle-green-hover.gif');
+    background-repeat: no-repeat;
+}
+
+.idi-policies-cluster-circle-colour {
+    background-color: transparent;
+    background-image: url('images/circles-gif/circle-red.gif');
+    background-repeat: no-repeat;
+}
+.idi-policies-link:hover ~ .idi-policies-cluster-circle {
+    top: 402px;
+    left: 227px;
+    width: 76px;
+    height: 76px;
+    background-image: url('images/circles-gif/circle-red-hover.gif');
+    background-repeat: no-repeat;
+}
+
+.idi-mobile-cluster-circle-colour {
+    background-color: transparent;
+    background-image: url('images/circles-gif/circle-blue.gif');
+    background-repeat: no-repeat;
+}
+.idi-mobile-link:hover ~ .idi-mobile-cluster-circle {
+    top: 140px;
+    left: 637px;
+    width: 106px;
+    height: 106px;
+    background-image: url('images/circles-gif/circle-blue-hover.gif');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.fl-theme-uio-by .idi-mobile-cluster-circle-colour,
+.fl-theme-uio-bw .idi-mobile-cluster-circle-colour { background-image: url('images/circles-gif/circle-black100.gif'); }
+.fl-theme-uio-yb .idi-mobile-cluster-circle-colour { background-image: url('images/circles-gif/circle-yellow100.gif'); }
+.fl-theme-uio-wb .idi-mobile-cluster-circle-colour { background-image: url('images/circles-gif/circle-white100.gif'); }
+
+.fl-theme-uio-by .idi-mobile-link:hover ~ .idi-mobile-cluster-circle,
+.fl-theme-uio-bw .idi-mobile-link:hover ~ .idi-mobile-cluster-circle { background-image: url('images/circles-gif/circle-black106.gif'); }
+.fl-theme-uio-yb .idi-mobile-link:hover ~ .idi-mobile-cluster-circle { background-image: url('images/circles-gif/circle-yellow106.gif'); }
+.fl-theme-uio-wb .idi-mobile-link:hover ~ .idi-mobile-cluster-circle { background-image: url('images/circles-gif/circle-white106.gif'); }
+
+.fl-theme-uio-by .idi-policies-cluster-circle-colour,
+.fl-theme-uio-bw .idi-policies-cluster-circle-colour { background-image: url('images/circles-gif/circle-black70.gif'); }
+.fl-theme-uio-yb .idi-policies-cluster-circle-colour { background-image: url('images/circles-gif/circle-yellow70.gif'); }
+.fl-theme-uio-wb .idi-policies-cluster-circle-colour { background-image: url('images/circles-gif/circle-white70.gif'); }
+
+.fl-theme-uio-by .idi-policies-link:hover ~ .idi-policies-cluster-circle,
+.fl-theme-uio-bw .idi-policies-link:hover ~ .idi-policies-cluster-circle { background-image: url('images/circles-gif/circle-black76.gif'); }
+.fl-theme-uio-yb .idi-policies-link:hover ~ .idi-policies-cluster-circle { background-image: url('images/circles-gif/circle-yellow76.gif'); }
+.fl-theme-uio-wb .idi-policies-link:hover ~ .idi-policies-cluster-circle { background-image: url('images/circles-gif/circle-white76.gif'); }
+
+.fl-theme-uio-by .idi-design-cluster-circle-colour,
+.fl-theme-uio-bw .idi-design-cluster-circle-colour { background-image: url('images/circles-gif/circle-black140.gif'); }
+.fl-theme-uio-yb .idi-design-cluster-circle-colour { background-image: url('images/circles-gif/circle-yellow140.gif'); }
+.fl-theme-uio-wb .idi-design-cluster-circle-colour { background-image: url('images/circles-gif/circle-white140.gif'); }
+
+.fl-theme-uio-by .idi-design-link:hover ~ .idi-design-cluster-circle,
+.fl-theme-uio-bw .idi-design-link:hover ~ .idi-design-cluster-circle { background-image: url('images/circles-gif/circle-black147.gif'); }
+.fl-theme-uio-yb .idi-design-link:hover ~ .idi-design-cluster-circle { background-image: url('images/circles-gif/circle-yellow147.gif'); }
+.fl-theme-uio-wb .idi-design-link:hover ~ .idi-design-cluster-circle { background-image: url('images/circles-gif/circle-white147.gif'); }
+
+.fl-theme-uio-by .idi-implementation-cluster-circle-colour,
+.fl-theme-uio-bw .idi-implementation-cluster-circle-colour { background-image: url('images/circles-gif/circle-black160.gif'); }
+.fl-theme-uio-yb .idi-implementation-cluster-circle-colour { background-image: url('images/circles-gif/circle-yellow160.gif'); }
+.fl-theme-uio-wb .idi-implementation-cluster-circle-colour { background-image: url('images/circles-gif/circle-white160.gif'); }
+
+.fl-theme-uio-by .idi-implementation-link:hover ~ .idi-implementation-cluster-circle,
+.fl-theme-uio-bw .idi-implementation-link:hover ~ .idi-implementation-cluster-circle { background-image: url('images/circles-gif/circle-black166.gif'); }
+.fl-theme-uio-yb .idi-implementation-link:hover ~ .idi-implementation-cluster-circle { background-image: url('images/circles-gif/circle-yellow166.gif'); }
+.fl-theme-uio-wb .idi-implementation-link:hover ~ .idi-implementation-cluster-circle { background-image: url('images/circles-gif/circle-white166.gif'); }
+
+/* Override column widths */
+.fl-col-mixed .fl-col-fixed {
+    padding: 1.5em;
+    padding-bottom: 4em;
+    width: 14em;
+}
+.idi-research li {
+    margin-left: 5em;
+    width: 20em;
+}
+.idi-research-item {
+    width: 16em;
+}
+.idi-news-summary {
+    width: 50em;
+}
+.idi-inst-content .fl-col-flex2 {
+    width: 55em;
+}
+.idi-inst-content .fl-col-flex2 .fl-col {
+    width: 24em;
+}
+.idi-inst-content .fl-col-flex2 .fl-col .fl-col-fixed {
+    width: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+/* clusters page: logo wrapping */
+.idi-cluster .idi-project-logo {
+    width: 4em;
+}
+
+/* Strip out the background images from the navigation menu in IE6 */
+.fl-site-nav-main a.idi-nav-home {
+    background-image: none;
+    padding-left: 5px;
+}
+.fl-site-nav-main a.idi-nav-home:hover,
+.fl-site-nav-main a.idi-nav-home:focus {
+    background-image: none;
+}
+.fl-site-nav-main ul a.idi-nav-about {
+    background-image: none;
+    padding-left: 5px;
+}
+.fl-site-nav-main a.idi-nav-about:hover,
+.fl-site-nav-main a.idi-nav-about:focus {
+    background-image: none;
+}
+.fl-site-nav-main ul a.idi-nav-people {
+    background-image: none;
+    padding-left: 5px;
+}
+.fl-site-nav-main a.idi-nav-people:hover,
+.fl-site-nav-main a.idi-nav-people:focus {
+    background-image: none;
+}
+.fl-site-nav-main ul a.idi-nav-news {
+    background-image: none;
+    padding-left: 5px;
+}
+.fl-site-nav-main a.idi-nav-news:hover,
+.fl-site-nav-main a.idi-nav-news:focus {
+    background-image: none;
+}
+.fl-site-nav-main ul a.idi-nav-education {
+    background-image: none;
+    padding-left: 5px;
+}
+.fl-site-nav-main a.idi-nav-education,
+.fl-site-nav-main a.idi-nav-education {
+    background-image: none;
+}
+.fl-site-nav-main ul a.idi-nav-research {
+    background-image: none;
+    padding-left: 5px;
+}
+.fl-site-nav-main a.idi-nav-research:hover,
+.fl-site-nav-main a.idi-nav-research:focus {
+    background-image: none;
+}
+.fl-site-nav-main ul a.idi-nav-infrastructure {
+    background-image: none;
+    padding-left: 5px;
+}
+.fl-site-nav-main a.idi-nav-infrastructure:hover,
+.fl-site-nav-main a.idi-nav-infrastructure:focus {
+    background-image: none;
+}
+
+/* high-contrast images for main nav links */
+.fl-site-nav-main .current_page_item.idi-nav-home, .fl-site-nav-main .current_page_item.idi-nav-home:hover, .fl-site-nav-main .current_page_item.idi-nav-home:focus,
+.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-home, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-home:hover, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-home:focus,
+.fl-theme-uio-wb .fl-site-nav-main .idi-nav-home, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-home:hover, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-home:focus { 
+    background-image: none; 
+}
+.fl-theme-uio-bw .fl-site-nav-main .idi-nav-home, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-home:hover, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-home:focus,
+/*.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-home, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-home:hover, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-home:focus,*/
+.fl-theme-uio-by .fl-site-nav-main .idi-nav-home, .fl-theme-uio-by .fl-site-nav-main .idi-nav-home:hover, .fl-theme-uio-by .fl-site-nav-main .idi-nav-home:focus,
+.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-home, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-home:hover, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-home:focus { 
+    background-image: none; 
+}
+.fl-theme-uio-yb .fl-site-nav-main .idi-nav-home, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-home:hover, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-home:focus,
+.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-home, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-home:hover, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-home:focus { 
+    background-image: none; 
+}
+
+.fl-site-nav-main .current_page_item.idi-nav-about, .fl-site-nav-main .current_page_item.idi-nav-about:hover, .fl-site-nav-main .current_page_item.idi-nav-about:focus,
+.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-about, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-about:hover, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-about:focus,
+.fl-theme-uio-wb .fl-site-nav-main .idi-nav-about, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-about:hover, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-about:focus { 
+    background-image: none; 
+}
+.fl-theme-uio-bw .fl-site-nav-main .idi-nav-about, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-about:hover, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-about:focus,
+.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-about, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-about:hover,
+.fl-theme-uio-by .fl-site-nav-main .idi-nav-about, .fl-theme-uio-by .fl-site-nav-main .idi-nav-about:hover, .fl-theme-uio-by .fl-site-nav-main .idi-nav-about:focus,
+.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-about, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-about:hover,
+ .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-about:focus { 
+    background-image: none; 
+}
+.fl-theme-uio-yb .fl-site-nav-main .idi-nav-about, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-about:hover, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-about:focus,
+.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-about, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-about:hover { 
+    background-image: none; 
+}
+
+
+.fl-site-nav-main .current_page_item.idi-nav-people, .fl-site-nav-main .current_page_item.idi-nav-people:hover, .fl-site-nav-main .current_page_item.idi-nav-people:focus,
+.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-people, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-people:hover, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-people:focus,
+.fl-theme-uio-wb .fl-site-nav-main .idi-nav-people, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-people:hover, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-people:focus { 
+    background-image: none; 
+}
+.fl-theme-uio-bw .fl-site-nav-main .idi-nav-people, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-people:hover, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-people:focus,
+.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-people, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-people:hover,
+.fl-theme-uio-by .fl-site-nav-main .idi-nav-people, .fl-theme-uio-by .fl-site-nav-main .idi-nav-people:hover, .fl-theme-uio-by .fl-site-nav-main .idi-nav-people:focus,
+.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-people, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-people:hover,
+ .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-people:focus { 
+    background-image: none; 
+}
+.fl-theme-uio-yb .fl-site-nav-main .idi-nav-people, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-people:hover, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-people:focus,
+.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-people, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-people:hover { 
+    background-image: none; 
+}
+
+.fl-site-nav-main .current_page_item.idi-nav-news, .fl-site-nav-main .current_page_item.idi-nav-news:hover, .fl-site-nav-main .current_page_item.idi-nav-news:focus,
+.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-news, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-news:hover, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-news:focus,
+.fl-theme-uio-wb .fl-site-nav-main .idi-nav-news, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-news:hover, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-news:focus { 
+    background-image: none; 
+}
+.fl-theme-uio-bw .fl-site-nav-main .idi-nav-news, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-news:hover, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-news:focus,
+.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-news, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-news:hover, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-news:focus,
+.fl-theme-uio-by .fl-site-nav-main .idi-nav-news, .fl-theme-uio-by .fl-site-nav-main .idi-nav-news:hover, .fl-theme-uio-by .fl-site-nav-main .idi-nav-news:focus,
+.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-news, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-news:hover, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-news:focus { 
+    background-image: none; 
+}
+.fl-theme-uio-yb .fl-site-nav-main .idi-nav-news, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-news:hover, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-news:focus,
+.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-news, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-news:hover, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-news:focus { 
+    background-image: none; 
+}
+
+.fl-site-nav-main .current_page_item.idi-nav-education, .fl-site-nav-main .current_page_item.idi-nav-education:hover, .fl-site-nav-main .current_page_item.idi-nav-education:focus,
+.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-education, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-education:hover, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-education:focus,
+.fl-theme-uio-wb .fl-site-nav-main .idi-nav-education, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-education:hover, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-education:focus { 
+    background-image: none; 
+}
+.fl-theme-uio-bw .fl-site-nav-main .idi-nav-education, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-education:hover, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-education:focus,
+.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-education, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-education:hover, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-education:focus,
+.fl-theme-uio-by .fl-site-nav-main .idi-nav-education, .fl-theme-uio-by .fl-site-nav-main .idi-nav-education:hover, .fl-theme-uio-by .fl-site-nav-main .idi-nav-education:focus,
+.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-education, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-education:hover, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-education:focus { 
+    background-image: none; 
+}
+.fl-theme-uio-yb .fl-site-nav-main .idi-nav-education, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-education:hover, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-education:focus,
+.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-education, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-education:hover , .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-education:focus { 
+    background-image: none; 
+}
+
+.fl-site-nav-main .current_page_item.idi-nav-research, .fl-site-nav-main .current_page_item.idi-nav-research:hover, .fl-site-nav-main .current_page_item.idi-nav-research:focus,
+.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-research, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-research:hover, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-research:focus,
+.fl-theme-uio-wb .fl-site-nav-main .idi-nav-research, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-research:hover, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-research:focus { 
+    background-image: none; 
+}
+.fl-theme-uio-bw .fl-site-nav-main .idi-nav-research, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-research:hover, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-research:focus,
+.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-research, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-research:hover, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-research:focus,
+.fl-theme-uio-by .fl-site-nav-main .idi-nav-research, .fl-theme-uio-by .fl-site-nav-main .idi-nav-research:hover, .fl-theme-uio-by .fl-site-nav-main .idi-nav-research:focus,
+.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-research, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-research:hover, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-research:focus { 
+    background-image: none; 
+}
+.fl-theme-uio-yb .fl-site-nav-main .idi-nav-research, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-research:hover, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-research:focus,
+.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-research, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-research:hover, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-research:focus { 
+    background-image: none; 
+}
+
+.fl-site-nav-main .current_page_item.idi-nav-infrastructure, .fl-site-nav-main .current_page_item.idi-nav-infrastructure:hover, .fl-site-nav-main .current_page_item.idi-nav-infrastructure:focus,
+.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-infrastructure, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-infrastructure:hover, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-infrastructure:focus,
+.fl-theme-uio-wb .fl-site-nav-main .idi-nav-infrastructure, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-infrastructure:hover, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-infrastructure:focus { 
+    background-image: none; 
+}
+.fl-theme-uio-bw .fl-site-nav-main .idi-nav-infrastructure, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-infrastructure:hover, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-infrastructure:focus,
+.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-infrastructure, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-infrastructure:hover, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-infrastructure:focus,
+.fl-theme-uio-by .fl-site-nav-main .idi-nav-infrastructure, .fl-theme-uio-by .fl-site-nav-main .idi-nav-infrastructure:hover, .fl-theme-uio-by .fl-site-nav-main .idi-nav-infrastructure:focus,
+.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-infrastructure, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-infrastructure:hover, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-infrastructure:focus { 
+    background-image: none; 
+}
+.fl-theme-uio-yb .fl-site-nav-main .idi-nav-infrastructure, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-infrastructure:hover, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-infrastructure:focus,
+.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-infrastructure, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-infrastructure:hover, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-infrastructure:focus { 
+    background-image: none; 
+}
