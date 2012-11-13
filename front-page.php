@@ -34,6 +34,7 @@ Template Name: Front Page
 	<div class="fl-col-flex4 front-cols">
 		<?php
 		$the_query = new WP_Query( array('posts_per_page'=>2) ); 
+		
 		while ($the_query->have_posts()): 
 			$the_query->the_post(); 		
 			global $more; 
