@@ -909,7 +909,7 @@ h3,
     width: 8em;
     margin-top: 0px;
     font-weight: 400;
-    position: absolute;
+   /* position: absolute;*/
     left: 875px;  /* Temporary fix for IDI-57: Prefs button getting pushed offscreen when text size is maxed out.  */
 }
 /* these should not be necessary, but defaults not working? */
@@ -939,7 +939,7 @@ h3,
     background-image: url("images/loginandpreferences/login.png");
     width: 4em;
     padding: 5px 5px 5px 25px;
-    position: absolute;
+    /*position: absolute;*/
     right: 7.5em;
     background-position: 0.6em 50%;
 }
@@ -1866,6 +1866,7 @@ a.idi-project-link {
     font-weight: bold;
     width: 15em;
     font-style: italic;
+    text-transform: lowercase;    
     margin-top: 1em;
     background-repeat: no-repeat;
     background-position: right 65%;
