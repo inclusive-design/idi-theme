@@ -7,12 +7,7 @@ Template Name: Infrastructure
 
 <div class="fl-centered fl-col-mixed fl-site-wrapper idi-infra">
 
-<!-- div class="fl-container-flex fl-col-flex4">
-	<div class="fl-col"></div>
-	<div class="fl-col idi-3cols">
-		<h1>Equipment and space booking, calendaring, and more.</h1>
-	</div>
-</div -->
+
 	
 <!--
 	<div class="fl-container-flex fl-col-flex4 idi-infra-row">
@@ -33,8 +28,10 @@ Template Name: Infrastructure
 			<div class="fl-col">
 				<h2 class="idi-summary-title idi-booking-title">Book Equipment</h2>
 			</div>
-			
+			<div class="fl-col-flex">
 			<?php if ( is_user_logged_in() ): ?>
+			
+			<div class="fl-col-flex3">
 				<div class="fl-col idi-booking-step">
 					<div class="idi-booking-step-icon idi-booking-step-1"></div>
 					<h3>Get form:</h3>
@@ -50,9 +47,9 @@ Template Name: Infrastructure
 					<h3>Return to:</h3>
 					<a class="idi-booking-email" href="mailto:idi@ocadu.ca" title="Equipment loan request"><span class="fl-hidden-accessible">return the form to</span> idi@ocadu.ca</a>
 				</div>
-				
+			</div>	
 				<section>
-					<div class="fl-col-flex fl-push idi-booking-summary">
+					<div class="fl-push idi-booking-summary">
 						<p>Partner institutions can borrow a range of hardware and software from the Inclusive Design Institute.
 						To request equipment, download the Equipment Booking form (an editable PDF), fill it out (either by hand or using the computer) and return it to the IDI (by mail, email, fax, or in person).</p>
 						<h3><a class="idi-booking-faq-show-hide idi-booking-faq-show">Frequently Asked Questions</a></h3>
@@ -93,12 +90,11 @@ Template Name: Infrastructure
 							</div>
 						</section>
 					</div>
-				</section>				
+				</section>
+			</div>					
 			<?php else: ?>
-				<div class="fl-col-flex">
-					<p>Partner institutions can borrow a range of hardware and software from the Inclusive Design Institute.</p>
-					<p>If you belong to a partner institution, please login via the "login" tab at the top of the page to view booking information. If you need an account set up, please <a href="">contact us</a>.</p>
-				</div>
+				<p>Partner institutions can borrow a range of hardware and software from the Inclusive Design Institute.</p>
+				<p>If you belong to a partner institution, please login via the "login" tab at the top of the page to view booking information. If you need an account set up, please <a href="mailto:idi@ocadu.ca">contact us</a>.</p>
 			<?php endif; ?>			
 		</section>
 	</div>

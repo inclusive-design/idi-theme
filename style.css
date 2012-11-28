@@ -887,7 +887,7 @@ h3,
 }
 .fl-uiOptions-fatPanel .fl-panelBar {
     margin: auto;
-    width: 64em;
+    max-width: 64em;
     height: 0;
     border: none;
 }
@@ -909,7 +909,6 @@ h3,
     width: 8em;
     margin-top: 0px;
     font-weight: 400;
-   /* position: absolute;*/
     left: 875px;  /* Temporary fix for IDI-57: Prefs button getting pushed offscreen when text size is maxed out.  */
 }
 /* these should not be necessary, but defaults not working? */
@@ -937,9 +936,8 @@ h3,
 .fl-theme-uio-bw .idi-uio-button { background-image: url("images/loginandpreferences/preferences-black.png"); }
 .fl-uiOptions-fatPanel .fl-toggleButton.idi-slidingPanel-toggleButton {
     background-image: url("images/loginandpreferences/login.png");
-    width: 4em;
+    width: 5em;
     padding: 5px 5px 5px 25px;
-    /*position: absolute;*/
     right: 7.5em;
     background-position: 0.6em 50%;
 }
@@ -955,6 +953,9 @@ a.anchor {
 }
 
 /* Login/out pull-down panel */
+.idi-loggedin {
+	padding: 7px 10px 0px 0px;
+}
 .idi-loginOutPanel {
     background-color: #FFFFFF;
     z-index: 999;
@@ -1016,6 +1017,10 @@ a.anchor {
     color: #005A8C;
     text-shadow: #FFFFFF 0 1px 1px;
 }
+.idi-login-form .error {
+	font-weight: bold;
+	color: red;
+}
 .fl-theme-uio-yb .idi-login-form #wp-submit,
 .fl-theme-uio-wb .idi-login-form #wp-submit { background: #000000; }
 .fl-theme-uio-bw .idi-login-form #wp-submit { background: #FFFFFF; }
@@ -1037,8 +1042,8 @@ a.anchor {
     background-position: 3.5em 0.4em;
 }
 .idi-login-form .idi-login-forgot {
-    width: 10em;
-    background-position: 8.7em 0.4em;
+    width: 11em;
+    background-position: 10em 0.4em;
 }
 
 .fl-theme-uio-yb .idi-login-form .idi-login-extra { background-image: url('images/arrows/arrow-yellow.gif'); }
@@ -1438,8 +1443,12 @@ img.idi-equipment-image {
     padding-left: 0;
 }
 .idi-infra-row {
-    padding-bottom: 2em;
+    padding-top: 2em;
 }
+.idi-infra-row .fl-col-flex {
+	margin-left: 12em;
+}
+
 .idi-infra-item {
     margin-bottom: 2em;
     padding-left: 1.6em;
@@ -1792,6 +1801,7 @@ a.idi-project-link {
     max-width: 13em;
     margin-right: 1.5em;
     font-style: italic;
+    text-align:left;
 }
 .idi-booking-step-icon {
     background: url('images/bookingsteps/bookingsteps.png') no-repeat left top;
@@ -1912,7 +1922,7 @@ a.idi-project-link {
     height: 0;
 }
 .idi-booking-faq.idi-booking-faq-shown {
-    height: 28em;
+    height: 32em; /* Taller in Win browsers */
 }
 .fl-theme-uio-yb .idi-booking-faq-show,
 .fl-theme-uio-by .idi-booking-faq-show:hover { background-image: url('images/arrows/arrow-down-yellow.png'); }

@@ -69,27 +69,6 @@ var idi = idi || {};
         }
     };
 
-    idi.setUpLoginOutPanel = function () {
-        fluid.slidingPanel(idi.selectors.loginContainer, {
-            selectors: {
-                panel: idi.selectors.loginPanel,
-                toggleButton: idi.selectors.loginToggleBtn
-            },
-            strings: {
-                showText: "Login",
-                hideText: "Login"
-            },
-            listeners: {
-                onPanelShow: function () {
-                    // close UIO panel if it was open
-                    idi.closeOpenedPanel($(idi.selectors.UIOiFrame), $(idi.selectors.UIOToggleButton));
-                }
-            }
-        });
-        $(idi.selectors.loginPanel).hide();
-        $(idi.selectors.loginForm).show();
-    };
-
     idi.mailingListSignup = function () {
         var form = $(idi.selectors.mailingList.form);
         var loading = $(idi.selectors.mailingList.loading);
@@ -137,7 +116,7 @@ var idi = idi || {};
         idi.setUpLoginOutPanel();
         idi.makeTopNavSticky();
         idi.setUpBookingFaq();
-        idi.keyboardA11y();
+        idi.keyboardA11y();        
     });
 
     fluid.demands("fluid.slidingPanel", ["fluid.uiOptions", "fluid.uiEnhancer"], {
