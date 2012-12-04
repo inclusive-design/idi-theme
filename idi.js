@@ -57,6 +57,7 @@ var idi = idi || {};
         loginToggleBtn: ".idi-slidingPanel-toggleButton",
         UIOToggleButton: '.flc-slidingPanel-toggleButton',
         loginForm: ".idi-login-form",
+        logoutText: ".idi-logout-text",
         mailingList: {
             form: ".idi-mailing-list-signup",
             loading: ".idi-loading",
