@@ -42,12 +42,12 @@
     	
     	
     	//Events      	                    
-		$('.idi-logout').on('keypress mousedown', function() { //Logout button
+		$('.idi-logout').click(function() { //Logout button
 				$(idi.selectors.loginPanel).hide();                                   
 	            $(idi.selectors.loginForm).hide();           
         });        
         
-		$('.idi-login-link').on('keypress mousedown', function() {	//Login link within logout text
+		$('.idi-login-link').click(function() {	//Login link within logout text
 			$(idi.selectors.logoutText).hide();
 			$(idi.selectors.loginForm).show();			
 		});           	           
