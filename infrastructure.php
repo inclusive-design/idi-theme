@@ -52,14 +52,14 @@ Template Name: Infrastructure
 					<div class="fl-push idi-booking-summary">
 						<p>Partner institutions can borrow a range of hardware and software from the Inclusive Design Institute.
 						To request equipment, download the Equipment Booking form (an editable PDF), fill it out (either by hand or using the computer) and return it to the IDI (by mail, email, fax, or in person).</p>
-						<h3><a class="idi-booking-faq-show-hide idi-booking-faq-show">Frequently Asked Questions</a></h3>
+						<h3><a href="#" class="idi-booking-faq-show-hide idi-booking-faq-show">Frequently Asked Questions</a></h3>
 						<section>
 							<div class="idi-booking-faq idi-booking-faq-hidden">
 								<div class="idi-booking-faq-item">
 									<div class="idi-booking-faq-question"><h4>What can I borrow?</h4></div>
 									<div class="idi-booking-faq-answer">See the <a href="<?php echo get_home_url(); ?>/booking/equipment">IDI Equipment list</a> for information.</div>
 								</div>
-								<div class="idi-boooking-faq-item">
+								<div class="idi-booking-faq-item">
 									<div class="idi-booking-faq-question"><h4>How long can I borrow it for?</h4></div>
 									<div class="idi-booking-faq-answer">Equipment and software can be borrowed for up to three months.</div>
 								</div>

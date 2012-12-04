@@ -1889,6 +1889,7 @@ a.idi-project-link {
     background-repeat: no-repeat;
     background-position: right 65%;
     margin-bottom: 1em;
+    text-decoration: none;
 }
 .idi-booking-faq-show-hide.idi-booking-faq-show:before {
     content: "show ";
