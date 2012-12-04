@@ -16,8 +16,11 @@
                 onPanelShow: function () {
                     // close UIO panel if it was open
                     idi.closeOpenedPanel($(idi.selectors.UIOiFrame), $(idi.selectors.UIOToggleButton));
-					$(idi.selectors.loginForm).show();
-			 		$(idi.selectors.logoutText).hide();                    
+                    
+                    <?php if ($_GET['idilogout'] == "true"): ?>
+						$(idi.selectors.loginForm).show();
+				 		$(idi.selectors.logoutText).hide();                    
+				 	<?php endif; ?>	
                 }
             }
         });              
