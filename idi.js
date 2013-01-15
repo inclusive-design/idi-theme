@@ -57,6 +57,7 @@ var idi = idi || {};
         loginToggleBtn: ".idi-slidingPanel-toggleButton",
         UIOToggleButton: '.flc-slidingPanel-toggleButton',
         loginForm: ".idi-login-form",
+        logoutText: ".idi-logout-text",
         mailingList: {
             form: ".idi-mailing-list-signup",
             loading: ".idi-loading",
@@ -67,27 +68,6 @@ var idi = idi || {};
             error: ".idi-signup-error",
             warning: ".idi-invalid-email-warning"
         }
-    };
-
-    idi.setUpLoginOutPanel = function () {
-        fluid.slidingPanel(idi.selectors.loginContainer, {
-            selectors: {
-                panel: idi.selectors.loginPanel,
-                toggleButton: idi.selectors.loginToggleBtn
-            },
-            strings: {
-                showText: "Login",
-                hideText: "Login"
-            },
-            listeners: {
-                onPanelShow: function () {
-                    // close UIO panel if it was open
-                    idi.closeOpenedPanel($(idi.selectors.UIOiFrame), $(idi.selectors.UIOToggleButton));
-                }
-            }
-        });
-        $(idi.selectors.loginPanel).hide();
-        $(idi.selectors.loginForm).show();
     };
 
     idi.mailingListSignup = function () {
@@ -137,7 +117,7 @@ var idi = idi || {};
         idi.setUpLoginOutPanel();
         idi.makeTopNavSticky();
         idi.setUpBookingFaq();
-        idi.keyboardA11y();
+        idi.keyboardA11y();        
     });
 
     fluid.demands("fluid.slidingPanel", ["fluid.uiOptions", "fluid.uiEnhancer"], {
