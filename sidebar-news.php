@@ -17,6 +17,26 @@
 		?>
 		</ul>
 
+		<?php
+		query_posts('tag=video'); // query to show all posts independant from what is in the center;
+		if (have_posts()) :
+		?>
+		<h3>Videos</h3>
+		<ul>
+		<?php
+		   while (have_posts()) :
+		      the_post(); ?>
+		<li>
+		      <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+		</li>
+		<?php
+			endwhile;
+		endif;
+		wp_reset_query();
+		?>
+		</ul>
+
+
 	</div>
 
 	<?php get_template_part("mailing-list-form"); ?>

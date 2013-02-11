@@ -1789,3 +1789,13 @@ a.idi-project-link {
 .idi-workshops-sidebar {
     margin-top: 6em;
 }
+
+/* Style to accomodate the Video Player */
+.entry .fl-videoPlayer-main {
+    height: 22.5em;
+}
+
+.entry .fl-videoPlayer-video-element,
+.entry .fl-videoPlayer-overlay {
+    max-width: 27.75em;
+}
