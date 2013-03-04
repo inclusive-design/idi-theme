@@ -1795,7 +1795,12 @@ a.idi-project-link {
     height: 22.5em;
 }
 
+.entry .fl-videoPlayer-video-element {
+    background-color: #000000;
+}
+
 .entry .fl-videoPlayer-video-element,
+.entry .fl-videoPlayer-video-play,
 .entry .fl-videoPlayer-overlay {
     max-width: 27.75em;
 }
