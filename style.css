@@ -1810,3 +1810,9 @@ a.idi-project-link {
 :-moz-full-screen .fl-videoPlayer-overlay { 
     max-width: none;
 }
+
+:-webkit-full-screen .fl-videoPlayer-video-element,
+:-webkit-full-screen .fl-videoPlayer-video-play,
+:-webkit-full-screen .fl-videoPlayer-overlay { 
+    max-width: none;
+}
