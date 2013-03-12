@@ -1973,19 +1973,19 @@ a.idi-project-link {
     max-width: 37em;
 }
 .idi-equipment-details img {
-    width: 220px;
+    width: 13em;
     height: auto;
     float: left;
 }
 .idi-equipment-item {
     margin-bottom: 1.5em;
 }
-.idi-equipment-item h3,
 .idi-equipment-item ul,
-.idi-equipment-itemKit {
-    margin-left: 240px; /* 200px img width plus padding */
+.idi-equipment-item .idi-equipment-itemKit {
+    margin-left: 15em;
 }
 .idi-equipment-item h3 {
+    margin-left: 13em;
     margin-top: -1em;
 }
 .idi-equipment-item li {

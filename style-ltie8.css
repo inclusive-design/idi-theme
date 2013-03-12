@@ -1,3 +1,10 @@
 .idi-booking-faq-show-hide {
     width: 14.5em;
 }
+
+.idi-equipment-item h3 {
+    margin-top: 0;
+}
+.idi-equipment-item p {
+    margin-left: 15em;
+}
