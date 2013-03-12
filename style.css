@@ -1293,8 +1293,7 @@ ol.letters li {
 .idi-person {
     margin-bottom: 2em;
 }
-.idi-person:after,
-.idi-equipment-item:after {
+.idi-person:after {
     content: "•";
     color: #999999;
     margin-left: 50%;
@@ -1307,14 +1306,13 @@ ol.letters li {
 .fl-theme-uio-wb .idi-person:after { color: #FFFFFF; }
 .fl-theme-uio-by .idi-person:after,
 .fl-theme-uio-bw .idi-person:after { color: #000000; }
-img.idi-people-person,
-img.idi-equipment-image {
+img.idi-people-person {
     float: right;
     margin: 5px;
     width: 100px;
 }
 .idi-person-intro {
-    width: 100%
+    width: 100%;
     min-height: 4em;
 }
 .idi-person-intro  h3 {
@@ -1588,7 +1586,7 @@ a.idi-project-link {
 .idi-research-item p {
     padding-left: 1.25em;
 }
-.idi-research li {
+.idi-research .fl-grid li {
     width: 45%;
     height: auto;
     padding-top: 2em;
@@ -1954,15 +1952,45 @@ a.idi-project-link {
 
 /* Equipment Page */
 .idi-equipment .fl-grid li {
-    width: 32%;
+    width: 30%;
     text-align: center;
 }
 .idi-equipment-categories {
     margin-top: 4em;
 }
-.idi-equipment-categories li {
-    list-style: none;
+.idi-equipment-categories ul {
+    margin-left: 1em;
 }
-.idi-equipment-brand {
-    font-style: italic;
+.idi-equipment-categories ul li {
+    color: #0076B0;
+    padding-bottom: 0.33em;
+}
+.idi-equipment-categories ul li a {
+    display: block;
+}
+
+.idi-equipment-details {
+    max-width: 37em;
+}
+.idi-equipment-details img {
+    width: 220px;
+    height: auto;
+    float: left;
+}
+.idi-equipment-item {
+    margin-bottom: 1.5em;
+}
+.idi-equipment-item h3,
+.idi-equipment-item ul,
+.idi-equipment-itemKit {
+    margin-left: 240px; /* 200px img width plus padding */
+}
+.idi-equipment-item h3 {
+    margin-top: -1em;
+}
+.idi-equipment-item li {
+    list-style-position: inside;
+}
+.fl-col-mixed .fl-col-flex.idi-equipment-details {
+    margin-left: 16em;
 }
