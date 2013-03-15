@@ -1789,3 +1789,30 @@ a.idi-project-link {
 .idi-workshops-sidebar {
     margin-top: 6em;
 }
+
+/* Style to accomodate the Video Player */
+.entry .fl-videoPlayer-main {
+    height: 22.5em;
+}
+
+.entry .fl-videoPlayer-video-element {
+    background-color: #000000;
+}
+
+.entry .fl-videoPlayer-video-element,
+.entry .fl-videoPlayer-video-play,
+.entry .fl-videoPlayer-overlay {
+    max-width: 27.75em;
+}
+
+:-moz-full-screen .fl-videoPlayer-video-element,
+:-moz-full-screen .fl-videoPlayer-video-play,
+:-moz-full-screen .fl-videoPlayer-overlay { 
+    max-width: none;
+}
+
+:-webkit-full-screen .fl-videoPlayer-video-element,
+:-webkit-full-screen .fl-videoPlayer-video-play,
+:-webkit-full-screen .fl-videoPlayer-overlay { 
+    max-width: none;
+}
