@@ -18,10 +18,10 @@
 		</ul>
 
 		<?php
-		query_posts('tag=video'); // query to show all posts independant from what is in the center;
+		query_posts('tag=video&posts_per_page=5'); // query to show posts tagged video;
 		if (have_posts()) :
 		?>
-		<h3>Videos</h3>
+		<h3>Recent Videos</h3>
 		<ul>
 		<?php
 		   while (have_posts()) :
