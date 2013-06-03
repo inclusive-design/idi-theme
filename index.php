@@ -8,12 +8,11 @@
         <?php if(have_posts()) : ?><?php while(have_posts()) : the_post(); ?>
  
         <div class="post">
-        <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-        <div class="date"><?php the_time('F jS, Y') ?></div>
- 
+        <div class="date"><?php the_time('F jS, Y') ?></div>        
+        <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3> 
             <div class="entry">
                 <?php the_post_thumbnail(); ?>
-                <?php the_content(); ?>                
+                <?php the_content("<div class='fl-site-read-more'>read more</div>"); ?>                
             </div>
         </div>
 		<?php endwhile; ?>

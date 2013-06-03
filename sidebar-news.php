@@ -17,6 +17,26 @@
 		?>
 		</ul>
 
+		<?php
+		query_posts('tag=video&posts_per_page=5'); // query to show posts tagged video;
+		if (have_posts()) :
+		?>
+		<h3>Recent Videos</h3>
+		<ul>
+		<?php
+		   while (have_posts()) :
+		      the_post(); ?>
+		<li>
+		      <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+		</li>
+		<?php
+			endwhile;
+		endif;
+		wp_reset_query();
+		?>
+		</ul>
+
+
 	</div>
 
 	<?php get_template_part("mailing-list-form"); ?>
