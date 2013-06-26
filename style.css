@@ -1575,7 +1575,7 @@ a.idi-project-link {
 .idi-research-item p {
     padding-left: 1.25em;
 }
-.idi-research li {
+.idi-research .fl-grid li {
     width: 45%;
     height: auto;
     padding-top: 2em;
