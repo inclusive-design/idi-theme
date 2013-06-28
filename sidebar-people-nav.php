@@ -30,6 +30,7 @@
 	    <li><a href="#Ratto">Matt Ratto</a></li>
 	    <li><a href="#Rioux">Marcia Rioux</a></li>
 	    <li><a href="#Scardamalia">Marlene Scardamalia</a></li>
+	    <li><a href="#Shea">Geoffrey Shea</a></li>
 	    <li><a href="#Slotta">Jim Slotta</a></li>
 	    <li><a href="#Smith">Brian Cantwell Smith</a></li>
 	    <li><a href="#Stolarick">Kevin Stolarick</a></li>
