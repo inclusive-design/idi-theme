@@ -20,7 +20,7 @@ token" and "Access secret"
 */
     require_once("wp-content/plugins/twitteroauth/twitteroauth/twitteroauth.php");
     $twitter_un = "SNOWocad";
-    $num_tweets = 3;
+    $num_tweets = 1;
     $consumerkey = "fHDGIckUSPpd4koYiBVOw";
     $consumersecret = "I3KKfzDT34eR9TXekZsXod750SdC2JydGVKj0ZFlU";
     $accesstoken = "199785294-UB4hnT6tsbbRD2bKSUGNgryPnS4hDJjtQpPtFGx7";
@@ -35,8 +35,8 @@ token" and "Access secret"
 					$tweets = array_filter($tweets);
 					if(!empty($tweets)){
 					        foreach($tweets as $tweet) {
-                                echo '<li class="even">'.$tweet->text.'<br><a href="https://twitter.com/intent/retweet?tweet_id='.$tweet->id.'">retweet</a><hr style="height:1px;"></li>';
-                                
+                                echo '<li class="tweet">'.$tweet->text.'<br/>
+                                <span class="tweet-date">'.substr($tweet->created_at, 0, 16).'</span></li>';
                             } 
                     } else{
                         echo "<p>no tweets found</p>";

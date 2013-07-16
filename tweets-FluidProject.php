@@ -21,12 +21,12 @@ token" and "Access secret"
 */
 
     require_once("wp-content/plugins/twitteroauth/twitteroauth/twitteroauth.php");
-    $twitter_un = "SNOWocad";
-    $num_tweets = 3;
-    $consumerkey = "fHDGIckUSPpd4koYiBVOw";
-    $consumersecret = "I3KKfzDT34eR9TXekZsXod750SdC2JydGVKj0ZFlU";
-    $accesstoken = "199785294-UB4hnT6tsbbRD2bKSUGNgryPnS4hDJjtQpPtFGx7";
-    $accesstokensecret = "kcXrb0WzyUYijk97u1RdFrG7hSS5vpyUbWxpfls";
+    $twitter_un = "FluidProject";
+    $num_tweets = 1;
+    $consumerkey = "luK78NyRjDEmMVhi6sgIw";
+    $consumersecret = "E6bY0ShFmtibIqWU0oHokCVZKYtPEvZcNyACBPzYqo";
+    $accesstoken = "123905660-DBVNC6meqlD4KgZrQcAuynwYaMxJsLqLiyrtkArR";
+    $accesstokensecret = "UhlTPgNowuNOsC0Oaw89PM29PcVRD4N14sAdkAUk";
     $connection = new TwitterOAuth($consumerkey, $consumersecret, $accesstoken, $accesstokensecret);
     $tweets = $connection->get("https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=".$twitter_un."&count=".$num_tweets);
     //print_r($tweets);
@@ -39,7 +39,8 @@ token" and "Access secret"
 					$tweets = array_filter($tweets);
 					if(!empty($tweets)){
 					        foreach($tweets as $tweet) {
-                                echo '<li class="even">'.$tweet->text.'<br><a href="https://twitter.com/intent/retweet?tweet_id='.$tweet->id.'">retweet</a><hr style="height:1px;"></li>';
+                                echo '<li class="tweet">'.$tweet->text.'<br/>
+                                <span class="tweet-date">'.substr($tweet->created_at, 0, 16).'</span></li>';
                                 
                             } 
                     } else{
