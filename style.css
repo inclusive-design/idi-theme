@@ -884,6 +884,8 @@ h3,
     list-style: none;
 }
 .twitter-feed-group .tweet-date {
+    margin-top: 0.5em;
+    color: #959595;
     font-style: italic;
     text-decoration: none;
 }

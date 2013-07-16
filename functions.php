@@ -128,4 +128,32 @@ function panel_login_fail( $username ) {
     }
 }
 
+function idi_display_twitter_feed($twitter_un) {
+    require_once("wp-content/plugins/twitteroauth/twitteroauth/twitteroauth.php");
+    $num_tweets = 1;
+    $consumerkey = "luK78NyRjDEmMVhi6sgIw";
+    $consumersecret = "E6bY0ShFmtibIqWU0oHokCVZKYtPEvZcNyACBPzYqo";
+    $accesstoken = "123905660-DBVNC6meqlD4KgZrQcAuynwYaMxJsLqLiyrtkArR";
+    $accesstokensecret = "UhlTPgNowuNOsC0Oaw89PM29PcVRD4N14sAdkAUk";
+    $connection = new TwitterOAuth($consumerkey, $consumersecret, $accesstoken, $accesstokensecret);
+    $tweets = array_filter($connection->get("https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=".$twitter_un."&count=".$num_tweets));
+
+	echo '<div class="idi-box idi-highlight-box twitter-feed-group">
+				<div class="idi-box-text">
+					<a class="twitter-follow-button" rel="external nofollow" href="http://twitter.com/'.$twitter_un.'" title="Follow @'.$twitter_un.'">@'.$twitter_un.'</a>
+					<ul>
+	';
+	if(!empty($tweets)){
+	        foreach($tweets as $tweet) {
+                echo '<li class="tweet">'.$tweet->text.
+                '<div class="tweet-date">'.substr($tweet->created_at, 0, 16).'</div></li>';
+            }
+    } else{
+        echo "<p>no tweets found</p>";
+    }
+	echo '</ul>
+				</div>
+			</div>';
+}
+
 ?>
