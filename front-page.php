@@ -57,12 +57,13 @@ Template Name: Front Page
  		<?php endwhile; ?>
 
 		<div class="fl-col">
-			<?php get_template_part('tweets', 'FluidProject') ?>
-			<?php get_template_part('tweets', 'SNOWocad') ?>
-
+			<?php idi_display_twitter_feed('aegisproj'); ?>
+			<?php idi_display_twitter_feed('SNOWocad'); ?>
 		</div>
 
 		<div class="fl-col">
+			<?php idi_display_twitter_feed('FluidProject'); ?>
+
 			<div class="idi-box">
 				<div class="idi-mailing-list">
 					<?php get_template_part("mailing-list-form"); ?>
