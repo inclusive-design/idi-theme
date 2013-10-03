@@ -35,6 +35,28 @@
             </p>
         </section>
         <section class="idi-person">
+            <a id="Bresheeth"></a>
+            <div class="idi-person-intro">
+            	<img class="idi-people-person" title="Haim Bresheeth" alt="Haim Bresheeth" src="<?php bloginfo('stylesheet_directory');?>/images/people/bresheeth.jpg"/>
+                <h3>Haim Bresheeth</h3>
+                <div class="idi-people-position">
+                    Faculty of Arts and Humanities, School of Oriental and African Studies
+                </div>
+                <div class="idi-people-org">
+                    <a href="http://www.lon.ac.uk/">University of London</a>
+                </div>
+                <div class="idi-people-position">
+                    Director
+                </div>
+                <div class="idi-people-org">
+                    Director, Camera Obscura Films
+                </div>
+            </div>
+            <p>
+                Professor Haim Bresheeth is widely published in academic and professional circles. He is a highly experienced researcher and group leader in the fields of Critical and Media Theory and Practice, including filmmaking and documentary.  He has worked as an advisor and evaluator on many international programmes and has won and directed several major international funding bids for research in the arts and technology.
+            </p>
+        </section>
+        <section class="idi-person">
             <a id="Carroll"></a>
             <div class="idi-person-intro">
                 <img class="idi-people-person" title="Mary Jane Carroll" alt="Mary Jane Carroll" src="<?php bloginfo('stylesheet_directory');?>/images/people/Carroll.jpg"/>
@@ -51,6 +73,22 @@
             </p>
             <p>
                 Current research projects include inclusive design and public housing, with a particular focus on accessibility; the development of federal standards for the home modifications industry in the US, in conjunction with the IDeA Center; and an aging in place certificate program for working professionals.
+            </p>
+        </section>
+        <section class="idi-person">
+            <a id="Chandrashekar"></a>
+            <div class="idi-person-intro">
+                <img class="idi-people-person" title="Sambhavi Chandrashekar" alt="Sambhavi Chandrashekar" src="<?php bloginfo('stylesheet_directory');?>/images/people/Chandrashekar.jpg"/>
+                <h3>Sambhavi Chandrashekar</h3>
+                <div class="idi-people-position">
+                    Adjunct Professor, <a href="http://www.inclusivedesign.ca/">Faculty of Design/Inclusive Design Institute</a>
+                </div>
+                <div class="idi-people-org">
+                    <a href="http://www.ocadu.ca/">OCAD University</a>
+                </div>
+            </div>
+            <p>
+                Dr. Sambhavi Chandrashekar has over twenty years' experience in the technology and IT sector. Her research interests centre on inclusive design of information, communication and mobility systems to meet the needs of people with disabilities.
             </p>
         </section>
         <section class="idi-person">
@@ -86,6 +124,23 @@
             </div>
             <p>
                 Kathryn Church studied Psychology at the University of Regina, Saskatchewan (Masters 1983) and Sociology at OISE/University of Toronto (PhD 1993) during radical periods in the history of these departments. But it was psychiatric survivors who truly politicized her as she encountered them, their stories, and their activism while she was employed as an organizer in the mid-80s. These relationships propelled her into a decade of post-doctoral engagement as a “freelance” researcher working for and with psychiatric survivor organizations. Then, in 2002 she was drawn into Ryerson by the challenge of building a research program for the School of Disability Studies that would resonate with issues and debates in this emergent field.
+            </p>
+        </section>
+        
+        <section class="idi-person">
+            <a id="Cobo"></a>
+            <div class="idi-person-intro">
+                <img class="idi-people-person" title="Cristobal Cobo" alt="Cristobal Cobo" src="<?php bloginfo('stylesheet_directory');?>/images/people/Cobo.jpg"/>
+                <h3>Cristobal Cobo</h3>
+                <div class="idi-people-position">
+                    Research Fellow, <a href="http://www.oii.ox.ac.uk/">Oxford Internet Institute</a>
+                </div>
+                <div class="idi-people-org">
+                    <a href="http://www.ox.ac.uk/">University of Oxford</a>
+                </div>
+            </div>
+            <p>
+                Cristóbal Cobo is research fellow at the Oxford Internet Institute (OII). He collaborates in four research projects founded by the European Commission: Network of Excellence in Internet Science; OportUnidad; K-Networks and Socio-Economic Services for European Research. In 2009 he was visiting researcher at the Centre on Skills, Knowledge and Organisational Performance (SKOPE), University of Oxford, granted by the Economic and Social Research Council (ESRC) and the Social Science Research Council (SSRC). His second book "Invisible Learning" (co-written with John Moravec), which register 20,000 downloads, has been presented in a dozen of countries. Recent academic collaborations include institutions like the UNESCO/Commonwealth of Learning (COL); International Development Research Centre (IDRC-Canada); International Labour Organization and European Commission (Seventh Framework Programme). He supervises master students at Oxford Internet Institute and Department of Education, University of Oxford. He has held lectures all over Latin America, France, Portugal, United States, Spain, UK, Netherlands and China. He edits <a href="http://blogs.oii.ox.ac.uk/cobo">http://blogs.oii.ox.ac.uk/cobo</a>.
             </p>
         </section>
         <section class="idi-person">
@@ -124,6 +179,38 @@
             </div>
             <p>
                 Recently appointed to the Order of Ontario, Sara Diamond holds a PhD in Computer Science and degrees in new media theory and practice, social history and communications. She was the Artistic Director of Media and Visual Art and Director of Research at the Banff Centre, where she created the Banff New Media Institute (BNMI) in 1995. She currently serves on the Ontario Ministry of Culture’s Advisory Council on Arts & Culture, the Board of Directors of the Toronto Arts Council Foundation, ORANO (Ontario’s high-speed network), the board of National Centre of Excellence GRAND, IO (Interactive Ontario), and the Association of Universities and Colleges of Canada's SACUR (Standing Advisory Committee on University Research). She is founding Chair of the Mobile Experience Innovation Centre and current co-chair.
+            </p>
+        </section>
+        <section class="idi-person">
+            <a id="Doruff"></a>
+            <div class="idi-person-intro">
+                <img class="idi-people-person" title="Sher Doruff" alt="Sara Diamond" src="<?php bloginfo('stylesheet_directory');?>/images/people/Doruff.jpg"/>
+                <h3>Sher Doruff</h3>
+                <div class="idi-people-position">
+                    Research Associate, NCAD-SMARTlab PhD Supervisor
+                </div>
+                <div class="idi-people-org">
+                    <a href="http://www.ucd.ie/">University College, Dublin</a>
+                </div>
+            </div>
+            <p>
+                Dr. Doruff is widely published in academic and professional circles and knowledgeable of practice-based post-graduate pedagogical methods in the field of creative praxis, at the Masters and PhD levels. Dr. Doruff has thus far supervised four PhD candidates to completion and is a senior researcher in charge of a start-up PhD program at the Rietveld Academy of art and Design in the Netherlands.
+            </p>
+        </section>
+        <section class="idi-person">
+            <a id="Doyle"></a>
+            <div class="idi-person-intro">
+                <img class="idi-people-person" title="Denise Doyle" alt="Denise Doyle" src="<?php bloginfo('stylesheet_directory');?>/images/people/Doyle.jpg"/>
+                <h3>Denise Doyle</h3>
+                <div class="idi-people-position">
+                    Senior Lecturer Digital Media, School of Art and Design
+                </div>
+                <div class="idi-people-org">
+                    <a href="http://www.wlv.ac.uk/">University of Wolverhampton</a>
+                </div>
+            </div>
+            <p>
+                Dr. Doyle is widely published in academic and professional circles. She is a highly experienced researcher and group leader who has worked as an advisor and evaluator on the European Commission programs in the areas of art, design and technology. Dr. Doyle is an innovator in the use of virtual worlds for learning, including for artists and for people with disabilities.
             </p>
         </section>
         <section class="idi-person">
@@ -178,6 +265,22 @@
             </div>
             <p>
                 Catherine Frazee is a writer, an educator and an activist.  These three identities come together for her at Ryerson, where she happily indulges her activist inclinations and curiosities about disability rights, disability arts and the place of disabled people in moral and political culture.  Drawing from her own experience of disablement as point of entry, she seeks to write and teach pathways into ethical and cultural dialogues about citizenship and personhood. Her present work is informed by many years of involvement in the equality struggles of disadvantaged and marginalized groups, most notably during a term as Chief Commissioner of the Ontario Human Rights Commission from 1989 to 1992.
+            </p>
+        </section>
+        <section class="idi-person">
+            <a id="Goodman"></a>
+            <div class="idi-person-intro">
+                <div class="idi-people-placeholder"></div>
+                <h3>Lizbeth Goodman</h3>
+                <div class="idi-people-position">
+                    Founder/Director, <a href="http://smartlab-ie.com/">SMARTlab</a> & the MAGIC Multimedia and Games Innovation Centre
+                </div>
+                <div class="idi-people-org">
+                    <a href="http://www.ucd.ie/">University College, Dublin</a>
+                </div>
+            </div>
+            <p>
+                Professor Goodman is an expert on creative technology and assistive technologies, as well as on lifelong learning models. She has extensive academic and professional experience in CTI and has written extensively on this subject and run many successful funded projects in this domain.
             </p>
         </section>
         <section class="idi-person">
@@ -284,6 +387,22 @@
             </p>
         </section>
         <section class="idi-person">
+            <a id="Leblois"></a>
+            <div class="idi-person-intro">
+                <img class="idi-people-person" title="Axel Leblois" alt="Axel Leblois" src="<?php bloginfo('stylesheet_directory');?>/images/people/Leblois.jpg"/>
+                <h3>Axel Leblois</h3>
+                <div class="idi-people-position">
+                    President and Executive Director
+                </div>
+                <div class="idi-people-org">
+                    <a href="http://www.g3ict.org/">G3ict</a>
+                </div>
+            </div>
+            <p>
+                Axel Leblois spent over 20 years at the helm of information technology companies in the United States including as CEO of Computerworld Communications, CEO of IDC - International Data Corporation, President of Bull HN Worldwide Information Systems - formerly Honeywell Information Systems, CEO of ExecuTrain and President of W2i, the Wireless Internet Institute. He is a frequent speaker at conferences and seminars on ICT accessibility for persons with disabilities organized for policy makers, civil society and the private sector to foster collaboration among multiple stakeholders. In his capacity, Mr. Leblois oversees all the publishing, capacity building and advocacy activities of G3ict. Mr. Leblois served as a Senior Special Fellow of UNITAR, the United Nations Institute for Training and Research, and is a founding trustee of its North American affiliate CIFAL Atlanta. He served as chairman of the board of the Atlanta International School and is currently chairman of the board of CASIE, the Center for the Advancement and Study of International Education and a trustee of the Clarkston Development Foundation. Mr. Leblois holds an MBA from INSEAD and is a graduate of Sciences Po Paris.
+            </p>
+        </section>
+        <section class="idi-person">
             <a id="Luke"></a>
             <div class="idi-person-intro">
                 <img class="idi-people-person" title="Robert Luke" alt="Robert Luke" src="<?php bloginfo('stylesheet_directory');?>/images/people/Luke.jpg"/>
@@ -383,6 +502,28 @@
             </p>
         </section>
         <section class="idi-person">
+            <a id="Morie"></a>
+            <div class="idi-person-intro">
+                <img class="idi-people-person" title="Jacqueline Morie" alt="Jacqueline Morie" src="<?php bloginfo('stylesheet_directory');?>/images/people/Morie.jpg"/>
+                <h3>Jacqueline Morie</h3>
+                <div class="idi-people-position">
+                    Research Group Leader, <a href="http://smartlab-ie.com/">SMARTlab</a>
+                </div>
+                <div class="idi-people-org">
+                    <a href="http://www.ucd.ie/">University College, Dublin</a>
+                </div>
+                <div class="idi-people-position">
+                    Chief Scientist, Founder
+                </div>
+                <div class="idi-people-org">
+                    All These Worlds, LLC
+                </div>
+            </div>
+            <p>
+                Dr. Morie is widely published in academic and professional circles. She is a highly experienced researcher and group leader who has worked as an advisor and evaluator on the European Commission programs in the areas of art, design and technology. Dr. Morie has won and directed several major international funding bids for research in the arts and technology.
+            </p>
+        </section>
+        <section class="idi-person">
             <a id="Muirhead"></a>
             <div class="idi-person-intro">
                 <img class="idi-people-person" title="Bill Muirhead" alt="Bill Muirhead" src="<?php bloginfo('stylesheet_directory');?>/images/people/Muirhead.jpg"/>
@@ -398,6 +539,23 @@
                 Bill Muirhead is currently the Associate Provost, Academic and Information Technology at the University of Ontario, Institute of Technology (UOIT) located in Oshawa, Ontario. Prior to relocating to the Greater Toronto Area, Bill was the founding Executive Director of the Alberta Online Consortium (AOC) and served as a senior advisor to Alberta Learning in areas of e-learning, professional development, and policy areas involving information and communications technologies (ICT) on K-1 and postsecondary education. Bill has extensive experience in teacher training, online education, policy development and e-learning. His research interests include professional practices in online education; design of hybrid teaching-learning environments; policy support for learning object repositories; and implementation issues surrounding the use of ICT in postsecondary institutions. An internationally recognized speaker, Bill is the recipient of numerous awards for leadership and innovation in e-learning.
             </p>
         </section>
+        <section class="idi-person">
+            <a id="Murphy"></a>
+            <div class="idi-person-intro">
+                <img class="idi-people-person" title="Pauline Murphy" alt="Pauline Murphy" src="<?php bloginfo('stylesheet_directory');?>/images/people/Murphy.jpg"/>
+                <h3>Pauline Murphy</h3>
+                <div class="idi-people-position">
+                    Emerita Professor of Social Inclusion, Faculty of Social Sciences
+                </div>
+                <div class="idi-people-org">
+                    <a href="http://www.ulster.ac.uk/">University of Ulster</a>
+                </div>
+            </div>
+            <p>
+                Professor Murphy is widely published in academic and professional circles. She is a highly experienced researcher and group leader who has worked as an advisor and evaluator on many European projects in Access, Inclusion and Women's Leadership.
+            </p>
+        </section>
+        
         <section class="idi-person">
             <a id="Owston"></a>
             <div class="idi-person-intro">
@@ -600,6 +758,22 @@
             </p>
         </section>
         <section class="idi-person">
+            <a id="Walker"></a>
+            <div class="idi-person-intro">
+                <img class="idi-people-person" title="Stuart Walker" alt="Stuart Walker" lang="de" src="<?php bloginfo('stylesheet_directory');?>/images/people/Walker.jpg"/>
+                <h3 lang="de">Stuart Walker</h3>
+                <div class="idi-people-position">
+                    Professor of Design and Co-Director, <a href="http://imagination.lancaster.ac.uk/">ImaginationLancaster Research Lab</a>
+                </div>
+                <div class="idi-people-org">
+                    <a href="http://www.lancaster.ac.uk/">University of Lancaster</a>
+                </div>
+            </div>
+            <p>
+                Professor Stuart Walker is Director of Design and Co-Director of the ImaginationLancaster creative research lab at Lancaster University, UK. He is also Visiting Professor of Sustainable Design at Kingston University, UK and Adjunct Prof. of Sustainable Design at the Faculty of Environmental Design, University of Calgary, Canada. His research papers have been published and presented internationally and his conceptual designs have been exhibited at the Design Museum, London, across Canada and in Rome. His books include: Sustainable by Design: Explorations in Theory and Practice, Earthscan, London, 2006; Enabling Solutions, co-written with Ezio Manzini and Barry Wylant, University of Calgary Press, Canada, 2008; and The Spirit of Design: Objects, Environment and Meaning, Taylor and Francis/Earthscan, Abingdon, 2011. He is also lead editor of the Handbook of Design for Sustainability, due to be published by Berg in 2013.
+            </p>
+        </section>
+        <section class="idi-person">
             <a id="Weaver"></a>
             <div class="idi-person-intro">
                 <img class="idi-people-person" title="Evan Weaver" alt="Evan Weaver" lang="de" src="<?php bloginfo('stylesheet_directory');?>/images/people/Weaver.jpg"/>
@@ -613,6 +787,22 @@
             </div>
             <p>
                 Evan Weaver is a Chair of the School of Information and Communications Technology at Seneca College. He is one of the co-founders of Seneca's Centre for Development of Open Technology, and is the administrator of  record for research projects taking place in the Centre. Under his  guidance, the Centre has grown from an association of like-minded faculty to a formal research facility with significant industry involvement and funding from agencies such as NSERC, Canadian Heritage,  FedDev and OCE.
+            </p>
+        </section>
+        <section class="idi-person">
+            <a id="Williams"></a>
+            <div class="idi-person-intro">
+                <img class="idi-people-person" title="Huw Williams" alt="Huw Williams" lang="de" src="<?php bloginfo('stylesheet_directory');?>/images/people/Williams.jpg"/>
+                <h3 lang="de">Huw Williams</h3>
+                <div class="idi-people-position">
+                    Chief Technology Officer, <a href="http://smartlab-ie.com/">SMARTlab</a>
+                </div>
+                <div class="idi-people-org">
+                    <a href="http://www.ucd.ie/">University College, Dublin</a>
+                </div>
+            </div>
+            <p>
+                Mr. Williams has a stellar career in media production, management and leadership including design of accessible learning tools. He served for years as Head of BBC Open University media groups, and then as Head of Research for the BBC, before taking up his most recent post as Head of IT for the London Olympics and Paralympic Games. He is a highly experienced researcher and group leader who has worked as an advisor and evaluator for many European programmes and projects. Mr. Williams has won and directed several major international funding bids for research in the areas of media futures and educational technologies.
             </p>
         </section>
     </div>
