@@ -36,6 +36,7 @@
         <li><a href="#Murphy">Pauline Murphy</a></li>
         <li><a href="#Owston">Ronald Owston</a></li>
         <li><a href="#Pennefather">Peter Pennefather</a></li>
+        <li><a href="#Pereyra">David Pereyra</a></li>
         <li><a href="#Ratto">Matt Ratto</a></li>
         <li><a href="#Rioux">Marcia Rioux</a></li>
         <li><a href="#Scardamalia">Marlene Scardamalia</a></li>

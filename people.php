@@ -589,6 +589,22 @@
             </p>
         </section>
         <section class="idi-person">
+            <a id="Pereyra"></a>
+            <div class="idi-person-intro">
+                <img class="idi-people-person" title="Matt Ratto" alt="David Pereyra" src="<?php bloginfo('stylesheet_directory');?>/images/people/Pereyra.jpg"/>
+                <h3>David Pereyra</h3>
+                <div class="idi-people-position">
+                    Post-Doctoral Fellow, <a href="http://idrc.ocad.ca/">Inclusive Design Research Centre</a>
+                </div>
+                <div class="idi-people-org">
+                    <a href="http://www.ocadu.ca/">OCAD University</a>
+                </div>
+            </div>
+            <p>
+                Dr. Pereyra's academic focus centres on interdisciplinary aspects of our multicultural society, as expressed through art, music, film, worship, multimedia, technology and sacred spaces. He is particularly interested in ritual spaces as iconic points of reference that provide unique meanings to the collective memory of a culture, and how creative experiences of transmitting information and communication can reach users and vice-versa. His Latin American, European and North American multi-cultural background greatly enrich his experience of the world and his scholarly work. Community engagement of over 90 collaborating research organizations at the IDI is being organized by Dr. Pereyra, and managing the events and exhibits at the Open Gallery, 49 McCaul, Toronto.
+            </p>
+        </section>
+        <section class="idi-person">
             <a id="Ratto"></a>
             <div class="idi-person-intro">
                 <img class="idi-people-person" title="Matt Ratto" alt="Matt Ratto" src="<?php bloginfo('stylesheet_directory');?>/images/people/Ratto.jpg"/>
