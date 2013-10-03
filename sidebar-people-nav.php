@@ -39,6 +39,7 @@
         <li><a href="#Ratto">Matt Ratto</a></li>
         <li><a href="#Rioux">Marcia Rioux</a></li>
         <li><a href="#Scardamalia">Marlene Scardamalia</a></li>
+        <li><a href="#Shea">Geoffrey Shea</a></li>
         <li><a href="#Slotta">Jim Slotta</a></li>
         <li><a href="#Smith">Brian Cantwell Smith</a></li>
         <li><a href="#Stolarick">Kevin Stolarick</a></li>
@@ -46,7 +47,7 @@
         <li><a href="#Treviranus" lang="de">Jutta Treviranus</a></li>
         <li><a href="#Tyler">Chris Tyler</a></li>
         <li><a href="#Walker">Stuart Walker</a></li>
-        <li><a href="#Weaver" lang="de">Evan Weaver</a></li>
+        <li><a href="#Weaver">Evan Weaver</a></li>
         <li><a href="#Williams">Huw Williams</a></li>
     </ul>
 </nav>

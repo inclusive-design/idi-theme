@@ -643,6 +643,30 @@
             </p>
         </section>
         <section class="idi-person">
+            <a id="Shea"></a>
+            <div class="idi-person-intro">
+                <img class="idi-people-person" title="Geoffrey Shea" alt="Geoffrey Shea" src="<?php bloginfo('stylesheet_directory');?>/images/people/Shea.jpg"/>
+                <h3>Geoffrey Shea</h3>
+                <div class="idi-people-position">
+                    Co-Director, <a href="http://research.ocadu.ca/mobilelab/home">Mobile Experience Lab</a>
+                </div>
+                <div class="idi-people-org">
+                    <a href="http://www.ocadu.ca/">OCAD University</a>
+                </div>
+            </div>
+            <p>
+Geoffrey Shea is a Canadian media artist and researcher whose work highlights the intersections and opportunities between technological systems, belief systems and identity. His productions incorporate interactive programming, site-specific installation, mobile phones, a philosophical twist and a critical voice.
+            </p>
+
+            <p>
+Shea was a founder, in the 1980s, of InterAccess Electronic Media Art Centre in Toronto and an editor of the video journal, Diderot. Later he was the co-director of the international artist-in-residence program at United Media Arts Studies. He has curated numerous exhibitions and film programs, and is currently the Co-Artistic Director of the Common Pulse Media Art Festival.
+            </p>
+
+            <p>
+Shea is an Associate Professor at OCAD University where he teaches part-time. He is the Co-Director of the Mobile Experience Lab at OCAD, where he is leading research into the intersections between artistic expression and physical disability, and the potential role of emerging technology. He recently piloted student projects in collaboration with the CBC and Holland Bloorview Kid’s Hospital.
+            </p>
+        </section>
+        <section class="idi-person">
             <a id="Slotta"></a>
             <div class="idi-person-intro">
                 <img class="idi-people-person" title="Jim Slotta" alt="Jim Slotta" src="<?php bloginfo('stylesheet_directory');?>/images/people/Slotta.jpg"/>
