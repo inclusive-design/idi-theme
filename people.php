@@ -126,7 +126,6 @@
                 Kathryn Church studied Psychology at the University of Regina, Saskatchewan (Masters 1983) and Sociology at OISE/University of Toronto (PhD 1993) during radical periods in the history of these departments. But it was psychiatric survivors who truly politicized her as she encountered them, their stories, and their activism while she was employed as an organizer in the mid-80s. These relationships propelled her into a decade of post-doctoral engagement as a “freelance” researcher working for and with psychiatric survivor organizations. Then, in 2002 she was drawn into Ryerson by the challenge of building a research program for the School of Disability Studies that would resonate with issues and debates in this emergent field.
             </p>
         </section>
-        
         <section class="idi-person">
             <a id="Cobo"></a>
             <div class="idi-person-intro">
@@ -141,6 +140,27 @@
             </div>
             <p>
                 Cristóbal Cobo is research fellow at the Oxford Internet Institute (OII). He collaborates in four research projects founded by the European Commission: Network of Excellence in Internet Science; OportUnidad; K-Networks and Socio-Economic Services for European Research. In 2009 he was visiting researcher at the Centre on Skills, Knowledge and Organisational Performance (SKOPE), University of Oxford, granted by the Economic and Social Research Council (ESRC) and the Social Science Research Council (SSRC). His second book "Invisible Learning" (co-written with John Moravec), which register 20,000 downloads, has been presented in a dozen of countries. Recent academic collaborations include institutions like the UNESCO/Commonwealth of Learning (COL); International Development Research Centre (IDRC-Canada); International Labour Organization and European Commission (Seventh Framework Programme). He supervises master students at Oxford Internet Institute and Department of Education, University of Oxford. He has held lectures all over Latin America, France, Portugal, United States, Spain, UK, Netherlands and China. He edits <a href="http://blogs.oii.ox.ac.uk/cobo">http://blogs.oii.ox.ac.uk/cobo</a>.
+            </p>
+        </section>
+        <section class="idi-person">
+            <a id="Daly"></a>
+            <div class="idi-person-intro">
+                <img class="idi-people-person" title="Una Daly" alt="Una Daly" src="<?php bloginfo('stylesheet_directory');?>/images/people/Daly.jpg"/>
+                <h3>Una Daly</h3>
+                <div class="idi-people-position">
+                    Community College Outreach Director
+                </div>
+                <div class="idi-people-org">
+                    <a href="http://www.ocwconsortium.org/">Open Courseware Consortium</a>
+                </div>
+            </div>
+            <p>
+                Una Daly is the Community College Outreach Director at the OpenCourseWare Consortium where she promotes awareness and adoption of open educational
+                practices to improve teaching and learning and expand access at community and technical colleges. Prior to joining the consortium, she was the Director of the
+                College Open Textbooks Collaborative promoting adoption of open accessible textbooks through faculty adopter communities and accessibility awareness for 
+                creation and reuse of open educational materials. Her expertise also includes computer technologies and the use of ePortfolios for learning assessment in health 
+                licensing and engineering. She worked as a software manager and engineer at Apple Computer, 3 Com, and Motorola prior to a career shift into higher education.
+                Ms. Daly also serves as a Masters’ Research Project adviser at the Inclusive Design Research Centre at OCAD University in Toronto, Canada.
             </p>
         </section>
         <section class="idi-person">
@@ -640,6 +660,22 @@
             </div>
             <p>
                 Marcia Rioux is a Professor in the School of Health Policy and Management MA and PhD (Critical Disability Studies) as well as the Director of the York Institute of Health Research.  She also teaches a core course in the newly inaugurated PhD (Critical Disability Studies) at the University of Zagreb, Croatia. With Bengt Lindqvist, she is the co-Director of Disability Rights Promotion International, a multi-year project to monitor disability rights nationally and internationally. Professor Rioux’s research includes health and human rights, universal education, international monitoring of disability rights, the impact of globalization on welfare policy, literacy policy, disability policy, and social inclusion.   Dr. Rioux has lectured throughout the Americas, Europe, Africa and Asia. She has been an advisor to federal and provincial commissions, parliamentary committees, and international NGO's as well as United Nations agencies. She has edited a number of collected volumes and nearly 70 book chapters and articles on disability rights.  She has just completed an appointment as a Distinguished Visiting Fellow at the Institute for Advanced Study at LaTrobe University in Melbourne, Australia.  Her PhD is in Jurisprudence and Social Policy from Boalt Hall Law School at the University of California, Berkeley.
+            </p>
+        </section>
+        <section class="idi-person">
+            <a id="Rockman"></a>
+            <div class="idi-person-intro">
+                <div class="idi-people-placeholder"></div>
+                <h3>Patricia Rockman</h3>
+                <div class="idi-people-position">
+                    Senior Director of Education
+                </div>
+                <div class="idi-people-org">
+                    <a href="http://www.mindlfulnessstudies.com">The Centre for Mindfulness Studies</a>
+                </div>
+            </div>
+            <p>
+                Patricia Rockman MD CCFP FCFP is an associate professor with the University of Toronto, department of family and community medicine; cross appointed to psychiatry. She is the chair of the Ontario College of Family Physicians Collaborative Mental Health Care Network. She has a private practice in Cognitive Behavioural Therapy (CBT) and leads MBCT groups. She supervises medical residents and has been an educator of healthcare providers in stress reduction, CBT and mindfulness based practices for over 20 years. She is the Director of Education at the Centre for Mindfulness Studies.
             </p>
         </section>
         <section class="idi-person">

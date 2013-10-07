@@ -10,6 +10,7 @@
         <li><a href="#Chau">Tom Chau</a></li>
         <li><a href="#Church">Kathryn Church</a></li>
         <li><a href="#Cobo">Cristobal Cobo</a></li>
+        <li><a href="#Daly">Una Daly</a></li>
         <li><a href="#Desjardins" lang="fr">Francois Desjardins</a></li>
         <li><a href="#Diamond">Sara Diamond</a></li>
         <li><a href="#Doruff">Sher Doruff</a></li>
@@ -39,6 +40,7 @@
         <li><a href="#Pereyra">David Pereyra</a></li>
         <li><a href="#Ratto">Matt Ratto</a></li>
         <li><a href="#Rioux">Marcia Rioux</a></li>
+        <li><a href="#Rockman">Patricia Rockman</a></li>
         <li><a href="#Scardamalia">Marlene Scardamalia</a></li>
         <li><a href="#Shea">Geoffrey Shea</a></li>
         <li><a href="#Slotta">Jim Slotta</a></li>
