@@ -13,6 +13,7 @@
         <li><a href="#Daly">Una Daly</a></li>
         <li><a href="#Desjardins" lang="fr">Francois Desjardins</a></li>
         <li><a href="#Diamond">Sara Diamond</a></li>
+        <li><a href="#Dickenson">Victoria Dickenson</a></li>
         <li><a href="#Doruff">Sher Doruff</a></li>
         <li><a href="#Doyle">Denise Doyle</a></li>
         <li><a href="#Fels">Deborah Fels</a></li>

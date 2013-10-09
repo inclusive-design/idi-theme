@@ -202,6 +202,22 @@
             </p>
         </section>
         <section class="idi-person">
+            <a id="Dickenson"></a>
+            <div class="idi-person-intro">
+                <img class="idi-people-person" title="Victoria Dickenson" alt="Victoria Dickenson" src="<?php bloginfo('stylesheet_directory');?>/images/people/Dickenson.jpg"/>
+                <h3>Victoria Dickenson</h3>
+                <div class="idi-people-position">
+                    Executive Director
+                </div>
+                <div class="idi-people-org">
+                    <a href="http://mcmichael.com/">McMichael Canadian Art Collection</a>
+                </div>
+            </div>
+            <p>
+                Since 1972, Victoria Dickenson has worked full-time within the museum sector, beginning as a cataloguer in the East Asian Department at the Royal Ontario Museum, and now working as Executive Director of the McMichael Canadian Art Collection in Toronto. Throughout her career, she has been engaged with issues around acquisition, preservation and access, not only to collections but to knowledge.
+            </p>
+        </section>
+        <section class="idi-person">
             <a id="Doruff"></a>
             <div class="idi-person-intro">
                 <img class="idi-people-person" title="Sher Doruff" alt="Sara Diamond" src="<?php bloginfo('stylesheet_directory');?>/images/people/Doruff.jpg"/>
