@@ -18,6 +18,22 @@
         <p>
             IDI is a community that values collaboration, broad participation, transparency, and openness. IDI research projects engage a range of disciplines, sectors, and collaborating organizations from around the world.
         </p>
+        
+        <section class="idi-person">
+            <a id="Addison"></a>
+            <div class="idi-person-intro">
+                <h3>Alonzo Addison</h3>
+                <div class="idi-people-position">
+                    Strategic Advisor, <a href="http://whc.unesco.org/">UNESCO World Heritage Centre</a>
+                </div>
+                <div class="idi-people-org">
+                    <a href="http://whc.unesco.org/">UNESCO</a>
+                </div>
+            </div>
+            <p>
+                Alonzo Addison is widely published in academic and professional circles. He is the UNESCO leading expert on Invisible Cultural Heritage, and an active researcher in the field of Digital Cultural Heritage. He has run many major grants programmes in Europe and the Americas, and directed several major international funding bids for research in the arts and technology.
+            </p>
+        </section>
         <section class="idi-person">
             <a id="Baecker"></a>
             <div class="idi-person-intro">
@@ -143,6 +159,22 @@
             </p>
         </section>
         <section class="idi-person">
+            <a id="Conery"></a>
+            <div class="idi-person-intro">
+                <div class="idi-people-placeholder"></div>
+                <h3>Leslie Conery</h3>
+                <div class="idi-people-position">
+                    Deputy CEO
+                </div>
+                <div class="idi-people-org">
+                    <a href="http://www.iste.org/">ISTE</a>
+                </div>
+            </div>
+            <p>
+                Leslie S. Conery, CAE, PhD, Deputy CEO and ISTE Conference Chair, holds an MS degree in computer science and a PhD in curriculum and instruction with research emphases in the areas of educational technology and professional development. Dr. Conery brings a learner-centered perspective to her work on education transformation based on extensive classroom teaching and school administration experience. She serves on ISTE's leadership team for the NETS, the widely recognized and adopted educational technology standards. Recent projects include increasing the representation of women in technology, developing assessments for digital age learning skills, and serving on the board of ICIE, ISTE's affiliate in India.
+            </p>
+        </section>
+        <section class="idi-person">
             <a id="Daly"></a>
             <div class="idi-person-intro">
                 <img class="idi-people-person" title="Una Daly" alt="Una Daly" src="<?php bloginfo('stylesheet_directory');?>/images/people/Daly.jpg"/>
@@ -218,6 +250,22 @@
             </p>
         </section>
         <section class="idi-person">
+            <a id="Donegan"></a>
+            <div class="idi-person-intro">
+                <div class="idi-people-placeholder"></div>
+                <h3>Mick Donegan</h3>
+                <div class="idi-people-position">
+                    Associate Senior Research Fellow, <a href="http://smartlab-ie.com/">SMARTlab</a>
+                </div>
+                <div class="idi-people-org">
+                    <a href="http://www.ucd.ie/">University College, Dublin</a>
+                </div>
+            </div>
+            <p>
+                Dr. Donegan is an internationally recognized expert who has published and presented widely in the field of assistive technology. He has extensive experience in both the development and application of leading edge assistive technologies from both a clinical and research perspective. His experience applies to the areas of assistive technologies for special education, alternative and augmentative communication, and creativity and leisure application including eye-controlled and brain-controlled games for learning. He brings a combination of extensive special needs teaching and clinical experience with university-level teaching, research and examination at the PhD level.
+            </p>
+        </section>
+        <section class="idi-person">
             <a id="Doruff"></a>
             <div class="idi-person-intro">
                 <img class="idi-people-person" title="Sher Doruff" alt="Sara Diamond" src="<?php bloginfo('stylesheet_directory');?>/images/people/Doruff.jpg"/>
@@ -247,6 +295,22 @@
             </div>
             <p>
                 Dr. Doyle is widely published in academic and professional circles. She is a highly experienced researcher and group leader who has worked as an advisor and evaluator on the European Commission programs in the areas of art, design and technology. Dr. Doyle is an innovator in the use of virtual worlds for learning, including for artists and for people with disabilities.
+            </p>
+        </section>
+        <section class="idi-person">
+            <a id="Duffy"></a>
+            <div class="idi-person-intro">
+                <div class="idi-people-placeholder"></div>
+                <h3>Brian Duffy</h3>
+                <div class="idi-people-position">
+                    Associate Senior Researcher, <a href="http://smartlab-ie.com/">SMARTlab</a>
+                </div>
+                <div class="idi-people-org">
+                    <a href="http://www.ucd.ie/">University College, Dublin</a>
+                </div>
+            </div>
+            <p>
+                Dr. Duffy has strong experience in robotics, artificial intelligence and human-machine interaction. Dr. Duffy has developed extensive experience in managing critical real-world situation on both a technical and project level. This, in conjunction with his research interests and motivations, provides a robust experience-based context to the research objections of the Inclusive Design Research Centre and Institute.
             </p>
         </section>
         <section class="idi-person">
@@ -789,6 +853,38 @@ Shea is an Associate Professor at OCAD University where he teaches part-time. He
             </p>
         </section>
         <section class="idi-person">
+            <a id="Sudol"></a>
+            <div class="idi-person-intro">
+                <div class="idi-people-placeholder"></div>
+                <h3>Jeremi Sudol</h3>
+                <div class="idi-people-position">
+                    Researcher,  <a href="http://smartlab-ie.com/">SMARTlab</a>
+                </div>
+                <div class="idi-people-org">
+                    <a href="http://www.ucd.ie/">University College, Dublin</a>
+                </div>
+            </div>
+            <p>
+                Dr. Sudol is an internationally recognized expert who has published and presented widely in the field of assistive technology and computer vision. He has extensive experience in both the development and application of leading edge assistive technologies from both a clinical and research perspective. His experience applies to the areas of computer vision and mobile technologies for the blind.
+            </p>
+        </section>
+        <section class="idi-person">
+            <a id="Teather"></a>
+            <div class="idi-person-intro">
+                <div class="idi-people-placeholder"></div>
+                <h3>Lynne Teather</h3>
+                <div class="idi-people-position">
+                    Associate Professor, Museum Studies
+                </div>
+                <div class="idi-people-org">
+                    <a href="http://www.utoronto.ca/">University of Toronto</a>
+                </div>
+            </div>
+            <p>
+                Lynne Teather is Assoc. Professor of Museum Studies at the University of Toronto where she has been teaching since 1980.  She is Principal Investigator for the AMICO Testbed of the University of Toronto focussing on the museological perspectives of museums and new media especially the user context of museum meaning-making.
+            </p>
+        </section>
+        <section class="idi-person">
             <a id="Titchkosky"></a>
             <div class="idi-person-intro">
                 <img class="idi-people-person" title="Tanya Titchkosky" alt="Tanya Titchkosky" lang="de" src="<?php bloginfo('stylesheet_directory');?>/images/people/Titchkosky.jpg"/>
@@ -836,8 +932,8 @@ Shea is an Associate Professor at OCAD University where he teaches part-time. He
         <section class="idi-person">
             <a id="Tyler"></a>
             <div class="idi-person-intro">
-                <img class="idi-people-person" title="Chris Tyler" alt="Chris Tyler" lang="de" src="<?php bloginfo('stylesheet_directory');?>/images/people/Tyler.jpg"/>
-                <h3 lang="de">Chris Tyler</h3>
+                <img class="idi-people-person" title="Chris Tyler" alt="Chris Tyler" src="<?php bloginfo('stylesheet_directory');?>/images/people/Tyler.jpg"/>
+                <h3>Chris Tyler</h3>
                 <div class="idi-people-position">
                     Research Coordinator in the <a href="http://cdot.senecac.on.ca/">Centre for Development of Open Technology</a>
                 </div>
@@ -852,8 +948,8 @@ Shea is an Associate Professor at OCAD University where he teaches part-time. He
         <section class="idi-person">
             <a id="Walker"></a>
             <div class="idi-person-intro">
-                <img class="idi-people-person" title="Stuart Walker" alt="Stuart Walker" lang="de" src="<?php bloginfo('stylesheet_directory');?>/images/people/Walker.jpg"/>
-                <h3 lang="de">Stuart Walker</h3>
+                <img class="idi-people-person" title="Stuart Walker" alt="Stuart Walker" src="<?php bloginfo('stylesheet_directory');?>/images/people/Walker.jpg"/>
+                <h3>Stuart Walker</h3>
                 <div class="idi-people-position">
                     Professor of Design and Co-Director, <a href="http://imagination.lancaster.ac.uk/">ImaginationLancaster Research Lab</a>
                 </div>
@@ -868,8 +964,8 @@ Shea is an Associate Professor at OCAD University where he teaches part-time. He
         <section class="idi-person">
             <a id="Weaver"></a>
             <div class="idi-person-intro">
-                <img class="idi-people-person" title="Evan Weaver" alt="Evan Weaver" lang="de" src="<?php bloginfo('stylesheet_directory');?>/images/people/Weaver.jpg"/>
-                <h3 lang="de">Evan Weaver</h3>
+                <img class="idi-people-person" title="Evan Weaver" alt="Evan Weaver" src="<?php bloginfo('stylesheet_directory');?>/images/people/Weaver.jpg"/>
+                <h3>Evan Weaver</h3>
                 <div class="idi-people-position">
                     Chair, <a href="https://scs.senecac.on.ca//">School of Information and Communications Technology</a>
                 </div>
@@ -882,10 +978,26 @@ Shea is an Associate Professor at OCAD University where he teaches part-time. He
             </p>
         </section>
         <section class="idi-person">
+            <a id="Weisman"></a>
+            <div class="idi-person-intro">
+                <div class="idi-people-placeholder"></div>
+                <h3 lang="de">Jeb Weisman</h3>
+                <div class="idi-people-position">
+                    PhD co-supervisor and Principal Investigator, <a href="http://smartlab-ie.com/">SMARTlab</a>
+                </div>
+                <div class="idi-people-org">
+                    <a href="http://www.ucd.ie/">University College, Dublin</a>
+                </div>
+            </div>
+            <p>
+                Dr. Weisman is an anthropologist by training, who has led some of the USA's most influential long term studies into the area of children's health and design for well-being. He is widely published in academic and professional circles. He is a highly experienced researcher and group leader who has worked as an advisor and evaluator for the NIH, the Carl Sagan Trust and the Children's Health Fund. Dr. Weisman has won and directed several major international funding bids for research in the areas of health and well-being.
+            </p>
+        </section>
+        <section class="idi-person">
             <a id="Williams"></a>
             <div class="idi-person-intro">
-                <img class="idi-people-person" title="Huw Williams" alt="Huw Williams" lang="de" src="<?php bloginfo('stylesheet_directory');?>/images/people/Williams.jpg"/>
-                <h3 lang="de">Huw Williams</h3>
+                <img class="idi-people-person" title="Huw Williams" alt="Huw Williams" src="<?php bloginfo('stylesheet_directory');?>/images/people/Williams.jpg"/>
+                <h3>Huw Williams</h3>
                 <div class="idi-people-position">
                     Chief Technology Officer, <a href="http://smartlab-ie.com/">SMARTlab</a>
                 </div>

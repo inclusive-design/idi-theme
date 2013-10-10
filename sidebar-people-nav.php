@@ -3,6 +3,7 @@
 </div>
 <nav>
     <ul>
+        <li><a href="#Addison">Alonzo Addison</a></li>
         <li><a href="#Baecker">Ron Baecker</a></li>
         <li><a href="#Bresheeth">Haim Bresheeth</a></li>
         <li><a href="#Carroll">Mary Jane Carroll</a></li>
@@ -10,12 +11,15 @@
         <li><a href="#Chau">Tom Chau</a></li>
         <li><a href="#Church">Kathryn Church</a></li>
         <li><a href="#Cobo">Cristobal Cobo</a></li>
+        <li><a href="#Conery">Leslie Conery</a></li>
         <li><a href="#Daly">Una Daly</a></li>
         <li><a href="#Desjardins" lang="fr">Francois Desjardins</a></li>
         <li><a href="#Diamond">Sara Diamond</a></li>
         <li><a href="#Dickenson">Victoria Dickenson</a></li>
+        <li><a href="#Donegan">Mick Donegan</a></li>
         <li><a href="#Doruff">Sher Doruff</a></li>
         <li><a href="#Doyle">Denise Doyle</a></li>
+        <li><a href="#Duffy">Brian Duffy</a></li>
         <li><a href="#Fels">Deborah Fels</a></li>
         <li><a href="#Florida">Richard Florida</a></li>
         <li><a href="#Frazee">Catherine Frazee</a></li>
@@ -47,11 +51,14 @@
         <li><a href="#Slotta">Jim Slotta</a></li>
         <li><a href="#Smith">Brian Cantwell Smith</a></li>
         <li><a href="#Stolarick">Kevin Stolarick</a></li>
+        <li><a href="#Sudol">Jeremi Sudol</a></li>
+        <li><a href="#Teather">Lynne Teather</a></li>
         <li><a href="#Titchkosky" lang="de">Tanya Titchkosky</a></li>
         <li><a href="#Treviranus" lang="de">Jutta Treviranus</a></li>
         <li><a href="#Tyler">Chris Tyler</a></li>
         <li><a href="#Walker">Stuart Walker</a></li>
         <li><a href="#Weaver">Evan Weaver</a></li>
+        <li><a href="#Weisman">Jeb Weisman</a></li>
         <li><a href="#Williams">Huw Williams</a></li>
     </ul>
 </nav>
