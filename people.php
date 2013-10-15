@@ -22,16 +22,17 @@
         <section class="idi-person">
             <a id="Addison"></a>
             <div class="idi-person-intro">
+                <div class="idi-people-placeholder"></div>
                 <h3>Alonzo Addison</h3>
                 <div class="idi-people-position">
-                    Strategic Advisor, <a href="http://whc.unesco.org/">UNESCO World Heritage Centre</a>
+                    Strategic Advisor
                 </div>
                 <div class="idi-people-org">
-                    <a href="http://whc.unesco.org/">UNESCO</a>
+                    <a href="http://whc.unesco.org/">UNESCO World Heritage Centre</a>
                 </div>
             </div>
             <p>
-                Alonzo Addison is widely published in academic and professional circles. He is the UNESCO leading expert on Invisible Cultural Heritage, and an active researcher in the field of Digital Cultural Heritage. He has run many major grants programmes in Europe and the Americas, and directed several major international funding bids for research in the arts and technology.
+                Alonzo Addison is the leading expert on Invisible Cultural Heritage at UNESCO, and an active researcher in the field of Digital Cultural Heritage. He has run many major grants programmes in Europe and the Americas, and directed several major international funding bids for research in the arts and technology.
             </p>
         </section>
         <section class="idi-person">
@@ -56,7 +57,7 @@
             	<img class="idi-people-person" title="Haim Bresheeth" alt="Haim Bresheeth" src="<?php bloginfo('stylesheet_directory');?>/images/people/bresheeth.jpg"/>
                 <h3>Haim Bresheeth</h3>
                 <div class="idi-people-position">
-                    Faculty of Arts and Humanities, School of Oriental and African Studies
+                    Faculty of Arts and Humanities, <a href="http://www.soas.ac.uk/">School of Oriental and African Studies</a>
                 </div>
                 <div class="idi-people-org">
                     <a href="http://www.lon.ac.uk/">University of London</a>
@@ -69,7 +70,7 @@
                 </div>
             </div>
             <p>
-                Professor Haim Bresheeth is widely published in academic and professional circles. He is a highly experienced researcher and group leader in the fields of Critical and Media Theory and Practice, including filmmaking and documentary.  He has worked as an advisor and evaluator on many international programmes and has won and directed several major international funding bids for research in the arts and technology.
+                Professor Haim Bresheeth is a highly experienced researcher and group leader in the fields of Critical and Media Theory and Practice, including filmmaking and documentary.  He has worked as an advisor and evaluator on many international programmes and has won and directed several major international funding bids for research in the arts and technology.
             </p>
         </section>
         <section class="idi-person">
@@ -85,7 +86,7 @@
                 </div>
             </div>
             <p>
-                Mary Jane Carroll has a Master of Architecture (Inclusive Design) from the State University of New York at Buffalo, and a Master of Fine Arts from the Ohio State University in Columbus, Ohio. She is currently employed as a professor in the Sheridan College ITAL Bachelor of Applied Arts (Interior Design) program, and has a cross-appointment in the CCIT program at the University of Toronto at Mississauga to teach universal design.  Additionally, she is a Research Associate at the Inclusive Design and Environmental Access (IDeA) Center at UB, and is the author of  “Universal Design and the Interior Environment”, a chapter in the recently released “Universal Design: Creating Inclusive Environments” book by Dr. Ed Steinfeld and Jordana Maisel. Mary Jane has been teaching and researching person-environment fit for the past 12 years and has delivered conference papers both in Canada and abroad. She has had papers published in the US, India and Canada.
+                Mary Jane Carroll has a Master of Architecture (Inclusive Design) from the State University of New York at Buffalo, and a Master of Fine Arts from the Ohio State University in Columbus, Ohio. She is currently employed as a professor in the Sheridan College ITAL Bachelor of Applied Arts (Interior Design) program, and has a cross-appointment in the CCIT program at the University of Toronto at Mississauga to teach universal design.  Additionally, she is a Research Associate at the Inclusive Design and Environmental Access (IDeA) Center at UB, and is the author of  “Universal Design and the Interior Environment”, a chapter in the recently released “Universal Design: Creating Inclusive Environments” book by Dr. Ed Steinfeld and Jordana Maisel. Mary Jane has been teaching and researching person-environment fit for the past 12 years and has delivered conference papers both in Canada and abroad. She has had papers published in the US, India, and Canada.
             </p>
             <p>
                 Current research projects include inclusive design and public housing, with a particular focus on accessibility; the development of federal standards for the home modifications industry in the US, in conjunction with the IDeA Center; and an aging in place certificate program for working professionals.
@@ -145,8 +146,8 @@
         <section class="idi-person">
             <a id="Cobo"></a>
             <div class="idi-person-intro">
-                <img class="idi-people-person" title="Cristobal Cobo" alt="Cristobal Cobo" src="<?php bloginfo('stylesheet_directory');?>/images/people/Cobo.jpg"/>
-                <h3>Cristobal Cobo</h3>
+                <img class="idi-people-person" title="Cristóbal Cobo" alt="Cristóbal Cobo" src="<?php bloginfo('stylesheet_directory');?>/images/people/Cobo.jpg"/>
+                <h3>Cristóbal Cobo</h3>
                 <div class="idi-people-position">
                     Research Fellow, <a href="http://www.oii.ox.ac.uk/">Oxford Internet Institute</a>
                 </div>
@@ -155,7 +156,7 @@
                 </div>
             </div>
             <p>
-                Cristóbal Cobo is research fellow at the Oxford Internet Institute (OII). He collaborates in four research projects founded by the European Commission: Network of Excellence in Internet Science; OportUnidad; K-Networks and Socio-Economic Services for European Research. In 2009 he was visiting researcher at the Centre on Skills, Knowledge and Organisational Performance (SKOPE), University of Oxford, granted by the Economic and Social Research Council (ESRC) and the Social Science Research Council (SSRC). His second book "Invisible Learning" (co-written with John Moravec), which register 20,000 downloads, has been presented in a dozen of countries. Recent academic collaborations include institutions like the UNESCO/Commonwealth of Learning (COL); International Development Research Centre (IDRC-Canada); International Labour Organization and European Commission (Seventh Framework Programme). He supervises master students at Oxford Internet Institute and Department of Education, University of Oxford. He has held lectures all over Latin America, France, Portugal, United States, Spain, UK, Netherlands and China. He edits <a href="http://blogs.oii.ox.ac.uk/cobo">http://blogs.oii.ox.ac.uk/cobo</a>.
+                Cristóbal Cobo collaborates in four research projects founded by the European Commission: Network of Excellence in Internet Science; OportUnidad; K-Networks and Socio-Economic Services for European Research. In 2009 he was visiting researcher at the Centre on Skills, Knowledge and Organisational Performance (SKOPE), University of Oxford, granted by the Economic and Social Research Council (ESRC) and the Social Science Research Council (SSRC). His second book "Invisible Learning" (co-written with John Moravec) has been presented in a dozen of countries and has registered over 20,000 downloads. Doctor Cobo has recently collaborated with institutions the UNESCO/Commonwealth of Learning (COL), International Development Research Centre (IDRC-Canada), and International Labour Organization and European Commission (Seventh Framework Programme). At the University of Oxford, he supervises master students at Oxford Internet Institute and Department of Education. He has held lectures all over Latin America, France, Portugal, United States, Spain, UK, Netherlands and China. He edits <a href="http://blogs.oii.ox.ac.uk/cobo">http://blogs.oii.ox.ac.uk/cobo</a>.
             </p>
         </section>
         <section class="idi-person">
@@ -183,7 +184,7 @@
                     Community College Outreach Director
                 </div>
                 <div class="idi-people-org">
-                    <a href="http://www.ocwconsortium.org/">Open Courseware Consortium</a>
+                    <a href="http://www.ocwconsortium.org/">OpenCourseWare Consortium</a>
                 </div>
             </div>
             <p>
@@ -310,7 +311,7 @@
                 </div>
             </div>
             <p>
-                Dr. Duffy has strong experience in robotics, artificial intelligence and human-machine interaction. Dr. Duffy has developed extensive experience in managing critical real-world situation on both a technical and project level. This, in conjunction with his research interests and motivations, provides a robust experience-based context to the research objections of the Inclusive Design Research Centre and Institute.
+                Dr. Duffy has strong experience in robotics, artificial intelligence and human-machine interaction. He has developed extensive experience in managing critical real-world situation on both a technical and project level. This, in conjunction with his research interests and motivations, provides a robust experience-based context to the research objectives of the Inclusive Design Research Centre and Institute.
             </p>
         </section>
         <section class="idi-person">
@@ -380,7 +381,7 @@
                 </div>
             </div>
             <p>
-                Professor Goodman is an expert on creative technology and assistive technologies, as well as on lifelong learning models. She has extensive academic and professional experience in CTI and has written extensively on this subject and run many successful funded projects in this domain.
+                Professor Goodman is an expert on lifelong learning models, and creative and assistive technologies. With extensive academic and professional experience in CTI, Professor Goodman has written widely on this subject and has run many successful funded projects in this domain.
             </p>
         </section>
         <section class="idi-person">
@@ -645,7 +646,7 @@
                 <img class="idi-people-person" title="Pauline Murphy" alt="Pauline Murphy" src="<?php bloginfo('stylesheet_directory');?>/images/people/Murphy.jpg"/>
                 <h3>Pauline Murphy</h3>
                 <div class="idi-people-position">
-                    Emerita Professor of Social Inclusion, Faculty of Social Sciences
+                    Emerita Professor of Social Inclusion, <a href="http://www.socsci.ulster.ac.uk/">Faculty of Social Sciences</a>
                 </div>
                 <div class="idi-people-org">
                     <a href="http://www.ulster.ac.uk/">University of Ulster</a>
@@ -694,14 +695,14 @@
                 <img class="idi-people-person" title="Matt Ratto" alt="David Pereyra" src="<?php bloginfo('stylesheet_directory');?>/images/people/Pereyra.jpg"/>
                 <h3>David Pereyra</h3>
                 <div class="idi-people-position">
-                    Post-Doctoral Fellow, <a href="http://idrc.ocad.ca/">Inclusive Design Research Centre</a>
+                    Post-Doctoral Fellow, <a href="http://idrc.ocadu.ca/">Inclusive Design Research Centre</a>
                 </div>
                 <div class="idi-people-org">
                     <a href="http://www.ocadu.ca/">OCAD University</a>
                 </div>
             </div>
             <p>
-                Dr. Pereyra's academic focus centres on interdisciplinary aspects of our multicultural society, as expressed through art, music, film, worship, multimedia, technology and sacred spaces. He is particularly interested in ritual spaces as iconic points of reference that provide unique meanings to the collective memory of a culture, and how creative experiences of transmitting information and communication can reach users and vice-versa. His Latin American, European and North American multi-cultural background greatly enrich his experience of the world and his scholarly work. Community engagement of over 90 collaborating research organizations at the IDI is being organized by Dr. Pereyra, and managing the events and exhibits at the Open Gallery, 49 McCaul, Toronto.
+                Dr. Pereyra's academic focus centres on interdisciplinary aspects of our multicultural society, as expressed through art, music, film, worship, multimedia, technology and sacred spaces. He is particularly interested in ritual spaces as iconic points of reference that provide unique meanings to the collective memory of a culture, and how creative experiences of transmitting information and communication can reach users and vice-versa. His Latin American, European and North American multi-cultural background greatly enrich his experience of the world and his scholarly work. Dr. Pereya organizes collaboration and community engagement of over 90 collaborating research organizations at the IDI, including managing the events and exhibits at the Open Gallery at 49 McCaul Street in Toronto.
             </p>
         </section>
         <section class="idi-person">
@@ -755,7 +756,7 @@
                 </div>
             </div>
             <p>
-                Patricia Rockman MD CCFP FCFP is an associate professor with the University of Toronto, department of family and community medicine; cross appointed to psychiatry. She is the chair of the Ontario College of Family Physicians Collaborative Mental Health Care Network. She has a private practice in Cognitive Behavioural Therapy (CBT) and leads MBCT groups. She supervises medical residents and has been an educator of healthcare providers in stress reduction, CBT and mindfulness based practices for over 20 years. She is the Director of Education at the Centre for Mindfulness Studies.
+                Patricia Rockman MD CCFP FCFP is an associate professor with the University of Toronto, department of family and community medicine; cross appointed to psychiatry. She is the chair of the Ontario College of Family Physicians Collaborative Mental Health Care Network. She has a private practice in Cognitive Behavioural Therapy (CBT) and leads MBCT groups. Additionally Dr. Rockman supervises medical residents and has been an educator of healthcare providers in stress reduction, CBT and mindfulness based practices.
             </p>
         </section>
         <section class="idi-person">
@@ -777,7 +778,7 @@
         <section class="idi-person">
             <a id="Shea"></a>
             <div class="idi-person-intro">
-                <img class="idi-people-person" title="Geoffrey Shea" alt="Geoffrey Shea" src="<?php bloginfo('stylesheet_directory');?>/images/people/Shea.jpg"/>
+                <div class="idi-people-placeholder"></div>
                 <h3>Geoffrey Shea</h3>
                 <div class="idi-people-position">
                     Co-Director, <a href="http://research.ocadu.ca/mobilelab/home">Mobile Experience Lab</a>
@@ -881,7 +882,7 @@ Shea is an Associate Professor at OCAD University where he teaches part-time. He
                 </div>
             </div>
             <p>
-                Lynne Teather is Assoc. Professor of Museum Studies at the University of Toronto where she has been teaching since 1980.  She is Principal Investigator for the AMICO Testbed of the University of Toronto focussing on the museological perspectives of museums and new media especially the user context of museum meaning-making.
+                Lynne Teather is Assoc. Professor of Museum Studies at the University of Toronto, where she has been teaching since 1980.  She is Principal Investigator for the AMICO Testbed - focussing on the museological perspectives of museums and new media, especially the user context of museum meaning-making.
             </p>
         </section>
         <section class="idi-person">
@@ -912,7 +913,7 @@ Shea is an Associate Professor at OCAD University where he teaches part-time. He
                 <img class="idi-people-person" title="Jutta Treviranus" alt="Jutta Treviranus" lang="de" src="<?php bloginfo('stylesheet_directory');?>/images/people/Treviranus.jpg"/>
                 <h3 lang="de">Jutta Treviranus</h3>
                 <div class="idi-people-position">
-                    Director of the <a href="http://idrc.ocad.ca/">Inclusive Design Research Centre</a>
+                    Director of the <a href="http://idrc.ocadu.ca/">Inclusive Design Research Centre</a>
                 </div>
                 <div class="idi-people-org">
                     <a href="http://ocadu.ca">OCAD University</a>
@@ -980,7 +981,7 @@ Shea is an Associate Professor at OCAD University where he teaches part-time. He
         <section class="idi-person">
             <a id="Weisman"></a>
             <div class="idi-person-intro">
-                <div class="idi-people-placeholder"></div>
+                <img class="idi-people-person" title="Jeb Weisman" alt="Jeb Weisman" src="<?php bloginfo('stylesheet_directory');?>/images/people/Weisman.jpg"/>
                 <h3 lang="de">Jeb Weisman</h3>
                 <div class="idi-people-position">
                     PhD co-supervisor and Principal Investigator, <a href="http://smartlab-ie.com/">SMARTlab</a>
@@ -990,7 +991,7 @@ Shea is an Associate Professor at OCAD University where he teaches part-time. He
                 </div>
             </div>
             <p>
-                Dr. Weisman is an anthropologist by training, who has led some of the USA's most influential long term studies into the area of children's health and design for well-being. He is widely published in academic and professional circles. He is a highly experienced researcher and group leader who has worked as an advisor and evaluator for the NIH, the Carl Sagan Trust and the Children's Health Fund. Dr. Weisman has won and directed several major international funding bids for research in the areas of health and well-being.
+                Dr. Weisman is an anthropologist and computer scientist by training, who has led some of the USA's most influential long term studies into the area of children's health and design for well-being. He is widely published in academic and professional circles. He is a highly experienced researcher and group leader who has worked as an advisor, grant committee chairperson, and evaluator for the Office of the National Coordinator for Health Information Technology, and the Carl Sagan Discover Center, among others.  Dr. Weisman serves as CIO of the Children's Health Fund, Dir. of Strategic Technologies for the National Center for Disaster Preparedness at the Earth Institute, Columbia University, founder of the Center for Community Health Technology, and a founding partner at Collaborative Data Systems and Analytics LLC. Dr. Weisman has won and directed a variety of international funding bids for research in the areas of health and well-being and health data presentation and visualization.
             </p>
         </section>
         <section class="idi-person">
