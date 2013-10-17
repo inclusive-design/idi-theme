@@ -22,18 +22,21 @@
         <section class="idi-person">
             <a id="Addison"></a>
             <div class="idi-person-intro">
-                <div class="idi-people-placeholder"></div>
+                <img class="idi-people-person" title="Alonzo Addison" alt="Alonzo Addison" src="<?php bloginfo('stylesheet_directory');?>/images/people/Addison.jpg"/>
                 <h3>Alonzo Addison</h3>
                 <div class="idi-people-position">
                     Strategic Advisor
                 </div>
                 <div class="idi-people-org">
-                    <a href="http://whc.unesco.org/">UNESCO World Heritage Centre</a>
+                    UN Agencies, Nonprofits, Technology Ventures, and Governments
                 </div>
             </div>
             <p>
-                Alonzo Addison is the leading expert on Invisible Cultural Heritage at UNESCO, and an active researcher in the field of Digital Cultural Heritage. He has run many major grants programmes in Europe and the Americas, and directed several major international funding bids for research in the arts and technology.
+                With senior leadership roles spanning the United Nations to Silicon Valley and the University of California, Lon Addison has over 25 years of experience in strategic planning, research, and management of information technology in heritage, design & engineering, culture & the arts, and the environment.  He has guided research in new media/VR as Director of UC Berkeley's Center for Design Visualization, served as Vice President of 3D laser scanning pioneer Cyra Technologies, and reformed online knowledge and communications as Director in External Relations and Information at UNESCO.
             </p>
+            <p>
+                A leading authority on 'digital heritage' he has led field conservation projects at heritage sites across the globe.  Mr. Addison is a frequent speaker on technology, culture, and design, and has authored numerous papers and books, including "Disappearing World" (HarperCollins, 2007-09) published to acclaim in 9 languages.  With degrees in engineering, architecture and computing from Princeton and the University of California at Berkeley, he serves as President of the Int'l VSMM Society, VP of the ICOMOS Int’l Scientific Committee for Interpretation & Presentation, and on the boards of multiple philanthropies and non-profits.
+           </p>
         </section>
         <section class="idi-person">
             <a id="Baecker"></a>
