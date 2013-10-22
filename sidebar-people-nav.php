@@ -10,7 +10,7 @@
         <li><a href="#Chandrashekar">Sambhavi Chandrashekar</a></li>
         <li><a href="#Chau">Tom Chau</a></li>
         <li><a href="#Church">Kathryn Church</a></li>
-        <li><a href="#Cobo">Cristobal Cobo</a></li>
+        <li><a href="#Cobo">Cristóbal Cobo</a></li>
         <li><a href="#Conery">Leslie Conery</a></li>
         <li><a href="#Daly">Una Daly</a></li>
         <li><a href="#Desjardins" lang="fr">Francois Desjardins</a></li>

@@ -272,7 +272,7 @@
         <section class="idi-person">
             <a id="Doruff"></a>
             <div class="idi-person-intro">
-                <img class="idi-people-person" title="Sher Doruff" alt="Sara Diamond" src="<?php bloginfo('stylesheet_directory');?>/images/people/Doruff.jpg"/>
+                <img class="idi-people-person" title="Sher Doruff" alt="Sher Doruff" src="<?php bloginfo('stylesheet_directory');?>/images/people/Doruff.jpg"/>
                 <h3>Sher Doruff</h3>
                 <div class="idi-people-position">
                     Research Associate, NCAD-SMARTlab PhD Supervisor
@@ -695,7 +695,7 @@
         <section class="idi-person">
             <a id="Pereyra"></a>
             <div class="idi-person-intro">
-                <img class="idi-people-person" title="Matt Ratto" alt="David Pereyra" src="<?php bloginfo('stylesheet_directory');?>/images/people/Pereyra.jpg"/>
+                <img class="idi-people-person" title="David Pereyra" alt="David Pereyra" src="<?php bloginfo('stylesheet_directory');?>/images/people/Pereyra.jpg"/>
                 <h3>David Pereyra</h3>
                 <div class="idi-people-position">
                     Post-Doctoral Fellow, <a href="http://idrc.ocadu.ca/">Inclusive Design Research Centre</a>
