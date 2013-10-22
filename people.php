@@ -304,7 +304,7 @@
         <section class="idi-person">
             <a id="Duffy"></a>
             <div class="idi-person-intro">
-                <div class="idi-people-placeholder"></div>
+                <img class="idi-people-person" title="Brian Duffy" alt="Brian Duffy" src="<?php bloginfo('stylesheet_directory');?>/images/people/Duffy.jpg"/>
                 <h3>Brian Duffy</h3>
                 <div class="idi-people-position">
                     Associate Senior Researcher, <a href="http://smartlab-ie.com/">SMARTlab</a>
