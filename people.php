@@ -781,7 +781,7 @@
         <section class="idi-person">
             <a id="Shea"></a>
             <div class="idi-person-intro">
-                <div class="idi-people-placeholder"></div>
+                <img class="idi-people-person" title="Geoffrey Shea" alt="Geoffrey Shea" src="<?php bloginfo('stylesheet_directory');?>/images/people/Shea.jpg"/>
                 <h3>Geoffrey Shea</h3>
                 <div class="idi-people-position">
                     Co-Director, <a href="http://research.ocadu.ca/mobilelab/home">Mobile Experience Lab</a>
