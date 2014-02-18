@@ -534,7 +534,7 @@
                     Assistant Professor
                 </div>
                 <div class="idi-people-org">
-                    <a href="http://www.utm.utoronto.ca/">University of Toronto Mississauga</a>
+                    <a href="http://utm.utoronto.ca/">University of Toronto Mississauga</a>
                 </div>
             </div>
             <p>
@@ -755,7 +755,7 @@
                     Senior Director of Education
                 </div>
                 <div class="idi-people-org">
-                    <a href="http://www.mindlfulnessstudies.com">The Centre for Mindfulness Studies</a>
+                    <a href="http://www.mindfulnessstudies.com/">The Centre for Mindfulness Studies</a>
                 </div>
             </div>
             <p>
@@ -971,7 +971,7 @@ Shea is an Associate Professor at OCAD University where he teaches part-time. He
                 <img class="idi-people-person" title="Evan Weaver" alt="Evan Weaver" src="<?php bloginfo('stylesheet_directory');?>/images/people/Weaver.jpg"/>
                 <h3>Evan Weaver</h3>
                 <div class="idi-people-position">
-                    Chair, <a href="https://scs.senecac.on.ca//">School of Information and Communications Technology</a>
+                    Chair, <a href="https://scs.senecac.on.ca/">School of Information and Communications Technology</a>
                 </div>
                 <div class="idi-people-org">
                     <a href="http://senecac.on.ca">Seneca College</a>
