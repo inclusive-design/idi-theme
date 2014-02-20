@@ -49,7 +49,8 @@ a:focus,
 .fl-site-link a:focus,
 .fl-site-nav-main a:focus,
 .fl-uiOptions-fatPanel .fl-toggleButton:focus, 
-.idi-cluster-name:focus {
+.idi-cluster-name:focus,
+.idi-booking-step a.idi-booking-download:focus {
     border: 2px solid #FFCC00;
     outline: none;
 }
@@ -402,12 +403,12 @@ h3,
 .fl-site-nav-main a.idi-nav-research:focus {
     background-image: url('images/navigation/research-hover.png');
 }
-.fl-site-nav-main a.idi-nav-infrastructure {
+.fl-site-nav-main a.idi-nav-booking {
     background-image: url('images/navigation/infrastructure.png');
     padding-left: 1.8em;
 }
-.fl-site-nav-main a.idi-nav-infrastructure:hover,
-.fl-site-nav-main a.idi-nav-infrastructure:focus {
+.fl-site-nav-main a.idi-nav-booking:hover,
+.fl-site-nav-main a.idi-nav-booking:focus {
     background-image: url('images/navigation/infrastructure-hover.png');
 }
 
@@ -510,19 +511,19 @@ h3,
     background-image: url('images/navigation/research-yellow.png'); 
 }
 
-.fl-site-nav-main .current_page_item.idi-nav-infrastructure, .fl-site-nav-main .current_page_item.idi-nav-infrastructure:hover, .fl-site-nav-main .current_page_item.idi-nav-infrastructure:focus,
-.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-infrastructure, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-infrastructure:hover, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-infrastructure:focus,
-.fl-theme-uio-wb .fl-site-nav-main .idi-nav-infrastructure, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-infrastructure:hover, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-infrastructure:focus { 
+.fl-site-nav-main .current_page_item.idi-nav-booking, .fl-site-nav-main .current_page_item.idi-nav-booking:hover, .fl-site-nav-main .current_page_item.idi-nav-booking:focus,
+.fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-booking, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-booking:hover, .fl-theme-uio-bw .fl-site-nav-main .current_page_item.idi-nav-booking:focus,
+.fl-theme-uio-wb .fl-site-nav-main .idi-nav-booking, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-booking:hover, .fl-theme-uio-wb .fl-site-nav-main .idi-nav-booking:focus { 
     background-image: url('images/navigation/infrastructure-white.png'); 
 }
-.fl-theme-uio-bw .fl-site-nav-main .idi-nav-infrastructure, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-infrastructure:hover, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-infrastructure:focus,
-.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-infrastructure, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-infrastructure:hover, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-infrastructure:focus,
-.fl-theme-uio-by .fl-site-nav-main .idi-nav-infrastructure, .fl-theme-uio-by .fl-site-nav-main .idi-nav-infrastructure:hover, .fl-theme-uio-by .fl-site-nav-main .idi-nav-infrastructure:focus,
-.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-infrastructure, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-infrastructure:hover, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-infrastructure:focus { 
+.fl-theme-uio-bw .fl-site-nav-main .idi-nav-booking, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-booking:hover, .fl-theme-uio-bw .fl-site-nav-main .idi-nav-booking:focus,
+.fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-booking, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-booking:hover, .fl-theme-uio-wb .fl-site-nav-main .current_page_item.idi-nav-booking:focus,
+.fl-theme-uio-by .fl-site-nav-main .idi-nav-booking, .fl-theme-uio-by .fl-site-nav-main .idi-nav-booking:hover, .fl-theme-uio-by .fl-site-nav-main .idi-nav-booking:focus,
+.fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-booking, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-booking:hover, .fl-theme-uio-yb .fl-site-nav-main .current_page_item.idi-nav-booking:focus { 
     background-image: url('images/navigation/infrastructure-black.png'); 
 }
-.fl-theme-uio-yb .fl-site-nav-main .idi-nav-infrastructure, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-infrastructure:hover, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-infrastructure:focus,
-.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-infrastructure, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-infrastructure:hover, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-infrastructure:focus { 
+.fl-theme-uio-yb .fl-site-nav-main .idi-nav-booking, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-booking:hover, .fl-theme-uio-yb .fl-site-nav-main .idi-nav-booking:focus,
+.fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-booking, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-booking:hover, .fl-theme-uio-by .fl-site-nav-main .current_page_item.idi-nav-booking:focus { 
     background-image: url('images/navigation/infrastructure-yellow.png'); 
 }
 
@@ -896,7 +897,7 @@ h3,
 }
 .fl-uiOptions-fatPanel .fl-panelBar {
     margin: auto;
-    width: 64em;
+    max-width: 64em;
     height: 0;
     border: none;
 }
@@ -918,7 +919,6 @@ h3,
     width: 8em;
     margin-top: 0px;
     font-weight: 400;
-    position: absolute;
     left: 875px;  /* Temporary fix for IDI-57: Prefs button getting pushed offscreen when text size is maxed out.  */
 }
 /* these should not be necessary, but defaults not working? */
@@ -946,9 +946,8 @@ h3,
 .fl-theme-uio-bw .idi-uio-button { background-image: url("images/loginandpreferences/preferences-black.png"); }
 .fl-uiOptions-fatPanel .fl-toggleButton.idi-slidingPanel-toggleButton {
     background-image: url("images/loginandpreferences/login.png");
-    width: 4em;
+    width: 5em;
     padding: 5px 5px 5px 25px;
-    position: absolute;
     right: 7.5em;
     background-position: 0.6em 50%;
 }
@@ -964,6 +963,9 @@ a.anchor {
 }
 
 /* Login/out pull-down panel */
+.idi-loggedin {
+	padding: 7px 10px 0px 0px;
+}
 .idi-loginOutPanel {
     background-color: #FFFFFF;
     z-index: 999;
@@ -1025,6 +1027,10 @@ a.anchor {
     color: #005A8C;
     text-shadow: #FFFFFF 0 1px 1px;
 }
+.idi-login-form .error {
+	font-weight: bold;
+	color: red;
+}
 .fl-theme-uio-yb .idi-login-form #wp-submit,
 .fl-theme-uio-wb .idi-login-form #wp-submit { background: #000000; }
 .fl-theme-uio-bw .idi-login-form #wp-submit { background: #FFFFFF; }
@@ -1046,8 +1052,8 @@ a.anchor {
     background-position: 3.5em 0.4em;
 }
 .idi-login-form .idi-login-forgot {
-    width: 10em;
-    background-position: 8.7em 0.4em;
+    width: 11em;
+    background-position: 10em 0.4em;
 }
 
 .fl-theme-uio-yb .idi-login-form .idi-login-extra { background-image: url('images/arrows/arrow-yellow.gif'); }
@@ -1264,7 +1270,8 @@ ol.letters li {
 .idi-people h2,
 .idi-about h2,
 .idi-cluster h2,
-.idi-workshops h2 {
+.idi-workshops h2,
+.idi-equipment h2 {
     font-style: italic;
     color: #3FB66C;
     margin-bottom: .5em;    
@@ -1307,7 +1314,7 @@ img.idi-people-person {
     width: 100px;
 }
 .idi-person-intro {
-    width: 100%
+    width: 100%;
     min-height: 4em;
 }
 .idi-person-intro  h3 {
@@ -1444,8 +1451,12 @@ img.idi-people-person {
     padding-left: 0;
 }
 .idi-infra-row {
-    padding-bottom: 2em;
+    padding-top: 2em;
 }
+.idi-infra-row .fl-col-flex {
+	margin-left: 12em;
+}
+
 .idi-infra-item {
     margin-bottom: 2em;
     padding-left: 1.6em;
@@ -1817,4 +1828,198 @@ a.idi-project-link {
 :-webkit-full-screen .fl-videoPlayer-video-play,
 :-webkit-full-screen .fl-videoPlayer-overlay { 
     max-width: none;
+}
+
+/* Equipment booking process */
+.idi-infra .fl-col-flex4 .fl-col.idi-booking-step {
+    padding-left: 2em;
+    max-width: 13em;
+    margin-right: 1.5em;
+    font-style: italic;
+    text-align:left;
+}
+.idi-booking-step-icon {
+    background: url('images/bookingsteps/bookingsteps.png') no-repeat left top;
+    width: 75px;
+    height: 75px;
+    float: left;
+}
+.idi-booking-step-2 {
+    background-position: -80px 0;
+}
+.idi-booking-step-3 {
+    background-position: -160px 0;
+}
+.idi-booking-step h3 {
+    margin-bottom: 0.2em;
+    margin-top: 0.5em;
+}
+.idi-booking-step .idi-booking-email {
+    text-decoration: none;
+    font-weight: bold;
+}
+.idi-booking-step .idi-booking-download {
+    background-color: #0075B0;
+    border: 1px solid #0075B0;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 0.1em 0.5em 0.2em;
+    background: -moz-linear-gradient(top, #0292CB, #0075B0);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0075B0), to(#0292CB));
+    background: -webkit-linear-gradient(top, #0292CB, #0075B0);
+    background: -ms-linear-gradient(top, #0292CB, #0075B0);
+    background: -o-linear-gradient(top, #0292CB, #0075B0);
+    box-shadow: 0px 0px 2px 0px #FFFFFF inset;
+    text-shadow: #000000 0 1px 1px;
+    text-decoration: none;
+    font-style: normal;
+}
+.idi-booking-step .idi-booking-download:hover {
+    background-color: #0292CB;
+    background: -moz-linear-gradient(top, #00ADE4, #0292CB);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0292CB), to(#00ADE4));
+    background: -webkit-linear-gradient(top, #00ADE4, #0292CB);
+    background: -ms-linear-gradient(top, #00ADE4, #0292CB);
+    background: -o-linear-gradient(top, #00ADE4, #0292CB);
+}
+.idi-booking-step .idi-booking-download:active {
+    color: #005A8C;
+    text-shadow: #FFFFFF 0 1px 1px;
+}
+.idi-booking-title {
+    margin-bottom: 0.5em;
+}
+.idi-booking-summary {
+    margin-bottom: 3em;
+}
+.fl-theme-uio-yb .idi-booking-step-icon {
+    background-image: url('images/bookingsteps/bookingsteps-yellow.png');
+}
+.fl-theme-uio-wb .idi-booking-step-icon {
+    background-image: url('images/bookingsteps/bookingsteps-white.png');
+}
+.fl-theme-uio-by .idi-booking-step-icon, .fl-theme-uio-bw .idi-booking-step-icon {
+    background-image: url('images/bookingsteps/bookingsteps-black.png');
+}
+.fl-theme-uio-yb .idi-booking-step .idi-booking-download,
+.fl-theme-uio-wb .idi-booking-step .idi-booking-download { background: #000000; text-shadow: none; }
+.fl-theme-uio-bw .idi-booking-step .idi-booking-download { background: #FFFFFF; text-shadow: none; }
+.fl-theme-uio-by .idi-booking-step .idi-booking-download { background: #FFFF00; text-shadow: none; }
+
+.idi-booking-faq-show-hide {
+    display: block;
+    font-weight: bold;
+    width: 15em;
+    font-style: italic;
+    text-transform: lowercase;    
+    margin-top: 1em;
+    background-repeat: no-repeat;
+    background-position: right 65%;
+    margin-bottom: 1em;
+    text-decoration: none;
+}
+.idi-booking-faq-show-hide.idi-booking-faq-show:before {
+    content: "show ";
+}
+.idi-booking-faq-show-hide.idi-booking-faq-hide:before {
+    content: "hide ";
+}
+.idi-booking-faq-show-hide:hover {
+    cursor: pointer;
+}
+.idi-booking-faq-show {
+    background-image: url('images/arrows/arrow-down.png');
+}
+.idi-booking-faq-show:hover {
+    background-image: url('images/arrows/arrow-down-hover.png');
+}
+.idi-booking-faq-hide {
+    background-image: url('images/arrows/arrow-up.png');
+}
+.idi-booking-faq-hide:hover {
+    background-image: url('images/arrows/arrow-up-hover.png');
+}
+.idi-booking-faq-question {
+    font-weight: bold;
+}
+.idi-booking-faq-answer {
+    margin-bottom: 0.5em;
+}
+.idi-booking-faq {
+    margin-left: 2em;
+    overflow: hidden;
+    -moz-transition: height .5s;
+    -ms-transition: height .5s;
+    -o-transition: height .5s;
+    -webkit-transition: height .5s;
+    transition: height .5s;
+}
+.idi-booking-faq.idi-booking-faq-hidden {
+    height: 0;
+}
+.idi-booking-faq.idi-booking-faq-shown {
+    height: 32em; /* Taller in Win browsers */
+}
+.fl-theme-uio-yb .idi-booking-faq-show,
+.fl-theme-uio-by .idi-booking-faq-show:hover { background-image: url('images/arrows/arrow-down-yellow.png'); }
+.fl-theme-uio-yb .idi-booking-faq-hide,
+.fl-theme-uio-by .idi-booking-faq-hide:hover { background-image: url('images/arrows/arrow-up-yellow.png'); }
+
+.fl-theme-uio-bw .idi-booking-faq-show,
+.fl-theme-uio-yb .idi-booking-faq-show:hover,
+.fl-theme-uio-wb .idi-booking-faq-show:hover,
+.fl-theme-uio-by .idi-booking-faq-show  { background-image: url('images/arrows/arrow-down-black.png'); }
+.fl-theme-uio-bw .idi-booking-faq-hide,
+.fl-theme-uio-yb .idi-booking-faq-hide:hover,
+.fl-theme-uio-wb .idi-booking-faq-hide:hover,
+.fl-theme-uio-by .idi-booking-faq-hide { background-image: url('images/arrows/arrow-up-black.png'); }
+
+.fl-theme-uio-wb .idi-booking-faq-show,
+.fl-theme-uio-bw .idi-booking-faq-show:hover { background-image: url('images/arrows/arrow-down-white.png'); }
+.fl-theme-uio-wb .idi-booking-faq-hide,
+.fl-theme-uio-bw .idi-booking-faq-hide:hover { background-image: url('images/arrows/arrow-up-white.png'); }
+
+/* Equipment Page */
+.idi-equipment .fl-grid li {
+    width: 30%;
+    text-align: center;
+}
+.idi-equipment-categories {
+    margin-top: 4em;
+}
+.idi-equipment-categories ul {
+    margin-left: 1em;
+}
+.idi-equipment-categories ul li {
+    color: #0076B0;
+    padding-bottom: 0.33em;
+}
+.idi-equipment-categories ul li a {
+    display: block;
+}
+
+.idi-equipment-details {
+    max-width: 37em;
+}
+.idi-equipment-details img {
+    width: 13em;
+    height: auto;
+    float: left;
+}
+.idi-equipment-item {
+    margin-bottom: 1.5em;
+}
+.idi-equipment-item ul,
+.idi-equipment-item .idi-equipment-itemKit {
+    margin-left: 15em;
+}
+.idi-equipment-item h3 {
+    margin-left: 13em;
+    margin-top: -1em;
+}
+.idi-equipment-item li {
+    list-style-position: inside;
+}
+.fl-col-mixed .fl-col-flex.idi-equipment-details {
+    margin-left: 16em;
 }
