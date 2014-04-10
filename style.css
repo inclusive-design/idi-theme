@@ -1253,6 +1253,9 @@ a.idi-breadcrumbs {
 .idi-about-sidebar {
     margin-top: 11em;
 }
+.idi-about-sidebar a {
+    display: inline;
+}
 ol.letters li {
     list-style-type: lower-alpha;
 }
