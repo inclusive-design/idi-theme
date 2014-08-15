@@ -114,8 +114,8 @@
 				University of Toronto</a>, complemented by two-years of postdoctoral research with the
 				University of Toronto funded by a <a href="https://www.mitacs.ca/elevate">MITACS Elevate Industrial Postdoctoral Fellowship</a>. 
 				She holds two Masters degrees–M.Sc. in Human-Computer Interaction with Ergonomics 
-				from <a href="http://www.ucl.ac.uk/">University College London (UK)</a> and M.Sc. in Chemistry from Indian Institute of 
-				Technology (IIT) in India.
+				from <a href="http://www.ucl.ac.uk/">University College London (UK)</a> and M.Sc. in Chemistry from <a href="http://www.iitm.ac.in/">Indian Institute of 
+				Technology (IIT)</a> in India.
 			</p>
 			<p>
 				Sambhavi has been working with the Adaptive Technology Resource Centre / <a href="http://idrc.ocadu.ca">Inclusive 
@@ -126,9 +126,10 @@
 				special focus on the needs of people with disabilities. She also works towards 
 				promoting the use of tablet devices as assistive technologies for people with 
 				cognitive and speech-language impairments through the design and development of 
-				appropriate software. She was one of the expert evaluators of candidate 
-				implementations of the W3C’s Web Content Accessibility Guidelines 2.0 prior to their 
-				publication in December 2008.
+				appropriate software. She was one of the expert evaluators of W3C’s
+				<a href="http://www.w3.org/WAI/GL/WCAG20/implementation-report/#contributors">WebContent Accessibility Guidelines 2.0</a>
+				prior to their publication in December 2008. 
+				
 			</p>
         </section>
         <section class="idi-person">
