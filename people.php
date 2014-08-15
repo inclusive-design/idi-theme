@@ -108,8 +108,29 @@
                 </div>
             </div>
             <p>
-                Dr. Sambhavi Chandrashekar has over twenty years' experience in the technology and IT sector. Her research interests centre on inclusive design of information, communication and mobility systems to meet the needs of people with disabilities.
-            </p>
+				Sambhavi Chandrashekar is an Adjunct Professor in Research and Graduate Studies with 
+				the <a href="http://www.ocadu.ca/">OCAD University</a> and a Sessional Instructor / Research Supervisor in their <a href="http://www.ocadu.ca/graduate-studies/programs/inclusive-design.htm"></a>Masters 
+				program in Inclusive Design</a>. She holds a Ph.D. in Information Studies from the <a href="http://www.ischool.utoronto.ca/">iSchool, 
+				University of Toronto</a>, complemented by two-years of postdoctoral research with the
+				University of Toronto funded by a <a href="https://www.mitacs.ca/elevate">MITACS Elevate Industrial Postdoctoral Fellowship</a>. 
+				She holds two Masters degrees–M.Sc. in Human-Computer Interaction with Ergonomics 
+				from <a href="http://www.ucl.ac.uk/">University College London (UK)</a> and M.Sc. in Chemistry from <a href="http://www.iitm.ac.in/">Indian Institute of 
+				Technology (IIT)</a> in India.
+			</p>
+			<p>
+				Sambhavi has been working with the Adaptive Technology Resource Centre / <a href="http://idrc.ocadu.ca">Inclusive 
+				Design Research Centre</a> since 2005, both directly and indirectly, on several research 
+				projects involving people with disabilities. She supervises a variety of student 
+				projects in the Masters program in Inclusive Design. Her primary research interest 
+				lies in the inclusive design of information, communication and mobility systems with 
+				special focus on the needs of people with disabilities. She also works towards 
+				promoting the use of tablet devices as assistive technologies for people with 
+				cognitive and speech-language impairments through the design and development of 
+				appropriate software. She was one of the expert evaluators of W3C’s
+				<a href="http://www.w3.org/WAI/GL/WCAG20/implementation-report/#contributors">WebContent Accessibility Guidelines 2.0</a>
+				prior to their publication in December 2008. 
+				
+			</p>
         </section>
         <section class="idi-person">
             <a id="Chau"></a>
