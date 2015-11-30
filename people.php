@@ -18,7 +18,7 @@
         <p>
             IDI is a community that values collaboration, broad participation, transparency, and openness. IDI research projects engage a range of disciplines, sectors, and collaborating organizations from around the world.
         </p>
-        
+
         <section class="idi-person">
             <a id="Addison"></a>
             <div class="idi-person-intro">
@@ -108,28 +108,28 @@
                 </div>
             </div>
             <p>
-				Sambhavi Chandrashekar is an Adjunct Professor in Research and Graduate Studies with 
-				the <a href="http://www.ocadu.ca/">OCAD University</a> and a Sessional Instructor / Research Supervisor in their <a href="http://www.ocadu.ca/graduate-studies/programs/inclusive-design.htm"></a>Masters 
-				program in Inclusive Design</a>. She holds a Ph.D. in Information Studies from the <a href="http://www.ischool.utoronto.ca/">iSchool, 
+				Sambhavi Chandrashekar is an Adjunct Professor in Research and Graduate Studies with
+				the <a href="http://www.ocadu.ca/">OCAD University</a> and a Sessional Instructor / Research Supervisor in their <a href="http://www.ocadu.ca/graduate-studies/programs/inclusive-design.htm">Masters
+				program in Inclusive Design</a>. She holds a Ph.D. in Information Studies from the <a href="http://www.ischool.utoronto.ca/">iSchool,
 				University of Toronto</a>, complemented by two-years of postdoctoral research with the
-				University of Toronto funded by a <a href="https://www.mitacs.ca/elevate">MITACS Elevate Industrial Postdoctoral Fellowship</a>. 
-				She holds two Masters degrees–M.Sc. in Human-Computer Interaction with Ergonomics 
-				from <a href="http://www.ucl.ac.uk/">University College London (UK)</a> and M.Sc. in Chemistry from <a href="http://www.iitm.ac.in/">Indian Institute of 
+				University of Toronto funded by a <a href="https://www.mitacs.ca/elevate">MITACS Elevate Industrial Postdoctoral Fellowship</a>.
+				She holds two Masters degrees–M.Sc. in Human-Computer Interaction with Ergonomics
+				from <a href="http://www.ucl.ac.uk/">University College London (UK)</a> and M.Sc. in Chemistry from <a href="http://www.iitm.ac.in/">Indian Institute of
 				Technology (IIT)</a> in India.
 			</p>
 			<p>
-				Sambhavi has been working with the Adaptive Technology Resource Centre / <a href="http://idrc.ocadu.ca">Inclusive 
-				Design Research Centre</a> since 2005, both directly and indirectly, on several research 
-				projects involving people with disabilities. She supervises a variety of student 
-				projects in the Masters program in Inclusive Design. Her primary research interest 
-				lies in the inclusive design of information, communication and mobility systems with 
-				special focus on the needs of people with disabilities. She also works towards 
-				promoting the use of tablet devices as assistive technologies for people with 
-				cognitive and speech-language impairments through the design and development of 
+				Sambhavi has been working with the Adaptive Technology Resource Centre / <a href="http://idrc.ocadu.ca">Inclusive
+				Design Research Centre</a> since 2005, both directly and indirectly, on several research
+				projects involving people with disabilities. She supervises a variety of student
+				projects in the Masters program in Inclusive Design. Her primary research interest
+				lies in the inclusive design of information, communication and mobility systems with
+				special focus on the needs of people with disabilities. She also works towards
+				promoting the use of tablet devices as assistive technologies for people with
+				cognitive and speech-language impairments through the design and development of
 				appropriate software. She was one of the expert evaluators of W3C’s
 				<a href="http://www.w3.org/WAI/GL/WCAG20/implementation-report/#contributors">WebContent Accessibility Guidelines 2.0</a>
-				prior to their publication in December 2008. 
-				
+				prior to their publication in December 2008.
+
 			</p>
         </section>
         <section class="idi-person">
@@ -200,6 +200,51 @@
             </p>
         </section>
         <section class="idi-person">
+            <a id="Coppin"></a>
+            <div class="idi-person-intro">
+                <img class="idi-people-person" title="Peter Coppin" alt="Peter Coppin" src="<?php bloginfo('stylesheet_directory');?>/images/people/Coppin.jpg"/>
+                <h3>Peter Coppin</h3>
+                <div class="idi-people-position">
+                    Assistant Professor of Design, <a href="http://www.ocadu.ca/graduate-studies/programs/inclusive-design.htm">Inclusive Design Graduate Program</a>
+                </div>
+                <div class="idi-people-org">
+                    <a href="http://www.ocadu.ca/">OCAD University</a>
+                </div>
+            </div>
+            <p>
+            Dr. Peter Coppin, Assistant Professor in the Faculty of Design, is a
+            designer, visual artist, and cognitive scientist. His work seeks to
+            improve information access through a better understanding of how
+            individuals make use of their diverse perceptual-motor capabilities to
+            interact with interfaces and other designed artifacts (such as diagrams in
+            problem solving or sonic interfaces to financial charts and graphs).
+            </p>
+            <p>
+            Dr. Coppin's work is informed by his career journey, which cuts across
+            engineering, design, and the visual arts. Dr. Coppin has authored numerous
+            articles that focus on the perceptual-cognitive aspects of information
+            interfaces with applications in diverse areas such as diagrammatic
+            reasoning, research on dyslexia, learning technology, telescience,
+            human-robot interaction, and data analytics. His work with government
+            agencies and industry has included numerous projects related to the
+            visualization of complex Earth and planetary datasets for NASA. Recent
+            work tackles the challenge of accessible data analytics: Interfaces that
+            enable low vision or blind individuals to access charts and graphs without
+            visual perception.
+            </p>
+            <p>
+            Dr. Coppin's work has been funded by multiple NASA programs, the US
+            National Science Foundation, the Heinz Endowments, the R.K. Mellon
+            Foundation, the Buhl Foundation, the Laurel Foundation, the Center for
+            Innovation in Data-Driven Design, the Ontario Ministry of Training and
+            Colleges, MITACS, and NCE GRAND. Dr. Coppin's work in electronic media
+            art-design has been exhibited nationally and internationally, including
+            Prix Ars Electronica (Linz, Austria), the SIGGRAPH Touchware Exhibition
+            (Orlando, Florida, USA), MIR: Art & Space (Bolzono Italy), and the Adler
+            Museum (Chicago, Illinois, USA).
+            </p>
+        </section>
+        <section class="idi-person">
             <a id="Daly"></a>
             <div class="idi-person-intro">
                 <img class="idi-people-person" title="Una Daly" alt="Una Daly" src="<?php bloginfo('stylesheet_directory');?>/images/people/Daly.jpg"/>
@@ -214,8 +259,8 @@
             <p>
                 Una Daly is the Community College Outreach Director at the OpenCourseWare Consortium where she promotes awareness and adoption of open educational
                 practices to improve teaching and learning and expand access at community and technical colleges. Prior to joining the consortium, she was the Director of the
-                College Open Textbooks Collaborative promoting adoption of open accessible textbooks through faculty adopter communities and accessibility awareness for 
-                creation and reuse of open educational materials. Her expertise also includes computer technologies and the use of ePortfolios for learning assessment in health 
+                College Open Textbooks Collaborative promoting adoption of open accessible textbooks through faculty adopter communities and accessibility awareness for
+                creation and reuse of open educational materials. Her expertise also includes computer technologies and the use of ePortfolios for learning assessment in health
                 licensing and engineering. She worked as a software manager and engineer at Apple Computer, 3 Com, and Motorola prior to a career shift into higher education.
                 Ms. Daly also serves as a Masters’ Research Project adviser at the Inclusive Design Research Centre at OCAD University in Toronto, Canada.
             </p>
@@ -680,7 +725,7 @@
                 Professor Murphy is widely published in academic and professional circles. She is a highly experienced researcher and group leader who has worked as an advisor and evaluator on many European projects in Access, Inclusion and Women's Leadership.
             </p>
         </section>
-        
+
         <section class="idi-person">
             <a id="Owston"></a>
             <div class="idi-person-intro">
