@@ -12,6 +12,7 @@
         <li><a href="#Church">Kathryn Church</a></li>
         <li><a href="#Cobo">Cristóbal Cobo</a></li>
         <li><a href="#Conery">Leslie Conery</a></li>
+        <li><a href="#Coppin">Peter Coppin</a></li>
         <li><a href="#Daly">Una Daly</a></li>
         <li><a href="#Desjardins" lang="fr">Francois Desjardins</a></li>
         <li><a href="#Diamond">Sara Diamond</a></li>
