@@ -828,6 +828,30 @@
                 Patricia Rockman MD CCFP FCFP is an associate professor with the University of Toronto, department of family and community medicine; cross appointed to psychiatry. She is the chair of the Ontario College of Family Physicians Collaborative Mental Health Care Network. She has a private practice in Cognitive Behavioural Therapy (CBT) and leads MBCT groups. Additionally Dr. Rockman supervises medical residents and has been an educator of healthcare providers in stress reduction, CBT and mindfulness based practices.
             </p>
         </section>
+
+        <section class="idi-person">
+            <a id="Saccutelli"></a>
+            <div class="idi-person-intro">
+                <div class="idi-people-placeholder"></div>
+                <h3>Donna Saccutelli</h3>
+                <div class="idi-people-position">
+                    Adjunct Professor of Graphic Design
+                </div>
+                <div class="idi-people-org">
+                    <a href="http://www.senecacollege.ca/">Seneca College</a>
+                </div>
+            </div>
+            <p>
+                Donna Saccutelli, is an adjunct Professor of Graphic Design at Seneca College with over three decades of corporate communication, packaging design, information design and branding experience .
+            </p>
+            <p>
+                She has a BDES from OCAD and a MDES from the Inclusive Design Research Centre at OCADU receiving the Inclusive Design Scholarly Award in 2015. In addition, she is a long standing professional member of the RGD Ontario, the Packaging Association of Canada and has garnered many awards both professionally and as an educator. Donna is committed to inclusive education and design and is a liaison between designers, educators, and business.
+            </p>
+            <p>
+                Currently, Donna is a member of the 2015-16 <a href="http://www.ocadu.ca/research/imagination-catalyst/ic-incubator.htm">Imagination Catalyst Incubator</a> - one-year experiential incubation program. She is committed to working on facilitating a systemic change in the grocery industry and believes the implementation of a sustainable retail curation system will be part of the new paradigm in accessibility using cloud technologies.
+            </p>
+        </section>
+
         <section class="idi-person">
             <a id="Scardamalia"></a>
             <div class="idi-person-intro">
