@@ -832,7 +832,7 @@
         <section class="idi-person">
             <a id="Saccutelli"></a>
             <div class="idi-person-intro">
-                <div class="idi-people-placeholder"></div>
+                <img class="idi-people-person" title="Donna Saccutelli" alt="Donna Saccutelli" src="<?php bloginfo('stylesheet_directory');?>/images/people/Donna-Saccutelli.jpg"/>
                 <h3>Donna Saccutelli</h3>
                 <div class="idi-people-position">
                     Adjunct Professor of Graphic Design
