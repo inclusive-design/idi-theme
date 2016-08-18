@@ -130,10 +130,9 @@ function panel_login_fail( $username ) {
 
 function idi_display_twitter_feed($twitter_un) {
     /*
-    We use the oAuth Twitter plugin to help us get the twitter information. 
+    We use the oAuth Twitter plugin to help us get the twitter information.
     https://wordpress.org/plugins/oauth-twitter-feed-for-developers/
     */
-
     $num_tweets = 1;
     $tweets = getTweets($num_tweets, $twitter_un);
 
@@ -145,14 +144,8 @@ function idi_display_twitter_feed($twitter_un) {
         if($tweet['text']){
             $the_tweet = $tweet['text'];
             /*
+            Format the Twitter information for output. This is a modified version of the source script. It's been changed to match our classnames and layout.
             Source: https://github.com/stormuk/storm-twitter-for-wordpress/wiki/Example-code-to-layout-tweets
-            This is a modified version of the source script. It's been changed to match our classnames and layout.
-
-            2.b. Tweet Entities within the Tweet text must be properly linked to their appropriate home on Twitter. For example:
-              i. User_mentions must link to the mentioned user's profile.
-             ii. Hashtags must link to a twitter.com search with the hashtag as the query.
-            iii. Links in Tweet text must be displayed using the display_url
-                 field in the URL entities API response, and link to the original t.co url field.
             */
 
             // i. User_mentions must link to the mentioned user's profile.
@@ -191,7 +184,7 @@ function idi_display_twitter_feed($twitter_un) {
                       <a href="https://twitter.com/'.$twitter_un.'/status/'.$tweet['id_str'].'" target="_blank">
                           '.date('h:i A M d',strtotime($tweet['created_at']. '- 4 hours')).'
                       </a>
-                  </div></li>';// -8 GMT for Pacific Standard Time
+                  </div></li>';// -4 GMT for Eastern Time
         } else {
             echo '<li><p>no tweets found</p></li>';
         }
