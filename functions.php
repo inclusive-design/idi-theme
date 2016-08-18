@@ -1,5 +1,5 @@
 <?php
-add_theme_support( 'post-thumbnails' ); 
+add_theme_support( 'post-thumbnails' );
 
 // Override the default UIO strings
 $uio_strings_custom = 'showText: "Preferences", hideText: "Preferences"';
@@ -14,20 +14,20 @@ $twitter_feed_opts = ' followlink="no" num="1" linktotweet="no" tweetintent="no"
  */
 function add_idi_files() {
     $baseurl = get_stylesheet_directory_uri();
-    
+
     // The font fix for Chrome and Firefox on windows
     // Lato font is too light to read with chrome on windows, use arial/helvetica instead
     $userAgent = strtolower($_SERVER['HTTP_USER_AGENT']);
     if (strpos($userAgent, "windows") && (strpos($userAgent, "chrome") || strpos($userAgent, "firefox"))) {
         echo '<link rel="stylesheet" type="text/css" media="all" href="'. $baseurl. '/style-windows.css" />'. "\n";
     }
-    
+
     echo '<script type="text/javascript" src="' . $baseurl . '/lib/parallax-scrolling.js" ></script>' . "\n";
-    echo '<script type="text/javascript" src="' . $baseurl . '/idi.js" ></script>' . "\n";  
+    echo '<script type="text/javascript" src="' . $baseurl . '/idi.js" ></script>' . "\n";
     echo '<!--[if lt IE 8]>'  . "\n";
     echo '<script type="text/javascript" src="' . $baseurl . '/idi-ltie8.js" ></script>' . "\n";
     echo '<![endif]-->'  . "\n";
-    
+
 }
 add_action('wp_head', 'add_idi_files');
 
@@ -114,16 +114,16 @@ function remove_parent_contentID() {
 add_action( 'wp_login_failed', 'panel_login_fail' );  // hook failed login
 
 function panel_login_fail( $username ) {
-    $referrer = $_SERVER['HTTP_REFERER'];  
-    
+    $referrer = $_SERVER['HTTP_REFERER'];
+
     // if there's a valid referrer, and it's not the default log-in screen
     if ( !empty($referrer) && !strstr($referrer,'wp-login') && !strstr($referrer,'wp-admin') ) {
         $referrer = explode('?', $referrer);
-        parse_str($referrer[1], $referrer_args);        
+        parse_str($referrer[1], $referrer_args);
         unset($referrer_args['idilogout']); 	//unset old idilogout arg if set
-        $referrer_args['idilogin'] = "failed"; 	//let theme know there are errors     
-        
-        wp_redirect( $referrer[0]."?".http_build_query($referrer_args) ); 
+        $referrer_args['idilogin'] = "failed"; 	//let theme know there are errors
+
+        wp_redirect( $referrer[0]."?".http_build_query($referrer_args) );
         exit;
     }
 }
@@ -133,8 +133,8 @@ function idi_display_twitter_feed($twitter_un) {
     $num_tweets = 1;
     $consumerkey = "luK78NyRjDEmMVhi6sgIw";
     $consumersecret = "E6bY0ShFmtibIqWU0oHokCVZKYtPEvZcNyACBPzYqo";
-    $accesstoken = "123905660-DBVNC6meqlD4KgZrQcAuynwYaMxJsLqLiyrtkArR";
-    $accesstokensecret = "UhlTPgNowuNOsC0Oaw89PM29PcVRD4N14sAdkAUk";
+    $accesstoken = "123905660-3gtwAKtHHrPjGwa1PmAqXD8FKKKQY2C1ORB8dpyE";
+    $accesstokensecret = "kWuqrTk8IOHVSQdEK9dFfy337VjQv9P44lYKVfq8Fv7Ln";
     $connection = new TwitterOAuth($consumerkey, $consumersecret, $accesstoken, $accesstokensecret);
     $tweets = array_filter($connection->get("https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=".$twitter_un."&count=".$num_tweets));
 

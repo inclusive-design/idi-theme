@@ -5,7 +5,7 @@ Template Name: Front Page
 ?>
 
 <?php get_header(); ?>
-	
+
 <div class="fl-centered fl-col-mixed fl-site-wrapper">
 	<nav role="navigation" class="idi-research-clusters fl-centered fl-clearfix">
 		<div class="idi-clusters-overlay"></div>
@@ -33,12 +33,12 @@ Template Name: Front Page
 
 	<div class="fl-col-flex4 front-cols">
 		<?php
-		$the_query = new WP_Query( array('posts_per_page'=>2) ); 
-		
-		while ($the_query->have_posts()): 
-			$the_query->the_post(); 		
-			global $more; 
-			$more = 0; 
+		$the_query = new WP_Query( array('posts_per_page'=>2) );
+
+		while ($the_query->have_posts()):
+			$the_query->the_post();
+			global $more;
+			$more = 0;
 			?>
 			<div class="fl-col">
 				<div class="idi-box idi-highlight-box post">
@@ -57,12 +57,12 @@ Template Name: Front Page
  		<?php endwhile; ?>
 
 		<div class="fl-col">
-			<?php idi_display_twitter_feed('aegisproj'); ?>
+			<?php idi_display_twitter_feed('FluidProject'); ?>
 			<?php idi_display_twitter_feed('SNOWocad'); ?>
 		</div>
 
 		<div class="fl-col">
-			<?php idi_display_twitter_feed('FluidProject'); ?>
+			<?php idi_display_twitter_feed('idrc_ocadu'); ?>
 
 			<div class="idi-box">
 				<div class="idi-mailing-list">
@@ -75,7 +75,7 @@ Template Name: Front Page
 			</div>
 		</div>
 
- 	</div> 	
+ 	</div>
  </div>
- 
+
 <?php get_footer(); ?>
