@@ -57,7 +57,7 @@ Template Name: Front Page
  		<?php endwhile; ?>
 
 		<div class="fl-col">
-			<?php idi_display_twitter_feed('FluidProject'); ?>
+            <?php idi_display_twitter_feed('FluidProject'); ?>
 			<?php idi_display_twitter_feed('SNOWocad'); ?>
 		</div>
 

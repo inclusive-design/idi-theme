@@ -129,31 +129,74 @@ function panel_login_fail( $username ) {
 }
 
 function idi_display_twitter_feed($twitter_un) {
-    require_once("wp-content/plugins/twitteroauth/twitteroauth/twitteroauth.php");
+    /*
+    We use the oAuth Twitter plugin to help us get the twitter information. 
+    https://wordpress.org/plugins/oauth-twitter-feed-for-developers/
+    */
+
     $num_tweets = 1;
-    $consumerkey = "luK78NyRjDEmMVhi6sgIw";
-    $consumersecret = "E6bY0ShFmtibIqWU0oHokCVZKYtPEvZcNyACBPzYqo";
-    $accesstoken = "123905660-3gtwAKtHHrPjGwa1PmAqXD8FKKKQY2C1ORB8dpyE";
-    $accesstokensecret = "kWuqrTk8IOHVSQdEK9dFfy337VjQv9P44lYKVfq8Fv7Ln";
-    $connection = new TwitterOAuth($consumerkey, $consumersecret, $accesstoken, $accesstokensecret);
-    $tweets = array_filter($connection->get("https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=".$twitter_un."&count=".$num_tweets));
+    $tweets = getTweets($num_tweets, $twitter_un);
 
 	echo '<div class="idi-box idi-highlight-box twitter-feed-group">
 				<div class="idi-box-text">
-					<a class="twitter-follow-button" rel="external nofollow" href="http://twitter.com/'.$twitter_un.'" title="Follow @'.$twitter_un.'">@'.$twitter_un.'</a>
-					<ul>
-	';
-	if(!empty($tweets)){
-	        foreach($tweets as $tweet) {
-                echo '<li class="tweet">'.$tweet->text.
-                '<div class="tweet-date">'.substr($tweet->created_at, 0, 16).'</div></li>';
-            }
-    } else{
-        echo "<p>no tweets found</p>";
-    }
-	echo '</ul>
-				</div>
-			</div>';
-}
+                    <a class="twitter-follow-button" rel="external nofollow" href="http://twitter.com/'.$twitter_un.'" title="Follow @'.$twitter_un.'">@'.$twitter_un.'</a>
+					<ul>';
+    foreach($tweets as $tweet){
+        if($tweet['text']){
+            $the_tweet = $tweet['text'];
+            /*
+            Source: https://github.com/stormuk/storm-twitter-for-wordpress/wiki/Example-code-to-layout-tweets
+            This is a modified version of the source script. It's been changed to match our classnames and layout.
 
+            2.b. Tweet Entities within the Tweet text must be properly linked to their appropriate home on Twitter. For example:
+              i. User_mentions must link to the mentioned user's profile.
+             ii. Hashtags must link to a twitter.com search with the hashtag as the query.
+            iii. Links in Tweet text must be displayed using the display_url
+                 field in the URL entities API response, and link to the original t.co url field.
+            */
+
+            // i. User_mentions must link to the mentioned user's profile.
+            if(is_array($tweet['entities']['user_mentions'])){
+                foreach($tweet['entities']['user_mentions'] as $key => $user_mention){
+                    $the_tweet = preg_replace(
+                        '/@'.$user_mention['screen_name'].'/i',
+                        '<a href="http://www.twitter.com/'.$user_mention['screen_name'].'" target="_blank">@'.$user_mention['screen_name'].'</a>',
+                        $the_tweet);
+                }
+            }
+
+            // ii. Hashtags must link to a twitter.com search with the hashtag as the query.
+            if(is_array($tweet['entities']['hashtags'])){
+                foreach($tweet['entities']['hashtags'] as $key => $hashtag){
+                    $the_tweet = preg_replace(
+                        '/#'.$hashtag['text'].'/i',
+                        '<a href="https://twitter.com/search?q=%23'.$hashtag['text'].'&src=hash" target="_blank">#'.$hashtag['text'].'</a>',
+                        $the_tweet);
+                }
+            }
+
+            // iii. Links in Tweet text must be displayed using the display_url
+            //      field in the URL entities API response, and link to the original t.co url field.
+            if(is_array($tweet['entities']['urls'])){
+                foreach($tweet['entities']['urls'] as $key => $link){
+                    $the_tweet = preg_replace(
+                        '`'.$link['url'].'`',
+                        '<a href="'.$link['url'].'" target="_blank">'.$link['url'].'</a>',
+                        $the_tweet);
+                }
+            }
+
+            echo '<li class="tweet">'.$the_tweet;
+            echo '<div class="tweet-date">
+                      <a href="https://twitter.com/'.$twitter_un.'/status/'.$tweet['id_str'].'" target="_blank">
+                          '.date('h:i A M d',strtotime($tweet['created_at']. '- 4 hours')).'
+                      </a>
+                  </div></li>';// -8 GMT for Pacific Standard Time
+        } else {
+            echo '<li><p>no tweets found</p></li>';
+        }
+    }
+
+    echo '</ul></div></div>';
+}
 ?>
