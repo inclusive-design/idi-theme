@@ -120,8 +120,8 @@ function panel_login_fail( $username ) {
     if ( !empty($referrer) && !strstr($referrer,'wp-login') && !strstr($referrer,'wp-admin') ) {
         $referrer = explode('?', $referrer);
         parse_str($referrer[1], $referrer_args);
-        unset($referrer_args['idilogout']); 	//unset old idilogout arg if set
-        $referrer_args['idilogin'] = "failed"; 	//let theme know there are errors
+        unset($referrer_args['idilogout']);     //unset old idilogout arg if set
+        $referrer_args['idilogin'] = "failed";     //let theme know there are errors
 
         wp_redirect( $referrer[0]."?".http_build_query($referrer_args) );
         exit;
@@ -136,19 +136,21 @@ function idi_display_twitter_feed($twitter_un) {
     $num_tweets = 1;
     $tweets = getTweets($num_tweets, $twitter_un);
 
-	echo '<div class="idi-box idi-highlight-box twitter-feed-group">
-				<div class="idi-box-text">
+    echo '<div class="idi-box idi-highlight-box twitter-feed-group">
+                <div class="idi-box-text">
                     <a class="twitter-follow-button" rel="external nofollow" href="http://twitter.com/'.$twitter_un.'" title="Follow @'.$twitter_un.'">@'.$twitter_un.'</a>
-					<ul>';
+                    <ul>';
     foreach($tweets as $tweet){
         if($tweet['text']){
             $the_tweet = $tweet['text'];
             /*
             Format the Twitter information for output. This is a modified version of the source script. It's been changed to match our classnames and layout.
             Source: https://github.com/stormuk/storm-twitter-for-wordpress/wiki/Example-code-to-layout-tweets
-            */
 
-            // i. User_mentions must link to the mentioned user's profile.
+
+            Convert Tweet Entities within the Tweet text to link to their URLs on Twitter. */
+
+            // Convert User_mentions to link to user profiles.
             if(is_array($tweet['entities']['user_mentions'])){
                 foreach($tweet['entities']['user_mentions'] as $key => $user_mention){
                     $the_tweet = preg_replace(
@@ -158,7 +160,7 @@ function idi_display_twitter_feed($twitter_un) {
                 }
             }
 
-            // ii. Hashtags must link to a twitter.com search with the hashtag as the query.
+            // Convert hashtag text to link to hashtag queries.
             if(is_array($tweet['entities']['hashtags'])){
                 foreach($tweet['entities']['hashtags'] as $key => $hashtag){
                     $the_tweet = preg_replace(
@@ -168,8 +170,7 @@ function idi_display_twitter_feed($twitter_un) {
                 }
             }
 
-            // iii. Links in Tweet text must be displayed using the display_url
-            //      field in the URL entities API response, and link to the original t.co url field.
+            // Convert URL text to proper links.
             if(is_array($tweet['entities']['urls'])){
                 foreach($tweet['entities']['urls'] as $key => $link){
                     $the_tweet = preg_replace(
@@ -182,9 +183,9 @@ function idi_display_twitter_feed($twitter_un) {
             echo '<li class="tweet">'.$the_tweet;
             echo '<div class="tweet-date">
                       <a href="https://twitter.com/'.$twitter_un.'/status/'.$tweet['id_str'].'" target="_blank">
-                          '.date('h:i A M d',strtotime($tweet['created_at']. '- 4 hours')).'
+                          '.get_gmt_from_date ($tweet['created_at'], 'F jS, Y g:ia').'
                       </a>
-                  </div></li>';// -4 GMT for Eastern Time
+                  </div></li>';
         } else {
             echo '<li><p>no tweets found</p></li>';
         }
