@@ -33,8 +33,7 @@ Template Name: Workshops
 	<li>Inclusive User Experience Design- a workshop for designers in inclusive design methods</li>
 </ol>
 
-<p>The workshops will begin September 2012. Each workshop is 32 to 40 hours in length over a 4 to 6 week period. Workshop hours will be scheduled to accommodate participant requirements and a workshop will be initiated once there are at least 20 registrants. Each workshop will have no more than 30 registrants. Registration is $650.00 per workshop. </p>
-
+<p>To learn more about Inclusive Design Institute workshops visit the <a href="http://idrc.ocadu.ca/index.php/workshops-aamp-trainings/82-aoda/434-participate">Inclusive Design Research Centre's workshop offerings</a> and <a href="http://websavvy.idrc.ocadu.ca">WebSavvy accessibility assessment services</a> pages.</p>
 <p>For more information and to register for a course please contact <a href="mailto:idi@ocadu.ca">idi@ocadu.ca</a>.</p>
 
 	</div>
