@@ -4,10 +4,8 @@ add_theme_support( 'post-thumbnails' );
 // Override the default UIO strings
 $uio_strings_custom = 'showText: "Preferences", hideText: "Preferences"';
 
-// This site uses The Twitter Feed Wordpress Plugin found at
-//     http://pleer.co.uk/wordpress/plugins/wp-twitter-feed/
-
-$twitter_feed_opts = ' followlink="no" num="1" linktotweet="no" tweetintent="no" img="no" tprefix="" tsuffix="ago" other=”yes” ulclass="twitter-list" liclass="twitter-tweet"';
+// The number of tweets to display on a twitter feed.
+define ('TWEET_COUNT', 3);
 
 /**
  *  Add IDI-specific JS files to the header
@@ -133,19 +131,21 @@ function idi_display_twitter_feed($twitter_username) {
     /* Use the "oAuth Twitter for Developers" plugin to get the Twitter feed.
        https://en-ca.wordpress.org/plugins/oauth-twitter-feed-for-developers/ */
     if (function_exists('getTweets')) {
-        $tweet_count = 5;
-        $tweets = getTweets($tweet_count, $twitter_username);
-        $out = '<div class="idi-box idi-highlight-box twitter-feed-group"><div class="idi-box-text"><a class="twitter-follow-button" rel="external nofollow" href="http://twitter.com/';
-        $out .= $twitter_username.'" title="Follow @'.$twitter_username.'">@'.$twitter_username.'</a><ul>';
-        if (!empty($tweets)) {
-            foreach ($tweets as $tweet) {
-                $out .= '<li class="tweet"><div class="tweet-date">'.substr($tweet[created_at], 0, 16).'</div>'.$tweet[text].'</li>';
+        $tweets = getTweets($twitter_username, TWEET_COUNT);
+
+        if (empty($tweets[error])) {
+            $out = '<div class="idi-box idi-highlight-box twitter-feed-group"><div class="idi-box-text"><a class="twitter-follow-button" rel="external nofollow" href="http://twitter.com/';
+            $out .= $twitter_username.'" title="Follow @'.$twitter_username.'">@'.$twitter_username.'</a><ul>';
+            if (!empty($tweets)) {
+                foreach ($tweets as $tweet) {
+                    $out .= '<li class="tweet"><div class="tweet-date">'.substr($tweet[created_at], 0, 16).'</div>'.$tweet[text].'</li>';
+                }
+            } else {
+                $out .= '<p>no tweets found</p>';
             }
-        } else {
-            $out .= '<p>no tweets found</p>';
+            $out .= '</ul></div></div>';
+            echo $out;
         }
-        $out .= '</ul></div></div>';
-        echo $out;
     }
 }
 
