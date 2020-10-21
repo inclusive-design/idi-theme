@@ -862,6 +862,10 @@ h3,
 }
 
 /* Twitter widget */
+.tweet {
+    margin-bottom: 1.5rem;
+}
+
 .twitter-feed-group .tweet-container {
     padding: 1em;
 }
